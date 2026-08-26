@@ -27,3 +27,6 @@ pnpm-debug.log*
 public/images/originals/
 public/images/preview-technician.jpg
 public/favicon.ico
+
+# Local Netlify folder
+.netlify
