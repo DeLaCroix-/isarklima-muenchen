@@ -1,0 +1,7 @@
+---
+import StandardPage from '../../components/StandardPage.astro';
+import { getPage } from '../../data/pages';
+const page = getPage('/en/');
+---
+<StandardPage {page} home />
+

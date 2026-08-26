@@ -1,0 +1,29 @@
+---
+import { render } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from './Header.astro';
+import Footer from './Footer.astro';
+import Breadcrumbs from './Breadcrumbs.astro';
+import ContactForm from './ContactForm.astro';
+import type { BlogEntry } from '../lib/blog';
+interface Props { entry: BlogEntry; lang: 'de' | 'en'; path: string; }
+const { entry, lang, path } = Astro.props;
+const { Content } = await render(entry);
+const guidesPath = lang === 'de' ? '/ratgeber/' : '/en/guides/';
+const alternatePath = entry.data.translations?.[lang === 'de' ? 'en-DE' : 'de-DE'] ?? guidesPath;
+const breadcrumbs = [{ name: lang === 'de' ? 'Startseite' : 'Home', path: lang === 'de' ? '/' : '/en/' }, { name: lang === 'de' ? 'Ratgeber' : 'Guides', path: guidesPath }, { name: entry.data.title, path }];
+---
+<BaseLayout title={`${entry.data.title} | IsarKlima`} description={entry.data.description} {lang} {path} {alternatePath} image={entry.data.image} {breadcrumbs} article={{ published: entry.data.publishDate, updated: entry.data.updatedDate, author: entry.data.author }}>
+  <Header {lang} {alternatePath} />
+  <Breadcrumbs items={breadcrumbs} />
+  <main id="main-content">
+    <article class="article-shell">
+      <header class="article-header shell"><div class="article-meta"><span>{entry.data.category}</span><time datetime={entry.data.publishDate.toISOString()}>{entry.data.publishDate.toLocaleDateString(lang === 'de' ? 'de-DE' : 'en-GB', { day: '2-digit', month: 'long', year: 'numeric' })}</time></div><h1>{entry.data.title}</h1><p>{entry.data.description}</p></header>
+      {entry.data.image && <figure class="article-image shell"><img src={entry.data.image} width="1440" height="880" alt={entry.data.imageAlt} fetchpriority="high" /><figcaption>{lang === 'de' ? 'Lizenziertes Symbolbild; kein IsarKlima-Referenzprojekt.' : 'Licensed illustrative image; not an IsarKlima project reference.'}</figcaption></figure>}
+      <div class="article-grid shell"><aside><a href={guidesPath}>← {lang === 'de' ? 'Alle Ratgeber' : 'All guides'}</a><span>{lang === 'de' ? 'Allgemeine Orientierung' : 'General guidance'}</span></aside><div class="prose"><Content /></div></div>
+    </article>
+    <ContactForm {lang} title={lang === 'de' ? 'Projekt anfragen' : 'Request a project quote'} intro={entry.data.ctaIntro} sourcePath={path} />
+  </main>
+  <Footer {lang} />
+</BaseLayout>
+

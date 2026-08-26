@@ -1,0 +1,15 @@
+---
+import { blogSlug, getPublishedPosts } from '../lib/blog';
+interface Props { lang: 'de' | 'en'; }
+const { lang } = Astro.props;
+const posts = await getPublishedPosts(lang === 'de' ? 'de-DE' : 'en-DE');
+---
+<section class="guide-listing shell" aria-labelledby="guide-list-title">
+  <div class="guide-list-heading"><p>{lang === 'de' ? 'Wissen für Ihr Projekt' : 'Knowledge for your project'}</p><p class="display-heading" id="guide-list-title">{lang === 'de' ? 'Aktuelle Ratgeber' : 'Latest guides'}</p></div>
+  <div class="guide-grid">
+    {posts.map((post, index) => <article class:list={['guide-card', { featured: index === 0 }]}>
+      <a class="guide-image" href={lang === 'de' ? `/ratgeber/${blogSlug(post)}/` : `/en/guides/${blogSlug(post)}/`}><img src={post.data.image} width="1440" height="880" alt={post.data.imageAlt} loading="lazy" /></a>
+      <div class="guide-card-copy"><p class="guide-card-meta"><span>{String(index + 1).padStart(2, '0')}</span>{post.data.category}</p><p class="guide-card-title"><a href={lang === 'de' ? `/ratgeber/${blogSlug(post)}/` : `/en/guides/${blogSlug(post)}/`}>{post.data.title}</a></p><span class="guide-date">{post.data.publishDate.toLocaleDateString(lang === 'de' ? 'de-DE' : 'en-GB', { day: '2-digit', month: 'short', year: 'numeric' })}</span></div>
+    </article>)}
+  </div>
+</section>

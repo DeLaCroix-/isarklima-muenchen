@@ -1,0 +1,67 @@
+---
+import '@fontsource-variable/archivo';
+import '@fontsource-variable/manrope';
+import '../styles/global.css';
+import { site } from '../data/site';
+import type { Language } from '../data/types';
+
+interface Breadcrumb { name: string; path: string; }
+interface Props {
+  title: string;
+  description: string;
+  lang?: Language;
+  path?: string;
+  alternatePath?: string;
+  image?: string;
+  breadcrumbs?: Breadcrumb[];
+  article?: { published: Date; updated?: Date; author?: string };
+}
+
+const { title, description, lang = 'de', path = Astro.url.pathname, alternatePath, image = site.socialImage, breadcrumbs = [], article } = Astro.props;
+const siteUrl = Astro.site ?? new URL(site.defaultUrl);
+const canonical = new URL(path, siteUrl).toString();
+const alternate = alternatePath ? new URL(alternatePath, siteUrl).toString() : undefined;
+const imageUrl = new URL(image, siteUrl).toString();
+const indexSite = import.meta.env.PUBLIC_INDEX_SITE === 'true';
+const schemas = [
+  { '@context': 'https://schema.org', '@type': 'Organization', name: site.name, url: new URL('/', siteUrl).toString(), logo: new URL('/brand/isarklima-mark.svg', siteUrl).toString() },
+  ...(breadcrumbs.length > 1 ? [{ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: breadcrumbs.map((item, index) => ({ '@type': 'ListItem', position: index + 1, name: item.name, item: new URL(item.path, siteUrl).toString() })) }] : []),
+  ...(article ? [{ '@context': 'https://schema.org', '@type': 'Article', headline: title, description, inLanguage: lang === 'de' ? 'de-DE' : 'en-DE', datePublished: article.published.toISOString(), dateModified: (article.updated ?? article.published).toISOString(), image: imageUrl, author: { '@type': 'Organization', name: article.author ?? site.name }, publisher: { '@type': 'Organization', name: site.name }, mainEntityOfPage: canonical }] : []),
+];
+---
+
+<!doctype html>
+<html lang={lang === 'de' ? 'de-DE' : 'en-DE'}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="robots" content={indexSite ? 'index, follow' : 'noindex, nofollow'} />
+    <meta name="theme-color" content="#071a22" />
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {alternate && <link rel="alternate" hreflang={lang === 'de' ? 'en-DE' : 'de-DE'} href={alternate} />}
+    <link rel="alternate" hreflang={lang === 'de' ? 'de-DE' : 'en-DE'} href={canonical} />
+    <link rel="alternate" hreflang="x-default" href={lang === 'de' ? canonical : alternate ?? canonical} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" href="/favicon.png" sizes="64x64" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <meta property="og:type" content={article ? 'article' : 'website'} />
+    <meta property="og:locale" content={lang === 'de' ? 'de_DE' : 'en_GB'} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={imageUrl} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={imageUrl} />
+    <title>{title}</title>
+    {schemas.map((schema) => <script is:inline type="application/ld+json" set:html={JSON.stringify(schema)} />)}
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">{lang === 'de' ? 'Zum Inhalt springen' : 'Skip to content'}</a>
+    <slot />
+  </body>
+</html>

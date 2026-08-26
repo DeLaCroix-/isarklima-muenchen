@@ -1,0 +1,13 @@
+---
+import StandardPage from '../../components/StandardPage.astro';
+import GuideListing from '../../components/GuideListing.astro';
+import { pages } from '../../data/pages';
+export function getStaticPaths() {
+  return pages.filter((page) => page.lang === 'en' && page.path !== '/en/').map((page) => ({ params: { slug: page.path.slice(4, -1) }, props: { page } }));
+}
+const { page } = Astro.props;
+---
+<StandardPage {page}>
+  {page.key === 'guides' && <GuideListing slot="before-faq" lang="en" />}
+</StandardPage>
+

@@ -1,0 +1,29 @@
+---
+import { labels } from '../data/site';
+import type { Language } from '../data/types';
+interface Props { lang: Language; title: string; intro?: string; sourcePath: string; }
+const { lang, title, intro, sourcePath } = Astro.props;
+const t = labels[lang];
+const endpoint = import.meta.env.PUBLIC_FORMSPREE_ENDPOINT ?? '';
+const enabled = /^https:\/\/formspree\.io\/f\/[a-z0-9]+$/i.test(endpoint);
+---
+<section class="contact-panel shell" id="projekt" aria-labelledby="contact-title">
+  <div class="contact-copy">
+    <p class="eyebrow"><span></span>{t.formEyebrow}</p>
+    <h2 id="contact-title">{title}</h2>
+    <p>{intro ?? (lang === 'de' ? 'Beschreiben Sie Gebäude, Räume und mögliche Gerätepositionen. Wir prüfen zunächst, ob das Projekt zum Leistungs- und Einsatzgebiet passt.' : 'Describe the building, rooms and possible unit positions. The first step is to check whether the project fits the service and coverage scope.')}</p>
+    <div class="contact-meta"><strong>01</strong><span>{lang === 'de' ? 'Adresse und Gebäudetyp' : 'Address and building type'}</span><strong>02</strong><span>{lang === 'de' ? 'Räume und Nutzung' : 'Rooms and use'}</span><strong>03</strong><span>{lang === 'de' ? 'Fotos und Freigabestatus' : 'Photos and permission status'}</span></div>
+  </div>
+  <form class="project-form" action={enabled ? endpoint : undefined} method="POST" data-enabled={String(enabled)}>
+    <input type="hidden" name="source_page" value={sourcePath} />
+    <input type="text" name="_gotcha" class="honeypot" tabindex="-1" autocomplete="off" aria-label={lang === 'de' ? 'Spam-Schutz, bitte leer lassen' : 'Spam protection, leave empty'} />
+    <label><span>{lang === 'de' ? 'Name' : 'Name'}</span><input name="name" autocomplete="name" required disabled={!enabled} /></label>
+    <label><span>{lang === 'de' ? 'E-Mail' : 'Email'}</span><input name="email" type="email" autocomplete="email" required disabled={!enabled} /></label>
+    <label><span>{lang === 'de' ? 'Postleitzahl' : 'Postcode'}</span><input name="postcode" inputmode="numeric" autocomplete="postal-code" required disabled={!enabled} /></label>
+    <label><span>{lang === 'de' ? 'Gebäudetyp' : 'Building type'}</span><select name="building" required disabled={!enabled}><option value="">—</option><option>{lang === 'de' ? 'Wohnung' : 'Apartment'}</option><option>{lang === 'de' ? 'Haus' : 'House'}</option><option>{lang === 'de' ? 'Büro / Gewerbe' : 'Office / commercial'}</option></select></label>
+    <label class="form-wide"><span>{lang === 'de' ? 'Projekt kurz beschreiben' : 'Brief project description'}</span><textarea name="message" rows="5" required disabled={!enabled}></textarea></label>
+    <label class="form-consent form-wide"><input type="checkbox" name="privacy" required disabled={!enabled} /><span>{lang === 'de' ? 'Ich habe die Datenschutzhinweise gelesen und stimme der Verarbeitung meiner Angaben zur Bearbeitung der Anfrage zu.' : 'I have read the privacy information and consent to the processing of my details to handle this enquiry.'}</span></label>
+    <button class="button button-primary form-wide" type="submit" disabled={!enabled}>{enabled ? t.request : t.formInactive}<span aria-hidden="true">→</span></button>
+    {!enabled && <p class="form-status form-wide" role="status">{t.formNote}</p>}
+  </form>
+</section>

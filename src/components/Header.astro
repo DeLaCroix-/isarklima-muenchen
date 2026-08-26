@@ -1,0 +1,27 @@
+---
+import { labels, localizedHome, navigation } from '../data/site';
+import type { Language } from '../data/types';
+interface Props { lang: Language; alternatePath: string; }
+const { lang, alternatePath } = Astro.props;
+const t = labels[lang];
+---
+<div class="preview-bar" role="status"><span>{t.preview}</span><p>{t.previewText}</p></div>
+<header class="site-header shell">
+  <a class="brand" href={localizedHome(lang)} aria-label={`${t.home} — IsarKlima`}><img src="/brand/isarklima-logo.svg" width="215" height="46" alt="IsarKlima" /></a>
+  <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav"><span>{t.menu}</span><i aria-hidden="true"></i></button>
+  <nav id="primary-nav" aria-label={t.nav}>
+    {navigation[lang].map(([href, label]) => <a href={href}>{label}</a>)}
+    <a class="nav-language" href={alternatePath} hreflang={lang === 'de' ? 'en' : 'de'}>{t.language}</a>
+  </nav>
+  <a class="header-cta" href={lang === 'de' ? '/kontakt/' : '/en/contact/'}>{t.request}<span aria-hidden="true">↗</span></a>
+</header>
+<script>
+  const button = document.querySelector<HTMLButtonElement>('.menu-toggle');
+  const nav = document.querySelector<HTMLElement>('#primary-nav');
+  button?.addEventListener('click', () => {
+    const open = button.getAttribute('aria-expanded') === 'true';
+    button.setAttribute('aria-expanded', String(!open));
+    nav?.toggleAttribute('data-open', !open);
+  });
+</script>
+
