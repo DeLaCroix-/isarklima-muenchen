@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const mark = join(root, 'public', 'brand', 'isarklima-mark.svg');
-const hero = join(root, 'public', 'images', 'site', 'hero-technician-1920.webp');
+const hero = join(root, 'public', 'images', 'site', 'hero-installation-detail-1920.webp');
 const ogDir = join(root, 'public', 'images', 'og');
 await mkdir(ogDir, { recursive: true });
 

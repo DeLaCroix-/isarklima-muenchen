@@ -6,7 +6,7 @@ updatedDate: 2026-08-27
 author: "IsarKlima Redaktion"
 category: "Planning and permissions"
 image: "/images/blog/air-conditioning-condominium-owners-association.webp"
-imageAlt: "Documents prepared for an owners’ association decision on a split air conditioning system"
+imageAlt: "Outdoor air conditioning unit installation with neatly routed lines"
 sourceUrl: "/ratgeber/klimaanlage-eigentumswohnung-weg/"
 language: "en-DE"
 sourceLanguage: "de-DE"

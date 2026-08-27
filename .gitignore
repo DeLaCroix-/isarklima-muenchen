@@ -23,9 +23,9 @@ pnpm-debug.log*
 # jetbrains setting folder
 .idea/
 
-# Local high-resolution source files used during the initial image pass
-public/images/originals/
-public/images/preview-technician.jpg
+# Local high-resolution retired source files from the initial image pass
+assets/retired-stock/originals/
+assets/source-stock/originals/
 public/favicon.ico
 
 # Local Netlify folder

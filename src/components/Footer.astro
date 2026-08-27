@@ -12,5 +12,5 @@ const year = new Date().getFullYear();
     <nav aria-label={lang === 'de' ? 'Fußnavigation' : 'Footer navigation'}>{footerNavigation[lang].map(([href, label]) => <a href={href}>{label}</a>)}</nav>
     <div class="footer-status"><span class="status-dot" aria-hidden="true"></span><div><strong>{t.preview}</strong><p>{t.previewText}</p></div></div>
   </div>
-  <div class="shell footer-bottom"><p>© {year} IsarKlima</p><p>{lang === 'de' ? 'Bildmaterial: lizenzierte Symbolbilder, keine Referenzprojekte.' : 'Photography: licensed illustrative stock, not project references.'}</p></div>
+  <div class="shell footer-bottom"><p>© {year} IsarKlima</p><p>{lang === 'de' ? 'Bildmaterial: illustrative Darstellungen, keine Referenzprojekte.' : 'Imagery: illustrative visuals, not project references.'}</p></div>
 </footer>

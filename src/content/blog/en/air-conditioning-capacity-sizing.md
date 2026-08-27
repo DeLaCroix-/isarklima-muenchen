@@ -6,7 +6,7 @@ updatedDate: 2026-08-27
 author: "IsarKlima Redaktion"
 category: "Technical planning"
 image: "/images/blog/air-conditioning-capacity-sizing.webp"
-imageAlt: "Floor plan showing factors used to size an air conditioning system"
+imageAlt: "Floor plan, measuring instruments and lines used to plan an air conditioning system"
 sourceUrl: "/ratgeber/klimaanlage-leistung-bestimmen/"
 language: "en-DE"
 sourceLanguage: "de-DE"

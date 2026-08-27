@@ -6,7 +6,7 @@ updatedDate: 2026-08-27
 author: "IsarKlima Redaktion"
 category: "Planning and permissions"
 image: "/images/blog/air-conditioning-rental-apartment-permission.webp"
-imageAlt: "Planning sketch showing indoor and outdoor split air conditioning units in a rental apartment"
+imageAlt: "Modern living space with a wall-mounted split air conditioning unit"
 sourceUrl: "/ratgeber/klimaanlage-mietwohnung-genehmigung/"
 language: "en-DE"
 sourceLanguage: "de-DE"

@@ -6,7 +6,7 @@ updatedDate: 2026-08-27
 author: "IsarKlima Redaktion"
 category: "Systemwahl"
 image: "/images/blog/single-oder-multi-split-klimaanlage.webp"
-imageAlt: "Schematischer Vergleich von Single-Split- und Multi-Split-Klimaanlagen"
+imageAlt: "Wandgerät einer Split-Klimaanlage in einem modernen Innenraum"
 sourceUrl: "/ratgeber/single-oder-multi-split-klimaanlage/"
 language: "de-DE"
 sourceLanguage: "de-DE"

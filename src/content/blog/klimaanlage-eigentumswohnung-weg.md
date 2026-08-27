@@ -6,7 +6,7 @@ updatedDate: 2026-08-27
 author: "IsarKlima Redaktion"
 category: "Planung und Genehmigung"
 image: "/images/blog/klimaanlage-eigentumswohnung-weg.webp"
-imageAlt: "Unterlagen für die Abstimmung einer Klimaanlage mit einer Wohnungseigentümergemeinschaft"
+imageAlt: "Montage eines Klimaanlagen-Außengeräts mit sauber geführten Leitungen"
 sourceUrl: "/ratgeber/klimaanlage-eigentumswohnung-weg/"
 language: "de-DE"
 sourceLanguage: "de-DE"

@@ -6,7 +6,7 @@ updatedDate: 2026-08-27
 author: "IsarKlima Redaktion"
 category: "Choosing a system"
 image: "/images/blog/single-vs-multi-split-air-conditioning.webp"
-imageAlt: "Diagram comparing single-split and multi-split air conditioning layouts"
+imageAlt: "Wall-mounted split air conditioning unit in a modern interior"
 sourceUrl: "/ratgeber/single-oder-multi-split-klimaanlage/"
 language: "en-DE"
 sourceLanguage: "de-DE"

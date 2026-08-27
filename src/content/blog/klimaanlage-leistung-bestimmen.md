@@ -6,7 +6,7 @@ updatedDate: 2026-08-27
 author: "IsarKlima Redaktion"
 category: "Technische Planung"
 image: "/images/blog/klimaanlage-leistung-bestimmen.webp"
-imageAlt: "Grundriss mit Einflussfaktoren für die Dimensionierung einer Klimaanlage"
+imageAlt: "Grundriss, Messgeräte und Leitungen für die technische Planung einer Klimaanlage"
 sourceUrl: "/ratgeber/klimaanlage-leistung-bestimmen/"
 language: "de-DE"
 sourceLanguage: "de-DE"

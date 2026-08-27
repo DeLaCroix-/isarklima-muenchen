@@ -6,7 +6,7 @@ updatedDate: 2026-08-27
 author: "IsarKlima Redaktion"
 category: "Installation"
 image: "/images/blog/air-conditioning-installation-process.webp"
-imageAlt: "Ordered stages of a split air conditioning installation"
+imageAlt: "Organised split air conditioning installation in a commercial interior"
 sourceUrl: "/ratgeber/klimaanlage-installation-ablauf/"
 language: "en-DE"
 sourceLanguage: "de-DE"

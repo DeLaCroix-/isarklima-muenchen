@@ -6,7 +6,7 @@ updatedDate: 2026-08-27
 author: "IsarKlima Redaktion"
 category: "Technical planning"
 image: "/images/blog/air-conditioning-outdoor-unit-noise.webp"
-imageAlt: "Planning an outdoor air conditioning unit with distances to the facade and neighbouring windows"
+imageAlt: "Outdoor air conditioning unit on a facade with vibration-damping brackets"
 sourceUrl: "/ratgeber/klimaanlage-aussengeraet-laerm/"
 language: "en-DE"
 sourceLanguage: "de-DE"

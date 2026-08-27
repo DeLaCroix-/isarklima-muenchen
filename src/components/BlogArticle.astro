@@ -19,11 +19,10 @@ const breadcrumbs = [{ name: lang === 'de' ? 'Startseite' : 'Home', path: lang =
   <main id="main-content">
     <article class="article-shell">
       <header class="article-header shell"><div class="article-meta"><span>{entry.data.category}</span><time datetime={entry.data.publishDate.toISOString()}>{entry.data.publishDate.toLocaleDateString(lang === 'de' ? 'de-DE' : 'en-GB', { day: '2-digit', month: 'long', year: 'numeric' })}</time></div><h1>{entry.data.title}</h1><p>{entry.data.description}</p></header>
-      {entry.data.image && <figure class="article-image shell"><img src={entry.data.image} width="1440" height="880" alt={entry.data.imageAlt} fetchpriority="high" /><figcaption>{lang === 'de' ? 'Lizenziertes Symbolbild; kein IsarKlima-Referenzprojekt.' : 'Licensed illustrative image; not an IsarKlima project reference.'}</figcaption></figure>}
+      {entry.data.image && <figure class="article-image shell"><img src={entry.data.image} width="1440" height="880" alt={entry.data.imageAlt} fetchpriority="high" /><figcaption>{lang === 'de' ? 'Illustrative Darstellung; kein IsarKlima-Referenzprojekt.' : 'Illustrative visual; not an IsarKlima project reference.'}</figcaption></figure>}
       <div class="article-grid shell"><aside><a href={guidesPath}>← {lang === 'de' ? 'Alle Ratgeber' : 'All guides'}</a><span>{lang === 'de' ? 'Allgemeine Orientierung' : 'General guidance'}</span></aside><div class="prose"><Content /></div></div>
     </article>
     <ContactForm {lang} title={lang === 'de' ? 'Projekt anfragen' : 'Request a project quote'} intro={entry.data.ctaIntro} sourcePath={path} />
   </main>
   <Footer {lang} />
 </BaseLayout>
-

@@ -6,7 +6,7 @@ updatedDate: 2026-08-27
 author: "IsarKlima Redaktion"
 category: "Technische Planung"
 image: "/images/blog/klimaanlage-aussengeraet-laerm.webp"
-imageAlt: "Planung eines Klimaanlagen-Außengeräts mit Abständen zu Fassade und Nachbarfenstern"
+imageAlt: "Klimaanlagen-Außengerät an einer Fassade mit schwingungsdämpfender Halterung"
 sourceUrl: "/ratgeber/klimaanlage-aussengeraet-laerm/"
 language: "de-DE"
 sourceLanguage: "de-DE"

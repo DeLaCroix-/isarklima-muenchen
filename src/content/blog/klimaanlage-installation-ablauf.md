@@ -6,7 +6,7 @@ updatedDate: 2026-08-27
 author: "IsarKlima Redaktion"
 category: "Installation"
 image: "/images/blog/klimaanlage-installation-ablauf.webp"
-imageAlt: "Geordnete Arbeitsschritte einer Split-Klimaanlagen-Installation"
+imageAlt: "Geordnete Montage einer Split-Klimaanlage in einem Gewerberaum"
 sourceUrl: "/ratgeber/klimaanlage-installation-ablauf/"
 language: "de-DE"
 sourceLanguage: "de-DE"

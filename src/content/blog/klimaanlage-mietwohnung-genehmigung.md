@@ -6,7 +6,7 @@ updatedDate: 2026-08-27
 author: "IsarKlima Redaktion"
 category: "Planung und Genehmigung"
 image: "/images/blog/klimaanlage-mietwohnung-genehmigung.webp"
-imageAlt: "Planungsskizze für Innen- und Außengerät einer Split-Klimaanlage in einer Mietwohnung"
+imageAlt: "Moderner Wohnraum mit wandmontierter Split-Klimaanlage"
 sourceUrl: "/ratgeber/klimaanlage-mietwohnung-genehmigung/"
 language: "de-DE"
 sourceLanguage: "de-DE"

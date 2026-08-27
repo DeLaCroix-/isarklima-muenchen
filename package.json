@@ -16,6 +16,7 @@
     "preview": "astro preview",
     "check": "astro sync && astro check",
     "check:all": "npm run check:generated && npm run check && npm run build",
+    "images:generated": "node scripts/generate-image-variants.mjs",
     "brand:assets": "node scripts/generate-brand-assets.mjs",
     "astro": "astro"
   },

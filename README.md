@@ -69,7 +69,6 @@ See [docs/crm-integration.md](docs/crm-integration.md) for the publishing contra
 
 The preview banner, disabled forms, legal placeholders and global `noindex, nofollow` are intentional. Do not remove them simply because the build succeeds. The remaining evidence and operating decisions are tracked in [docs/launch-checklist.md](docs/launch-checklist.md).
 
-## Image licensing
+## Image provenance
 
-Photography is licensed illustrative stock and is never described as IsarKlima staff or completed work. Source records are in [docs/image-sources.md](docs/image-sources.md).
-
+The site combines licensed illustrative stock with project-specific, face-free generated imagery. None is described as IsarKlima staff or completed work. Source records and exact generation prompts are in [docs/image-sources.md](docs/image-sources.md) and [docs/generated-image-prompts.md](docs/generated-image-prompts.md).

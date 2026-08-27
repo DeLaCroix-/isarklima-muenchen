@@ -9,11 +9,11 @@ const marker = /<!-- FILE: ([^ ]+) -->/g;
 const matches = [...source.matchAll(marker)];
 const imageSources = [
   'apartment-comfort-1920.webp',
-  'outdoor-unit-site-1920.webp',
+  'outdoor-unit-installation-detail-1920.webp',
   'split-unit-interior-1920.webp',
-  'commissioning-gauges-1920.webp',
-  'hero-technician-1920.webp',
-  'installation-team-1920.webp',
+  'outdoor-unit-installation-detail-1920.webp',
+  'technical-planning-workbench-1920.webp',
+  'commercial-installation-detail-1920.webp',
 ];
 
 await mkdir(join(root, 'src', 'content', 'blog', 'en'), { recursive: true });

@@ -32,6 +32,12 @@ const discouragedMarketingPhrases = [
   'selected nearby locations',
   'ausgewählte orte in der region',
 ];
+const retiredFaceImageFamilies = [
+  'hero-technician',
+  'installation-team',
+  'technician-outdoor-portrait',
+  'outdoor-unit-site',
+];
 
 async function findHtml(directory) {
   const files = [];
@@ -49,6 +55,16 @@ async function findTextArtifacts(directory) {
     const full = join(directory, item.name);
     if (item.isDirectory()) files.push(...await findTextArtifacts(full));
     else if (/\.(html|xml|txt)$/i.test(item.name)) files.push(full);
+  }
+  return files;
+}
+
+async function findFiles(directory) {
+  const files = [];
+  for (const item of await readdir(directory, { withFileTypes: true })) {
+    const full = join(directory, item.name);
+    if (item.isDirectory()) files.push(...await findFiles(full));
+    else files.push(full);
   }
   return files;
 }
@@ -72,6 +88,22 @@ for (const file of textArtifacts) {
   for (const phrase of discouragedMarketingPhrases) {
     if (normalizedText.includes(phrase)) fail(rel, `discouraged marketing phrase: ${phrase}`);
   }
+  for (const family of retiredFaceImageFamilies) {
+    if (normalizedText.includes(family)) fail(rel, `retired face-bearing image is still referenced: ${family}`);
+  }
+}
+
+for (const producer of ['generate-page-data.mjs', 'split-blog-source.mjs', 'generate-brand-assets.mjs']) {
+  const source = (await readFile(join(root, 'scripts', producer), 'utf8')).toLocaleLowerCase('en');
+  for (const family of retiredFaceImageFamilies) {
+    if (source.includes(family)) fail(`/scripts/${producer}`, `retired face-bearing source is still configured: ${family}`);
+  }
+}
+
+const publicImageFiles = await findFiles(join(root, 'public', 'images'));
+for (const marker of [...retiredFaceImageFamilies, 'preview-technician']) {
+  const match = publicImageFiles.find((file) => file.toLocaleLowerCase('en').includes(marker));
+  if (match) fail('/images/', `retired face-bearing image remains public: ${relative(join(root, 'public'), match).split(sep).join('/')}`);
 }
 for (const file of htmlFiles) {
   const path = urlForFile(file);
