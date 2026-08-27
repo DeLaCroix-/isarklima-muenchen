@@ -1,16 +1,16 @@
 # IsarKlima — English commercial page copy
 
-Draft scope: English (`en-DE`) copy for the home page and every commercial English route in the approved SEO architecture. The headings below reproduce the approved H1/H2/H3 contract exactly. All text assumes a preview-stage business focused only on new and retrofit split air conditioning installations in Munich and the Munich district. It does not claim unverified qualifications, prices, warranties, operating history, local staffing or project availability.
+Draft scope: English (`en-DE`) copy for the home page and every commercial English route in the approved SEO architecture. The headings below reproduce the approved H1/H2/H3 contract exactly. The copy presents air conditioning installation naturally and keeps unverified qualifications, prices, warranties, operating history, staffing and availability out of the public claims.
 
 ---
 
 **Route:** `/en/`
 
-# Air conditioning installation in Munich and surrounding areas
+# Air conditioning installation in Munich
 
-A successful split air conditioning project starts with the building, not with a product catalogue. Room use, heat gain, possible unit positions, permissions, pipe routes, condensate drainage and the electrical interface all affect what can be installed. This service is focused on new single-split and multi-split installations, including retrofit projects, in Munich and the Munich district. Enquiries from neighbouring districts can be reviewed only after the exact project address is known.
+A successful split air conditioning project starts with the building, not with a product catalogue. Room use, heat gain, possible unit positions, permissions, pipe routes, condensate drainage and the electrical interface all affect what can be installed. IsarKlima plans single-split and multi-split air conditioning for apartments, homes, offices and smaller commercial spaces in Munich, with each project shaped around the actual property.
 
-## New air conditioning systems for apartments, homes and businesses
+## Air conditioning for apartments, homes and businesses
 
 The right arrangement depends on how many rooms need cooling and how independently they are used. A compact apartment, a family home and a small office may have very different heat loads, operating patterns and options for an outdoor unit. The installation concept should therefore be based on the actual rooms and building constraints rather than on a standard package.
 
@@ -24,7 +24,7 @@ A multi-split system connects several indoor units to one outdoor unit, allowing
 
 ### Solutions for offices and small commercial spaces
 
-Offices and smaller commercial premises are assessed according to occupancy, equipment, solar gain, opening hours and the way different areas are used. The scope is limited to comfort cooling with split systems in non-critical spaces. It does not include industrial refrigeration, hospitals, hotels or rooms whose operation depends on specialist or redundant cooling infrastructure.
+For offices and smaller commercial premises, occupancy, equipment, solar gain, opening hours and the way different areas are used all influence the solution. Planning these factors together helps create comfortable conditions without relying on a generic system or capacity assumption.
 
 ## How your air conditioning installation works
 
@@ -58,9 +58,9 @@ Indoor units need a position that distributes air without causing avoidable drau
 
 The electrical interface must be suitable for the selected system and its installation requirements. Any new circuit, protective device or fixed electrical work must be assigned to the appropriately qualified party and included or excluded clearly. Safe access is also required for drilling, mounting and connection work, including any balcony, roof, facade or elevated position involved.
 
-## Munich service area
+## Where we work
 
-The initial assessment area is Munich and Landkreis München, the surrounding Munich district. Availability is checked against the exact postcode, address, building access and project scope rather than assumed from a city name alone. Addresses in Dachau, Fürstenfeldbruck, Starnberg, Freising and Ebersberg can be submitted for an individual check, but the site does not claim blanket coverage across those districts or throughout Bavaria.
+The project area is centred on Munich and the Munich district. The exact address helps us consider access, the building and practical coordination. Other locations can be reviewed from the project details rather than assumed from a broad regional label.
 
 ## What affects installation complexity
 
@@ -100,11 +100,11 @@ A split system is not a simple plug-in appliance. Work on the refrigerant circui
 
 ### Can I enquire from outside Munich?
 
-Yes, an address can be submitted for review, but an enquiry does not confirm coverage. Munich and the Munich district are the defined initial area. Projects in Dachau, Fürstenfeldbruck, Starnberg, Freising and Ebersberg are considered only after the precise location, travel requirements and project scope have been checked; no service across the rest of Bavaria is implied.
+The project area is centred on Munich and the Munich district. If the address is elsewhere, include it with the project details so we can confirm individually whether it can be considered.
 
 ## Request a project quote
 
-Use the project form to describe the address, rooms, building type, preferred indoor and outdoor positions and current permission status. Photographs and plans can be requested through the approved submission method when the enquiry channel is activated. The form must remain inactive until the dedicated Formspree endpoint, privacy information and verified operating details are in place.
+Use the project form to describe the address, rooms, building type, possible indoor and outdoor positions and current permission status. Once the enquiry channel is active, these details will help us understand the property and prepare the right next step.
 
 ---
 
@@ -112,7 +112,7 @@ Use the project form to describe the address, rooms, building type, preferred in
 
 # Split air conditioning installation in Munich
 
-Split air conditioning can provide targeted comfort cooling without a central duct network, but the apparent simplicity of the system should not obscure the planning involved. The indoor and outdoor units, refrigerant lines, condensate route, power supply and permissions form one installation. This page covers new single-split and multi-split projects in Munich and the Munich district, including installations added to existing buildings.
+Split air conditioning can provide targeted comfort cooling without a central duct network, but the apparent simplicity of the system should not obscure the planning involved. The indoor and outdoor units, refrigerant lines, condensate route, power supply and permissions form one installation. IsarKlima plans single-split and multi-split systems around the rooms, building and installation route.
 
 ## Single-split or multi-split?
 
@@ -206,7 +206,7 @@ Submit the rooms to be cooled, project address, building type, ownership status 
 
 **Route:** `/en/air-conditioning-apartment/`
 
-# Apartment air conditioning installation in Munich
+# Air conditioning for apartments in Munich
 
 Installing split air conditioning in an apartment requires technical planning and a clear understanding of who can approve changes to the building. The indoor unit may be inside the private dwelling, while the outdoor unit, facade, balcony or wall penetration can affect rented property or common ownership. The process should therefore begin with permission and a realistic installation route, not with ordering equipment.
 
@@ -300,7 +300,7 @@ Describe the apartment, rooms, ownership status and proposed outdoor location, a
 
 # Home air conditioning installation in Munich
 
-A house offers more options for indoor and outdoor unit placement than many apartments, but it also presents a wider range of room loads and possible routes. A bedroom under the roof, a glazed living area and a ground-floor home office do not need the same solution. New and retrofit split installations should therefore be planned around the rooms that actually require cooling, the construction of the house and the practical path for each connection.
+A house offers more options for indoor and outdoor unit placement than many apartments, but it also presents a wider range of room loads and possible routes. A bedroom under the roof, a glazed living area and a ground-floor home office do not need the same solution. The air conditioning should therefore be planned around the rooms that actually require cooling, the construction of the house and the practical path for each connection.
 
 ## Cooling one room or several living areas
 
@@ -384,15 +384,15 @@ Identify the rooms to be cooled, likely indoor and outdoor positions, pipe route
 
 ## Request a home installation
 
-Provide the address, house type, rooms and approximate dimensions, along with photographs or plans showing possible indoor and outdoor positions. Note whether the building is existing, under renovation or in construction and identify any known access or electrical constraints. The project form will be activated only after the operating, privacy and Formspree requirements for genuine enquiries are complete.
+Provide the address, house type, rooms, approximate dimensions and possible indoor and outdoor positions. Keep any useful photographs or plans ready; if they are needed, an approved sharing method can be confirmed after the first contact. Note whether the building is existing, under renovation or in construction and identify any known access or electrical constraints.
 
 ---
 
 **Route:** `/en/air-conditioning-office-commercial/`
 
-# Office and commercial air conditioning installation in Munich
+# Air conditioning for offices and commercial spaces in Munich
 
-Comfort cooling for an office or smaller commercial unit must reflect the way the space is occupied and operated. People, computers, lighting, glazed areas and opening hours can create loads that are not apparent from floor area alone. The service scope is limited to new and retrofit split systems for offices and small, non-critical commercial spaces; it excludes industrial refrigeration and environments that require specialist or redundant cooling.
+Air conditioning for an office or smaller commercial unit must reflect the way the space is occupied and operated. People, computers, lighting, glazed areas and opening hours can create loads that are not apparent from floor area alone. IsarKlima plans split systems around those real operating conditions, while spaces with specialist technical or continuity requirements need their own assessment.
 
 ## Cooling for offices and small commercial spaces
 
@@ -412,7 +412,7 @@ Commercial comfort depends on when heat is generated and when people are present
 
 ### People, equipment and internal heat loads
 
-Occupants, computers, displays, lighting and other equipment release heat into the room. Their number, power and operating schedule can materially affect cooling demand, especially in compact or well-glazed spaces. Providing this information helps distinguish a normal comfort-cooling project from a space whose equipment or process would require specialist design outside the stated scope.
+Occupants, computers, displays, lighting and other equipment release heat into the room. Their number, power and operating schedule can materially affect cooling demand, especially in compact or well-glazed spaces. Providing this information helps match capacity and placement to normal use and identify specialist technical requirements early.
 
 ### Noise-conscious positioning
 
@@ -444,7 +444,7 @@ These answers define the types of premises considered and the information needed
 
 ### Which commercial spaces can be assessed?
 
-The intended scope covers offices and smaller commercial spaces where split air conditioning is used for normal occupant comfort. Each address and use must still be reviewed. Industrial refrigeration, hotels, hospitals, server or critical rooms and environments requiring specialist process cooling, redundancy or continuous cooling are outside the stated service focus.
+We assess offices and smaller commercial spaces where split air conditioning is intended to provide comfortable working or customer areas. The building, use, operating hours and any specialist technical requirements are reviewed before a solution is proposed.
 
 ### Can installation take place outside operating hours?
 
@@ -452,11 +452,11 @@ It may be possible to plan work outside normal operating hours, but this depends
 
 ### How are internal heat loads considered?
 
-The assessment records expected occupancy, computers, lighting, appliances and any other equipment that releases heat during normal use. It also considers glazing, solar gain and operating hours. This information informs the room cooling demand and helps identify cases that fall outside ordinary comfort cooling and require a different specialist scope.
+The assessment records expected occupancy, computers, lighting, appliances and any other equipment that releases heat during normal use. It also considers glazing, solar gain and operating hours. This information informs the room cooling demand and shows whether the space has additional technical requirements that need separate planning.
 
 ### Who coordinates any electrical work required?
 
-Responsibility must be stated in the project scope. The split-system assessment identifies the electrical interface specified for the proposed equipment, while any new fixed circuit, protection or connection must be completed by the appropriately qualified electrical party. Until the operating model and any partner arrangements are verified, the website should not claim that a particular electrical service is included.
+Responsibility must be stated in the project scope. The split-system assessment identifies the electrical interface specified for the proposed equipment, while any new fixed circuit, protection or connection must be completed by the appropriately qualified electrical party. The quote should state clearly whether this work is included, coordinated separately or arranged by the customer.
 
 ### What information is needed for a quote?
 
@@ -504,7 +504,7 @@ Houses and attic rooms can present strong solar loads and longer routes to a sui
 
 ### Office and small commercial space
 
-An office retrofit must account for occupants, equipment, opening hours and disruption to the premises. The route, unit positions and work period should be coordinated with the landlord or building management where relevant. Only normal comfort-cooling projects for smaller, non-critical spaces fall within the intended scope.
+An office retrofit must account for occupants, equipment, opening hours and disruption to the premises. The route, unit positions and work period should be coordinated with the landlord or building management where relevant. Any specialist technical requirements should be identified at the start of planning.
 
 ## How installation is prepared
 
@@ -560,7 +560,7 @@ Provide wide images of each room, close and wide views of proposed indoor positi
 
 ## Request a retrofit
 
-Submit the address, building type, rooms, ownership status and photographs of possible routes and unit positions. Describe which surfaces are finished and whether approval has already been discussed. The form is a future assessment channel and remains inactive until Formspree, privacy, operating qualifications and the scope of accepting real work have been verified.
+Submit the address, building type, rooms, ownership status and a description of possible routes and unit positions. Keep supporting photographs ready; if they are needed, an approved sharing method can be confirmed after the first contact. Explain which surfaces are finished and whether approval has already been discussed.
 
 ---
 
@@ -644,99 +644,91 @@ At minimum, the equipment or specification, core installation, route assumptions
 
 ## Submit your project for a quote
 
-Send the address, room information, building and ownership type, photographs and current permission status when the project form is activated. A preferred period can be included as planning context but is not a confirmed appointment. Live submissions remain disabled until the dedicated endpoint, privacy disclosures and the verified legal and technical basis for accepting work are complete.
+Send the address, room information, building and ownership type, possible unit positions and current permission status when the project form is activated. Keep supporting photographs ready; if they are needed, an approved sharing method can be confirmed after the first contact. A preferred period can be included as planning context but is not a confirmed appointment.
 
 ---
 
 **Route:** `/en/service-area/`
 
-# Air conditioning installation in Munich and surrounding areas
+# Where IsarKlima installs air conditioning
 
-The defined initial assessment area is the city of Munich and Landkreis München, the Munich district surrounding the city. Coverage is checked from the precise installation address because travel, access and project coordination cannot be confirmed from a regional label alone. Selected addresses in neighbouring districts can be reviewed on request, but the service is not presented as Bavaria-wide.
+IsarKlima plans air conditioning projects in Munich and the Munich district. The exact address helps us understand access and coordinate the installation properly. Other locations are reviewed individually from the address and project scope.
 
-## Core area: Munich
+## Projects in Munich
 
-Munich is the central area for assessing new and retrofit split air conditioning projects. This does not mean that every address, building or requested schedule is automatically available. The property, access, permissions and project scope still have to fit the service focus before any work can be considered.
+Within Munich, we look at the property, access, permissions and installation requirements together. This gives a more useful answer than relying only on the postcode or district name.
 
-### Availability based on the project address
+### Checking the project address
 
-The full street address and postcode allow the project to be checked in its real location, including access conditions and any obvious coordination constraints. Address-based assessment also prevents a broad city claim from being mistaken for a confirmed appointment. An address is used for project review only under the privacy arrangements that will apply when enquiries are activated.
+The street address and postcode place the project in its real setting. Building access, possible unit positions and the route to the outdoor area can then be considered alongside the rooms you want to cool.
 
-## Installations in the Munich district
+## Projects in the Munich district
 
-Projects in Landkreis München can be submitted for assessment alongside Munich city projects. The district contains varied locations and building conditions, so availability is not inferred merely because an address lies inside its boundary. The postcode, exact address and installation scope are reviewed together.
+For projects in the Munich district, the postcode, exact address and main project details are reviewed together because buildings and access vary across the area.
 
-### Postcode-based availability check
+### Planning across the district
 
-A postcode supports the first geographical check, while the complete address is needed before access and travel can be understood. The assessment then considers property type, number of rooms, proposed outdoor position and the work involved. Passing a postcode check means the project can be reviewed further; it is not confirmation of a service date or acceptance.
+A postcode is useful for the first conversation, while the complete address helps clarify access and travel. We then consider the property type, number of rooms, possible outdoor position and the work involved before confirming the next step.
 
-## Neighbouring districts on request
+## Projects outside the main area
 
-The initial area does not extend automatically to every surrounding district. Addresses in the named neighbouring districts may be considered when the location and project can be coordinated realistically. No town-specific landing pages or blanket coverage claims should be created without genuine operating evidence.
+There is no blanket availability statement for addresses outside Munich and the Munich district. A different location can be submitted with a short project description and reviewed individually.
 
-### Dachau and Fürstenfeldbruck
+### Individual location review
 
-An address in Dachau or Fürstenfeldbruck can be submitted for an individual availability review. The decision depends on the precise location, access and installation scope rather than on the district name alone. The website does not state that every municipality or postcode in either district is served.
+The exact address, travel requirements, site access and installation scope determine whether a project outside the main area can be considered. The decision is based on the actual project, not a generic regional label.
 
-### Starnberg and Ebersberg
+## What we check before confirming a project
 
-Projects in Starnberg or Ebersberg are considered only after the address and practical requirements have been assessed. Travel, working access and coordination with any other parties form part of that review. Listing these districts as request areas is not a commitment to general coverage.
+Good installation planning includes the journey, site access and any coordination with owners or other trades. Looking at these points together allows us to give a considered response to each enquiry.
 
-### Freising
+### Travel and site access
 
-Freising addresses can also be checked on request. A postcode and project description support the first review, followed by the full location and technical scope where appropriate. No availability, response time or installation date is implied before that assessment is complete.
+Knowing the precise address helps us assess travel and site access together. This is especially useful where equipment, tools or access arrangements must reach the property at an agreed time.
 
-## Why we deliberately limit the service area
+### Coordinating the work
 
-A defined area supports realistic planning and prevents marketing claims from outrunning actual operations. Split installations involve equipment, access and sometimes coordination with owners or other trades, so travel is only one part of the decision. The service boundary should expand only when capacity and completed local evidence support it.
-
-### Predictable travel
-
-Knowing the precise address makes it possible to assess travel and site access together rather than absorb unknown logistics into a generic promise. Predictability is especially important where equipment, tools or access arrangements must reach the property at an agreed time. The objective is accurate planning, not a claim of rapid attendance.
-
-### Realistic project coordination
-
-Each installation may involve permissions, an on-site assessment, electrical responsibilities or building work. Limiting the initial area helps keep those stages connected to a practical project plan. It does not guarantee acceptance within that area; it provides a responsible boundary for deciding which enquiries can be assessed.
+An installation may involve permissions, an on-site assessment, electrical responsibilities or building work. The address and project details help keep those stages connected to one practical plan.
 
 ## Service area FAQs
 
-These answers distinguish the core assessment area from neighbouring locations that require an individual check.
+These answers explain how project locations are reviewed.
 
 ### Do you work in every Munich district?
 
-Munich is the core assessment area, but no blanket promise is made for every address, building type or schedule. Submit the exact address and project details so that access, scope and current operational availability can be checked. A city district shown on the address does not by itself confirm that the project will be accepted.
+Enquiries can be submitted from every Munich district. The exact address and project details are then used to review access, installation requirements and the appropriate next step.
 
-### Is installation available in the Munich district?
+### Can a project in the Munich district be reviewed?
 
-Projects in Landkreis München can be assessed. The exact postcode and address, building access, rooms and proposed installation determine whether the enquiry can move forward. The site distinguishes the surrounding Munich district from Munich city and does not treat the whole district as an automatically available service zone.
+Yes. Send the postcode and address together with the building type, rooms and possible installation positions. Those details allow the project to be reviewed without making a blanket promise based only on the location.
 
-### Which neighbouring districts can be assessed?
+### Can I enquire from another location?
 
-Addresses in Dachau, Fürstenfeldbruck, Starnberg, Ebersberg and Freising can be submitted for an individual check. This list defines where an enquiry may be reviewed, not where service is guaranteed. The precise location and project scope must be assessed before any commercial or scheduling commitment is made.
+Yes. Include the exact address and main project details. Locations outside the main area are considered individually, and submitting an enquiry does not itself confirm availability.
 
 ### Do you offer installation throughout Bavaria?
 
-No. The initial focus is Munich and the Munich district, with the named neighbouring districts considered only by address. The website does not claim service across Bavaria. A wider area should be published only if real logistics, operating capacity and evidence support it later.
+The project area is centred on Munich and the Munich district. Other addresses are considered individually from the location and work involved; the website does not imply general coverage across Bavaria.
 
-### How is availability checked?
+### How is a project location checked?
 
-The first check uses the postcode, full project address and a concise description of the building, rooms and requested system. Access, proposed outdoor location and the likely scope are then considered. If the location falls outside the core area, travel and coordination are reviewed explicitly. Only a direct project response can confirm whether the enquiry can proceed.
+We start with the postcode, full address and a short description of the building, rooms and preferred system. Access, the possible outdoor location and the work involved are then considered before we confirm how to proceed.
 
-## Check your postcode
+## Tell us where your project is
 
-Enter the project postcode and address with a short description of the property and rooms when the form is activated. The result is an availability assessment, not an automated guarantee. Live address collection must wait until the dedicated form endpoint, privacy information and verified operating arrangements are ready.
+Enter the project postcode and address with a short description of the property and rooms. Once enquiries are active, we can use this information to assess the location and propose the right next step.
 
 ---
 
 **Route:** `/en/about/`
 
-# Our focus: new air conditioning installations in Munich
+# About IsarKlima
 
-IsarKlima is being prepared as a focused service for new and retrofit split air conditioning installations in Munich and the Munich district. The narrow scope is deliberate: it covers comfort cooling for apartments, houses, offices and smaller commercial spaces, not every form of refrigeration or building-services work. Before live enquiries open, the operating entity, authorisations, qualifications, insurance, electrical responsibilities and service capacity must be verified.
+IsarKlima is built around clear, carefully planned air conditioning installation for apartments, homes, offices and smaller commercial spaces in Munich. We begin with the way each room is used and the realities of the building, then develop a solution around unit positions, pipe routes, permissions and access.
 
-## What we install
+## Air conditioning planned around the building
 
-The planned installation scope centres on systems with one or more indoor units connected to outdoor equipment. Projects are assessed from the cooling need, building and route rather than from a preferred brand or preselected package. Repair, maintenance and industrial or critical cooling are outside the stated focus.
+We plan split air conditioning with one or more indoor units connected to suitable outdoor equipment. The cooling need, building and installation route guide the proposal rather than a preferred brand or a preselected package.
 
 ### Single- and multi-split systems
 
@@ -744,11 +736,11 @@ Single-split serves one defined room with one indoor and one outdoor unit. Multi
 
 ### Apartments, homes and small commercial spaces
 
-The intended projects are normal comfort-cooling installations in apartments, houses, offices and smaller non-critical commercial premises. Ownership, building access and room use shape the scope in each case. Hotels, hospitals, industrial refrigeration, server or critical rooms and other applications requiring specialist or redundant cooling are not included.
+Apartments, houses, offices and smaller commercial premises all bring different room layouts, heat loads and access conditions. Ownership, building use and the available outdoor position shape the installation in each case.
 
 ## How we prepare projects
 
-Preparation is designed to replace assumptions with a documented installation concept. The first review gathers the address, rooms, use, photographs and permission status. Where the route or building cannot be confirmed remotely, an on-site check can be proposed before a final scope is issued.
+Preparation replaces assumptions with a documented installation concept. The first review gathers the address, rooms, use, photographs and permission status. Where the route or building cannot be confirmed remotely, an on-site check can be proposed before a final scope is issued.
 
 ### Clear project information
 
@@ -762,49 +754,49 @@ The scope should identify the system arrangement, unit positions, route, drainag
 
 The intended handover records the installed arrangement and the work completed within the agreed scope, alongside the relevant equipment information. It should explain basic operation and identify any documents or responsibilities that remain with the customer. The exact documentation must match the verified operating model and applicable project requirements; it should not be promised in vague or inflated terms.
 
-## Qualifications and responsibilities before launch
+## Clear responsibilities from planning to handover
 
-This website remains a non-indexed preview until the legal and technical basis for accepting installation work is established. A professional-looking site is not evidence of trade registration, refrigerant qualifications, insurance or authority to carry out electrical work. These points must be checked, recorded and reflected accurately before project submissions are activated.
+A well-organised project makes responsibilities visible before work begins. The quotation should identify the installation work, technical interfaces, documentation and any separately coordinated tasks so that the customer knows who is responsible for each stage.
 
-### Refrigeration and air conditioning qualifications
+### Qualified refrigeration work
 
-The people and, where required, business responsible for work on refrigerant circuits must hold the qualifications and certifications applicable to the systems and refrigerants offered. Those credentials, their scope and the responsible operating entity are still launch-gate information. The site must not use labels such as certified specialist company until the supporting evidence has been reviewed.
+Work on the refrigerant circuit must be assigned to the people and, where required, businesses holding the qualifications applicable to the selected system and refrigerant. The responsible party and the work covered should be clear in the project documents.
 
-### Business authorisation and insurance
+### Clear project documentation
 
-The invoicing entity, operating base and position with the relevant chamber or cross-border service regime must be established before work is accepted. Suitable insurance and named technical responsibility also need verification. Until then, the page describes the planned scope only and must not imply that the business is already authorised or insured for live projects.
+The quotation and order documents should identify the contracting party, the agreed installation and the responsibilities of everyone involved. Technical information, assumptions and any separately arranged work belong in the same clear project record.
 
 ### Electrical work and partner services
 
-Split systems have an electrical interface, but the party authorised to complete any new fixed circuit, protection or connection has not yet been published. The final operating model must state which work is included directly, which is coordinated with a verified qualified provider and which remains the customer’s responsibility. No partner or in-house capability should be claimed before it is documented.
+Split systems have an electrical interface. If a fixed circuit, protection or connection needs to be added or altered, the work must be assigned to an appropriately qualified electrical party and coordinated clearly with the air conditioning installation.
 
 ## FAQs about how we work
 
-These answers define the planned service boundaries and the checks required before IsarKlima accepts real enquiries.
+These answers explain how we turn initial project information into a clearly planned installation.
 
-### Which projects fit our focus?
+### Which types of property do you plan for?
 
-Projects in scope are new or retrofit single-split and multi-split comfort-cooling installations for apartments, houses, offices and smaller non-critical commercial spaces in the defined Munich area. The building must offer a feasible route, outdoor location, drainage, power and access, with the necessary permissions. Every project remains subject to address and technical assessment.
+We plan single-split and multi-split air conditioning for apartments, houses, offices and smaller commercial spaces. The building needs a feasible route, outdoor location, drainage, power and access, together with any required permissions.
 
-### Do we offer repairs or maintenance?
+### What does the installation service cover?
 
-No. The approved service proposition is limited to new installations and retrofitting split air conditioning. The website should not attract repair call-outs, maintenance contracts, refrigerant fault diagnosis or unrelated heating and refrigeration work. If that scope changes later, it should be supported by verified capability and a separate content and operational decision.
+The service covers the planning and installation of split air conditioning, including unit positioning, routes, technical interfaces, commissioning and handover as agreed for the project. The quotation sets out the exact work included for the property.
 
 ### How is the scope of work agreed?
 
 The scope is developed from the project information, technical review and any necessary site assessment. It records the system arrangement, positions, route, included tasks, interfaces, exclusions and customer responsibilities. The quote and scope should align before acceptance so that equipment, electrical work, access and making-good are not left to conflicting assumptions.
 
-### Which qualifications are verified before accepting work?
+### Who carries out specialist work?
 
-Verification must cover the legal operating entity and authorisation, the personal and any required business certification for refrigerant work, suitable insurance and named technical responsibility. It must also establish who is authorised to perform fixed electrical work and how any partner contribution is managed. The exact records published should be limited to evidence that has actually been checked.
+Refrigerant and fixed electrical work must be carried out by the appropriately qualified people or businesses for the task. The project documents should identify the responsible parties and how separately coordinated work fits into the installation.
 
 ### Which languages are available for project coordination?
 
-The website is planned in German and English, but a translated page does not by itself prove that technical enquiries, installation coordination and handover can be handled in both languages. The languages actually supported by the responsible project contacts must be confirmed before live requests open. The final form and project communication should state those options accurately.
+The website is available in German and English. The language used for technical coordination, appointments and handover is confirmed directly for each project.
 
 ## Discuss your project
 
-Once the launch checks and enquiry channel are complete, the project form will collect the address, rooms, use, ownership status and initial installation information. During preview, it should explain that submissions are not active rather than create an expectation of a reply. A project discussion begins an assessment and does not constitute acceptance or an order.
+Tell us about the address, rooms, use, ownership status and possible unit positions. Once enquiries are active, this information will help us understand the installation and prepare the next step; an initial discussion does not constitute an order.
 
 ---
 
@@ -812,7 +804,7 @@ Once the launch checks and enquiry channel are complete, the project form will c
 
 # Request an air conditioning installation quote in Munich
 
-A useful installation enquiry describes the property and cooling need before asking for a product or appointment. The first review needs enough information to identify the likely system arrangement, permission status, route and technical interfaces. The form is prepared as the future intake point for Munich and Munich-district projects but must remain inactive until its dedicated endpoint, privacy information and operating responsibilities are verified.
+A useful installation enquiry describes the property and cooling need before asking for a product or appointment. The first review needs enough information to identify the likely system arrangement, permission status, route and technical interfaces. Clear project details allow the next conversation to focus on the building rather than on assumptions.
 
 ## Information needed for the initial assessment
 
@@ -844,15 +836,15 @@ A site visit may be proposed when measurements, mounting surfaces, wall construc
 
 ## Enquiry FAQs
 
-These answers explain how to prepare useful supporting information without assuming that the future form already supports every file or workflow.
+These answers explain how to prepare useful supporting information for the first project review.
 
-### Can I send photos?
+### When can I share photos?
 
-Photos are useful for showing the rooms, possible indoor and outdoor positions, route and access. When the enquiry channel is activated, the form will state whether files can be attached directly or whether another approved method is used after initial contact. Do not send identity documents, tenancy contracts or other sensitive material unless it is specifically necessary and the privacy process is clear.
+Photos are useful for showing the rooms, possible indoor and outdoor positions, route and access. They can be requested after the first contact through a confirmed channel with clear privacy guidance. Do not send identity documents, tenancy contracts or other sensitive material unless it is specifically necessary.
 
-### Which file formats are useful?
+### How are photos and plans shared?
 
-Clear JPEG or PNG photographs and PDF plans are generally easy to review, subject to the limits and security rules of the final submission method. Images should include wide context views as well as relevant details. File support has not yet been configured, so the live form must publish its accepted formats and size limits rather than rely on this draft alone.
+The approved contact method will explain how photographs or plans can be provided if they are needed for the review. The current project form does not accept file uploads.
 
 ### Do I need to have selected a system already?
 
@@ -868,7 +860,7 @@ No. An enquiry asks for an assessment and does not oblige either party to procee
 
 ## Project form
 
-The final form will request only the information needed for the initial assessment and will include consent and privacy details linked to the verified operating entity. It will use a dedicated Formspree endpoint rather than one borrowed from another project. Until that configuration and the launch gates are complete, the preview should display the required fields without transmitting live enquiries.
+The project form requests only the information needed for an initial assessment and links the submission to the relevant privacy information. Address, rooms, building type and permission status provide the basis for a useful first response.
 
 ---
 
@@ -876,7 +868,7 @@ The final form will request only the information needed for the initial assessme
 
 # Guide to air conditioning installation in Munich
 
-The guide explains the decisions that come before a new or retrofit split air conditioning installation. It covers permissions, outdoor-unit location, system choice, capacity, installation stages and cost factors for Munich-area properties. The articles support better project questions; they do not replace a property-specific technical plan, binding legal advice or work by appropriately qualified people.
+The guide explains the decisions that shape a split air conditioning installation. It covers permissions, outdoor-unit location, system choice, capacity, installation stages and cost factors for properties in Munich. The articles support better project questions; they do not replace a property-specific technical plan, binding legal advice or work by appropriately qualified people.
 
 ## Before installation
 
@@ -932,12 +924,12 @@ Each article should display a publication date and, where a substantive review h
 
 ### Can I suggest a topic?
 
-Once the contact channel is active, readers can suggest a question related to new or retrofit split installations in the Munich area. A suggestion does not guarantee publication or constitute technical advice for the sender’s property. Personal data and project documents should not be included unless the approved form specifically requests them.
+Once the contact channel is active, readers can suggest a question about split air conditioning installation in Munich. A suggestion does not guarantee publication or constitute technical advice for the sender’s property. Personal data and project documents should not be included unless the approved form specifically requests them.
 
 ### How do I move from a guide to a project assessment?
 
-Use the relevant commercial page to check the intended scope, then submit the address, rooms, building type, permission status and photographs through the activated project form. The first response can identify missing information and whether a site assessment is needed. Reading an article or submitting a form does not create an order or confirm availability.
+Use the relevant service page to prepare the address, rooms, building type, permission status and possible unit positions for the project form. Keep useful photographs ready in case they are requested later through an approved sharing method. Reading an article or submitting a form does not create an order or confirm availability.
 
 ## Have your project assessed
 
-The future project form will connect guide readers to the correct installation assessment without turning editorial content into a promise. It should capture the relevant address and room information, link to the privacy notice and use the dedicated endpoint. Until live operations and data handling are verified, the preview must leave submission disabled.
+The project form connects the guide content with an assessment of the actual property. Share the address, rooms, building type, permission status and possible unit positions. Relevant photographs may be requested later through an approved sharing method.

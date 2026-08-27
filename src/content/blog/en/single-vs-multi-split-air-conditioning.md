@@ -15,7 +15,7 @@ translations:
   de-DE: "/ratgeber/single-oder-multi-split-klimaanlage/"
   en-DE: "/en/guides/single-vs-multi-split-air-conditioning/"
 draft: false
-ctaIntro: "For an initial system comparison, you may send the project address, a floor plan, the rooms concerned, expected operating periods and photographs of possible indoor and outdoor positions. IsarKlima can use these details to identify open planning questions. The enquiry is non-binding and is not a commitment to a particular system configuration."
+ctaIntro: "For an initial system comparison, share the project address, rooms concerned, expected operating periods and possible unit positions. Keep a floor plan and relevant photographs ready; if they are needed, an approved sharing method will be confirmed after the first contact. The enquiry is non-binding."
 ---
 
 Single-split and multi-split describe two basic layouts for permanently installed air conditioning. They differ mainly in how many indoor units connect to each outdoor unit. The right choice cannot be derived from total floor area alone. It depends on the rooms, simultaneous use and building constraints.

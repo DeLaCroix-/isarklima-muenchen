@@ -15,7 +15,7 @@ translations:
   de-DE: "/ratgeber/klimaanlage-mietwohnung-genehmigung/"
   en-DE: "/en/guides/air-conditioning-rental-apartment-permission/"
 draft: false
-ctaIntro: "You may send IsarKlima the project address, building type, rooms concerned, photographs and any existing approvals. This information can be used to identify missing technical details and assess whether the project fits the intended installation scope. An enquiry is non-binding and does not constitute an order."
+ctaIntro: "First share the project address, building type, rooms concerned and the status of any approvals. Keep relevant photographs ready; if they are needed, an approved sharing method will be confirmed after the first contact. An enquiry is non-binding and does not constitute an order."
 ---
 
 A permanently installed split air conditioning system affects more than the inside of a rental apartment. A route through the external wall is usually needed for the connecting lines, while the outdoor unit requires a suitable position. Permission should therefore be clarified before equipment is ordered, a date is agreed or drilling is prepared.

@@ -15,7 +15,7 @@ translations:
   de-DE: "/ratgeber/klimaanlage-eigentumswohnung-weg/"
   en-DE: "/en/guides/air-conditioning-condominium-owners-association/"
 draft: false
-ctaIntro: "For an initial technical review, you may send a floor plan, photographs, the rooms to be cooled, a possible outdoor-unit position and any owners’ association documents already available. IsarKlima can identify open technical questions from this material. An enquiry does not replace a resolution or authority assessment and does not constitute an order."
+ctaIntro: "Keep a floor plan, photographs, the rooms to be cooled, a possible outdoor-unit position and any owners’ association documents ready. If this material is needed, an approved sharing method will be confirmed after the first contact. An enquiry does not replace a resolution or authority assessment and does not constitute an order."
 ---
 
 An owner who wants split air conditioning in a condominium is making a decision about comfort inside the private unit, but the installation often affects parts of the building that are not owned individually. An outdoor unit, a wall penetration, visible pipework or a facade bracket may involve common property. The owners’ association process should therefore come before equipment ordering and detailed installation planning.

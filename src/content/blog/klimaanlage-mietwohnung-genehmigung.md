@@ -15,7 +15,7 @@ translations:
   de-DE: "/ratgeber/klimaanlage-mietwohnung-genehmigung/"
   en-DE: "/en/guides/air-conditioning-rental-apartment-permission/"
 draft: false
-ctaIntro: "Sie können IsarKlima die Einsatzadresse, Gebäudeart, betroffenen Räume, Fotos und vorhandenen Freigaben übermitteln. Auf dieser Grundlage lässt sich prüfen, welche technischen Angaben noch fehlen und ob das Vorhaben in den vorgesehenen Installationsumfang passt. Eine Anfrage ist unverbindlich und noch kein Auftrag."
+ctaIntro: "Teilen Sie IsarKlima zunächst Einsatzadresse, Gebäudeart, betroffene Räume und den Stand vorhandener Freigaben mit. Halten Sie passende Fotos bereit; falls sie benötigt werden, erhalten Sie nach der ersten Kontaktaufnahme einen bestätigten Übermittlungsweg. Eine Anfrage ist unverbindlich und noch kein Auftrag."
 ---
 
 Eine fest installierte Split-Klimaanlage verändert eine Mietwohnung nicht nur im Innenraum. Für Leitungen ist meist eine Durchführung durch die Außenwand nötig, und das Außengerät muss an einer geeigneten Stelle befestigt oder aufgestellt werden. Deshalb sollte die rechtliche und bauliche Freigabe geklärt sein, bevor ein Gerät bestellt, ein Montagetermin vereinbart oder eine Bohrung vorbereitet wird. Eine frühe, gut dokumentierte Abstimmung schützt Mieter, Vermieter und ausführende Unternehmen vor Missverständnissen.

@@ -15,7 +15,7 @@ translations:
   de-DE: "/ratgeber/klimaanlage-aussengeraet-laerm/"
   en-DE: "/en/guides/air-conditioning-outdoor-unit-noise/"
 draft: false
-ctaIntro: "Für eine erste Standortprüfung können Sie Adresse, Fotos der Außenfläche, mögliche Gerätepositionen und die Lage benachbarter Fenster übermitteln. IsarKlima kann damit feststellen, welche technischen Angaben oder Nachweise noch benötigt werden. Eine Anfrage ist unverbindlich und enthält keine Zusage zur Genehmigungsfähigkeit eines Standorts."
+ctaIntro: "Teilen Sie für eine erste Standortprüfung die Adresse, mögliche Gerätepositionen und die Lage benachbarter Fenster mit. Halten Sie Fotos der Außenfläche bereit; falls sie benötigt werden, erhalten Sie nach der ersten Kontaktaufnahme einen bestätigten Übermittlungsweg. Eine Anfrage ist unverbindlich und enthält keine Zusage zur Genehmigungsfähigkeit."
 ---
 
 Das Außengerät einer Split-Klimaanlage gibt Wärme an die Außenluft ab. Dabei arbeiten Ventilator und Verdichter, und über Befestigungen können Schwingungen in Bauteile gelangen. Ob ein Gerät an einem Standort als störend wahrgenommen wird, lässt sich deshalb nicht allein aus einer Dezibelzahl im Produktdatenblatt ableiten. Gerätewert, Betriebszustand, Aufstellung, Umgebung und Entfernung zum maßgeblichen Empfangspunkt gehören zusammen.

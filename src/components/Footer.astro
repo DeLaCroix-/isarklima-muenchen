@@ -8,10 +8,9 @@ const year = new Date().getFullYear();
 ---
 <footer class="site-footer">
   <div class="shell footer-grid">
-    <div class="footer-lead"><a href={localizedHome(lang)} class="footer-logo"><img src="/brand/isarklima-logo.svg" width="258" height="55" alt="IsarKlima" /></a><p>{lang === 'de' ? 'Neue Split-Klimaanlagen für Wohnung, Haus und kleinere Gewerbeflächen in München.' : 'New split air conditioning systems for apartments, homes and small commercial spaces in Munich.'}</p><span>{site.serviceArea}</span></div>
+    <div class="footer-lead"><a href={localizedHome(lang)} class="footer-logo"><img src="/brand/isarklima-logo.svg" width="258" height="55" alt="IsarKlima" /></a><p>{lang === 'de' ? 'Planung und Montage von Split-Klimaanlagen für Wohnungen, Häuser und kleinere Gewerbeflächen.' : 'Split air conditioning installation for apartments, homes and small commercial spaces.'}</p><span>{site.serviceArea[lang]}</span></div>
     <nav aria-label={lang === 'de' ? 'Fußnavigation' : 'Footer navigation'}>{footerNavigation[lang].map(([href, label]) => <a href={href}>{label}</a>)}</nav>
     <div class="footer-status"><span class="status-dot" aria-hidden="true"></span><div><strong>{t.preview}</strong><p>{t.previewText}</p></div></div>
   </div>
   <div class="shell footer-bottom"><p>© {year} IsarKlima</p><p>{lang === 'de' ? 'Bildmaterial: lizenzierte Symbolbilder, keine Referenzprojekte.' : 'Photography: licensed illustrative stock, not project references.'}</p></div>
 </footer>
-

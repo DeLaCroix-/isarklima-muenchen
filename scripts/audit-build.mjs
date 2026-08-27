@@ -7,6 +7,31 @@ const root = fileURLToPath(new URL('../', import.meta.url));
 const dist = join(root, 'dist');
 const failures = [];
 const normalize = (value) => value.replace(/\s+/g, ' ').trim();
+const discouragedMarketingPhrases = [
+  'munich focus',
+  'fokus münchen',
+  'munich and surrounding areas',
+  'münchen und umgebung',
+  'münchen und im umland',
+  'new installations',
+  'neue installationen',
+  'new air conditioning systems',
+  'new air-conditioning systems',
+  'new split air conditioning',
+  'new split-system installation',
+  'neue klimaanlagen',
+  'neue split-klimaanlagen',
+  'our focus: new air conditioning installations',
+  'unser fokus: neue klimaanlagen-installationen',
+  'air conditioning installation · munich',
+  'klimaanlagen-montage · münchen',
+  'munich · city and district',
+  'münchen · stadt und landkreis',
+  'prepare a munich project',
+  'projekt in münchen vorbereiten',
+  'selected nearby locations',
+  'ausgewählte orte in der region',
+];
 
 async function findHtml(directory) {
   const files = [];
@@ -14,6 +39,16 @@ async function findHtml(directory) {
     const full = join(directory, item.name);
     if (item.isDirectory()) files.push(...await findHtml(full));
     else if (item.name.endsWith('.html')) files.push(full);
+  }
+  return files;
+}
+
+async function findTextArtifacts(directory) {
+  const files = [];
+  for (const item of await readdir(directory, { withFileTypes: true })) {
+    const full = join(directory, item.name);
+    if (item.isDirectory()) files.push(...await findTextArtifacts(full));
+    else if (/\.(html|xml|txt)$/i.test(item.name)) files.push(full);
   }
   return files;
 }
@@ -29,7 +64,15 @@ function fail(path, message) { failures.push(`${path}: ${message}`); }
 function headingList($) { return $('h1,h2,h3').map((_, el) => ({ tag: el.tagName, text: normalize($(el).text()) })).get(); }
 
 const htmlFiles = await findHtml(dist);
+const textArtifacts = await findTextArtifacts(dist);
 const pages = new Map();
+for (const file of textArtifacts) {
+  const rel = `/${relative(dist, file).split(sep).join('/')}`;
+  const normalizedText = normalize(await readFile(file, 'utf8')).toLocaleLowerCase('de-DE');
+  for (const phrase of discouragedMarketingPhrases) {
+    if (normalizedText.includes(phrase)) fail(rel, `discouraged marketing phrase: ${phrase}`);
+  }
+}
 for (const file of htmlFiles) {
   const path = urlForFile(file);
   const html = await readFile(file, 'utf8');
@@ -55,6 +98,10 @@ for (const file of htmlFiles) {
     if ($(form).attr('action')) fail(path, 'inactive form has an action');
     if (!$(form).find('button[type="submit"]').is('[disabled]')) fail(path, 'inactive form submit is not disabled');
   });
+  const contactCopy = normalize($('.contact-panel .contact-copy').text()).toLocaleLowerCase('de-DE');
+  const mentionsFiles = /\b(photo(?:graph)?s?|fotos?|plans?|grundriss)\b/.test(contactCopy);
+  const explainsLaterSharing = /approved sharing method|confirmed channel|requested later|bestätigten übermittlungsweg|bestätigter übermittlungsweg|später angefordert/.test(contactCopy);
+  if (mentionsFiles && !explainsLaterSharing) fail(path, 'contact copy mentions files without explaining the later sharing method');
 }
 
 const knownRoutes = new Set(pages.keys());
@@ -122,4 +169,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log(`Build audit passed: ${htmlFiles.length} HTML pages, 22 commercial heading contracts, 12 article contracts, internal links, metadata, hreflang, images and inactive forms.`);
+console.log(`Build audit passed: ${htmlFiles.length} HTML pages and ${textArtifacts.length - htmlFiles.length} XML/TXT artifacts, 22 commercial heading contracts, 12 article contracts, internal links, metadata, hreflang, images and inactive forms.`);

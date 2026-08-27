@@ -15,7 +15,7 @@ translations:
   de-DE: "/ratgeber/klimaanlage-aussengeraet-laerm/"
   en-DE: "/en/guides/air-conditioning-outdoor-unit-noise/"
 draft: false
-ctaIntro: "For an initial location review, you may send the address, photographs of the external area, possible outdoor-unit positions and the location of neighbouring windows. IsarKlima can identify what further technical information or evidence may be needed. An enquiry is non-binding and does not confirm that a location can be approved."
+ctaIntro: "For an initial location review, share the address, possible outdoor-unit positions and the location of neighbouring windows. Keep photographs of the external area ready; if they are needed, an approved sharing method will be confirmed after the first contact. An enquiry is non-binding and does not confirm that a location can be approved."
 ---
 
 The outdoor unit of a split system rejects heat outside. Its fan and compressor generate sound, while mounting points can transfer vibration into the building. Disturbance cannot be determined from one product-data decibel figure. Operation, installation, surroundings and distance to the receiver must be considered together.

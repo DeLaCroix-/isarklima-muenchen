@@ -15,7 +15,7 @@ translations:
   de-DE: "/ratgeber/klimaanlage-leistung-bestimmen/"
   en-DE: "/en/guides/air-conditioning-capacity-sizing/"
 draft: false
-ctaIntro: "Sie können Grundriss, Raummaße, Fensterorientierung, Nutzung, Personenzahl und Fotos möglicher Gerätepositionen übermitteln. IsarKlima kann daraus ableiten, welche Daten für eine technische Prüfung noch fehlen. Eine Anfrage ist unverbindlich und enthält keine Leistungs- oder Produktempfehlung ohne weitere Bewertung."
+ctaIntro: "Teilen Sie Raummaße, Fensterorientierung, Nutzung, Personenzahl und mögliche Gerätepositionen mit. Halten Sie Grundriss und passende Fotos bereit; falls sie benötigt werden, erhalten Sie nach der ersten Kontaktaufnahme einen bestätigten Übermittlungsweg. Eine Anfrage enthält noch keine Leistungs- oder Produktempfehlung."
 ---
 
 Die richtige Kühlleistung sorgt nicht einfach für eine möglichst große Zahl auf dem Typenschild. Eine Klimaanlage soll die Wärmeeinträge eines Raums unter den geplanten Bedingungen abführen, ohne unnötig groß ausgelegt zu sein. Zu geringe Leistung kann an heißen Tagen zu dauerhaftem Volllastbetrieb und unzureichender Temperatur führen. Eine deutlich überdimensionierte Anlage kann ungünstig takten, Komfort und Entfeuchtung beeinträchtigen und vermeidbare Kosten verursachen.

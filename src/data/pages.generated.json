@@ -5,17 +5,17 @@
     "path": "/",
     "alternatePath": "/en/",
     "navLabel": "Startseite",
-    "title": "Klimaanlage installieren in München | IsarKlima",
-    "description": "Neue Single- und Multi-Split-Klimaanlagen für Wohnung, Haus und kleinere Gewerbeflächen in München und im Landkreis.",
-    "eyebrow": "Klimaanlagen-Montage · München",
-    "h1": "Klimaanlage installieren lassen in München und Umgebung",
-    "intro": "Eine Split-Klimaanlage lässt sich nur dann sinnvoll planen, wenn Räume, Gebäude und Montageweg zusammen betrachtet werden. Für Wohnungen, Häuser, Büros und kleinere Gewerbeflächen in München und im Landkreis München prüfen wir deshalb zunächst den konkreten Bedarf und die Einbausituation – bei einer neuen Anlage ebenso wie bei einer Nachrüstung.",
+    "title": "Klimaanlagen in München | Planung und Montage – IsarKlima",
+    "description": "Single- und Multi-Split-Klimaanlagen für Wohnungen, Häuser und kleinere Gewerbeflächen in München.",
+    "eyebrow": "Planung und Montage",
+    "h1": "Klimaanlage in München installieren lassen",
+    "intro": "Eine Split-Klimaanlage lässt sich nur dann sinnvoll planen, wenn Räume, Gebäude und Montageweg zusammen betrachtet werden. IsarKlima plant Single- und Multi-Split-Klimaanlagen für Wohnungen, Häuser, Büros und kleinere Gewerbeflächen in München – abgestimmt auf den tatsächlichen Bedarf und die Einbausituation.",
     "heroImage": "hero-technician",
     "heroImageAlt": "Techniker prüft das Innengerät einer Split-Klimaanlage",
-    "heroNote": "Neue Installationen",
+    "heroNote": "Planung & Montage",
     "sections": [
       {
-        "title": "Neue Klimaanlagen für Wohnung, Haus und Gewerbe",
+        "title": "Klimaanlagen für Wohnung, Haus und Gewerbe",
         "intro": "Ob ein einzelner Raum oder mehrere getrennte Bereiche gekühlt werden sollen, bestimmt die Grundstruktur der Anlage. Berücksichtigt werden dabei nicht nur Raumgrößen, sondern auch Nutzung, Wärmeeintrag, mögliche Gerätepositionen und die baulichen Voraussetzungen für Leitungen, Kondensat und Strom.",
         "paragraphs": [],
         "subsections": [
@@ -77,8 +77,8 @@
         "tone": "ink"
       },
       {
-        "title": "Einsatzgebiet München und Umland",
-        "intro": "Der Schwerpunkt liegt auf der Stadt München und dem Landkreis München. Ob ein Termin möglich ist, wird anhand der vollständigen Einsatzadresse und des Projektumfangs geprüft; Anfragen aus Dachau, Fürstenfeldbruck, Starnberg, Freising und Ebersberg können nur nach einer gesonderten Adressprüfung berücksichtigt werden.",
+        "title": "Wo wir tätig sind",
+        "intro": "Das Projektgebiet ist auf München und den Landkreis München ausgerichtet. Die konkrete Adresse, das Gebäude und die geplante Installation bilden die Grundlage der Prüfung. Andere Standorte können anhand der Projektdaten individuell betrachtet werden.",
         "paragraphs": [],
         "subsections": [],
         "tone": "isar"
@@ -124,11 +124,11 @@
       },
       {
         "question": "Kann ich auch außerhalb Münchens anfragen?",
-        "answer": "Ja, sofern die Einsatzadresse im Landkreis München liegt. Adressen in Dachau, Fürstenfeldbruck, Starnberg, Freising oder Ebersberg können ebenfalls eingereicht werden, werden jedoch einzeln auf logistische Machbarkeit geprüft; eine darüber hinausgehende oder bayernweite Abdeckung wird nicht zugesagt."
+        "answer": "Das Projektgebiet ist auf München und den Landkreis München ausgerichtet. Liegt die Adresse an einem anderen Ort, kann sie zusammen mit den Projektdaten eingereicht und individuell geprüft werden."
       }
     ],
     "formTitle": "Projekt anfragen",
-    "formIntro": "Für eine erste Projektprüfung senden Sie die Einsatzadresse, Angaben zu Räumen und Nutzung sowie aussagekräftige Fotos der vorgesehenen Innen- und Außenbereiche. Je genauer Freigabestatus, mögliche Gerätepositionen und Zugangsbedingungen beschrieben sind, desto gezielter lassen sich offene Punkte und der nächste sinnvolle Schritt benennen."
+    "formIntro": "Für eine erste Projektprüfung senden Sie die Einsatzadresse sowie Angaben zu Räumen, Nutzung, möglichen Gerätepositionen, Freigaben und Zugang. Halten Sie aussagekräftige Fotos bereit; falls sie benötigt werden, erhalten Sie nach der ersten Kontaktaufnahme einen bestätigten Übermittlungsweg."
   },
   {
     "key": "split",
@@ -136,14 +136,14 @@
     "path": "/split-klimaanlage-installation/",
     "alternatePath": "/en/split-air-conditioning-installation/",
     "navLabel": "Split-Klimaanlage",
-    "title": "Split-Klimaanlage installieren in München | IsarKlima",
-    "description": "Planung und Montage neuer Single- und Multi-Split-Klimaanlagen in München und im Landkreis München.",
+    "title": "Split-Klimaanlagen in München | Planung und Montage",
+    "description": "Planung und Montage von Single- und Multi-Split-Klimaanlagen in München.",
     "eyebrow": "Single- & Multi-Split",
     "h1": "Split-Klimaanlage in München installieren lassen",
-    "intro": "Eine Split-Klimaanlage besteht aus mindestens einem Innen- und einem Außengerät. Für eine neue Installation oder Nachrüstung in München und im Landkreis München wird die Anlage passend zu den Räumen, zur Nutzung und zur realen Montagesituation geplant – einschließlich Leitungsweg, Kondensatführung und erforderlicher technischer Schnittstellen.",
+    "intro": "Eine Split-Klimaanlage besteht aus mindestens einem Innen- und einem Außengerät. Die Anlage wird passend zu den Räumen, zur Nutzung und zur realen Montagesituation geplant – einschließlich Leitungsweg, Kondensatführung und erforderlicher technischer Schnittstellen.",
     "heroImage": "commissioning-gauges",
     "heroImageAlt": "Prüfgeräte bei der Inbetriebnahme einer Split-Klimaanlage",
-    "heroNote": "Neue Installationen",
+    "heroNote": "Planung & Montage",
     "sections": [
       {
         "title": "Single-Split oder Multi-Split?",
@@ -248,7 +248,7 @@
       }
     ],
     "formTitle": "Installation anfragen",
-    "formIntro": "Beschreiben Sie Einsatzort, Räume und gewünschte Nutzung und fügen Sie nach Möglichkeit Fotos der denkbaren Innen- und Außenpositionen bei. Auf dieser Grundlage lässt sich einordnen, ob Single- oder Multi-Split näher geprüft werden sollte und welche Angaben für die weitere Planung noch fehlen."
+    "formIntro": "Beschreiben Sie Einsatzort, Räume, gewünschte Nutzung und denkbare Innen- und Außenpositionen. Halten Sie passende Fotos bereit; falls sie benötigt werden, erhalten Sie nach der ersten Kontaktaufnahme einen bestätigten Übermittlungsweg. Auf dieser Grundlage lässt sich einordnen, welche Angaben für die weitere Planung noch fehlen."
   },
   {
     "key": "apartment",
@@ -259,11 +259,11 @@
     "title": "Klimaanlage für die Wohnung in München | IsarKlima",
     "description": "Split-Klimaanlage in Miet- oder Eigentumswohnungen: Freigabe, Planung und Montage in München.",
     "eyebrow": "Wohnung · Planung · Freigabe",
-    "h1": "Klimaanlage in der Wohnung in München installieren lassen",
+    "h1": "Klimaanlage für die Wohnung in München",
     "intro": "Für eine Split-Klimaanlage in einer Münchner Wohnung müssen technische Planung und Freigaben ineinandergreifen. Neben der passenden Lösung für einen oder mehrere Räume sind vor allem Außengerät, Wanddurchführung, Schall, Kondensat und die Zustimmung von Vermieter oder Wohnungseigentümergemeinschaft zu klären.",
     "heroImage": "apartment-comfort",
     "heroImageAlt": "Heller Wohnraum als Symbolbild für angenehmes Raumklima",
-    "heroNote": "Neue Installationen",
+    "heroNote": "Planung & Montage",
     "sections": [
       {
         "title": "Mietwohnung oder Eigentumswohnung: zuerst die Freigabe klären",
@@ -364,7 +364,7 @@
       }
     ],
     "formTitle": "Wohnungsprojekt anfragen",
-    "formIntro": "Schildern Sie, welche Räume gekühlt werden sollen und welche Außenposition bereits geprüft oder freigegeben ist. Mit Fotos, Maßen und Angaben zum Zustimmungsstatus lässt sich schneller erkennen, ob die gewünschte Split-Lösung technisch weiterverfolgt werden kann und welche Fragen noch offen sind."
+    "formIntro": "Schildern Sie, welche Räume gekühlt werden sollen und welche Außenposition bereits geprüft oder freigegeben ist. Halten Sie Fotos und Maße bereit; falls sie benötigt werden, erhalten Sie nach der ersten Kontaktaufnahme einen bestätigten Übermittlungsweg. Ergänzen Sie außerdem den aktuellen Zustimmungsstatus."
   },
   {
     "key": "house",
@@ -372,14 +372,14 @@
     "path": "/klimaanlage-haus/",
     "alternatePath": "/en/air-conditioning-house/",
     "navLabel": "Haus",
-    "title": "Klimaanlage im Haus installieren in München | IsarKlima",
-    "description": "Neue Single- oder Multi-Split-Klimaanlage für Häuser in München: bedarfsgerechte Planung und Montage.",
+    "title": "Klimaanlage fürs Haus in München | IsarKlima",
+    "description": "Single- oder Multi-Split-Klimaanlagen für Häuser in München: bedarfsgerechte Planung und Montage.",
     "eyebrow": "Haus · Single- & Multi-Split",
     "h1": "Klimaanlage im Haus in München installieren lassen",
     "intro": "In einem Haus kann eine Split-Klimaanlage einen einzelnen stark belasteten Raum oder mehrere getrennte Wohnbereiche versorgen. Für Neubau und Bestand in München und im Landkreis München werden Bedarf, Gerätepositionen, Leitungswege, Außenstandort und technische Anschlüsse als zusammenhängendes Projekt betrachtet.",
     "heroImage": "split-unit-interior",
     "heroImageAlt": "Wandgerät einer Split-Klimaanlage in einem Wohnraum",
-    "heroNote": "Neue Installationen",
+    "heroNote": "Planung & Montage",
     "sections": [
       {
         "title": "Einen Raum oder mehrere Wohnbereiche kühlen",
@@ -480,7 +480,7 @@
       }
     ],
     "formTitle": "Hausprojekt anfragen",
-    "formIntro": "Teilen Sie mit, welche Räume und Etagen gekühlt werden sollen, wie sie genutzt werden und wo ein Außengerät grundsätzlich denkbar ist. Grundrisse, Raummaße und Fotos helfen, Single- und Multi-Split als Optionen einzuordnen und den Bedarf für eine Vor-Ort-Prüfung festzustellen."
+    "formIntro": "Teilen Sie mit, welche Räume und Etagen gekühlt werden sollen, wie sie genutzt werden und wo ein Außengerät grundsätzlich denkbar ist. Halten Sie Grundriss, Raummaße und Fotos bereit; falls sie benötigt werden, erhalten Sie nach der ersten Kontaktaufnahme einen bestätigten Übermittlungsweg."
   },
   {
     "key": "commercial",
@@ -488,14 +488,14 @@
     "path": "/klimaanlage-buero-gewerbe/",
     "alternatePath": "/en/air-conditioning-office-commercial/",
     "navLabel": "Büro und Gewerbe",
-    "title": "Klimaanlage für Büro und Gewerbe München | IsarKlima",
+    "title": "Klimaanlage für Büro und Gewerbe in München | IsarKlima",
     "description": "Split-Klimaanlagen für Büros und kleinere Gewerbeflächen in München: Projektplanung, Montage und Übergabe.",
     "eyebrow": "Büro & kleinere Gewerbeflächen",
-    "h1": "Klimaanlage für Büro und Gewerbe in München installieren",
-    "intro": "Für Büros und kleinere Gewerbeflächen in München und im Landkreis München planen wir neue oder nachgerüstete Split-Klimaanlagen anhand der tatsächlichen Nutzung. Neben Raumgröße und Sonneneintrag fließen Belegung, technische Geräte, Betriebszeiten, Geräuschanforderungen und die organisatorischen Bedingungen der Montage in die Projektprüfung ein.",
+    "h1": "Klimaanlagen für Büro und Gewerbe in München",
+    "intro": "Für Büros und kleinere Gewerbeflächen in München planen wir Split-Klimaanlagen anhand der tatsächlichen Nutzung. Neben Raumgröße und Sonneneintrag fließen Belegung, technische Geräte, Betriebszeiten, Geräuschanforderungen und die organisatorischen Bedingungen der Montage in die Projektprüfung ein.",
     "heroImage": "installation-team",
     "heroImageAlt": "Techniker bei der Montage einer Klimaanlage als Symbolbild",
-    "heroNote": "Neue Installationen",
+    "heroNote": "Planung & Montage",
     "sections": [
       {
         "title": "Kühlung für Büros und kleinere Gewerbeflächen",
@@ -560,7 +560,7 @@
     "faq": [
       {
         "question": "Welche Gewerbeflächen werden geprüft?",
-        "answer": "Geprüft werden Anfragen für Büros und kleinere Gewerbeflächen, bei denen neue oder nachgerüstete Split-Systeme für einzelne Räume oder mehrere überschaubare Nutzungszonen vorgesehen sind. Industrie- und Prozesskälte, große Sonderimmobilien sowie kritische oder medizinische Bereiche gehören nicht zu diesem beschriebenen Leistungsfokus."
+        "answer": "Wir prüfen Büros und kleinere Gewerbeflächen, in denen Split-Klimaanlagen angenehme Bedingungen für Arbeits- oder Kundenbereiche schaffen sollen. Gebäude, Nutzung, Betriebszeiten und besondere technische Anforderungen werden berücksichtigt, bevor eine Lösung vorgeschlagen wird."
       },
       {
         "question": "Kann außerhalb der Betriebszeiten montiert werden?",
@@ -580,7 +580,7 @@
       }
     ],
     "formTitle": "Gewerbeprojekt anfragen",
-    "formIntro": "Senden Sie die wichtigsten Raum- und Betriebsdaten zusammen mit Fotos und einem Grundriss oder einer Skizze. Auf dieser Basis lässt sich prüfen, welches Split-Konzept weiter betrachtet werden sollte, welche Beteiligten benötigt werden und ob eine Besichtigung vor der Angebotserstellung erforderlich ist."
+    "formIntro": "Senden Sie die wichtigsten Raum- und Betriebsdaten sowie eine Beschreibung möglicher Gerätepositionen. Halten Sie Fotos und einen Grundriss oder eine Skizze bereit; falls diese Unterlagen benötigt werden, erhalten Sie nach der ersten Kontaktaufnahme einen bestätigten Übermittlungsweg."
   },
   {
     "key": "retrofit",
@@ -595,7 +595,7 @@
     "intro": "Eine Split-Klimaanlage lässt sich in vielen Bestandsgebäuden nachträglich einplanen, doch die Machbarkeit hängt von der konkreten Wohnung, dem Haus oder dem kleinen Gewerberaum ab. Für Projekte in München und im Landkreis München prüfen wir Platz, Leitungsweg, Gebäudeschutz, Freigaben und technische Anschlüsse, bevor eine Ausführung vorgeschlagen wird.",
     "heroImage": "outdoor-unit-site",
     "heroImageAlt": "Außengerät einer Split-Klimaanlage an einem Gebäude",
-    "heroNote": "Neue Installationen",
+    "heroNote": "Planung & Montage",
     "sections": [
       {
         "title": "Ist eine Nachrüstung im Gebäude möglich?",
@@ -700,7 +700,7 @@
       }
     ],
     "formTitle": "Nachrüstung anfragen",
-    "formIntro": "Beschreiben Sie Gebäude, Räume und gewünschte Kühlbereiche und senden Sie Fotos des gesamten möglichen Montagewegs. Geben Sie außerdem an, wem das Objekt gehört und welche Freigaben bereits vorliegen; so lassen sich technische und organisatorische Hürden früh voneinander unterscheiden."
+    "formIntro": "Beschreiben Sie Gebäude, Räume, gewünschte Kühlbereiche, den möglichen Montageweg, Eigentumsstatus und vorhandene Freigaben. Halten Sie passende Fotos bereit; falls sie benötigt werden, erhalten Sie nach der ersten Kontaktaufnahme einen bestätigten Übermittlungsweg."
   },
   {
     "key": "costs",
@@ -708,14 +708,14 @@
     "path": "/klimaanlage-kosten/",
     "alternatePath": "/en/air-conditioning-installation-costs/",
     "navLabel": "Kosten",
-    "title": "Kosten einer Klimaanlage mit Installation München",
+    "title": "Klimaanlage mit Montage: Kosten in München | IsarKlima",
     "description": "Welche Faktoren den Preis einer Split-Klimaanlage mit Installation in München beeinflussen und was ins Angebot gehört.",
     "eyebrow": "Kosten transparent einordnen",
     "h1": "Was kostet eine Klimaanlage mit Installation in München?",
-    "intro": "Die Kosten einer neuen oder nachgerüsteten Split-Klimaanlage lassen sich erst seriös einordnen, wenn System, Räume und Einbausituation bekannt sind. Statt eines Pauschalpreises zeigt diese Seite, welche Angaben für ein projektspezifisches Angebot in München oder im Landkreis München erforderlich sind und welche Positionen darin klar beschrieben sein sollten.",
+    "intro": "Die Kosten einer Split-Klimaanlage lassen sich erst seriös einordnen, wenn System, Räume und Einbausituation bekannt sind. Statt eines Pauschalpreises zeigt diese Seite, welche Angaben für ein projektspezifisches Angebot in München erforderlich sind und welche Positionen darin klar beschrieben sein sollten.",
     "heroImage": "commissioning-gauges",
     "heroImageAlt": "Prüfung einer Klimaanlage mit technischen Messgeräten",
-    "heroNote": "Neue Installationen",
+    "heroNote": "Planung & Montage",
     "sections": [
       {
         "title": "Warum der Preis vom Projekt abhängt",
@@ -804,7 +804,7 @@
       }
     ],
     "formTitle": "Projekt für ein Angebot einreichen",
-    "formIntro": "Reichen Sie Adresse, Raumdaten, Fotos, gewünschte Kühlzonen und vorhandene Freigaben gemeinsam ein. Damit lässt sich prüfen, welche Lösung kalkuliert werden kann und welche offenen technischen oder organisatorischen Punkte vor einem vollständigen Angebot noch geklärt werden müssen."
+    "formIntro": "Reichen Sie Adresse, Raumdaten, gewünschte Kühlzonen und vorhandene Freigaben gemeinsam ein. Halten Sie passende Fotos bereit; falls sie benötigt werden, erhalten Sie nach der ersten Kontaktaufnahme einen bestätigten Übermittlungsweg. So lassen sich offene technische oder organisatorische Punkte gezielt klären."
   },
   {
     "key": "area",
@@ -812,35 +812,35 @@
     "path": "/einsatzgebiet/",
     "alternatePath": "/en/service-area/",
     "navLabel": "Einsatzgebiet",
-    "title": "Klimaanlagen-Installation München und Umland",
-    "description": "Kerngebiet München und Landkreis München; angrenzende Landkreise werden nur nach konkreter Adresse geprüft.",
-    "eyebrow": "Einsatzgebiet · München",
-    "h1": "Klimaanlagen-Installation in München und im Umland",
-    "intro": "Das vorgesehene Kerngebiet für neue und nachgerüstete Split-Klimaanlagen umfasst die Stadt München und den Landkreis München. Die konkrete Verfügbarkeit wird immer anhand der vollständigen Einsatzadresse, des Projektumfangs und der erforderlichen Anfahrt geprüft; eine pauschale Abdeckung ganz Bayerns ist nicht vorgesehen.",
+    "title": "Klimaanlagen in München | Unser Einsatzgebiet",
+    "description": "Planung und Montage von Split-Klimaanlagen in Stadt und Landkreis München; andere Standorte werden anhand des Projekts geprüft.",
+    "eyebrow": "Unser Einsatzgebiet",
+    "h1": "Wo IsarKlima Klimaanlagen installiert",
+    "intro": "IsarKlima plant Klimaanlagen-Projekte in München und im Landkreis München. Die genaue Adresse hilft dabei, Zugang und Montage sinnvoll zu koordinieren. Andere Standorte werden anhand von Adresse und Projektumfang individuell betrachtet.",
     "heroImage": "munich-city",
     "heroImageAlt": "Blick über München mit Frauenkirche und Alpen",
-    "heroNote": "Neue Installationen",
+    "heroNote": "Planung & Montage",
     "sections": [
       {
-        "title": "Kerngebiet: Stadt München",
-        "intro": "Anfragen aus dem Münchner Stadtgebiet können für Wohnungen, Häuser, Büros und kleinere Gewerbeflächen eingereicht werden. Auch innerhalb der Stadt hängt eine Zusage davon ab, ob Adresse, Zugang, Leistungsumfang und Termin organisatorisch zusammenpassen.",
+        "title": "Projekte in München",
+        "intro": "In München betrachten wir Adresse, Gebäudezugang, erforderliche Freigaben und die geplante Installation gemeinsam. So entsteht eine belastbare Einschätzung statt einer pauschalen Aussage nur anhand des Stadtteils.",
         "paragraphs": [],
         "subsections": [
           {
-            "title": "Verfügbarkeit nach konkreter Einsatzadresse",
-            "text": "Für die Prüfung benötigen wir Straße, Hausnummer und Postleitzahl sowie eine kurze Beschreibung des Vorhabens. Eine Stadtteilangabe allein reicht nicht aus, weil Zufahrt, Haltemöglichkeiten, Gebäudezugang und Umfang der Montage je Adresse unterschiedlich sein können."
+            "title": "Einsatzadresse prüfen",
+            "text": "Straße, Hausnummer und Postleitzahl ordnen das Projekt in seiner tatsächlichen Umgebung ein. Gebäudezugang, mögliche Gerätepositionen und der Weg zum Außenbereich können dann zusammen mit den gewünschten Räumen betrachtet werden."
           }
         ],
         "tone": "paper"
       },
       {
-        "title": "Installationen im Landkreis München",
-        "intro": "Auch Projekte im Landkreis München gehören zum vorgesehenen Einsatzgebiet, werden jedoch nicht allein aufgrund des Ortsnamens zugesagt. Die Adressprüfung verbindet die konkrete Lage mit dem Umfang der geplanten Single- oder Multi-Split-Installation.",
+        "title": "Projekte im Landkreis München",
+        "intro": "Für Projekte im Landkreis München betrachten wir Postleitzahl, Adresse und die wichtigsten Projektdaten gemeinsam, da Gebäude und Zugänge innerhalb des Gebiets unterschiedlich sind.",
         "paragraphs": [],
         "subsections": [
           {
-            "title": "Prüfung nach Postleitzahl",
-            "text": "Die Postleitzahl ermöglicht eine erste geografische Zuordnung; für die abschließende Einsatzprüfung werden zusätzlich die vollständige Adresse und Projektdaten benötigt. So lassen sich Anfahrt, Zugang und der voraussichtliche Montagebedarf gemeinsam bewerten."
+            "title": "Planung im Landkreis",
+            "text": "Die Postleitzahl genügt für ein erstes Gespräch. Mit der vollständigen Adresse lassen sich Anfahrt und Zugang genauer einordnen; anschließend berücksichtigen wir Gebäudeart, Räume, Außenposition und Montageaufwand."
           }
         ],
         "image": "munich-city",
@@ -848,37 +848,29 @@
         "tone": "paper"
       },
       {
-        "title": "Angrenzende Landkreise auf Anfrage",
-        "intro": "Außerhalb von Stadt und Landkreis München gibt es keine allgemeine Abdeckung. Für die ausdrücklich genannten angrenzenden Landkreise kann eine Anfrage gestellt werden, über die erst nach Prüfung von Adresse, Projektgröße und logistischer Machbarkeit entschieden wird.",
+        "title": "Projekte außerhalb des Kerngebiets",
+        "intro": "Für Standorte außerhalb von Stadt und Landkreis München gibt es keine pauschale Verfügbarkeitszusage. Eine andere Adresse kann mit einer kurzen Projektbeschreibung eingereicht und individuell betrachtet werden.",
         "paragraphs": [],
         "subsections": [
           {
-            "title": "Dachau und Fürstenfeldbruck",
-            "text": "Adressen in den Landkreisen Dachau und Fürstenfeldbruck können zur Einzelfallprüfung eingereicht werden. Daraus entsteht weder eine allgemeine Zusage für den gesamten Landkreis noch eine feste Verfügbarkeit für jede Projektart oder jeden Termin."
-          },
-          {
-            "title": "Starnberg und Ebersberg",
-            "text": "Für Starnberg und Ebersberg gilt ebenfalls die Prüfung anhand der vollständigen Adresse. Neben der Entfernung sind Gebäudezugang, Umfang und erforderliche Montageschritte entscheidend dafür, ob das Vorhaben organisatorisch berücksichtigt werden kann."
-          },
-          {
-            "title": "Freising",
-            "text": "Anfragen aus dem Landkreis Freising werden nur adress- und projektbezogen beurteilt. Eine bestätigte Durchführung setzt voraus, dass Anfahrt, Montageumfang und Termin im konkreten Fall abgestimmt werden können."
+            "title": "Individuelle Standortprüfung",
+            "text": "Die genaue Adresse, Anfahrt, der Zugang und der Montageumfang entscheiden darüber, ob ein Projekt außerhalb des Kerngebiets berücksichtigt werden kann. Maßgeblich ist das konkrete Vorhaben, nicht ein pauschales Regionaletikett."
           }
         ],
         "tone": "ink"
       },
       {
-        "title": "Warum wir das Gebiet bewusst begrenzen",
-        "intro": "Ein klar beschriebenes Gebiet schafft realistische Erwartungen und verhindert, dass eine unverbindliche Reichweite mit tatsächlicher Einsatzfähigkeit verwechselt wird. Die Entscheidung für ein Projekt berücksichtigt daher nicht nur Entfernung, sondern auch Umfang und notwendige Koordination.",
+        "title": "Was wir vor einer Projektzusage prüfen",
+        "intro": "Zu einer guten Montageplanung gehören Anfahrt, Zugang und gegebenenfalls die Abstimmung mit Eigentümern oder weiteren Gewerken. Diese Punkte betrachten wir zusammen, um jede Anfrage fundiert einordnen zu können.",
         "paragraphs": [],
         "subsections": [
           {
-            "title": "Planbare Anfahrt",
-            "text": "Mit vollständiger Adresse lassen sich Strecke, Zufahrt und möglicher Materialtransport vorab besser einordnen. Das ist insbesondere dann relevant, wenn mehrere Geräte, besondere Zugänge oder zusätzliche Montageschritte vorgesehen sind."
+            "title": "Anfahrt und Zugang",
+            "text": "Mit vollständiger Adresse lassen sich Strecke, Zufahrt und möglicher Materialtransport besser einordnen. Das ist besonders hilfreich, wenn mehrere Geräte, besondere Zugänge oder zusätzliche Montageschritte vorgesehen sind."
           },
           {
-            "title": "Realistische Projektkoordination",
-            "text": "Eine Installation umfasst Vorbereitung, Abstimmung und gegebenenfalls mehrere beteiligte Stellen. Das begrenzte Gebiet dient dazu, Anfahrt und Projektablauf auf Grundlage konkreter Daten zu beurteilen; es ist keine Aussage über sofortige oder flächendeckende Verfügbarkeit."
+            "title": "Montage koordinieren",
+            "text": "Eine Installation umfasst Vorbereitung, Abstimmung und gegebenenfalls mehrere beteiligte Stellen. Adresse und Projektdaten helfen dabei, diese Schritte zu einem praktischen Ablauf zu verbinden."
           }
         ],
         "tone": "isar"
@@ -888,27 +880,27 @@
     "faq": [
       {
         "question": "Arbeiten Sie in allen Münchner Stadtteilen?",
-        "answer": "Anfragen aus allen Münchner Stadtbezirken können eingereicht werden. Ob ein konkreter Einsatz möglich ist, wird dennoch für die genaue Adresse geprüft, weil Zufahrt, Gebäudezugang, Montagesituation und Termin unabhängig vom Stadtteil unterschiedlich sein können."
+        "answer": "Anfragen können aus allen Münchner Stadtbezirken eingereicht werden. Mit der genauen Adresse prüfen wir Zufahrt, Gebäudezugang und Montagesituation, bevor wir den nächsten Schritt bestätigen."
       },
       {
-        "question": "Ist eine Installation im Landkreis München möglich?",
-        "answer": "Ja, Projekte im Landkreis München gehören zum vorgesehenen Kerngebiet der Prüfung. Benötigt werden die vollständige Adresse und eine Beschreibung der gewünschten Split-Installation; erst danach kann die Verfügbarkeit für dieses Vorhaben bestätigt werden."
+        "question": "Kann ein Projekt im Landkreis München geprüft werden?",
+        "answer": "Ja. Senden Sie die vollständige Adresse und eine kurze Beschreibung der gewünschten Split-Klimaanlage. Damit lässt sich das Projekt einordnen, ohne allein aus dem Standort eine pauschale Zusage abzuleiten."
       },
       {
-        "question": "Welche angrenzenden Landkreise prüfen Sie?",
-        "answer": "Auf Anfrage werden Adressen in Dachau, Fürstenfeldbruck, Starnberg, Freising und Ebersberg geprüft. Es handelt sich dabei um eine Einzelfallprüfung und nicht um eine pauschale Abdeckung aller Orte innerhalb dieser Landkreise."
+        "question": "Kann ich einen anderen Standort anfragen?",
+        "answer": "Ja. Ergänzen Sie die genaue Adresse und die wichtigsten Projektdaten. Standorte außerhalb des Kerngebiets werden individuell betrachtet; die Anfrage selbst bestätigt noch keine Verfügbarkeit."
       },
       {
         "question": "Bieten Sie Installationen in ganz Bayern an?",
-        "answer": "Nein, eine bayernweite Abdeckung wird nicht angeboten oder zugesagt. Der Schwerpunkt liegt auf München und dem Landkreis München; nur die ausdrücklich genannten angrenzenden Landkreise können nach vollständiger Adress- und Projektprüfung berücksichtigt werden."
+        "answer": "Das Projektgebiet ist auf München und den Landkreis München ausgerichtet. Andere Adressen werden anhand von Standort und Umfang individuell betrachtet; die Website vermittelt keine pauschale Abdeckung für ganz Bayern."
       },
       {
-        "question": "Wie wird die Verfügbarkeit geprüft?",
-        "answer": "Geprüft werden vollständige Einsatzadresse, Art und Zahl der zu kühlenden Räume, vorgesehenes System, Gebäudezugang und voraussichtlicher Montageumfang. Falls zusätzliche Technik, mehrere Termine oder Fremdgewerke nötig sind, fließt auch deren Koordination in die Entscheidung ein."
+        "question": "Wie wird ein Projektstandort geprüft?",
+        "answer": "Wir beginnen mit Postleitzahl, vollständiger Adresse und einer kurzen Beschreibung von Gebäude, Räumen und gewünschtem System. Danach betrachten wir Zugang, mögliche Außenposition und Montageaufwand, bevor wir das weitere Vorgehen bestätigen."
       }
     ],
-    "formTitle": "Postleitzahl prüfen lassen",
-    "formIntro": "Senden Sie Postleitzahl und vollständige Adresse zusammen mit einer kurzen Projektbeschreibung. Nennen Sie Gebäudeart, Anzahl der Räume und gewünschtes System, damit nicht nur die Entfernung, sondern auch der voraussichtliche Montageumfang bewertet werden kann."
+    "formTitle": "Projektstandort mitteilen",
+    "formIntro": "Senden Sie Postleitzahl und vollständige Adresse zusammen mit einer kurzen Projektbeschreibung. Gebäudeart, Anzahl der Räume und gewünschtes System helfen uns, Standort und Montageaufwand passend einzuordnen."
   },
   {
     "key": "about",
@@ -916,18 +908,18 @@
     "path": "/ueber-uns/",
     "alternatePath": "/en/about/",
     "navLabel": "Über uns",
-    "title": "Fokus auf neue Klimaanlagen in München | IsarKlima",
-    "description": "IsarKlima fokussiert neue Split-Klimaanlagen für Wohnung, Haus und kleinere Gewerbeflächen in München.",
-    "eyebrow": "Fokus statt Vollsortiment",
-    "h1": "Unser Fokus: neue Klimaanlagen-Installationen in München",
-    "intro": "Dieses Angebot ist bewusst klar abgegrenzt: Im Mittelpunkt stehen neue und nachgerüstete Split-Klimaanlagen für Wohnungen, Häuser, Büros und kleinere Gewerbeflächen in München und im Landkreis München. Reparatur, Wartung, Industrie- oder Prozesskälte und besondere kritische Einsatzbereiche gehören nicht zum beschriebenen Leistungsumfang.",
+    "title": "Über IsarKlima | Klimaanlagen in München",
+    "description": "So plant IsarKlima Split-Klimaanlagen für Wohnungen, Häuser und kleinere Gewerbeflächen in München.",
+    "eyebrow": "Planung · Montage · Übergabe",
+    "h1": "Über IsarKlima",
+    "intro": "IsarKlima steht für klar und sorgfältig geplante Klimaanlagen-Installationen in Wohnungen, Häusern, Büros und kleineren Gewerbeflächen in München. Ausgangspunkt sind die Nutzung der Räume und die tatsächlichen Bedingungen des Gebäudes; daraus entsteht ein Konzept für Gerätepositionen, Leitungswege, Freigaben und Zugang.",
     "heroImage": "technician-outdoor-portrait",
     "heroImageAlt": "Symbolbild eines Klimatechnikers neben einem Außengerät",
-    "heroNote": "Neue Installationen",
+    "heroNote": "Planung & Montage",
     "sections": [
       {
-        "title": "Was wir installieren",
-        "intro": "Geplant werden stationäre Split-Systeme für klar definierte Räume und Nutzungszonen. Welches Konzept weiterverfolgt wird, entscheidet sich anhand von Kühlbedarf, Gebäude, Außenstandort, Leitungswegen und den für die konkrete Montage verfügbaren Freigaben.",
+        "title": "Klimaanlagen passend zum Gebäude geplant",
+        "intro": "Wir planen Split-Klimaanlagen mit einem oder mehreren Innengeräten und passender Außeneinheit. Kühlbedarf, Gebäude und Montageweg bestimmen den Vorschlag – nicht eine bevorzugte Marke oder ein vorgegebenes Paket.",
         "paragraphs": [],
         "subsections": [
           {
@@ -936,7 +928,7 @@
           },
           {
             "title": "Wohnräume, Häuser und kleinere Gewerbeflächen",
-            "text": "Zum Fokus gehören einzelne oder mehrere Räume in Wohnungen und Häusern sowie Büros und überschaubare Gewerbeeinheiten. Nicht umfasst sind Hotels, Krankenhäuser, große Industrieanlagen, Prozesskälte oder Räume mit besonderen Anforderungen an Ausfallsicherheit und kritische Infrastruktur."
+            "text": "Wohnungen, Häuser, Büros und kleinere Gewerbeflächen bringen unterschiedliche Raumaufteilungen, Wärmelasten und Zugangsbedingungen mit. Eigentumssituation, Gebäudenutzung und mögliche Außenposition prägen die Planung für jedes Vorhaben."
           }
         ],
         "tone": "paper"
@@ -964,21 +956,21 @@
         "tone": "paper"
       },
       {
-        "title": "Nachweise und Verantwortlichkeiten vor dem Marktstart",
-        "intro": "Vor der Annahme realer Aufträge müssen rechtliche, fachliche und betriebliche Grundlagen geprüft und in Impressum, Datenschutz sowie Leistungsbeschreibung korrekt abgebildet sein. Bis dahin bleiben Unternehmens- und Qualifikationsangaben unbeansprucht und die Anfragefunktion darf nicht als aktive Auftragsannahme erscheinen.",
+        "title": "Klare Zuständigkeiten von der Planung bis zur Übergabe",
+        "intro": "Ein gut organisiertes Projekt macht Zuständigkeiten vor Beginn der Arbeiten sichtbar. Im Angebot werden Installation, technische Schnittstellen, Unterlagen und gegebenenfalls separat koordinierte Aufgaben so beschrieben, dass alle Beteiligten ihre Verantwortung kennen.",
         "paragraphs": [],
         "subsections": [
           {
-            "title": "Kälte- und klimatechnische Qualifikation",
-            "text": "Vor Ausführung kältetechnischer Arbeiten werden die für Personen und gegebenenfalls Unternehmen erforderlichen Nachweise für den tatsächlichen Tätigkeitsumfang geprüft. Konkrete Bezeichnungen, Zertifikate oder Registrierungen werden erst veröffentlicht, wenn Inhaber, Gültigkeit und Anwendungsbereich belegt sind."
+            "title": "Qualifizierte kältetechnische Arbeiten",
+            "text": "Arbeiten am Kältemittelkreislauf dürfen nur von Personen und gegebenenfalls Unternehmen ausgeführt werden, die für das gewählte System und Kältemittel qualifiziert sind. Die verantwortliche Stelle und der vorgesehene Umfang müssen in den Projektunterlagen klar benannt sein."
           },
           {
-            "title": "Betriebliche Freigabe und Versicherung",
-            "text": "Auch Rechtsform, gewerbe- beziehungsweise handwerksrechtlicher Status, betriebliche Verantwortlichkeit und Versicherungsschutz müssen zur vorgesehenen Tätigkeit und zum Einsatz in Deutschland passen. Diese Angaben sind vor Marktstart zu verifizieren und dürfen nicht durch allgemeine Formulierungen wie lokaler Fach- oder Meisterbetrieb ersetzt werden."
+            "title": "Klare Projektdokumentation",
+            "text": "Angebot und Auftragsunterlagen benennen Vertragspartner, vereinbarte Installation und Verantwortlichkeiten. Technische Angaben, Annahmen und separat organisierte Arbeiten gehören in dieselbe nachvollziehbare Projektdokumentation."
           },
           {
             "title": "Elektrische Arbeiten und Partnerleistungen",
-            "text": "Für jedes Projekt wird abgegrenzt, welche elektrische Schnittstelle zur Split-Installation gehört und welche Arbeiten an der festen Elektroanlage eine gesondert berechtigte Stelle erfordern. Partner- oder Fremdleistungen werden nur genannt, wenn die Zusammenarbeit tatsächlich besteht und Verantwortlichkeit, Beauftragung und Leistungsumfang geklärt sind."
+            "text": "Split-Klimaanlagen besitzen eine elektrische Schnittstelle. Muss ein fester Stromkreis, Schutz oder Anschluss ergänzt oder geändert werden, darf diese Arbeit nur durch eine entsprechend qualifizierte Elektrofachkraft ausgeführt werden. Die Zuständigkeit muss im Angebot klar benannt sein."
           }
         ],
         "tone": "ink"
@@ -987,28 +979,28 @@
     "faqTitle": "Häufige Fragen über unsere Arbeitsweise",
     "faq": [
       {
-        "question": "Welche Projekte passen zu unserem Fokus?",
-        "answer": "Passend sind neue oder nachgerüstete Single- und Multi-Split-Anlagen für Wohnungen, Häuser, Büros und kleinere Gewerbeflächen in München und im Landkreis München. Anfragen aus bestimmten angrenzenden Landkreisen werden nur nach Adresse geprüft. Sonderkälte, Großanlagen und kritische Bereiche fallen nicht in diesen Fokus."
+        "question": "Für welche Gebäude planen wir Klimaanlagen?",
+        "answer": "Wir planen Single- und Multi-Split-Klimaanlagen für Wohnungen, Häuser, Büros und kleinere Gewerbeflächen. Voraussetzung sind ein geeigneter Leitungsweg, Außenstandort, Kondensatablauf, Stromanschluss und Zugang sowie die erforderlichen Freigaben."
       },
       {
-        "question": "Bieten wir Reparaturen oder Wartung an?",
-        "answer": "Nein. Das hier beschriebene Angebot umfasst ausschließlich die Planung und Ausführung neuer beziehungsweise nachgerüsteter Split-Installationen im vereinbarten Projektumfang. Reparatur-, Störungs- und Wartungsleistungen werden auf diesen Seiten nicht angeboten."
+        "question": "Was umfasst die Klimaanlagen-Installation?",
+        "answer": "Die Leistung umfasst die Planung und Installation der Split-Klimaanlage mit Gerätepositionen, Leitungswegen, technischen Schnittstellen, Inbetriebnahme und Übergabe, soweit dies für das jeweilige Projekt vereinbart ist. Das Angebot beschreibt den genauen Umfang für das Gebäude."
       },
       {
         "question": "Wie wird der Leistungsumfang festgelegt?",
         "answer": "Er entsteht aus Projektangaben, Fotos und gegebenenfalls einer Vor-Ort-Prüfung. Im Angebot werden System, Gerätepositionen, Leitungsweg, enthaltene Montageschritte, Prüfungen, Übergabe und bekannte Ausschlüsse beschrieben; notwendige Fremdarbeiten erhalten eine klare Zuständigkeit."
       },
       {
-        "question": "Welche Nachweise werden vor Auftragsannahme geprüft?",
-        "answer": "Zu prüfen sind die tatsächliche Unternehmens- und Betriebsform, der einschlägige handwerksrechtliche Status, erforderliche persönliche und betriebliche Qualifikationsnachweise, Versicherung und technische Verantwortlichkeiten. Hinzu kommen Berechtigung beziehungsweise reale Partnerlösung für elektrische Arbeiten sowie die Systeme und Kältemittel, die tatsächlich installiert werden dürfen."
+        "question": "Wer führt Facharbeiten aus?",
+        "answer": "Arbeiten am Kältemittelkreislauf und an der festen Elektroanlage dürfen nur von den für die jeweilige Aufgabe qualifizierten Personen oder Unternehmen ausgeführt werden. Die Projektunterlagen müssen die Zuständigkeiten und separat koordinierte Arbeiten eindeutig benennen."
       },
       {
         "question": "In welchen Sprachen kann ein Projekt abgestimmt werden?",
-        "answer": "Die verfügbare Sprache für Anfrage, technische Abstimmung, Termin und Unterlagen wird vor einer Beauftragung ausdrücklich bestätigt. Eine übersetzte Website allein belegt nicht, dass jede Projektphase in dieser Sprache betreut werden kann; deshalb wird hier keine nicht verifizierte Sprachauswahl zugesagt."
+        "answer": "Die Website steht auf Deutsch und Englisch zur Verfügung. In welcher Sprache technische Abstimmung, Termin und Übergabe erfolgen, wird für das jeweilige Projekt direkt bestätigt."
       }
     ],
     "formTitle": "Projekt besprechen",
-    "formIntro": "Beschreiben Sie Ihr Vorhaben mit Adresse, Gebäudeart, Räumen, gewünschter Split-Lösung und vorhandenen Freigaben. Eine Projektabstimmung und Auftragsannahme darf erst erfolgen, wenn Anfrageweg, Unternehmensdaten, Datenschutz und die für den tatsächlichen Leistungsumfang erforderlichen Verantwortlichkeiten aktiviert und geprüft sind."
+    "formIntro": "Beschreiben Sie Ihr Vorhaben mit Adresse, Gebäudeart, Räumen, gewünschter Split-Lösung und vorhandenen Freigaben. Sobald Anfragen aktiv sind, helfen diese Angaben dabei, die Installation einzuordnen und den passenden nächsten Schritt vorzubereiten; ein erstes Gespräch ist noch kein Auftrag."
   },
   {
     "key": "contact",
@@ -1016,14 +1008,14 @@
     "path": "/kontakt/",
     "alternatePath": "/en/contact/",
     "navLabel": "Kontakt",
-    "title": "Klimaanlagen-Angebot in München anfragen | IsarKlima",
-    "description": "Projektangaben für eine neue Split-Klimaanlage in München vorbereiten und nach Freigabe sicher übermitteln.",
-    "eyebrow": "Projekt in München vorbereiten",
-    "h1": "Angebot für eine Klimaanlagen-Installation in München anfragen",
-    "intro": "Eine aussagekräftige Anfrage verbindet den gewünschten Kühlbedarf mit der realen Einbausituation. Für neue und nachgerüstete Split-Anlagen in München und im Landkreis München helfen vollständige Standort-, Raum- und Freigabeangaben dabei, technische Möglichkeiten und noch offene Punkte gezielt zu prüfen.",
+    "title": "Angebot für eine Klimaanlage in München | IsarKlima",
+    "description": "Projektangaben für eine Split-Klimaanlage in München vorbereiten und nach Freigabe sicher übermitteln.",
+    "eyebrow": "Ihre Projektanfrage",
+    "h1": "Angebot für eine Klimaanlage in München anfragen",
+    "intro": "Eine aussagekräftige Anfrage verbindet den gewünschten Kühlbedarf mit der realen Einbausituation. Vollständige Standort-, Raum- und Freigabeangaben helfen dabei, technische Möglichkeiten und noch offene Punkte gezielt zu prüfen.",
     "heroImage": "hero-technician",
     "heroImageAlt": "Techniker bei der Prüfung eines Klimaanlagen-Innengeräts",
-    "heroNote": "Neue Installationen",
+    "heroNote": "Planung & Montage",
     "sections": [
       {
         "title": "Diese Angaben helfen bei der ersten Prüfung",
@@ -1067,12 +1059,12 @@
     "faqTitle": "Häufige Fragen zur Anfrage",
     "faq": [
       {
-        "question": "Kann ich Fotos mitsenden?",
-        "answer": "Ja, Fotos sind für die erste technische Einordnung besonders hilfreich. Zeigen Sie den gesamten Raum, mögliche Innenpositionen, die betreffende Wand innen und außen, den geplanten Leitungsweg, einen möglichen Platz für das Außengerät und die Zugänge; Nahaufnahmen allein lassen die räumlichen Zusammenhänge oft nicht erkennen."
+        "question": "Wann kann ich Fotos bereitstellen?",
+        "answer": "Fotos sind für die erste technische Einordnung hilfreich und können nach der ersten Kontaktaufnahme über einen bestätigten Übermittlungsweg angefordert werden. Zeigen sollten sie den gesamten Raum, mögliche Gerätepositionen, den Leitungsweg und die Zugänge."
       },
       {
-        "question": "Welche Dateiformate sind sinnvoll?",
-        "answer": "Für Fotos eignen sich gängige Bilddateien wie JPG, PNG oder WebP; Grundrisse und vorhandene Freigaben können als gut lesbare PDF-Datei beigefügt werden. Entfernen oder schwärzen Sie Informationen, die für die Projektprüfung nicht benötigt werden, und senden Sie keine Ausweisdokumente oder Zugangsdaten."
+        "question": "Wie werden Fotos und Pläne übermittelt?",
+        "answer": "Der bestätigte Kontaktweg erklärt, wie Fotos oder Pläne bereitgestellt werden können, falls sie für die Prüfung benötigt werden. Das derzeit vorbereitete Projektformular nimmt keine Dateien entgegen."
       },
       {
         "question": "Muss ich bereits ein Gerät ausgewählt haben?",
@@ -1088,7 +1080,7 @@
       }
     ],
     "formTitle": "Projektformular",
-    "formIntro": "Das Formular fragt nur Angaben ab, die für Standort, Gebäude, Räume, Systemwunsch, Freigaben und Kontakt benötigt werden. In der Vorschau bleibt die Übermittlung deaktiviert; sie darf erst nach Einrichtung des realen Empfängers sowie vollständiger Datenschutz- und Unternehmensinformationen für Anfragen freigeschaltet werden."
+    "formIntro": "Das Projektformular fragt nur Angaben ab, die für Standort, Gebäude, Räume, Systemwunsch, Freigaben und Kontakt benötigt werden. Diese Informationen bilden die Grundlage für eine erste technische Einordnung und eine gezielte Rückmeldung."
   },
   {
     "key": "guides",
@@ -1096,14 +1088,14 @@
     "path": "/ratgeber/",
     "alternatePath": "/en/guides/",
     "navLabel": "Ratgeber",
-    "title": "Ratgeber zur Klimaanlagen-Installation München",
+    "title": "Klimaanlagen-Ratgeber für München | IsarKlima",
     "description": "Praxisnahe Grundlagen zu Freigaben, Systemwahl, Schall, Dimensionierung, Montage und Kosten in München.",
-    "eyebrow": "Ratgeber · Planung vor Produkt",
+    "eyebrow": "Wissen rund um Klimaanlagen",
     "h1": "Ratgeber zur Klimaanlagen-Installation in München",
-    "intro": "Der Ratgeber bündelt praktische Grundlagen für neue und nachgerüstete Split-Klimaanlagen in Wohnungen, Häusern, Büros und kleineren Gewerbeflächen. Er hilft dabei, Freigaben, Systemwahl, Außenstandort, Montage und Kostenfragen vorzubereiten, ersetzt aber keine Prüfung des konkreten Gebäudes oder eine individuelle technische Planung.",
+    "intro": "Der Ratgeber bündelt praktische Grundlagen zur Installation von Split-Klimaanlagen in Wohnungen, Häusern, Büros und kleineren Gewerbeflächen. Er hilft dabei, Freigaben, Systemwahl, Außenstandort, Montage und Kostenfragen vorzubereiten, ersetzt aber keine Prüfung des konkreten Gebäudes oder eine individuelle technische Planung.",
     "heroImage": "split-unit-interior",
     "heroImageAlt": "Split-Klimaanlage in einem modernen Innenraum",
-    "heroNote": "Neue Installationen",
+    "heroNote": "Planung & Montage",
     "sections": [
       {
         "title": "Vor der Installation",
@@ -1180,7 +1172,7 @@
       }
     ],
     "formTitle": "Eigenes Projekt prüfen lassen",
-    "formIntro": "Nutzen Sie die Ratgeberthemen, um Freigaben, Fotos, Maße und offene Fragen strukturiert zusammenzustellen. Sobald die Anfragefunktion rechtlich und technisch aktiviert ist, können diese Angaben für eine erste Prüfung einer neuen oder nachgerüsteten Split-Anlage in München oder im Landkreis München eingereicht werden."
+    "formIntro": "Nutzen Sie die Ratgeberthemen, um Freigaben, Maße und offene Fragen strukturiert zusammenzustellen. Halten Sie passende Fotos bereit; falls sie benötigt werden, erhalten Sie nach der ersten Kontaktaufnahme einen bestätigten Übermittlungsweg."
   },
   {
     "key": "home",
@@ -1188,17 +1180,17 @@
     "path": "/en/",
     "alternatePath": "/",
     "navLabel": "Home",
-    "title": "Air conditioning installation Munich | IsarKlima",
-    "description": "New single-split and multi-split air conditioning installations for apartments, homes and small commercial spaces in Munich.",
-    "eyebrow": "Air conditioning installation · Munich",
-    "h1": "Air conditioning installation in Munich and surrounding areas",
-    "intro": "A successful split air conditioning project starts with the building, not with a product catalogue. Room use, heat gain, possible unit positions, permissions, pipe routes, condensate drainage and the electrical interface all affect what can be installed. This service is focused on new single-split and multi-split installations, including retrofit projects, in Munich and the Munich district. Enquiries from neighbouring districts can be reviewed only after the exact project address is known.",
+    "title": "Air conditioning installation in Munich | IsarKlima",
+    "description": "Single-split and multi-split air conditioning installation for apartments, homes and small commercial spaces in Munich.",
+    "eyebrow": "Single-split & multi-split systems",
+    "h1": "Air conditioning installation in Munich",
+    "intro": "A successful split air conditioning project starts with the building, not with a product catalogue. Room use, heat gain, possible unit positions, permissions, pipe routes, condensate drainage and the electrical interface all affect what can be installed. IsarKlima plans single-split and multi-split air conditioning for apartments, homes, offices and smaller commercial spaces in Munich, with each project shaped around the actual property.",
     "heroImage": "hero-technician",
     "heroImageAlt": "Technician checking an indoor split air conditioning unit",
-    "heroNote": "New installations",
+    "heroNote": "Planning & installation",
     "sections": [
       {
-        "title": "New air conditioning systems for apartments, homes and businesses",
+        "title": "Air conditioning for apartments, homes and businesses",
         "intro": "The right arrangement depends on how many rooms need cooling and how independently they are used. A compact apartment, a family home and a small office may have very different heat loads, operating patterns and options for an outdoor unit. The installation concept should therefore be based on the actual rooms and building constraints rather than on a standard package.",
         "paragraphs": [],
         "subsections": [
@@ -1212,7 +1204,7 @@
           },
           {
             "title": "Solutions for offices and small commercial spaces",
-            "text": "Offices and smaller commercial premises are assessed according to occupancy, equipment, solar gain, opening hours and the way different areas are used. The scope is limited to comfort cooling with split systems in non-critical spaces. It does not include industrial refrigeration, hospitals, hotels or rooms whose operation depends on specialist or redundant cooling infrastructure."
+            "text": "For offices and smaller commercial premises, occupancy, equipment, solar gain, opening hours and the way different areas are used all influence the solution. Planning these factors together helps create comfortable conditions without relying on a generic system or capacity assumption."
           }
         ],
         "tone": "paper"
@@ -1260,8 +1252,8 @@
         "tone": "ink"
       },
       {
-        "title": "Munich service area",
-        "intro": "The initial assessment area is Munich and Landkreis München, the surrounding Munich district. Availability is checked against the exact postcode, address, building access and project scope rather than assumed from a city name alone. Addresses in Dachau, Fürstenfeldbruck, Starnberg, Freising and Ebersberg can be submitted for an individual check, but the site does not claim blanket coverage across those districts or throughout Bavaria.",
+        "title": "Where we work",
+        "intro": "The project area is centred on Munich and the Munich district. The exact address helps us consider access, the building and practical coordination. Other locations can be reviewed from the project details rather than assumed from a broad regional label.",
         "paragraphs": [],
         "subsections": [],
         "tone": "isar"
@@ -1307,11 +1299,11 @@
       },
       {
         "question": "Can I enquire from outside Munich?",
-        "answer": "Yes, an address can be submitted for review, but an enquiry does not confirm coverage. Munich and the Munich district are the defined initial area. Projects in Dachau, Fürstenfeldbruck, Starnberg, Freising and Ebersberg are considered only after the precise location, travel requirements and project scope have been checked; no service across the rest of Bavaria is implied."
+        "answer": "The project area is centred on Munich and the Munich district. If the address is elsewhere, include it with the project details so we can confirm individually whether it can be considered."
       }
     ],
     "formTitle": "Request a project quote",
-    "formIntro": "Use the project form to describe the address, rooms, building type, preferred indoor and outdoor positions and current permission status. Photographs and plans can be requested through the approved submission method when the enquiry channel is activated. The form must remain inactive until the dedicated Formspree endpoint, privacy information and verified operating details are in place."
+    "formIntro": "Use the project form to describe the address, rooms, building type, possible indoor and outdoor positions and current permission status. Once the enquiry channel is active, these details will help us understand the property and prepare the right next step."
   },
   {
     "key": "split",
@@ -1319,14 +1311,14 @@
     "path": "/en/split-air-conditioning-installation/",
     "alternatePath": "/split-klimaanlage-installation/",
     "navLabel": "Split air conditioning",
-    "title": "Split air conditioning installation Munich | IsarKlima",
-    "description": "Planning and installation of new single-split and multi-split air conditioning systems in Munich and the Munich district.",
+    "title": "Split air conditioning installation in Munich | IsarKlima",
+    "description": "Planning and installation of single-split and multi-split air conditioning systems in Munich.",
     "eyebrow": "Single- & multi-split",
     "h1": "Split air conditioning installation in Munich",
-    "intro": "Split air conditioning can provide targeted comfort cooling without a central duct network, but the apparent simplicity of the system should not obscure the planning involved. The indoor and outdoor units, refrigerant lines, condensate route, power supply and permissions form one installation. This page covers new single-split and multi-split projects in Munich and the Munich district, including installations added to existing buildings.",
+    "intro": "Split air conditioning can provide targeted comfort cooling without a central duct network, but the apparent simplicity of the system should not obscure the planning involved. The indoor and outdoor units, refrigerant lines, condensate route, power supply and permissions form one installation. IsarKlima plans single-split and multi-split systems around the rooms, building and installation route.",
     "heroImage": "commissioning-gauges",
     "heroImageAlt": "Test gauges used while commissioning a split air conditioning system",
-    "heroNote": "New installations",
+    "heroNote": "Planning & installation",
     "sections": [
       {
         "title": "Single-split or multi-split?",
@@ -1439,14 +1431,14 @@
     "path": "/en/air-conditioning-apartment/",
     "alternatePath": "/klimaanlage-wohnung/",
     "navLabel": "Apartment",
-    "title": "Apartment air conditioning installation Munich | IsarKlima",
+    "title": "Air conditioning for apartments in Munich | IsarKlima",
     "description": "Split air conditioning for rental or owner-occupied apartments: permissions, planning and installation in Munich.",
     "eyebrow": "Apartment · planning · consent",
-    "h1": "Apartment air conditioning installation in Munich",
+    "h1": "Air conditioning for apartments in Munich",
     "intro": "Installing split air conditioning in an apartment requires technical planning and a clear understanding of who can approve changes to the building. The indoor unit may be inside the private dwelling, while the outdoor unit, facade, balcony or wall penetration can affect rented property or common ownership. The process should therefore begin with permission and a realistic installation route, not with ordering equipment.",
     "heroImage": "apartment-comfort",
     "heroImageAlt": "Bright apartment living space illustrating indoor comfort",
-    "heroNote": "New installations",
+    "heroNote": "Planning & installation",
     "sections": [
       {
         "title": "Rental or owner-occupied apartment: clarify permission first",
@@ -1555,14 +1547,14 @@
     "path": "/en/air-conditioning-house/",
     "alternatePath": "/klimaanlage-haus/",
     "navLabel": "House",
-    "title": "Home air conditioning installation Munich | IsarKlima",
-    "description": "New single-split or multi-split air conditioning for homes in Munich, planned around rooms, routes and outdoor location.",
+    "title": "Home air conditioning installation in Munich | IsarKlima",
+    "description": "Single-split or multi-split air conditioning for homes in Munich, planned around rooms, routes and outdoor location.",
     "eyebrow": "Home · single- & multi-split",
     "h1": "Home air conditioning installation in Munich",
-    "intro": "A house offers more options for indoor and outdoor unit placement than many apartments, but it also presents a wider range of room loads and possible routes. A bedroom under the roof, a glazed living area and a ground-floor home office do not need the same solution. New and retrofit split installations should therefore be planned around the rooms that actually require cooling, the construction of the house and the practical path for each connection.",
+    "intro": "A house offers more options for indoor and outdoor unit placement than many apartments, but it also presents a wider range of room loads and possible routes. A bedroom under the roof, a glazed living area and a ground-floor home office do not need the same solution. The air conditioning should therefore be planned around the rooms that actually require cooling, the construction of the house and the practical path for each connection.",
     "heroImage": "split-unit-interior",
     "heroImageAlt": "Wall-mounted split air conditioning unit in a home interior",
-    "heroNote": "New installations",
+    "heroNote": "Planning & installation",
     "sections": [
       {
         "title": "Cooling one room or several living areas",
@@ -1663,7 +1655,7 @@
       }
     ],
     "formTitle": "Request a home installation",
-    "formIntro": "Provide the address, house type, rooms and approximate dimensions, along with photographs or plans showing possible indoor and outdoor positions. Note whether the building is existing, under renovation or in construction and identify any known access or electrical constraints. The project form will be activated only after the operating, privacy and Formspree requirements for genuine enquiries are complete."
+    "formIntro": "Provide the address, house type, rooms, approximate dimensions and possible indoor and outdoor positions. Keep any useful photographs or plans ready; if they are needed, an approved sharing method can be confirmed after the first contact. Note whether the building is existing, under renovation or in construction and identify any known access or electrical constraints."
   },
   {
     "key": "commercial",
@@ -1671,14 +1663,14 @@
     "path": "/en/air-conditioning-office-commercial/",
     "alternatePath": "/klimaanlage-buero-gewerbe/",
     "navLabel": "Office and commercial",
-    "title": "Office air conditioning installation Munich | IsarKlima",
+    "title": "Air conditioning for offices in Munich | IsarKlima",
     "description": "Split air conditioning for offices and small commercial spaces in Munich, from project planning to handover.",
     "eyebrow": "Offices & small commercial spaces",
-    "h1": "Office and commercial air conditioning installation in Munich",
-    "intro": "Comfort cooling for an office or smaller commercial unit must reflect the way the space is occupied and operated. People, computers, lighting, glazed areas and opening hours can create loads that are not apparent from floor area alone. The service scope is limited to new and retrofit split systems for offices and small, non-critical commercial spaces; it excludes industrial refrigeration and environments that require specialist or redundant cooling.",
+    "h1": "Air conditioning for offices and commercial spaces in Munich",
+    "intro": "Air conditioning for an office or smaller commercial unit must reflect the way the space is occupied and operated. People, computers, lighting, glazed areas and opening hours can create loads that are not apparent from floor area alone. IsarKlima plans split systems around those real operating conditions, while spaces with specialist technical or continuity requirements need their own assessment.",
     "heroImage": "installation-team",
     "heroImageAlt": "Technicians installing air conditioning as an illustrative stock image",
-    "heroNote": "New installations",
+    "heroNote": "Planning & installation",
     "sections": [
       {
         "title": "Cooling for offices and small commercial spaces",
@@ -1703,7 +1695,7 @@
         "subsections": [
           {
             "title": "People, equipment and internal heat loads",
-            "text": "Occupants, computers, displays, lighting and other equipment release heat into the room. Their number, power and operating schedule can materially affect cooling demand, especially in compact or well-glazed spaces. Providing this information helps distinguish a normal comfort-cooling project from a space whose equipment or process would require specialist design outside the stated scope."
+            "text": "Occupants, computers, displays, lighting and other equipment release heat into the room. Their number, power and operating schedule can materially affect cooling demand, especially in compact or well-glazed spaces. Providing this information helps match capacity and placement to normal use and identify specialist technical requirements early."
           },
           {
             "title": "Noise-conscious positioning",
@@ -1743,7 +1735,7 @@
     "faq": [
       {
         "question": "Which commercial spaces can be assessed?",
-        "answer": "The intended scope covers offices and smaller commercial spaces where split air conditioning is used for normal occupant comfort. Each address and use must still be reviewed. Industrial refrigeration, hotels, hospitals, server or critical rooms and environments requiring specialist process cooling, redundancy or continuous cooling are outside the stated service focus."
+        "answer": "We assess offices and smaller commercial spaces where split air conditioning is intended to provide comfortable working or customer areas. The building, use, operating hours and any specialist technical requirements are reviewed before a solution is proposed."
       },
       {
         "question": "Can installation take place outside operating hours?",
@@ -1751,11 +1743,11 @@
       },
       {
         "question": "How are internal heat loads considered?",
-        "answer": "The assessment records expected occupancy, computers, lighting, appliances and any other equipment that releases heat during normal use. It also considers glazing, solar gain and operating hours. This information informs the room cooling demand and helps identify cases that fall outside ordinary comfort cooling and require a different specialist scope."
+        "answer": "The assessment records expected occupancy, computers, lighting, appliances and any other equipment that releases heat during normal use. It also considers glazing, solar gain and operating hours. This information informs the room cooling demand and shows whether the space has additional technical requirements that need separate planning."
       },
       {
         "question": "Who coordinates any electrical work required?",
-        "answer": "Responsibility must be stated in the project scope. The split-system assessment identifies the electrical interface specified for the proposed equipment, while any new fixed circuit, protection or connection must be completed by the appropriately qualified electrical party. Until the operating model and any partner arrangements are verified, the website should not claim that a particular electrical service is included."
+        "answer": "Responsibility must be stated in the project scope. The split-system assessment identifies the electrical interface specified for the proposed equipment, while any new fixed circuit, protection or connection must be completed by the appropriately qualified electrical party. The quote should state clearly whether this work is included, coordinated separately or arranged by the customer."
       },
       {
         "question": "What information is needed for a quote?",
@@ -1778,7 +1770,7 @@
     "intro": "Retrofitting split air conditioning means finding a practical route through a building that was not necessarily prepared for it. The project must accommodate indoor and outdoor units, insulated lines, condensate drainage, power and access while respecting ownership and finished surfaces. Feasibility depends on the specific address and proposed rooms; it should not be inferred from the building type alone.",
     "heroImage": "outdoor-unit-site",
     "heroImageAlt": "Outdoor split air conditioning unit installed at a building",
-    "heroNote": "New installations",
+    "heroNote": "Planning & installation",
     "sections": [
       {
         "title": "Can air conditioning be retrofitted in your building?",
@@ -1815,7 +1807,7 @@
           },
           {
             "title": "Office and small commercial space",
-            "text": "An office retrofit must account for occupants, equipment, opening hours and disruption to the premises. The route, unit positions and work period should be coordinated with the landlord or building management where relevant. Only normal comfort-cooling projects for smaller, non-critical spaces fall within the intended scope."
+            "text": "An office retrofit must account for occupants, equipment, opening hours and disruption to the premises. The route, unit positions and work period should be coordinated with the landlord or building management where relevant. Any specialist technical requirements should be identified at the start of planning."
           }
         ],
         "image": "split-unit-interior",
@@ -1883,7 +1875,7 @@
       }
     ],
     "formTitle": "Request a retrofit",
-    "formIntro": "Submit the address, building type, rooms, ownership status and photographs of possible routes and unit positions. Describe which surfaces are finished and whether approval has already been discussed. The form is a future assessment channel and remains inactive until Formspree, privacy, operating qualifications and the scope of accepting real work have been verified."
+    "formIntro": "Submit the address, building type, rooms, ownership status and a description of possible routes and unit positions. Keep supporting photographs ready; if they are needed, an approved sharing method can be confirmed after the first contact. Explain which surfaces are finished and whether approval has already been discussed."
   },
   {
     "key": "costs",
@@ -1891,14 +1883,14 @@
     "path": "/en/air-conditioning-installation-costs/",
     "alternatePath": "/klimaanlage-kosten/",
     "navLabel": "Installation costs",
-    "title": "Air conditioning installation costs Munich | IsarKlima",
+    "title": "Air conditioning installation costs in Munich | IsarKlima",
     "description": "Factors that shape the cost of installed split air conditioning in Munich and what a transparent quote should cover.",
     "eyebrow": "Understanding project costs",
     "h1": "How much does air conditioning installation cost in Munich?",
     "intro": "There is no responsible project price without knowing the rooms, system arrangement and installation route. Equipment is only one part of the scope: mounting, pipework, drainage, electrical interfaces, access and making-good can differ substantially between properties. This page explains what changes the installation cost and what information a quote should contain, without publishing unsupported package prices.",
     "heroImage": "commissioning-gauges",
     "heroImageAlt": "Technical gauges used to check an air conditioning system",
-    "heroNote": "New installations",
+    "heroNote": "Planning & installation",
     "sections": [
       {
         "title": "Why the price depends on the project",
@@ -1987,7 +1979,7 @@
       }
     ],
     "formTitle": "Submit your project for a quote",
-    "formIntro": "Send the address, room information, building and ownership type, photographs and current permission status when the project form is activated. A preferred period can be included as planning context but is not a confirmed appointment. Live submissions remain disabled until the dedicated endpoint, privacy disclosures and the verified legal and technical basis for accepting work are complete."
+    "formIntro": "Send the address, room information, building and ownership type, possible unit positions and current permission status when the project form is activated. Keep supporting photographs ready; if they are needed, an approved sharing method can be confirmed after the first contact. A preferred period can be included as planning context but is not a confirmed appointment."
   },
   {
     "key": "area",
@@ -1995,35 +1987,35 @@
     "path": "/en/service-area/",
     "alternatePath": "/einsatzgebiet/",
     "navLabel": "Service area",
-    "title": "Air conditioning installation area Munich | IsarKlima",
-    "description": "Core coverage in Munich and the Munich district, with neighbouring districts assessed only by exact project address.",
-    "eyebrow": "Service area · Munich",
-    "h1": "Air conditioning installation in Munich and surrounding areas",
-    "intro": "The defined initial assessment area is the city of Munich and Landkreis München, the Munich district surrounding the city. Coverage is checked from the precise installation address because travel, access and project coordination cannot be confirmed from a regional label alone. Selected addresses in neighbouring districts can be reviewed on request, but the service is not presented as Bavaria-wide.",
+    "title": "Air conditioning projects in Munich | IsarKlima",
+    "description": "Planning and installation of split air conditioning in Munich and the Munich district; other locations are reviewed from the project details.",
+    "eyebrow": "Where we work",
+    "h1": "Where IsarKlima installs air conditioning",
+    "intro": "IsarKlima plans air conditioning projects in Munich and the Munich district. The exact address helps us understand access and coordinate the installation properly. Other locations are reviewed individually from the address and project scope.",
     "heroImage": "munich-city",
     "heroImageAlt": "View over Munich with the Frauenkirche and Alps",
-    "heroNote": "New installations",
+    "heroNote": "Planning & installation",
     "sections": [
       {
-        "title": "Core area: Munich",
-        "intro": "Munich is the central area for assessing new and retrofit split air conditioning projects. This does not mean that every address, building or requested schedule is automatically available. The property, access, permissions and project scope still have to fit the service focus before any work can be considered.",
+        "title": "Projects in Munich",
+        "intro": "Within Munich, we look at the property, access, permissions and installation requirements together. This gives a more useful answer than relying only on the postcode or district name.",
         "paragraphs": [],
         "subsections": [
           {
-            "title": "Availability based on the project address",
-            "text": "The full street address and postcode allow the project to be checked in its real location, including access conditions and any obvious coordination constraints. Address-based assessment also prevents a broad city claim from being mistaken for a confirmed appointment. An address is used for project review only under the privacy arrangements that will apply when enquiries are activated."
+            "title": "Checking the project address",
+            "text": "The street address and postcode place the project in its real setting. Building access, possible unit positions and the route to the outdoor area can then be considered alongside the rooms you want to cool."
           }
         ],
         "tone": "paper"
       },
       {
-        "title": "Installations in the Munich district",
-        "intro": "Projects in Landkreis München can be submitted for assessment alongside Munich city projects. The district contains varied locations and building conditions, so availability is not inferred merely because an address lies inside its boundary. The postcode, exact address and installation scope are reviewed together.",
+        "title": "Projects in the Munich district",
+        "intro": "For projects in the Munich district, the postcode, exact address and main project details are reviewed together because buildings and access vary across the area.",
         "paragraphs": [],
         "subsections": [
           {
-            "title": "Postcode-based availability check",
-            "text": "A postcode supports the first geographical check, while the complete address is needed before access and travel can be understood. The assessment then considers property type, number of rooms, proposed outdoor position and the work involved. Passing a postcode check means the project can be reviewed further; it is not confirmation of a service date or acceptance."
+            "title": "Planning across the district",
+            "text": "A postcode is useful for the first conversation, while the complete address helps clarify access and travel. We then consider the property type, number of rooms, possible outdoor position and the work involved before confirming the next step."
           }
         ],
         "image": "split-unit-interior",
@@ -2031,37 +2023,29 @@
         "tone": "paper"
       },
       {
-        "title": "Neighbouring districts on request",
-        "intro": "The initial area does not extend automatically to every surrounding district. Addresses in the named neighbouring districts may be considered when the location and project can be coordinated realistically. No town-specific landing pages or blanket coverage claims should be created without genuine operating evidence.",
+        "title": "Projects outside the main area",
+        "intro": "There is no blanket availability statement for addresses outside Munich and the Munich district. A different location can be submitted with a short project description and reviewed individually.",
         "paragraphs": [],
         "subsections": [
           {
-            "title": "Dachau and Fürstenfeldbruck",
-            "text": "An address in Dachau or Fürstenfeldbruck can be submitted for an individual availability review. The decision depends on the precise location, access and installation scope rather than on the district name alone. The website does not state that every municipality or postcode in either district is served."
-          },
-          {
-            "title": "Starnberg and Ebersberg",
-            "text": "Projects in Starnberg or Ebersberg are considered only after the address and practical requirements have been assessed. Travel, working access and coordination with any other parties form part of that review. Listing these districts as request areas is not a commitment to general coverage."
-          },
-          {
-            "title": "Freising",
-            "text": "Freising addresses can also be checked on request. A postcode and project description support the first review, followed by the full location and technical scope where appropriate. No availability, response time or installation date is implied before that assessment is complete."
+            "title": "Individual location review",
+            "text": "The exact address, travel requirements, site access and installation scope determine whether a project outside the main area can be considered. The decision is based on the actual project, not a generic regional label."
           }
         ],
         "tone": "ink"
       },
       {
-        "title": "Why we deliberately limit the service area",
-        "intro": "A defined area supports realistic planning and prevents marketing claims from outrunning actual operations. Split installations involve equipment, access and sometimes coordination with owners or other trades, so travel is only one part of the decision. The service boundary should expand only when capacity and completed local evidence support it.",
+        "title": "What we check before confirming a project",
+        "intro": "Good installation planning includes the journey, site access and any coordination with owners or other trades. Looking at these points together allows us to give a considered response to each enquiry.",
         "paragraphs": [],
         "subsections": [
           {
-            "title": "Predictable travel",
-            "text": "Knowing the precise address makes it possible to assess travel and site access together rather than absorb unknown logistics into a generic promise. Predictability is especially important where equipment, tools or access arrangements must reach the property at an agreed time. The objective is accurate planning, not a claim of rapid attendance."
+            "title": "Travel and site access",
+            "text": "Knowing the precise address helps us assess travel and site access together. This is especially useful where equipment, tools or access arrangements must reach the property at an agreed time."
           },
           {
-            "title": "Realistic project coordination",
-            "text": "Each installation may involve permissions, an on-site assessment, electrical responsibilities or building work. Limiting the initial area helps keep those stages connected to a practical project plan. It does not guarantee acceptance within that area; it provides a responsible boundary for deciding which enquiries can be assessed."
+            "title": "Coordinating the work",
+            "text": "An installation may involve permissions, an on-site assessment, electrical responsibilities or building work. The address and project details help keep those stages connected to one practical plan."
           }
         ],
         "tone": "isar"
@@ -2071,27 +2055,27 @@
     "faq": [
       {
         "question": "Do you work in every Munich district?",
-        "answer": "Munich is the core assessment area, but no blanket promise is made for every address, building type or schedule. Submit the exact address and project details so that access, scope and current operational availability can be checked. A city district shown on the address does not by itself confirm that the project will be accepted."
+        "answer": "Enquiries can be submitted from every Munich district. The exact address and project details are then used to review access, installation requirements and the appropriate next step."
       },
       {
-        "question": "Is installation available in the Munich district?",
-        "answer": "Projects in Landkreis München can be assessed. The exact postcode and address, building access, rooms and proposed installation determine whether the enquiry can move forward. The site distinguishes the surrounding Munich district from Munich city and does not treat the whole district as an automatically available service zone."
+        "question": "Can a project in the Munich district be reviewed?",
+        "answer": "Yes. Send the postcode and address together with the building type, rooms and possible installation positions. Those details allow the project to be reviewed without making a blanket promise based only on the location."
       },
       {
-        "question": "Which neighbouring districts can be assessed?",
-        "answer": "Addresses in Dachau, Fürstenfeldbruck, Starnberg, Ebersberg and Freising can be submitted for an individual check. This list defines where an enquiry may be reviewed, not where service is guaranteed. The precise location and project scope must be assessed before any commercial or scheduling commitment is made."
+        "question": "Can I enquire from another location?",
+        "answer": "Yes. Include the exact address and main project details. Locations outside the main area are considered individually, and submitting an enquiry does not itself confirm availability."
       },
       {
         "question": "Do you offer installation throughout Bavaria?",
-        "answer": "No. The initial focus is Munich and the Munich district, with the named neighbouring districts considered only by address. The website does not claim service across Bavaria. A wider area should be published only if real logistics, operating capacity and evidence support it later."
+        "answer": "The project area is centred on Munich and the Munich district. Other addresses are considered individually from the location and work involved; the website does not imply general coverage across Bavaria."
       },
       {
-        "question": "How is availability checked?",
-        "answer": "The first check uses the postcode, full project address and a concise description of the building, rooms and requested system. Access, proposed outdoor location and the likely scope are then considered. If the location falls outside the core area, travel and coordination are reviewed explicitly. Only a direct project response can confirm whether the enquiry can proceed."
+        "question": "How is a project location checked?",
+        "answer": "We start with the postcode, full address and a short description of the building, rooms and preferred system. Access, the possible outdoor location and the work involved are then considered before we confirm how to proceed."
       }
     ],
-    "formTitle": "Check your postcode",
-    "formIntro": "Enter the project postcode and address with a short description of the property and rooms when the form is activated. The result is an availability assessment, not an automated guarantee. Live address collection must wait until the dedicated form endpoint, privacy information and verified operating arrangements are ready."
+    "formTitle": "Tell us where your project is",
+    "formIntro": "Enter the project postcode and address with a short description of the property and rooms. Once enquiries are active, we can use this information to assess the location and propose the right next step."
   },
   {
     "key": "about",
@@ -2099,18 +2083,18 @@
     "path": "/en/about/",
     "alternatePath": "/ueber-uns/",
     "navLabel": "About",
-    "title": "Focused air conditioning installation Munich | IsarKlima",
-    "description": "IsarKlima focuses on new split air conditioning for apartments, homes and small commercial spaces in Munich.",
-    "eyebrow": "A deliberately focused scope",
-    "h1": "Our focus: new air conditioning installations in Munich",
-    "intro": "IsarKlima is being prepared as a focused service for new and retrofit split air conditioning installations in Munich and the Munich district. The narrow scope is deliberate: it covers comfort cooling for apartments, houses, offices and smaller commercial spaces, not every form of refrigeration or building-services work. Before live enquiries open, the operating entity, authorisations, qualifications, insurance, electrical responsibilities and service capacity must be verified.",
+    "title": "About IsarKlima | Air conditioning installation in Munich",
+    "description": "How IsarKlima plans split air conditioning for apartments, homes and small commercial spaces in Munich.",
+    "eyebrow": "Planning · installation · handover",
+    "h1": "About IsarKlima",
+    "intro": "IsarKlima is built around clear, carefully planned air conditioning installation for apartments, homes, offices and smaller commercial spaces in Munich. We begin with the way each room is used and the realities of the building, then develop a solution around unit positions, pipe routes, permissions and access.",
     "heroImage": "technician-outdoor-portrait",
     "heroImageAlt": "Illustrative image of an air conditioning technician beside an outdoor unit",
-    "heroNote": "New installations",
+    "heroNote": "Planning & installation",
     "sections": [
       {
-        "title": "What we install",
-        "intro": "The planned installation scope centres on systems with one or more indoor units connected to outdoor equipment. Projects are assessed from the cooling need, building and route rather than from a preferred brand or preselected package. Repair, maintenance and industrial or critical cooling are outside the stated focus.",
+        "title": "Air conditioning planned around the building",
+        "intro": "We plan split air conditioning with one or more indoor units connected to suitable outdoor equipment. The cooling need, building and installation route guide the proposal rather than a preferred brand or a preselected package.",
         "paragraphs": [],
         "subsections": [
           {
@@ -2119,14 +2103,14 @@
           },
           {
             "title": "Apartments, homes and small commercial spaces",
-            "text": "The intended projects are normal comfort-cooling installations in apartments, houses, offices and smaller non-critical commercial premises. Ownership, building access and room use shape the scope in each case. Hotels, hospitals, industrial refrigeration, server or critical rooms and other applications requiring specialist or redundant cooling are not included."
+            "text": "Apartments, houses, offices and smaller commercial premises all bring different room layouts, heat loads and access conditions. Ownership, building use and the available outdoor position shape the installation in each case."
           }
         ],
         "tone": "paper"
       },
       {
         "title": "How we prepare projects",
-        "intro": "Preparation is designed to replace assumptions with a documented installation concept. The first review gathers the address, rooms, use, photographs and permission status. Where the route or building cannot be confirmed remotely, an on-site check can be proposed before a final scope is issued.",
+        "intro": "Preparation replaces assumptions with a documented installation concept. The first review gathers the address, rooms, use, photographs and permission status. Where the route or building cannot be confirmed remotely, an on-site check can be proposed before a final scope is issued.",
         "paragraphs": [],
         "subsections": [
           {
@@ -2147,21 +2131,21 @@
         "tone": "paper"
       },
       {
-        "title": "Qualifications and responsibilities before launch",
-        "intro": "This website remains a non-indexed preview until the legal and technical basis for accepting installation work is established. A professional-looking site is not evidence of trade registration, refrigerant qualifications, insurance or authority to carry out electrical work. These points must be checked, recorded and reflected accurately before project submissions are activated.",
+        "title": "Clear responsibilities from planning to handover",
+        "intro": "A well-organised project makes responsibilities visible before work begins. The quotation should identify the installation work, technical interfaces, documentation and any separately coordinated tasks so that the customer knows who is responsible for each stage.",
         "paragraphs": [],
         "subsections": [
           {
-            "title": "Refrigeration and air conditioning qualifications",
-            "text": "The people and, where required, business responsible for work on refrigerant circuits must hold the qualifications and certifications applicable to the systems and refrigerants offered. Those credentials, their scope and the responsible operating entity are still launch-gate information. The site must not use labels such as certified specialist company until the supporting evidence has been reviewed."
+            "title": "Qualified refrigeration work",
+            "text": "Work on the refrigerant circuit must be assigned to the people and, where required, businesses holding the qualifications applicable to the selected system and refrigerant. The responsible party and the work covered should be clear in the project documents."
           },
           {
-            "title": "Business authorisation and insurance",
-            "text": "The invoicing entity, operating base and position with the relevant chamber or cross-border service regime must be established before work is accepted. Suitable insurance and named technical responsibility also need verification. Until then, the page describes the planned scope only and must not imply that the business is already authorised or insured for live projects."
+            "title": "Clear project documentation",
+            "text": "The quotation and order documents should identify the contracting party, the agreed installation and the responsibilities of everyone involved. Technical information, assumptions and any separately arranged work belong in the same clear project record."
           },
           {
             "title": "Electrical work and partner services",
-            "text": "Split systems have an electrical interface, but the party authorised to complete any new fixed circuit, protection or connection has not yet been published. The final operating model must state which work is included directly, which is coordinated with a verified qualified provider and which remains the customer’s responsibility. No partner or in-house capability should be claimed before it is documented."
+            "text": "Split systems have an electrical interface. If a fixed circuit, protection or connection needs to be added or altered, the work must be assigned to an appropriately qualified electrical party and coordinated clearly with the air conditioning installation."
           }
         ],
         "tone": "ink"
@@ -2170,28 +2154,28 @@
     "faqTitle": "FAQs about how we work",
     "faq": [
       {
-        "question": "Which projects fit our focus?",
-        "answer": "Projects in scope are new or retrofit single-split and multi-split comfort-cooling installations for apartments, houses, offices and smaller non-critical commercial spaces in the defined Munich area. The building must offer a feasible route, outdoor location, drainage, power and access, with the necessary permissions. Every project remains subject to address and technical assessment."
+        "question": "Which types of property do you plan for?",
+        "answer": "We plan single-split and multi-split air conditioning for apartments, houses, offices and smaller commercial spaces. The building needs a feasible route, outdoor location, drainage, power and access, together with any required permissions."
       },
       {
-        "question": "Do we offer repairs or maintenance?",
-        "answer": "No. The approved service proposition is limited to new installations and retrofitting split air conditioning. The website should not attract repair call-outs, maintenance contracts, refrigerant fault diagnosis or unrelated heating and refrigeration work. If that scope changes later, it should be supported by verified capability and a separate content and operational decision."
+        "question": "What does the installation service cover?",
+        "answer": "The service covers the planning and installation of split air conditioning, including unit positioning, routes, technical interfaces, commissioning and handover as agreed for the project. The quotation sets out the exact work included for the property."
       },
       {
         "question": "How is the scope of work agreed?",
         "answer": "The scope is developed from the project information, technical review and any necessary site assessment. It records the system arrangement, positions, route, included tasks, interfaces, exclusions and customer responsibilities. The quote and scope should align before acceptance so that equipment, electrical work, access and making-good are not left to conflicting assumptions."
       },
       {
-        "question": "Which qualifications are verified before accepting work?",
-        "answer": "Verification must cover the legal operating entity and authorisation, the personal and any required business certification for refrigerant work, suitable insurance and named technical responsibility. It must also establish who is authorised to perform fixed electrical work and how any partner contribution is managed. The exact records published should be limited to evidence that has actually been checked."
+        "question": "Who carries out specialist work?",
+        "answer": "Refrigerant and fixed electrical work must be carried out by the appropriately qualified people or businesses for the task. The project documents should identify the responsible parties and how separately coordinated work fits into the installation."
       },
       {
         "question": "Which languages are available for project coordination?",
-        "answer": "The website is planned in German and English, but a translated page does not by itself prove that technical enquiries, installation coordination and handover can be handled in both languages. The languages actually supported by the responsible project contacts must be confirmed before live requests open. The final form and project communication should state those options accurately."
+        "answer": "The website is available in German and English. The language used for technical coordination, appointments and handover is confirmed directly for each project."
       }
     ],
     "formTitle": "Discuss your project",
-    "formIntro": "Once the launch checks and enquiry channel are complete, the project form will collect the address, rooms, use, ownership status and initial installation information. During preview, it should explain that submissions are not active rather than create an expectation of a reply. A project discussion begins an assessment and does not constitute acceptance or an order."
+    "formIntro": "Tell us about the address, rooms, use, ownership status and possible unit positions. Once enquiries are active, this information will help us understand the installation and prepare the next step; an initial discussion does not constitute an order."
   },
   {
     "key": "contact",
@@ -2199,14 +2183,14 @@
     "path": "/en/contact/",
     "alternatePath": "/kontakt/",
     "navLabel": "Contact",
-    "title": "Request an air conditioning quote Munich | IsarKlima",
-    "description": "Prepare the details for a new split air conditioning project in Munich and submit them once enquiries are enabled.",
-    "eyebrow": "Prepare a Munich project",
+    "title": "Request an air conditioning quote in Munich | IsarKlima",
+    "description": "Prepare the details for a split air conditioning project in Munich and submit them once enquiries are enabled.",
+    "eyebrow": "Tell us about your project",
     "h1": "Request an air conditioning installation quote in Munich",
-    "intro": "A useful installation enquiry describes the property and cooling need before asking for a product or appointment. The first review needs enough information to identify the likely system arrangement, permission status, route and technical interfaces. The form is prepared as the future intake point for Munich and Munich-district projects but must remain inactive until its dedicated endpoint, privacy information and operating responsibilities are verified.",
+    "intro": "A useful installation enquiry describes the property and cooling need before asking for a product or appointment. The first review needs enough information to identify the likely system arrangement, permission status, route and technical interfaces. Clear project details allow the next conversation to focus on the building rather than on assumptions.",
     "heroImage": "hero-technician",
     "heroImageAlt": "Technician checking an indoor air conditioning unit",
-    "heroNote": "New installations",
+    "heroNote": "Planning & installation",
     "sections": [
       {
         "title": "Information needed for the initial assessment",
@@ -2250,12 +2234,12 @@
     "faqTitle": "Enquiry FAQs",
     "faq": [
       {
-        "question": "Can I send photos?",
-        "answer": "Photos are useful for showing the rooms, possible indoor and outdoor positions, route and access. When the enquiry channel is activated, the form will state whether files can be attached directly or whether another approved method is used after initial contact. Do not send identity documents, tenancy contracts or other sensitive material unless it is specifically necessary and the privacy process is clear."
+        "question": "When can I share photos?",
+        "answer": "Photos are useful for showing the rooms, possible indoor and outdoor positions, route and access. They can be requested after the first contact through a confirmed channel with clear privacy guidance. Do not send identity documents, tenancy contracts or other sensitive material unless it is specifically necessary."
       },
       {
-        "question": "Which file formats are useful?",
-        "answer": "Clear JPEG or PNG photographs and PDF plans are generally easy to review, subject to the limits and security rules of the final submission method. Images should include wide context views as well as relevant details. File support has not yet been configured, so the live form must publish its accepted formats and size limits rather than rely on this draft alone."
+        "question": "How are photos and plans shared?",
+        "answer": "The approved contact method will explain how photographs or plans can be provided if they are needed for the review. The current project form does not accept file uploads."
       },
       {
         "question": "Do I need to have selected a system already?",
@@ -2271,7 +2255,7 @@
       }
     ],
     "formTitle": "Project form",
-    "formIntro": "The final form will request only the information needed for the initial assessment and will include consent and privacy details linked to the verified operating entity. It will use a dedicated Formspree endpoint rather than one borrowed from another project. Until that configuration and the launch gates are complete, the preview should display the required fields without transmitting live enquiries."
+    "formIntro": "The project form requests only the information needed for an initial assessment and links the submission to the relevant privacy information. Address, rooms, building type and permission status provide the basis for a useful first response."
   },
   {
     "key": "guides",
@@ -2279,14 +2263,14 @@
     "path": "/en/guides/",
     "alternatePath": "/ratgeber/",
     "navLabel": "Guides",
-    "title": "Air conditioning installation guides Munich",
+    "title": "Air conditioning installation guides for Munich | IsarKlima",
     "description": "Practical guidance on permissions, system choice, noise, sizing, installation and costs for Munich projects.",
-    "eyebrow": "Guides · plan before buying",
+    "eyebrow": "Air conditioning guidance",
     "h1": "Guide to air conditioning installation in Munich",
-    "intro": "The guide explains the decisions that come before a new or retrofit split air conditioning installation. It covers permissions, outdoor-unit location, system choice, capacity, installation stages and cost factors for Munich-area properties. The articles support better project questions; they do not replace a property-specific technical plan, binding legal advice or work by appropriately qualified people.",
+    "intro": "The guide explains the decisions that shape a split air conditioning installation. It covers permissions, outdoor-unit location, system choice, capacity, installation stages and cost factors for properties in Munich. The articles support better project questions; they do not replace a property-specific technical plan, binding legal advice or work by appropriately qualified people.",
     "heroImage": "split-unit-interior",
     "heroImageAlt": "Split air conditioning unit in a modern interior",
-    "heroNote": "New installations",
+    "heroNote": "Planning & installation",
     "sections": [
       {
         "title": "Before installation",
@@ -2355,14 +2339,14 @@
       },
       {
         "question": "Can I suggest a topic?",
-        "answer": "Once the contact channel is active, readers can suggest a question related to new or retrofit split installations in the Munich area. A suggestion does not guarantee publication or constitute technical advice for the sender’s property. Personal data and project documents should not be included unless the approved form specifically requests them."
+        "answer": "Once the contact channel is active, readers can suggest a question about split air conditioning installation in Munich. A suggestion does not guarantee publication or constitute technical advice for the sender’s property. Personal data and project documents should not be included unless the approved form specifically requests them."
       },
       {
         "question": "How do I move from a guide to a project assessment?",
-        "answer": "Use the relevant commercial page to check the intended scope, then submit the address, rooms, building type, permission status and photographs through the activated project form. The first response can identify missing information and whether a site assessment is needed. Reading an article or submitting a form does not create an order or confirm availability."
+        "answer": "Use the relevant service page to prepare the address, rooms, building type, permission status and possible unit positions for the project form. Keep useful photographs ready in case they are requested later through an approved sharing method. Reading an article or submitting a form does not create an order or confirm availability."
       }
     ],
     "formTitle": "Have your project assessed",
-    "formIntro": "The future project form will connect guide readers to the correct installation assessment without turning editorial content into a promise. It should capture the relevant address and room information, link to the privacy notice and use the dedicated endpoint. Until live operations and data handling are verified, the preview must leave submission disabled."
+    "formIntro": "The project form connects the guide content with an assessment of the actual property. Share the address, rooms, building type, permission status and possible unit positions. Relevant photographs may be requested later through an approved sharing method."
   }
 ]

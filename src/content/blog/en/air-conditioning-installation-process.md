@@ -15,7 +15,7 @@ translations:
   de-DE: "/ratgeber/klimaanlage-installation-ablauf/"
   en-DE: "/en/guides/air-conditioning-installation-process/"
 draft: false
-ctaIntro: "You may send the project address, floor plan, rooms, operating periods, possible unit positions, photographs and existing permissions. IsarKlima can use this material to identify the next checks and missing information. The enquiry is non-binding; dates and scope arise only through a separate agreement."
+ctaIntro: "Share the project address, rooms, operating periods, possible unit positions and the status of existing permissions. Keep a floor plan and relevant photographs ready; if they are needed, an approved sharing method will be confirmed after the first contact. Dates and scope arise only through a separate agreement."
 ---
 
 A professional split air conditioning installation does not begin with drilling. Before work starts, room use, unit positions, pipe routes, condensate drainage, electrical provision, access and required permissions must align. A structured process makes clear which decisions belong to the client, what information the contractor needs and where other qualified trades or authorities may be involved.

@@ -1,11 +1,10 @@
 ---
-import type { FaqItem } from '../data/types';
-interface Props { title: string; items: FaqItem[]; }
-const { title, items } = Astro.props;
+import type { FaqItem, Language } from '../data/types';
+interface Props { title: string; items: FaqItem[]; lang: Language; }
+const { title, items, lang } = Astro.props;
 ---
 <section class="faq-section shell section-space" aria-labelledby="faq-title">
   <div class="section-kicker"><span>FAQ</span><i></i></div>
-  <div class="faq-heading"><h2 id="faq-title">{title}</h2><p>{items.length.toString().padStart(2, '0')} Antworten</p></div>
+  <div class="faq-heading"><h2 id="faq-title">{title}</h2><p>{items.length.toString().padStart(2, '0')} {lang === 'de' ? 'Antworten' : 'answers'}</p></div>
   <div class="faq-list">{items.map((item, index) => <details class="faq-item" open={index === 0}><summary><span>{String(index + 1).padStart(2, '0')}</span><h3>{item.question}</h3><i aria-hidden="true"></i></summary><div class="faq-answer"><p>{item.answer}</p></div></details>)}</div>
 </section>
-

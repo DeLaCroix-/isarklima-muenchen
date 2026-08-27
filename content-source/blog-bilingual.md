@@ -86,7 +86,7 @@ Hilfreich sind Grundriss, Innen- und Außenfotos, gewünschte Räume, mögliche 
 
 ## Projekt anfragen
 
-Sie können IsarKlima die Einsatzadresse, Gebäudeart, betroffenen Räume, Fotos und vorhandenen Freigaben übermitteln. Auf dieser Grundlage lässt sich prüfen, welche technischen Angaben noch fehlen und ob das Vorhaben in den vorgesehenen Installationsumfang passt. Eine Anfrage ist unverbindlich und noch kein Auftrag.
+Teilen Sie IsarKlima zunächst Einsatzadresse, Gebäudeart, betroffene Räume und den Stand vorhandener Freigaben mit. Halten Sie passende Fotos bereit; falls sie benötigt werden, erhalten Sie nach der ersten Kontaktaufnahme einen bestätigten Übermittlungsweg. Eine Anfrage ist unverbindlich und noch kein Auftrag.
 
 <!-- FILE: /en/guides/air-conditioning-rental-apartment-permission/ -->
 ---
@@ -170,7 +170,7 @@ A floor plan, indoor and outdoor photographs, the rooms concerned, possible unit
 
 ## Request a project quote
 
-You may send IsarKlima the project address, building type, rooms concerned, photographs and any existing approvals. This information can be used to identify missing technical details and assess whether the project fits the intended installation scope. An enquiry is non-binding and does not constitute an order.
+First share the project address, building type, rooms concerned and the status of any approvals. Keep relevant photographs ready; if they are needed, an approved sharing method will be confirmed after the first contact. An enquiry is non-binding and does not constitute an order.
 
 <!-- FILE: /ratgeber/klimaanlage-eigentumswohnung-weg/ -->
 ---
@@ -256,7 +256,7 @@ Planer und ausführende Fachkräfte können technische Angaben liefern. Ob ein N
 
 ## Projekt anfragen
 
-Für eine erste technische Einordnung können Sie Grundriss, Fotos, gewünschte Räume, mögliche Außengeräteposition und vorhandene WEG-Unterlagen übermitteln. IsarKlima kann daraus offene technische Punkte ableiten; eine Anfrage ersetzt weder den WEG-Beschluss noch eine behördliche Prüfung und ist noch kein Auftrag.
+Halten Sie Grundriss, Fotos, gewünschte Räume, eine mögliche Außengeräteposition und vorhandene WEG-Unterlagen bereit. Falls diese Unterlagen benötigt werden, erhalten Sie nach der ersten Kontaktaufnahme einen bestätigten Übermittlungsweg. Eine Anfrage ersetzt weder den WEG-Beschluss noch eine behördliche Prüfung und ist noch kein Auftrag.
 
 <!-- FILE: /en/guides/air-conditioning-condominium-owners-association/ -->
 ---
@@ -342,7 +342,7 @@ Designers and qualified contractors can provide technical data. Whether a formal
 
 ## Request a project quote
 
-For an initial technical review, you may send a floor plan, photographs, the rooms to be cooled, a possible outdoor-unit position and any owners’ association documents already available. IsarKlima can identify open technical questions from this material. An enquiry does not replace a resolution or authority assessment and does not constitute an order.
+Keep a floor plan, photographs, the rooms to be cooled, a possible outdoor-unit position and any owners’ association documents ready. If this material is needed, an approved sharing method will be confirmed after the first contact. An enquiry does not replace a resolution or authority assessment and does not constitute an order.
 
 <!-- FILE: /ratgeber/single-oder-multi-split-klimaanlage/ -->
 ---
@@ -430,7 +430,7 @@ Nur wenn Außengerät, Anschlüsse, Leistung und Herstellerfreigabe dies vorsehe
 
 ## Projekt anfragen
 
-Für einen Systemvergleich können Sie die Einsatzadresse, einen Grundriss, die gewünschten Räume, Nutzungszeiten und Fotos möglicher Innen- und Außenpositionen übermitteln. IsarKlima kann daraus die offenen Planungsfragen ableiten. Die Anfrage bleibt unverbindlich und ist keine Zusage für eine bestimmte Systemkonfiguration.
+Teilen Sie für einen ersten Systemvergleich die Einsatzadresse, gewünschten Räume, Nutzungszeiten und möglichen Gerätepositionen mit. Halten Sie einen Grundriss und passende Fotos bereit; falls sie benötigt werden, erhalten Sie nach der ersten Kontaktaufnahme einen bestätigten Übermittlungsweg. Die Anfrage bleibt unverbindlich.
 
 <!-- FILE: /en/guides/single-vs-multi-split-air-conditioning/ -->
 ---
@@ -518,7 +518,7 @@ Only if the outdoor unit, available connections, capacity and manufacturer appro
 
 ## Request a project quote
 
-For an initial system comparison, you may send the project address, a floor plan, the rooms concerned, expected operating periods and photographs of possible indoor and outdoor positions. IsarKlima can use these details to identify open planning questions. The enquiry is non-binding and is not a commitment to a particular system configuration.
+For an initial system comparison, share the project address, rooms concerned, expected operating periods and possible unit positions. Keep a floor plan and relevant photographs ready; if they are needed, an approved sharing method will be confirmed after the first contact. The enquiry is non-binding.
 
 <!-- FILE: /ratgeber/klimaanlage-aussengeraet-laerm/ -->
 ---
@@ -604,7 +604,7 @@ Eine Einhausung muss zum Gerät passen und darf Luftstrom, Leistung und Wartung 
 
 ## Projekt anfragen
 
-Für eine erste Standortprüfung können Sie Adresse, Fotos der Außenfläche, mögliche Gerätepositionen und die Lage benachbarter Fenster übermitteln. IsarKlima kann damit feststellen, welche technischen Angaben oder Nachweise noch benötigt werden. Eine Anfrage ist unverbindlich und enthält keine Zusage zur Genehmigungsfähigkeit eines Standorts.
+Teilen Sie für eine erste Standortprüfung die Adresse, mögliche Gerätepositionen und die Lage benachbarter Fenster mit. Halten Sie Fotos der Außenfläche bereit; falls sie benötigt werden, erhalten Sie nach der ersten Kontaktaufnahme einen bestätigten Übermittlungsweg. Eine Anfrage ist unverbindlich und enthält keine Zusage zur Genehmigungsfähigkeit.
 
 <!-- FILE: /en/guides/air-conditioning-outdoor-unit-noise/ -->
 ---
@@ -690,7 +690,7 @@ An enclosure must be compatible with the unit and must not improperly restrict a
 
 ## Request a project quote
 
-For an initial location review, you may send the address, photographs of the external area, possible outdoor-unit positions and the location of neighbouring windows. IsarKlima can identify what further technical information or evidence may be needed. An enquiry is non-binding and does not confirm that a location can be approved.
+For an initial location review, share the address, possible outdoor-unit positions and the location of neighbouring windows. Keep photographs of the external area ready; if they are needed, an approved sharing method will be confirmed after the first contact. An enquiry is non-binding and does not confirm that a location can be approved.
 
 <!-- FILE: /ratgeber/klimaanlage-leistung-bestimmen/ -->
 ---
@@ -770,7 +770,7 @@ Fotos der möglichen Innenwand, der Fenster und Verschattung, des Außenstandort
 
 ## Projekt anfragen
 
-Sie können Grundriss, Raummaße, Fensterorientierung, Nutzung, Personenzahl und Fotos möglicher Gerätepositionen übermitteln. IsarKlima kann daraus ableiten, welche Daten für eine technische Prüfung noch fehlen. Eine Anfrage ist unverbindlich und enthält keine Leistungs- oder Produktempfehlung ohne weitere Bewertung.
+Teilen Sie Raummaße, Fensterorientierung, Nutzung, Personenzahl und mögliche Gerätepositionen mit. Halten Sie Grundriss und passende Fotos bereit; falls sie benötigt werden, erhalten Sie nach der ersten Kontaktaufnahme einen bestätigten Übermittlungsweg. Eine Anfrage enthält noch keine Leistungs- oder Produktempfehlung.
 
 <!-- FILE: /en/guides/air-conditioning-capacity-sizing/ -->
 ---
@@ -850,7 +850,7 @@ Images of the proposed internal wall, windows and shading, outdoor location and 
 
 ## Request a project quote
 
-You may send a floor plan, room dimensions, window orientation, use, occupancy and photographs of possible unit positions. IsarKlima can identify what information is still needed for a technical assessment. An enquiry is non-binding and does not include a capacity or product recommendation without further review.
+Share the room dimensions, window orientation, use, occupancy and possible unit positions. Keep a floor plan and relevant photographs ready; if they are needed, an approved sharing method will be confirmed after the first contact. An enquiry does not include a capacity or product recommendation without further review.
 
 <!-- FILE: /ratgeber/klimaanlage-installation-ablauf/ -->
 ---
@@ -938,7 +938,7 @@ Bohrungen und Befestigungen sollten erst beginnen, wenn die für die konkrete Au
 
 ## Projekt anfragen
 
-Sie können Einsatzadresse, Grundriss, Räume, Nutzungszeiten, mögliche Gerätepositionen, Fotos und vorhandene Freigaben übermitteln. IsarKlima kann daraus die nächsten Prüfschritte und fehlenden Angaben ableiten. Die Anfrage ist unverbindlich; Termine und Leistungsumfang entstehen erst durch eine gesonderte Vereinbarung.
+Teilen Sie Einsatzadresse, Räume, Nutzungszeiten, mögliche Gerätepositionen und den Stand vorhandener Freigaben mit. Halten Sie Grundriss und passende Fotos bereit; falls sie benötigt werden, erhalten Sie nach der ersten Kontaktaufnahme einen bestätigten Übermittlungsweg. Termine und Leistungsumfang entstehen erst durch eine gesonderte Vereinbarung.
 
 <!-- FILE: /en/guides/air-conditioning-installation-process/ -->
 ---
@@ -1026,4 +1026,4 @@ Drilling and mounting should begin only after the permissions and checks require
 
 ## Request a project quote
 
-You may send the project address, floor plan, rooms, operating periods, possible unit positions, photographs and existing permissions. IsarKlima can use this material to identify the next checks and missing information. The enquiry is non-binding; dates and scope arise only through a separate agreement.
+Share the project address, rooms, operating periods, possible unit positions and the status of existing permissions. Keep a floor plan and relevant photographs ready; if they are needed, an approved sharing method will be confirmed after the first contact. Dates and scope arise only through a separate agreement.

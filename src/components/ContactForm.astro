@@ -11,8 +11,8 @@ const enabled = /^https:\/\/formspree\.io\/f\/[a-z0-9]+$/i.test(endpoint);
   <div class="contact-copy">
     <p class="eyebrow"><span></span>{t.formEyebrow}</p>
     <h2 id="contact-title">{title}</h2>
-    <p>{intro ?? (lang === 'de' ? 'Beschreiben Sie Gebäude, Räume und mögliche Gerätepositionen. Wir prüfen zunächst, ob das Projekt zum Leistungs- und Einsatzgebiet passt.' : 'Describe the building, rooms and possible unit positions. The first step is to check whether the project fits the service and coverage scope.')}</p>
-    <div class="contact-meta"><strong>01</strong><span>{lang === 'de' ? 'Adresse und Gebäudetyp' : 'Address and building type'}</span><strong>02</strong><span>{lang === 'de' ? 'Räume und Nutzung' : 'Rooms and use'}</span><strong>03</strong><span>{lang === 'de' ? 'Fotos und Freigabestatus' : 'Photos and permission status'}</span></div>
+    <p>{intro ?? (lang === 'de' ? 'Beschreiben Sie Gebäude, Räume und mögliche Gerätepositionen. So können wir die technischen Details und die nächsten Schritte einordnen.' : 'Describe the building, rooms and possible unit positions so we can review the technical details and suitable next steps.')}</p>
+    <div class="contact-meta"><strong>01</strong><span>{lang === 'de' ? 'Adresse und Gebäudetyp' : 'Address and building type'}</span><strong>02</strong><span>{lang === 'de' ? 'Räume und Nutzung' : 'Rooms and use'}</span><strong>03</strong><span>{lang === 'de' ? 'Montagepositionen und Freigaben' : 'Unit positions and permissions'}</span></div>
   </div>
   <form class="project-form" action={enabled ? endpoint : undefined} method="POST" data-enabled={String(enabled)}>
     <input type="hidden" name="source_page" value={sourcePath} />

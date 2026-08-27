@@ -6,11 +6,16 @@
     "node": ">=22.12.0"
   },
   "scripts": {
+    "predev": "npm run generate:pages",
     "dev": "astro dev",
+    "generate:pages": "node scripts/generate-page-data.mjs",
+    "check:generated": "node scripts/generate-page-data.mjs --check",
+    "prebuild": "npm run generate:pages",
     "build": "astro build",
+    "postbuild": "node scripts/audit-build.mjs",
     "preview": "astro preview",
     "check": "astro sync && astro check",
-    "check:all": "npm run check && npm run build && node scripts/audit-build.mjs",
+    "check:all": "npm run check:generated && npm run check && npm run build",
     "brand:assets": "node scripts/generate-brand-assets.mjs",
     "astro": "astro"
   },

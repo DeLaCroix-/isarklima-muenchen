@@ -15,7 +15,7 @@ translations:
   de-DE: "/ratgeber/klimaanlage-installation-ablauf/"
   en-DE: "/en/guides/air-conditioning-installation-process/"
 draft: false
-ctaIntro: "Sie können Einsatzadresse, Grundriss, Räume, Nutzungszeiten, mögliche Gerätepositionen, Fotos und vorhandene Freigaben übermitteln. IsarKlima kann daraus die nächsten Prüfschritte und fehlenden Angaben ableiten. Die Anfrage ist unverbindlich; Termine und Leistungsumfang entstehen erst durch eine gesonderte Vereinbarung."
+ctaIntro: "Teilen Sie Einsatzadresse, Räume, Nutzungszeiten, mögliche Gerätepositionen und den Stand vorhandener Freigaben mit. Halten Sie Grundriss und passende Fotos bereit; falls sie benötigt werden, erhalten Sie nach der ersten Kontaktaufnahme einen bestätigten Übermittlungsweg. Termine und Leistungsumfang entstehen erst durch eine gesonderte Vereinbarung."
 ---
 
 Eine fachgerechte Split-Klimaanlagen-Installation beginnt nicht mit der Bohrmaschine. Vor der Montage müssen Nutzung, Gerätepositionen, Leitungsweg, Kondensat, Stromversorgung, Zugänglichkeit und erforderliche Freigaben zusammenpassen. Ein strukturierter Ablauf macht sichtbar, welche Entscheidungen beim Auftraggeber liegen, welche Angaben der Installationsbetrieb benötigt und wo weitere Fachbeteiligte erforderlich sein können.

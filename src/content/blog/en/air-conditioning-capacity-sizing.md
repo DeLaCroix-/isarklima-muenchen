@@ -15,7 +15,7 @@ translations:
   de-DE: "/ratgeber/klimaanlage-leistung-bestimmen/"
   en-DE: "/en/guides/air-conditioning-capacity-sizing/"
 draft: false
-ctaIntro: "You may send a floor plan, room dimensions, window orientation, use, occupancy and photographs of possible unit positions. IsarKlima can identify what information is still needed for a technical assessment. An enquiry is non-binding and does not include a capacity or product recommendation without further review."
+ctaIntro: "Share the room dimensions, window orientation, use, occupancy and possible unit positions. Keep a floor plan and relevant photographs ready; if they are needed, an approved sharing method will be confirmed after the first contact. An enquiry does not include a capacity or product recommendation without further review."
 ---
 
 Correct cooling capacity is not simply the largest number available on a product label. An air conditioning system should remove the heat entering a room under the intended design conditions without being unnecessarily large. Too little capacity can mean continuous full-load operation and inadequate temperatures on hot days. Substantial oversizing can lead to short cycling, reduced comfort or dehumidification and avoidable cost.

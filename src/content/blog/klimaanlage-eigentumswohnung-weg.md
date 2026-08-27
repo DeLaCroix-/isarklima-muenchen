@@ -15,7 +15,7 @@ translations:
   de-DE: "/ratgeber/klimaanlage-eigentumswohnung-weg/"
   en-DE: "/en/guides/air-conditioning-condominium-owners-association/"
 draft: false
-ctaIntro: "Für eine erste technische Einordnung können Sie Grundriss, Fotos, gewünschte Räume, mögliche Außengeräteposition und vorhandene WEG-Unterlagen übermitteln. IsarKlima kann daraus offene technische Punkte ableiten; eine Anfrage ersetzt weder den WEG-Beschluss noch eine behördliche Prüfung und ist noch kein Auftrag."
+ctaIntro: "Halten Sie Grundriss, Fotos, gewünschte Räume, eine mögliche Außengeräteposition und vorhandene WEG-Unterlagen bereit. Falls diese Unterlagen benötigt werden, erhalten Sie nach der ersten Kontaktaufnahme einen bestätigten Übermittlungsweg. Eine Anfrage ersetzt weder den WEG-Beschluss noch eine behördliche Prüfung und ist noch kein Auftrag."
 ---
 
 Wer eine Split-Klimaanlage in einer Eigentumswohnung installieren möchte, entscheidet zwar über das Raumklima in der eigenen Einheit, berührt mit der Ausführung aber häufig Teile des Gebäudes, die nicht allein ihm gehören. Das Außengerät, eine Wanddurchführung, sichtbare Leitungen oder eine Befestigung an der Fassade können Gemeinschaftseigentum betreffen. Darum sollte die wohnungseigentumsrechtliche Freigabe vor Gerätebestellung und technischer Detailplanung stehen.

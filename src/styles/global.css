@@ -54,6 +54,7 @@ p { text-wrap: pretty; }
 h1, h2, h3 { font-family: 'Archivo Variable', ui-sans-serif, sans-serif; }
 h1, h2 { margin: 0; font-weight: 780; letter-spacing: -.055em; line-height: .96; text-wrap: balance; }
 h1 { max-width: 880px; font-size: clamp(49px, 4.65vw, 68px); }
+.page-hero h1 { word-spacing: .06em; }
 .page-hero--home h1 { font-size: clamp(52px, 4.85vw, 70px); }
 .hero-intro { max-width: 650px; margin: 24px 0 0; color: rgba(255,255,255,.75); font-size: clamp(16px, 1.35vw, 19px); line-height: 1.65; }
 .hero-actions { margin-top: 26px; display: flex; flex-wrap: wrap; align-items: center; gap: 28px; }

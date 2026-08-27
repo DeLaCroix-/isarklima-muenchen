@@ -15,7 +15,7 @@ translations:
   de-DE: "/ratgeber/single-oder-multi-split-klimaanlage/"
   en-DE: "/en/guides/single-vs-multi-split-air-conditioning/"
 draft: false
-ctaIntro: "Für einen Systemvergleich können Sie die Einsatzadresse, einen Grundriss, die gewünschten Räume, Nutzungszeiten und Fotos möglicher Innen- und Außenpositionen übermitteln. IsarKlima kann daraus die offenen Planungsfragen ableiten. Die Anfrage bleibt unverbindlich und ist keine Zusage für eine bestimmte Systemkonfiguration."
+ctaIntro: "Teilen Sie für einen ersten Systemvergleich die Einsatzadresse, gewünschten Räume, Nutzungszeiten und möglichen Gerätepositionen mit. Halten Sie einen Grundriss und passende Fotos bereit; falls sie benötigt werden, erhalten Sie nach der ersten Kontaktaufnahme einen bestätigten Übermittlungsweg. Die Anfrage bleibt unverbindlich."
 ---
 
 Single-Split und Multi-Split beschreiben zwei Grundkonzepte fest installierter Klimaanlagen. Beide bestehen aus Innen- und Außeneinheiten und können Räume gezielt kühlen. Sie unterscheiden sich jedoch darin, wie viele Innengeräte mit einem Außengerät verbunden werden. Die richtige Wahl ergibt sich nicht allein aus der Wohnfläche, sondern aus den tatsächlich zu temperierenden Räumen, ihrer gleichzeitigen Nutzung und den baulichen Möglichkeiten.

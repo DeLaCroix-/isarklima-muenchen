@@ -4,7 +4,10 @@ export const site = {
   name: 'IsarKlima',
   defaultUrl: 'https://isarklima-muenchen.netlify.app',
   email: 'projekt@isarklima.example',
-  serviceArea: 'München und Landkreis München',
+  serviceArea: {
+    de: 'Projekte in Stadt und Landkreis München',
+    en: 'Projects in Munich and the Munich district',
+  },
   socialImage: '/images/og/isarklima-muenchen.jpg',
 };
 
@@ -16,7 +19,7 @@ export const labels = {
     request: 'Projekt anfragen', home: 'Startseite', language: 'English', preview: 'Projektvorschau',
     previewText: 'Anfragen werden nach fachlicher und betrieblicher Freigabe aktiviert.',
     faq: 'Häufige Fragen', formEyebrow: 'Projektanfrage', formInactive: 'Formular in Vorbereitung',
-    formNote: 'Die Anfragefunktion wird nach Hinterlegung des Formspree-Endpunkts aktiviert.',
+    formNote: 'Die Online-Anfrage wird derzeit vorbereitet.',
     learnMore: 'Mehr erfahren', backGuides: 'Alle Ratgeber', published: 'Veröffentlicht', updated: 'Aktualisiert',
     related: 'Passende nächste Schritte', legalDraft: 'Rechtliche Angaben werden vor Veröffentlichung ergänzt.',
   },
@@ -27,7 +30,7 @@ export const labels = {
     request: 'Discuss your project', home: 'Home', language: 'Deutsch', preview: 'Project preview',
     previewText: 'Enquiries will be enabled after technical and business approval.',
     faq: 'Frequently asked questions', formEyebrow: 'Project enquiry', formInactive: 'Form in preparation',
-    formNote: 'Enquiries will be enabled once the Formspree endpoint has been supplied.',
+    formNote: 'Online enquiries are currently being prepared.',
     learnMore: 'Learn more', backGuides: 'All guides', published: 'Published', updated: 'Updated',
     related: 'Useful next steps', legalDraft: 'Legal details will be completed before publication.',
   },
