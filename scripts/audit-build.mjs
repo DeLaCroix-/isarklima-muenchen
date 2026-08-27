@@ -5,6 +5,8 @@ import { fileURLToPath } from 'node:url';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const dist = join(root, 'dist');
+const expectedSiteUrl = process.env.PUBLIC_SITE_URL ?? 'https://isarklima-muenchen.netlify.app';
+const expectedSiteOrigin = new URL(expectedSiteUrl).origin;
 const failures = [];
 const normalize = (value) => value.replace(/\s+/g, ' ').trim();
 const discouragedMarketingPhrases = [
@@ -81,7 +83,15 @@ function headingList($) { return $('h1,h2,h3').map((_, el) => ({ tag: el.tagName
 
 const htmlFiles = await findHtml(dist);
 const textArtifacts = await findTextArtifacts(dist);
+const robots = await readFile(join(dist, 'robots.txt'), 'utf8');
+const robotsAllowsRoot = /^Allow:\s*\/$/m.test(robots);
+const robotsBlocksRoot = /^Disallow:\s*\/$/m.test(robots);
+const indexSite = robotsAllowsRoot && !robotsBlocksRoot;
+if (robotsAllowsRoot === robotsBlocksRoot) fail('/robots.txt', 'robots must declare exactly one root policy: Allow or Disallow');
 const pages = new Map();
+const titleOwners = new Map();
+const descriptionOwners = new Map();
+const localImageReferences = new Set();
 for (const file of textArtifacts) {
   const rel = `/${relative(dist, file).split(sep).join('/')}`;
   const normalizedText = normalize(await readFile(file, 'utf8')).toLocaleLowerCase('de-DE');
@@ -124,11 +134,40 @@ for (const file of htmlFiles) {
     : { hreflang: 'de', ariaLabel: 'Switch to the German version', flag: '/flags/flag-de.svg' };
   if ($('html').attr('lang') !== expectedLang) fail(path, `expected lang=${expectedLang}`);
   if ($('h1').length !== 1) fail(path, `expected one H1, found ${$('h1').length}`);
-  if (!$('meta[name="description"]').attr('content')) fail(path, 'missing meta description');
-  if ($('meta[name="robots"]').attr('content') !== 'noindex, nofollow') fail(path, 'preview must remain noindex, nofollow');
+  const documentTitle = normalize($('title').text());
+  const metaDescription = normalize($('meta[name="description"]').attr('content') ?? '');
+  if (!documentTitle) fail(path, 'missing document title');
+  else {
+    if (documentTitle.length > 65) fail(path, `document title is ${documentTitle.length} characters; maximum is 65`);
+    const previousOwner = titleOwners.get(documentTitle);
+    if (previousOwner) fail(path, `duplicate document title also used by ${previousOwner}`);
+    else titleOwners.set(documentTitle, path);
+  }
+  if (!metaDescription) fail(path, 'missing meta description');
+  else {
+    const previousOwner = descriptionOwners.get(metaDescription);
+    if (previousOwner) fail(path, `duplicate meta description also used by ${previousOwner}`);
+    else descriptionOwners.set(metaDescription, path);
+  }
+  const expectedRobotsMeta = path === '/404/' || !indexSite ? 'noindex, nofollow' : 'index, follow';
+  if ($('meta[name="robots"]').attr('content') !== expectedRobotsMeta) {
+    fail(path, `expected robots meta "${expectedRobotsMeta}" in ${indexSite ? 'indexable' : 'preview'} mode`);
+  }
   const canonical = $('link[rel="canonical"]').attr('href');
-  if (!canonical || new URL(canonical).pathname !== (path === '/404/' ? '/404/' : path)) fail(path, `incorrect canonical ${canonical ?? '(missing)'}`);
-  if (path !== '/404/' && $('link[rel="alternate"][hreflang]').length !== 3) fail(path, 'expected three hreflang entries');
+  let canonicalUrl;
+  try { canonicalUrl = canonical ? new URL(canonical) : undefined; } catch { canonicalUrl = undefined; }
+  if (!canonicalUrl || canonicalUrl.pathname !== (path === '/404/' ? '/404/' : path)) fail(path, `incorrect canonical ${canonical ?? '(missing)'}`);
+  else if (canonicalUrl.origin !== expectedSiteOrigin) fail(path, `canonical uses unexpected origin ${canonicalUrl.origin}`);
+  const alternateLinks = $('link[rel="alternate"][hreflang]');
+  if (path !== '/404/' && alternateLinks.length !== 3) fail(path, 'expected three hreflang entries');
+  if (path === '/404/' && alternateLinks.length !== 0) fail(path, '404 must not advertise a false language alternate');
+  alternateLinks.each((_, link) => {
+    const href = $(link).attr('href');
+    let alternateUrl;
+    try { alternateUrl = href ? new URL(href) : undefined; } catch { alternateUrl = undefined; }
+    if (!alternateUrl) fail(path, `invalid hreflang URL ${href ?? '(missing)'}`);
+    else if (alternateUrl.origin !== expectedSiteOrigin) fail(path, `hreflang uses unexpected origin ${alternateUrl.origin}`);
+  });
   const languageSelector = $('.site-header .nav-language');
   if (languageSelector.length !== 1) {
     fail(path, `expected one header language selector, found ${languageSelector.length}`);
@@ -149,6 +188,14 @@ for (const file of htmlFiles) {
     const element = $(image);
     if (!element.attr('width') || !element.attr('height')) fail(path, `image lacks dimensions: ${element.attr('src')}`);
     if (element.attr('alt') == null) fail(path, `image lacks alt: ${element.attr('src')}`);
+    const src = element.attr('src');
+    if (src) localImageReferences.add(src);
+  });
+  $('img[srcset], source[srcset]').each((_, source) => {
+    for (const candidate of ($(source).attr('srcset') ?? '').split(',')) {
+      const reference = candidate.trim().split(/\s+/)[0];
+      if (reference) localImageReferences.add(reference);
+    }
   });
   $('script[type="application/ld+json"]').each((_, script) => {
     try { JSON.parse($(script).html() ?? ''); } catch { fail(path, 'invalid JSON-LD'); }
@@ -157,10 +204,35 @@ for (const file of htmlFiles) {
     if ($(form).attr('action')) fail(path, 'inactive form has an action');
     if (!$(form).find('button[type="submit"]').is('[disabled]')) fail(path, 'inactive form submit is not disabled');
   });
+  if ($('form.project-form').length) {
+    const privacyLinks = $('.form-consent a[href]');
+    const expectedPrivacyPath = expectedLang === 'de-DE' ? '/datenschutz/' : '/en/privacy/';
+    if (privacyLinks.length !== 1) fail(path, 'project form must contain exactly one privacy link');
+    else if (privacyLinks.attr('href') !== expectedPrivacyPath) fail(path, `project form must link to ${expectedPrivacyPath}`);
+  }
+  $('a[href^="#"]').each((_, anchor) => {
+    const fragment = $(anchor).attr('href')?.slice(1);
+    const hasTarget = fragment && $('[id]').toArray().some((element) => $(element).attr('id') === fragment);
+    if (fragment && !hasTarget) fail(path, `broken same-page fragment #${fragment}`);
+  });
   const contactCopy = normalize($('.contact-panel .contact-copy').text()).toLocaleLowerCase('de-DE');
   const mentionsFiles = /\b(photo(?:graph)?s?|fotos?|plans?|grundriss)\b/.test(contactCopy);
   const explainsLaterSharing = /approved sharing method|confirmed channel|requested later|bestätigten übermittlungsweg|bestätigter übermittlungsweg|später angefordert/.test(contactCopy);
   if (mentionsFiles && !explainsLaterSharing) fail(path, 'contact copy mentions files without explaining the later sharing method');
+}
+
+const distFiles = new Set((await findFiles(dist)).map((file) => `/${relative(dist, file).split(sep).join('/')}`));
+for (const reference of localImageReferences) {
+  let pathname;
+  try {
+    const url = new URL(reference, `${expectedSiteOrigin}/`);
+    if (url.origin !== expectedSiteOrigin) continue;
+    pathname = decodeURIComponent(url.pathname);
+  } catch {
+    fail('/images/', `invalid image reference ${reference}`);
+    continue;
+  }
+  if (!distFiles.has(pathname)) fail('/images/', `image reference does not exist in build output: ${pathname}`);
 }
 
 const knownRoutes = new Set(pages.keys());
@@ -175,7 +247,148 @@ for (const [path, { $ }] of pages) {
   });
 }
 
+const contentRoot = join(root, 'src', 'content', 'blog');
+async function findMarkdown(directory) {
+  const files = [];
+  for (const item of await readdir(directory, { withFileTypes: true })) {
+    const full = join(directory, item.name);
+    if (item.isDirectory()) files.push(...await findMarkdown(full));
+    else if (/\.mdx?$/.test(item.name)) files.push(full);
+  }
+  return files;
+}
+
+function frontmatterScalar(frontmatter, key) {
+  const match = frontmatter.match(new RegExp(`^${key}:\\s*(.*?)\\s*$`, 'm'));
+  if (!match) return undefined;
+  const value = match[1].trim();
+  if (value.startsWith('"') && value.endsWith('"')) {
+    try { return JSON.parse(value); } catch { return value.slice(1, -1); }
+  }
+  if (value.startsWith("'") && value.endsWith("'")) return value.slice(1, -1).replace(/''/g, "'");
+  return value;
+}
+
+function frontmatterTranslations(frontmatter) {
+  const scalar = frontmatterScalar(frontmatter, 'translations');
+  if (scalar?.startsWith('{')) {
+    try { return JSON.parse(scalar); } catch { return {}; }
+  }
+  const block = frontmatter.match(/^translations:\s*\r?\n((?:[ \t]+[^\r\n]*(?:\r?\n|$))+)/m)?.[1] ?? '';
+  const translations = {};
+  for (const line of block.split(/\r?\n/)) {
+    const match = line.match(/^\s+(de-DE|en-DE):\s*(.*?)\s*$/);
+    if (!match) continue;
+    const value = match[2].trim();
+    if (value.startsWith('"') && value.endsWith('"')) {
+      try { translations[match[1]] = JSON.parse(value); } catch { translations[match[1]] = value.slice(1, -1); }
+    } else if (value.startsWith("'") && value.endsWith("'")) {
+      translations[match[1]] = value.slice(1, -1).replace(/''/g, "'");
+    } else {
+      translations[match[1]] = value;
+    }
+  }
+  return translations;
+}
+
+function dateKeyInTimeZone(date, timeZone) {
+  const parts = Object.fromEntries(new Intl.DateTimeFormat('en', {
+    timeZone,
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  }).formatToParts(date).filter((part) => part.type !== 'literal').map((part) => [part.type, part.value]));
+  return `${parts.year}-${parts.month}-${parts.day}`;
+}
+
+const berlinToday = dateKeyInTimeZone(new Date(), 'Europe/Berlin');
+const blogEntries = [];
+for (const file of await findMarkdown(contentRoot)) {
+  const markdown = await readFile(file, 'utf8');
+  const rel = relative(contentRoot, file).split(sep).join('/').replace(/\.mdx?$/, '');
+  const frontmatterMatch = markdown.match(/^\uFEFF?---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)/);
+  if (!frontmatterMatch) {
+    fail(`/content/blog/${rel}`, 'missing YAML frontmatter');
+    continue;
+  }
+  const frontmatter = frontmatterMatch[1];
+  const title = frontmatterScalar(frontmatter, 'title');
+  const language = frontmatterScalar(frontmatter, 'language');
+  const publishDateValue = frontmatterScalar(frontmatter, 'publishDate');
+  const draftValue = frontmatterScalar(frontmatter, 'draft');
+  const translations = frontmatterTranslations(frontmatter);
+  let draft = false;
+  if (draftValue === 'true') draft = true;
+  else if (draftValue !== undefined && draftValue !== 'false') {
+    fail(`/content/blog/${rel}`, `invalid draft value ${draftValue}`);
+    draft = true;
+  }
+  if (!title) fail(`/content/blog/${rel}`, 'missing title in frontmatter');
+  if (language !== 'de-DE' && language !== 'en-DE') fail(`/content/blog/${rel}`, `invalid language ${language ?? '(missing)'}`);
+  const publishDate = publishDateValue === undefined ? null : new Date(publishDateValue);
+  const publishDateKey = publishDate && !Number.isNaN(publishDate.valueOf()) ? publishDate.toISOString().slice(0, 10) : null;
+  if (!publishDateKey) fail(`/content/blog/${rel}`, `invalid publishDate ${publishDateValue ?? '(missing)'}`);
+  const slug = rel.split('/').at(-1);
+  const isEnglish = language === 'en-DE' || (language !== 'de-DE' && rel.startsWith('en/'));
+  const path = isEnglish ? `/en/guides/${slug}/` : `/ratgeber/${slug}/`;
+  const future = publishDateKey !== null && publishDateKey > berlinToday;
+  blogEntries.push({ file, markdown, rel, title, language, translations, publishDateKey, draft, future, path, publishable: !draft && !future && publishDateKey !== null });
+}
+const publishablePosts = blogEntries.filter((post) => post.publishable);
+const excludedPosts = blogEntries.filter((post) => !post.publishable);
+const publishableByLanguage = new Map([
+  ['de-DE', publishablePosts.filter((post) => post.language === 'de-DE')],
+  ['en-DE', publishablePosts.filter((post) => post.language === 'en-DE')],
+]);
+
 const generated = JSON.parse(await readFile(join(root, 'src', 'data', 'pages.generated.json'), 'utf8'));
+const expectedAlternates = new Map(generated.map((page) => [page.path, page.alternatePath]));
+for (const [dePath, enPath] of [['/impressum/', '/en/imprint/'], ['/datenschutz/', '/en/privacy/']]) {
+  expectedAlternates.set(dePath, enPath);
+  expectedAlternates.set(enPath, dePath);
+}
+for (const post of publishablePosts) {
+  const selfLocale = post.language;
+  const alternateLocale = selfLocale === 'de-DE' ? 'en-DE' : 'de-DE';
+  const translatedSelf = post.translations?.[selfLocale];
+  const alternatePath = post.translations?.[alternateLocale];
+  if (translatedSelf !== post.path) fail(post.path, `translations.${selfLocale} must equal the built article path`);
+  if (!alternatePath?.startsWith('/')) fail(post.path, `missing translations.${alternateLocale}`);
+  else expectedAlternates.set(post.path, alternatePath);
+}
+
+for (const [path, alternatePath] of expectedAlternates) {
+  const built = pages.get(path);
+  if (!built) {
+    fail(path, 'route in the bilingual contract was not built');
+    continue;
+  }
+  if (expectedAlternates.get(alternatePath) !== path) fail(path, `alternate route is not reciprocal: ${alternatePath}`);
+  if (built.$('.site-header .nav-language').attr('href') !== alternatePath) fail(path, `language selector must link to exact counterpart ${alternatePath}`);
+
+  const selfLocale = path.startsWith('/en/') ? 'en-DE' : 'de-DE';
+  const alternateLocale = selfLocale === 'de-DE' ? 'en-DE' : 'de-DE';
+  const selfUrl = new URL(path, `${expectedSiteOrigin}/`).href;
+  const alternateUrl = new URL(alternatePath, `${expectedSiteOrigin}/`).href;
+  const expectedHreflang = new Map([
+    [selfLocale, selfUrl],
+    [alternateLocale, alternateUrl],
+    ['x-default', selfLocale === 'de-DE' ? selfUrl : alternateUrl],
+  ]);
+  const actualHreflang = new Map();
+  built.$('link[rel="alternate"][hreflang]').each((_, link) => {
+    const language = built.$(link).attr('hreflang');
+    const href = built.$(link).attr('href');
+    if (language && href) {
+      if (actualHreflang.has(language)) fail(path, `duplicate hreflang ${language}`);
+      actualHreflang.set(language, href);
+    }
+  });
+  for (const [language, href] of expectedHreflang) {
+    if (actualHreflang.get(language) !== href) fail(path, `hreflang ${language} must be ${href}`);
+  }
+}
+
 const allowedSectionLayouts = new Set([
   'service-bento',
   'comparison',
@@ -227,12 +440,30 @@ for (const page of generated) {
   }
   if (page.key === 'guides') {
     const expectedGuideTitle = page.lang === 'de' ? 'Aktuelle Ratgeber' : 'Latest guides';
+    const guideLanguage = page.lang === 'de' ? 'de-DE' : 'en-DE';
+    const expectedGuides = publishableByLanguage.get(guideLanguage) ?? [];
+    const expectedGuidesByPath = new Map(expectedGuides.map((post) => [post.path, post]));
     const guideHeading = built.$('.guide-listing > .guide-list-heading > h2');
-    const guideCards = built.$('.guide-listing .guide-card > .guide-card-copy > h3');
+    const guideCards = built.$('.guide-listing .guide-card');
     if (guideHeading.length !== 1 || normalize(guideHeading.text()) !== expectedGuideTitle) fail(page.path, 'guide listing must have one localized H2');
-    if (guideCards.length !== 6) fail(page.path, `guide listing expected six H3 titles, found ${guideCards.length}`);
+    if (guideCards.length !== expectedGuides.length) fail(page.path, `guide listing expected ${expectedGuides.length} publishable cards for ${guideLanguage}, found ${guideCards.length}`);
     expected.push({ tag: 'h2', text: expectedGuideTitle });
-    guideCards.each((_, heading) => expected.push({ tag: 'h3', text: normalize(built.$(heading).text()) }));
+    const seenGuidePaths = new Set();
+    guideCards.each((_, card) => {
+      const element = built.$(card);
+      const link = element.find('.guide-card-title a');
+      const href = link.attr('href');
+      const cardTitle = normalize(link.text());
+      const expectedPost = expectedGuidesByPath.get(href);
+      if (!href || !expectedPost) fail(page.path, `guide card links to non-publishable or unknown article ${href ?? '(missing href)'}`);
+      else if (cardTitle !== expectedPost.title) fail(page.path, `guide card title mismatch for ${href}`);
+      if (href && seenGuidePaths.has(href)) fail(page.path, `duplicate guide card for ${href}`);
+      if (href) seenGuidePaths.add(href);
+      expected.push({ tag: 'h3', text: cardTitle });
+    });
+    for (const expectedPost of expectedGuides) {
+      if (!seenGuidePaths.has(expectedPost.path)) fail(page.path, `missing publishable guide card ${expectedPost.path}`);
+    }
   }
   expected.push({ tag: 'h2', text: page.faqTitle });
   for (const item of page.faq) expected.push({ tag: 'h3', text: item.question });
@@ -240,42 +471,85 @@ for (const page of generated) {
   const actual = headingList(built.$);
   if (JSON.stringify(actual) !== JSON.stringify(expected)) fail(page.path, `heading contract mismatch\n  expected ${JSON.stringify(expected)}\n  actual   ${JSON.stringify(actual)}`);
   if (built.$('form.project-form').length !== 1) fail(page.path, 'commercial page must end with one project form');
+  if (built.$('.related-links nav a').length !== 3) fail(page.path, 'commercial page must expose three contextual related links');
+  const faqSchema = built.$('script[type="application/ld+json"]').map((_, script) => {
+    try { return JSON.parse(built.$(script).html() ?? ''); } catch { return null; }
+  }).get().find((schema) => schema?.['@type'] === 'FAQPage');
+  const visibleFaq = built.$('.faq-item').map((_, item) => ({
+    question: normalize(built.$(item).find('h3').text()),
+    answer: normalize(built.$(item).find('.faq-answer p').text()),
+  })).get();
+  const schemaFaq = (faqSchema?.mainEntity ?? []).map((item) => ({
+    question: normalize(item?.name ?? ''),
+    answer: normalize(item?.acceptedAnswer?.text ?? ''),
+  }));
+  if (!faqSchema || JSON.stringify(schemaFaq) !== JSON.stringify(visibleFaq)) fail(page.path, 'FAQPage schema must exactly mirror visible questions and answers');
 }
 
-const contentRoot = join(root, 'src', 'content', 'blog');
-async function findMarkdown(directory) {
-  const files = [];
-  for (const item of await readdir(directory, { withFileTypes: true })) {
-    const full = join(directory, item.name);
-    if (item.isDirectory()) files.push(...await findMarkdown(full));
-    else if (/\.mdx?$/.test(item.name)) files.push(full);
-  }
-  return files;
-}
-
-for (const file of await findMarkdown(contentRoot)) {
-  const markdown = await readFile(file, 'utf8');
-  const rel = relative(contentRoot, file).split(sep).join('/').replace(/\.mdx?$/, '');
-  const isEnglish = rel.startsWith('en/');
-  const slug = rel.split('/').at(-1);
-  const path = isEnglish ? `/en/guides/${slug}/` : `/ratgeber/${slug}/`;
-  const built = pages.get(path);
-  if (!built) { fail(path, 'published article was not built'); continue; }
-  const title = markdown.match(/^title:\s*"([^"]+)"/m)?.[1];
-  const sourceHeadings = [...markdown.matchAll(/^(##|###)\s+(.+)$/gm)].map((match) => ({ tag: match[1] === '##' ? 'h2' : 'h3', text: normalize(match[2]) }));
-  const expected = [{ tag: 'h1', text: title }, ...sourceHeadings, { tag: 'h2', text: isEnglish ? 'Request a project quote' : 'Projekt anfragen' }];
+for (const post of publishablePosts) {
+  const built = pages.get(post.path);
+  if (!built) { fail(post.path, `publishable article was not built (publishDate ${post.publishDateKey}, Berlin today ${berlinToday})`); continue; }
+  const sourceHeadings = [...post.markdown.matchAll(/^(##|###)\s+(.+)$/gm)].map((match) => ({ tag: match[1] === '##' ? 'h2' : 'h3', text: normalize(match[2]) }));
+  const expected = [{ tag: 'h1', text: post.title }, ...sourceHeadings, { tag: 'h2', text: post.language === 'en-DE' ? 'Request a project quote' : 'Projekt anfragen' }];
   const actual = headingList(built.$);
-  if (JSON.stringify(actual) !== JSON.stringify(expected)) fail(path, 'article heading contract mismatch');
-  if (built.$('form.project-form').length !== 1) fail(path, 'article must end with one project form');
+  if (JSON.stringify(actual) !== JSON.stringify(expected)) fail(post.path, 'article heading contract mismatch');
+  if (built.$('form.project-form').length !== 1) fail(post.path, 'article must end with one project form');
+  if (built.$('.related-links nav a').length !== 3) fail(post.path, 'article must expose three contextual related links');
+  const articleSchema = built.$('script[type="application/ld+json"]').map((_, script) => {
+    try { return JSON.parse(built.$(script).html() ?? ''); } catch { return null; }
+  }).get().find((schema) => schema?.['@type'] === 'Article');
+  if (!articleSchema || normalize(articleSchema.headline ?? '') !== normalize(post.title)) fail(post.path, 'Article schema headline must match the visible H1');
 }
 
-if (htmlFiles.length !== 39) fail('build', `expected 39 HTML pages including 404, found ${htmlFiles.length}`);
-const robots = await readFile(join(dist, 'robots.txt'), 'utf8');
-if (!robots.includes('Disallow: /')) fail('/robots.txt', 'preview robots must disallow crawling');
+for (const post of excludedPosts) {
+  if (!pages.has(post.path)) continue;
+  const reason = post.draft ? 'draft' : post.future ? `future-dated (${post.publishDateKey} > ${berlinToday} Europe/Berlin)` : 'invalid publication metadata';
+  fail(post.path, `${reason} article must not be built`);
+}
+
+const expectedArticlePaths = new Set(publishablePosts.map((post) => post.path));
+for (const path of pages.keys()) {
+  const articleRoute = /^\/ratgeber\/[^/]+\/$/.test(path) || /^\/en\/guides\/[^/]+\/$/.test(path);
+  if (articleRoute && !expectedArticlePaths.has(path)) fail(path, 'built article has no publishable frontmatter source');
+}
+
+const sitemapText = (await Promise.all(
+  textArtifacts.filter((file) => /sitemap[^\\/]*\.xml$/i.test(file)).map((file) => readFile(file, 'utf8')),
+)).join('\n');
+const germanRss = await readFile(join(dist, 'rss.xml'), 'utf8');
+const englishRss = await readFile(join(dist, 'en', 'rss.xml'), 'utf8');
+for (const post of publishablePosts) {
+  const absoluteUrl = new URL(post.path, `${expectedSiteOrigin}/`).href;
+  if (!sitemapText.includes(absoluteUrl)) fail(post.path, 'publishable article is missing from the sitemap');
+  const expectedRss = post.language === 'en-DE' ? englishRss : germanRss;
+  const otherRss = post.language === 'en-DE' ? germanRss : englishRss;
+  if (!expectedRss.includes(absoluteUrl)) fail(post.path, 'publishable article is missing from its localized RSS feed');
+  if (otherRss.includes(absoluteUrl)) fail(post.path, 'article leaked into the wrong localized RSS feed');
+}
+const publicationArtifacts = `${sitemapText}\n${germanRss}\n${englishRss}`;
+for (const post of excludedPosts) {
+  if (publicationArtifacts.includes(post.path)) fail(post.path, 'draft or future article leaked into sitemap or RSS');
+}
+
+const legalPageCount = 4;
+const expectedHtmlCount = generated.length + legalPageCount + 1 + publishablePosts.length;
+if (htmlFiles.length !== expectedHtmlCount) fail('build', `expected ${expectedHtmlCount} HTML pages (${generated.length} generated + ${legalPageCount} legal + 1 error + ${publishablePosts.length} publishable articles), found ${htmlFiles.length}`);
+const llms = await readFile(join(dist, 'llms.txt'), 'utf8');
+if (indexSite) {
+  if (!/^Allow:\s*\/$/m.test(robots)) fail('/robots.txt', 'indexable mode must allow crawling');
+  if (/^Disallow:\s*\/$/m.test(robots)) fail('/robots.txt', 'indexable mode must not disallow the whole site');
+  if (!/^Sitemap:\s*https?:\/\//m.test(robots)) fail('/robots.txt', 'indexable mode must publish the sitemap URL');
+  if (!llms.includes('This deployment is intended to be indexable.')) fail('/llms.txt', 'indexable mode must describe the deployment as indexable');
+  if (llms.includes('not intended for indexing')) fail('/llms.txt', 'indexable mode must not retain the preview indexing notice');
+} else if (!/^Disallow:\s*\/$/m.test(robots)) {
+  fail('/robots.txt', 'preview mode must disallow crawling');
+} else if (!llms.includes('This deployment is a project preview and is not intended for indexing.')) {
+  fail('/llms.txt', 'preview mode must disclose that the deployment is not intended for indexing');
+}
 
 if (failures.length) {
   console.error(`Build audit failed with ${failures.length} issue(s):\n- ${failures.join('\n- ')}`);
   process.exit(1);
 }
 
-console.log(`Build audit passed: ${htmlFiles.length} HTML pages and ${textArtifacts.length - htmlFiles.length} XML/TXT artifacts, 22 commercial heading contracts, bilingual section-layout parity, 12 article contracts, internal links, metadata, hreflang, images and inactive forms.`);
+console.log(`Build audit passed in ${indexSite ? 'indexable' : 'preview'} mode: ${htmlFiles.length} HTML pages and ${textArtifacts.length - htmlFiles.length} XML/TXT artifacts, ${generated.length} commercial heading contracts, bilingual section-layout parity, ${publishablePosts.length} publishable article contracts as of ${berlinToday} Europe/Berlin, dynamic guide cards, internal links, metadata, hreflang, images and inactive forms.`);

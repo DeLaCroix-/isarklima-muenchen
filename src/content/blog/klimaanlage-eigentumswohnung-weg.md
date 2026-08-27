@@ -1,5 +1,6 @@
 ---
 title: "Klimaanlage in der Eigentumswohnung: WEG und Außengerät"
+seoTitle: "Klimaanlage in der Eigentumswohnung | IsarKlima"
 description: "Welche Beschlüsse und Unterlagen vor einer Split-Klimaanlage in einer Eigentumswohnung geprüft werden sollten."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27

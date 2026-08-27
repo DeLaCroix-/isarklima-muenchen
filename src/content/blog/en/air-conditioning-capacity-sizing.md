@@ -1,5 +1,6 @@
 ---
 title: "What air conditioning capacity does a room need?"
+seoTitle: "Choosing air conditioning capacity | IsarKlima"
 description: "How room size, glazing, sunlight, occupants, equipment and operating hours affect the cooling capacity an air conditioner needs."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27

@@ -1,5 +1,6 @@
 ---
 title: "Klimaanlagen-Außengerät: Standort, Schall und Nachbarschaft"
+seoTitle: "Klimaanlagen-Außengerät: Standort und Schall | IsarKlima"
 description: "Wie Standort, Reflexionen, Gebietsart, Nachtbetrieb und Schwingungsentkopplung den Schall eines Klimaanlagen-Außengeräts beeinflussen."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27

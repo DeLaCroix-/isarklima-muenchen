@@ -1,5 +1,6 @@
 ---
 title: "Klimaanlage installieren: Ablauf von der Anfrage bis zur Übergabe"
+seoTitle: "Klimaanlage installieren: Ablauf | IsarKlima"
 description: "Der Ablauf einer Split-Klimaanlagen-Installation: Projektdaten, Vorprüfung, Montageplanung, Installation, Dichtheitsprüfung und Übergabe."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27

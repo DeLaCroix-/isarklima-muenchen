@@ -7,6 +7,7 @@ El campo title aporta el H1 de la plantilla; por eso no hay H1 en los cuerpos.
 <!-- FILE: /ratgeber/klimaanlage-mietwohnung-genehmigung/ -->
 ---
 title: "Klimaanlage in der Mietwohnung: Was ist vor der Installation zu klären?"
+seoTitle: "Klimaanlage in der Mietwohnung: Zustimmung | IsarKlima"
 description: "Welche Freigaben, technischen Angaben und Unterlagen Mieter vor der Installation einer Split-Klimaanlage in München klären sollten."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27
@@ -91,6 +92,7 @@ Teilen Sie IsarKlima zunächst Einsatzadresse, Gebäudeart, betroffene Räume un
 <!-- FILE: /en/guides/air-conditioning-rental-apartment-permission/ -->
 ---
 title: "Air conditioning in a rental apartment: what must be clarified before installation?"
+seoTitle: "Rental apartment air conditioning: consent | IsarKlima"
 description: "A practical guide to landlord consent, technical details and documents needed before installing split air conditioning in a Munich rental."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27
@@ -175,6 +177,7 @@ First share the project address, building type, rooms concerned and the status o
 <!-- FILE: /ratgeber/klimaanlage-eigentumswohnung-weg/ -->
 ---
 title: "Klimaanlage in der Eigentumswohnung: WEG und Außengerät"
+seoTitle: "Klimaanlage in der Eigentumswohnung | IsarKlima"
 description: "Welche Beschlüsse und Unterlagen vor einer Split-Klimaanlage in einer Eigentumswohnung geprüft werden sollten."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27
@@ -261,6 +264,7 @@ Halten Sie Grundriss, Fotos, gewünschte Räume, eine mögliche Außengerätepos
 <!-- FILE: /en/guides/air-conditioning-condominium-owners-association/ -->
 ---
 title: "Air conditioning in a condominium: owners’ association and outdoor unit"
+seoTitle: "Condominium air conditioning and consent | IsarKlima"
 description: "What condominium owners in Munich should clarify with their owners’ association before installing split air conditioning."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27
@@ -347,6 +351,7 @@ Keep a floor plan, photographs, the rooms to be cooled, a possible outdoor-unit 
 <!-- FILE: /ratgeber/single-oder-multi-split-klimaanlage/ -->
 ---
 title: "Single- oder Multi-Split-Klimaanlage: Welche Lösung passt?"
+seoTitle: "Single- oder Multi-Split-Klimaanlage | IsarKlima"
 description: "Single- und Multi-Split-Systeme im Vergleich: Raumzahl, Außengeräte, Leitungswege, Regelung und Installation verständlich erklärt."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27
@@ -435,6 +440,7 @@ Teilen Sie für einen ersten Systemvergleich die Einsatzadresse, gewünschten R�
 <!-- FILE: /en/guides/single-vs-multi-split-air-conditioning/ -->
 ---
 title: "Single-split or multi-split air conditioning: which system fits?"
+seoTitle: "Single-split or multi-split air conditioning | IsarKlima"
 description: "A practical comparison of single- and multi-split air conditioning covering rooms, outdoor units, pipe routes, controls and installation."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27
@@ -523,6 +529,7 @@ For an initial system comparison, share the project address, rooms concerned, ex
 <!-- FILE: /ratgeber/klimaanlage-aussengeraet-laerm/ -->
 ---
 title: "Klimaanlagen-Außengerät: Standort, Schall und Nachbarschaft"
+seoTitle: "Klimaanlagen-Außengerät: Standort und Schall | IsarKlima"
 description: "Wie Standort, Reflexionen, Gebietsart, Nachtbetrieb und Schwingungsentkopplung den Schall eines Klimaanlagen-Außengeräts beeinflussen."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27
@@ -609,6 +616,7 @@ Teilen Sie für eine erste Standortprüfung die Adresse, mögliche Gerätepositi
 <!-- FILE: /en/guides/air-conditioning-outdoor-unit-noise/ -->
 ---
 title: "Air conditioning outdoor units: location, noise and neighbours"
+seoTitle: "Air conditioning outdoor unit noise | IsarKlima"
 description: "How location, reflections, area type, night operation and vibration isolation affect noise from an air conditioning outdoor unit."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27
@@ -695,6 +703,7 @@ For an initial location review, share the address, possible outdoor-unit positio
 <!-- FILE: /ratgeber/klimaanlage-leistung-bestimmen/ -->
 ---
 title: "Welche Leistung braucht eine Klimaanlage?"
+seoTitle: "Klimaanlage richtig dimensionieren | IsarKlima"
 description: "Wie Raumgröße, Verglasung, Sonne, Personen, Geräte und Nutzungszeiten die notwendige Kühlleistung einer Klimaanlage beeinflussen."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27
@@ -775,6 +784,7 @@ Teilen Sie Raummaße, Fensterorientierung, Nutzung, Personenzahl und mögliche G
 <!-- FILE: /en/guides/air-conditioning-capacity-sizing/ -->
 ---
 title: "What air conditioning capacity does a room need?"
+seoTitle: "Choosing air conditioning capacity | IsarKlima"
 description: "How room size, glazing, sunlight, occupants, equipment and operating hours affect the cooling capacity an air conditioner needs."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27
@@ -855,6 +865,7 @@ Share the room dimensions, window orientation, use, occupancy and possible unit 
 <!-- FILE: /ratgeber/klimaanlage-installation-ablauf/ -->
 ---
 title: "Klimaanlage installieren: Ablauf von der Anfrage bis zur Übergabe"
+seoTitle: "Klimaanlage installieren: Ablauf | IsarKlima"
 description: "Der Ablauf einer Split-Klimaanlagen-Installation: Projektdaten, Vorprüfung, Montageplanung, Installation, Dichtheitsprüfung und Übergabe."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27
@@ -943,6 +954,7 @@ Teilen Sie Einsatzadresse, Räume, Nutzungszeiten, mögliche Gerätepositionen u
 <!-- FILE: /en/guides/air-conditioning-installation-process/ -->
 ---
 title: "Air conditioning installation: from enquiry to handover"
+seoTitle: "Air conditioning installation process | IsarKlima"
 description: "The split air conditioning installation process from project details and pre-check to planning, installation, leak testing and handover."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27

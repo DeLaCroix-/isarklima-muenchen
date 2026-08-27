@@ -1,5 +1,6 @@
 ---
 title: "Air conditioning in a condominium: owners’ association and outdoor unit"
+seoTitle: "Condominium air conditioning and consent | IsarKlima"
 description: "What condominium owners in Munich should clarify with their owners’ association before installing split air conditioning."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27

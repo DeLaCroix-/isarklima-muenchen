@@ -1,5 +1,6 @@
 ---
 title: "Air conditioning outdoor units: location, noise and neighbours"
+seoTitle: "Air conditioning outdoor unit noise | IsarKlima"
 description: "How location, reflections, area type, night operation and vibration isolation affect noise from an air conditioning outdoor unit."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27

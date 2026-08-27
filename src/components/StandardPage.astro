@@ -7,6 +7,7 @@ import PageHero from './PageHero.astro';
 import ContentSection from './ContentSection.astro';
 import FaqSection from './FaqSection.astro';
 import ContactForm from './ContactForm.astro';
+import RelatedLinks from './RelatedLinks.astro';
 import { labels, localizedHome } from '../data/site';
 import type { PageContent } from '../data/types';
 interface Props { page: PageContent; home?: boolean; }
@@ -14,14 +15,15 @@ const { page, home = false } = Astro.props;
 const t = labels[page.lang];
 const breadcrumbs = home ? [] : [{ name: t.home, path: localizedHome(page.lang) }, { name: page.navLabel, path: page.path }];
 ---
-<BaseLayout title={page.title} description={page.description} lang={page.lang} path={page.path} alternatePath={page.alternatePath} image={`/images/site/${page.heroImage}-1440.webp`} breadcrumbs={breadcrumbs}>
+<BaseLayout title={page.title} description={page.description} lang={page.lang} path={page.path} alternatePath={page.alternatePath} image={`/images/site/${page.heroImage}-1440.webp`} breadcrumbs={breadcrumbs} faq={page.legal ? [] : page.faq}>
   <Header lang={page.lang} alternatePath={page.alternatePath} />
   {!home && <Breadcrumbs items={breadcrumbs} />}
   <main id="main-content">
-    <PageHero eyebrow={page.eyebrow} h1={page.h1} intro={page.intro} image={page.heroImage} imageAlt={page.heroImageAlt} note={page.heroNote} home={home} lang={page.lang} />
+    <PageHero eyebrow={page.eyebrow} h1={page.h1} intro={page.intro} image={page.heroImage} imageAlt={page.heroImageAlt} note={page.heroNote} home={home} lang={page.lang} showProjectAction={!page.legal} />
     <div class="content-marker shell" id="inhalt"><span>{String(page.sections.length).padStart(2, '0')}</span><i></i><p>{page.lang === 'de' ? 'Leistungen · Ablauf · Planung' : 'Services · Process · Planning'}</p></div>
     {page.sections.map((section, index) => <ContentSection {section} {index} total={page.sections.length} lang={page.lang} />)}
     <slot name="before-faq" />
+    {!page.legal && <RelatedLinks lang={page.lang} currentKey={page.key} />}
     {!page.legal && page.faq && page.faqTitle && <FaqSection title={page.faqTitle} items={page.faq} lang={page.lang} />}
     {!page.legal && <ContactForm lang={page.lang} title={page.formTitle ?? (page.lang === 'de' ? 'Projekt anfragen' : 'Request a project quote')} intro={page.formIntro} sourcePath={page.path} />}
   </main>

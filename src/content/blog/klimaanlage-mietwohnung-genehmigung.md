@@ -1,5 +1,6 @@
 ---
 title: "Klimaanlage in der Mietwohnung: Was ist vor der Installation zu klären?"
+seoTitle: "Klimaanlage in der Mietwohnung: Zustimmung | IsarKlima"
 description: "Welche Freigaben, technischen Angaben und Unterlagen Mieter vor der Installation einer Split-Klimaanlage in München klären sollten."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27

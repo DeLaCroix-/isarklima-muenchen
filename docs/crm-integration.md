@@ -28,9 +28,12 @@ The target also needs the verified CRM profile ID, GitHub installation ID, repos
 
 German source entries use `src/content/blog/{slug}.md`. English translations use `src/content/blog/en/{translated-slug}.md`.
 
+The IsarKlima CRM profile uses the full IETF locales `de-DE` and `en-DE`. The publisher keeps those full values in frontmatter and in the `translations` keys, while normalizing only route and directory placeholders to their base language. Consequently, `en-DE` still publishes below `src/content/blog/en/` and `/{lang}/guides/` still resolves to `/en/guides/`.
+
 ```yaml
 ---
 title: "Article title"
+seoTitle: "Optional concise document title | IsarKlima"
 description: "Search description"
 publishDate: 2026-08-27
 updatedDate: 2026-08-27
@@ -52,6 +55,8 @@ natSeoArticleId: "optional-crm-id"
 
 The collection excludes `draft: true` and publication dates later than the current calendar date in Germany from pages, listings and RSS. Slugs are derived from the Markdown filename, including translated filenames.
 
+`seoTitle` is optional, but when supplied it is the complete browser/search title and must contain 30–65 characters. Use it when the editorial H1 would become too long after adding the brand; the visible article title remains unchanged.
+
 ## Acceptance checks
 
 After connecting the target, publish a harmless draft through the CRM and verify all of the following before enabling production articles:
@@ -63,4 +68,3 @@ After connecting the target, publish a harmless draft through the CRM and verify
 5. Draft and future-dated content stays absent from listing, RSS, sitemap and public route.
 6. A current non-draft test renders at the URL pattern configured in the CRM.
 7. `translations` produces reciprocal hreflang and the language switch points to the translated slug.
-

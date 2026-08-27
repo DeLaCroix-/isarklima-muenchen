@@ -14,6 +14,8 @@ const imageNames = [
   'quiet-bedroom-interior',
   'installation-material-detail',
   'airflow-interior-detail',
+  'apartment-comfort',
+  'condominium-building-detail',
 ];
 const widths = [640, 960, 1440, 1920];
 

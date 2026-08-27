@@ -6,7 +6,7 @@ Redaktioneller Entwurf für die deutschsprachigen kommerziellen Seiten. Die Text
 
 <!-- Seite: / -->
 
-# Klimaanlage in München installieren lassen
+# Klimaanlagen für München, passend zum Gebäude geplant
 
 Eine Split-Klimaanlage lässt sich nur dann sinnvoll planen, wenn Räume, Gebäude und Montageweg zusammen betrachtet werden. IsarKlima plant Single- und Multi-Split-Klimaanlagen für Wohnungen, Häuser, Büros und kleinere Gewerbeflächen in München – abgestimmt auf den tatsächlichen Bedarf und die Einbausituation.
 

@@ -1,5 +1,6 @@
 ---
 title: "Welche Leistung braucht eine Klimaanlage?"
+seoTitle: "Klimaanlage richtig dimensionieren | IsarKlima"
 description: "Wie Raumgröße, Verglasung, Sonne, Personen, Geräte und Nutzungszeiten die notwendige Kühlleistung einer Klimaanlage beeinflussen."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27

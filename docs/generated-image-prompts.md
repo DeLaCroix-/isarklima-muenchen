@@ -62,3 +62,31 @@ Generation mode: OpenAI built-in image generation. These are new generations, no
 > Color palette: white, dark teal, warm grey, muted green
 > Materials/textures: matte wall, natural fabric, realistic plastic, soft plant foliage
 > Constraints: absolutely no people, faces, heads, hands, silhouettes, human reflections, readable text, logos, brands, watermark, visible vapor, fantasy airflow graphics, or impossible equipment
+
+## `apartment-comfort.png`
+
+> Use case: photorealistic-natural
+> Asset type: responsive website hero and editorial image for an air-conditioning installer
+> Primary request: a refined, modern Munich apartment interior with a discreet white wall-mounted split air-conditioning indoor unit clearly visible and naturally integrated into the room
+> Scene/backdrop: bright contemporary living room with warm oak, off-white plaster, restrained teal textile accents, clean architectural lines and realistic everyday detail
+> Subject: the interior, the wall-mounted split unit, and subtle airflow suggested only by a gently moving sheer curtain
+> Style/medium: premium photorealistic architectural photography, editorial rather than stock-like
+> Composition/framing: wide landscape composition, eye-level, balanced negative space, useful crops at 3:2 and 16:9
+> Lighting/mood: soft natural daylight, calm, cool and comfortable, realistic shadows
+> Materials/textures: wood grain, woven fabric, matte plaster, glass
+> Constraints: absolutely no people, no heads, no faces, no bodies, no hands, no silhouettes, no human reflections, no portraits or people visible in artwork; no text, no logos, no watermark; the air conditioner must look physically plausible and unbranded
+> Avoid: sterile showroom look, exaggerated blue lighting, futuristic controls, duplicate units, distorted furniture
+
+## `condominium-building-detail.png`
+
+> Use case: photorealistic-natural
+> Asset type: bilingual blog header about condominium approval and outdoor-unit placement
+> Primary request: a carefully integrated, unbranded air-conditioning outdoor unit on the private recessed balcony of a contemporary Munich apartment building, shown as an architectural detail that suggests owners-association planning
+> Scene/backdrop: tasteful mid-rise residential facade with balconies, stone and warm brick details, orderly greenery and realistic German urban architecture
+> Subject: one plausible outdoor unit mounted neatly within a balcony, with tidy concealed service lines and generous surrounding architectural context
+> Style/medium: premium photorealistic architectural editorial photography, natural and credible
+> Composition/framing: wide landscape, straight architectural perspective, useful crop at 3:2, visual emphasis on the relationship between the unit, balcony and shared facade
+> Lighting/mood: calm overcast daylight with soft contrast
+> Materials/textures: stone, brick, powder-coated metal, glass, restrained planting
+> Constraints: absolutely no people, no heads, no faces, no bodies, no hands, no silhouettes, no human reflections, no portraits; no text, no signage, no logos, no watermark; only one visible outdoor unit; technically plausible installation
+> Avoid: rooftop industrial units, detached house, luxury real-estate fantasy, construction workers, duplicated machinery, distorted railings

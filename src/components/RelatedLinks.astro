@@ -1,0 +1,47 @@
+---
+import { pages } from '../data/pages';
+import type { Language } from '../data/types';
+
+interface Props {
+  lang: Language;
+  currentKey?: string;
+  article?: boolean;
+}
+
+const { lang, currentKey = '', article = false } = Astro.props;
+const relatedByKey: Record<string, string[]> = {
+  home: ['split', 'apartment', 'costs'],
+  split: ['apartment', 'house', 'commercial'],
+  apartment: ['retrofit', 'costs', 'guides'],
+  house: ['split', 'costs', 'area'],
+  commercial: ['split', 'costs', 'contact'],
+  retrofit: ['apartment', 'house', 'costs'],
+  costs: ['split', 'retrofit', 'contact'],
+  area: ['split', 'contact', 'guides'],
+  about: ['split', 'area', 'contact'],
+  contact: ['split', 'costs', 'guides'],
+  guides: ['split', 'costs', 'contact'],
+};
+const keys = article ? ['split', 'costs', 'contact'] : relatedByKey[currentKey] ?? [];
+const items = keys
+  .map((key) => pages.find((page) => page.lang === lang && page.key === key))
+  .filter((page) => page !== undefined);
+const titleId = `related-${article ? 'article' : currentKey || 'page'}-${lang}`;
+---
+{items.length > 0 && (
+  <aside class="related-links shell" aria-labelledby={titleId}>
+    <div class="related-links-intro">
+      <span aria-hidden="true">{article ? '03' : String(items.length).padStart(2, '0')}</span>
+      <p id={titleId}>{lang === 'de' ? 'Passende nächste Schritte' : 'Useful next steps'}</p>
+    </div>
+    <nav aria-label={lang === 'de' ? 'Thematisch passende Seiten' : 'Related pages'}>
+      {items.map((item, index) => (
+        <a href={item.path}>
+          <small>{String(index + 1).padStart(2, '0')}</small>
+          <strong>{item.h1}</strong>
+          <i aria-hidden="true">→</i>
+        </a>
+      ))}
+    </nav>
+  </aside>
+)}

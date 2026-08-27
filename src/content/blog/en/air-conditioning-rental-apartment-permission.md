@@ -1,5 +1,6 @@
 ---
 title: "Air conditioning in a rental apartment: what must be clarified before installation?"
+seoTitle: "Rental apartment air conditioning: consent | IsarKlima"
 description: "A practical guide to landlord consent, technical details and documents needed before installing split air conditioning in a Munich rental."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27

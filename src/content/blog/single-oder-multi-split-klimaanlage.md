@@ -1,5 +1,6 @@
 ---
 title: "Single- oder Multi-Split-Klimaanlage: Welche Lösung passt?"
+seoTitle: "Single- oder Multi-Split-Klimaanlage | IsarKlima"
 description: "Single- und Multi-Split-Systeme im Vergleich: Raumzahl, Außengeräte, Leitungswege, Regelung und Installation verständlich erklärt."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27

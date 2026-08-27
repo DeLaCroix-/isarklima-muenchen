@@ -1,5 +1,6 @@
 ---
 title: "Single-split or multi-split air conditioning: which system fits?"
+seoTitle: "Single-split or multi-split air conditioning | IsarKlima"
 description: "A practical comparison of single- and multi-split air conditioning covering rooms, outdoor units, pipe routes, controls and installation."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27

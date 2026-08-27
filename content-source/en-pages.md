@@ -6,7 +6,7 @@ Draft scope: English (`en-DE`) copy for the home page and every commercial Engli
 
 **Route:** `/en/`
 
-# Air conditioning installation in Munich
+# Air conditioning for Munich properties
 
 A successful split air conditioning project starts with the building, not with a product catalogue. Room use, heat gain, possible unit positions, permissions, pipe routes, condensate drainage and the electrical interface all affect what can be installed. IsarKlima plans single-split and multi-split air conditioning for apartments, homes, offices and smaller commercial spaces in Munich, with each project shaped around the actual property.
 

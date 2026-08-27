@@ -5,23 +5,37 @@ import Header from './Header.astro';
 import Footer from './Footer.astro';
 import Breadcrumbs from './Breadcrumbs.astro';
 import ContactForm from './ContactForm.astro';
+import RelatedLinks from './RelatedLinks.astro';
+import ResponsiveImage from './ResponsiveImage.astro';
 import type { BlogEntry } from '../lib/blog';
 interface Props { entry: BlogEntry; lang: 'de' | 'en'; path: string; }
 const { entry, lang, path } = Astro.props;
-const { Content } = await render(entry);
+const { Content, headings } = await render(entry);
 const guidesPath = lang === 'de' ? '/ratgeber/' : '/en/guides/';
 const alternatePath = entry.data.translations?.[lang === 'de' ? 'en-DE' : 'de-DE'] ?? guidesPath;
 const breadcrumbs = [{ name: lang === 'de' ? 'Startseite' : 'Home', path: lang === 'de' ? '/' : '/en/' }, { name: lang === 'de' ? 'Ratgeber' : 'Guides', path: guidesPath }, { name: entry.data.title, path }];
+const documentTitle = entry.data.seoTitle ?? `${entry.data.title} | IsarKlima`;
+const sectionLinks = headings.filter((heading) => heading.depth === 2);
+const secondaryImages: Record<string, string> = {
+  'rental-apartment-permission': 'quiet-bedroom-interior',
+  'condominium-owners-association': 'outdoor-unit-installation-detail',
+  'single-vs-multi-split': 'airflow-interior-detail',
+  'outdoor-unit-noise': 'condominium-building-detail',
+  'air-conditioning-capacity-sizing': 'installation-material-detail',
+  'air-conditioning-installation-process': 'technical-planning-workbench',
+};
+const secondaryImage = secondaryImages[entry.data.translationGroup ?? ''] ?? 'installation-material-detail';
 ---
-<BaseLayout title={`${entry.data.title} | IsarKlima`} description={entry.data.description} {lang} {path} {alternatePath} image={entry.data.image} {breadcrumbs} article={{ published: entry.data.publishDate, updated: entry.data.updatedDate, author: entry.data.author }}>
+<BaseLayout title={documentTitle} description={entry.data.description} {lang} {path} {alternatePath} image={entry.data.image} {breadcrumbs} article={{ headline: entry.data.title, published: entry.data.publishDate, updated: entry.data.updatedDate, author: entry.data.author }}>
   <Header {lang} {alternatePath} />
   <Breadcrumbs items={breadcrumbs} />
   <main id="main-content">
     <article class="article-shell">
       <header class="article-header shell"><div class="article-meta"><span>{entry.data.category}</span><time datetime={entry.data.publishDate.toISOString()}>{entry.data.publishDate.toLocaleDateString(lang === 'de' ? 'de-DE' : 'en-GB', { day: '2-digit', month: 'long', year: 'numeric' })}</time></div><h1>{entry.data.title}</h1><p>{entry.data.description}</p></header>
       {entry.data.image && <figure class="article-image shell"><img src={entry.data.image} width="1440" height="880" alt={entry.data.imageAlt} fetchpriority="high" /><figcaption>{lang === 'de' ? 'Illustrative Darstellung; kein IsarKlima-Referenzprojekt.' : 'Illustrative visual; not an IsarKlima project reference.'}</figcaption></figure>}
-      <div class="article-grid shell"><aside><a href={guidesPath}>← {lang === 'de' ? 'Alle Ratgeber' : 'All guides'}</a><span>{lang === 'de' ? 'Allgemeine Orientierung' : 'General guidance'}</span></aside><div class="prose"><Content /></div></div>
+      <div class="article-grid shell"><aside><a class="article-back" href={guidesPath}>← {lang === 'de' ? 'Alle Ratgeber' : 'All guides'}</a><span>{lang === 'de' ? 'Allgemeine Orientierung' : 'General guidance'}</span><nav class="article-toc" aria-label={lang === 'de' ? 'Inhalt dieses Ratgebers' : 'In this guide'}><strong>{lang === 'de' ? 'In diesem Ratgeber' : 'In this guide'}</strong>{sectionLinks.map((heading, index) => <a href={`#${heading.slug}`}><small>{String(index + 1).padStart(2, '0')}</small>{heading.text}</a>)}</nav><figure class="article-side-image"><ResponsiveImage name={secondaryImage} alt={lang === 'de' ? 'Ergänzende illustrative Ansicht zur Projektplanung' : 'Supporting illustrative view for project planning'} sizes="(max-width: 1050px) 100vw, 235px" /><figcaption>{lang === 'de' ? 'Illustrative Ansicht' : 'Illustrative view'}</figcaption></figure></aside><div class="prose"><Content /></div></div>
     </article>
+    <RelatedLinks {lang} article />
     <ContactForm {lang} title={lang === 'de' ? 'Projekt anfragen' : 'Request a project quote'} intro={entry.data.ctaIntro} sourcePath={path} />
   </main>
   <Footer {lang} />

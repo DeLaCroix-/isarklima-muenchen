@@ -1,5 +1,6 @@
 ---
 title: "Air conditioning installation: from enquiry to handover"
+seoTitle: "Air conditioning installation process | IsarKlima"
 description: "The split air conditioning installation process from project details and pre-check to planning, installation, leak testing and handover."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27
