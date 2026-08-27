@@ -3,7 +3,6 @@ import type { Language } from './types';
 export const site = {
   name: 'IsarKlima',
   defaultUrl: 'https://isarklima-muenchen.netlify.app',
-  email: 'projekt@isarklima.example',
   serviceArea: {
     de: 'Projekte in Stadt und Landkreis München',
     en: 'Projects in Munich and the Munich district',

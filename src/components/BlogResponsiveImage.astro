@@ -1,0 +1,8 @@
+---
+interface Props { src: string; alt: string; class?: string; sizes: string; loading?: 'eager' | 'lazy'; fetchpriority?: 'high' | 'low' | 'auto'; }
+const { src, alt, class: className, sizes, loading = 'lazy', fetchpriority = 'auto' } = Astro.props;
+const base = src.replace(/\.webp$/, '');
+const widths = [480, 640, 800, 960, 1280];
+const srcset = [...widths.map((width) => `${base}-${width}.webp ${width}w`), `${src} 1440w`].join(', ');
+---
+<img class={className} src={src} {srcset} {sizes} width="1440" height="880" alt={alt} loading={loading} decoding="async" fetchpriority={fetchpriority} />

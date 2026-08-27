@@ -34,8 +34,8 @@ const progress = Math.round(((index + 1) / total) * 100);
       {section.paragraphs?.map((paragraph) => <p>{paragraph}</p>)}
       {layout === 'comparison' && itemCount > 1 && <div class="comparison-axis" aria-hidden="true"><span>01</span><i></i><span>{String(itemCount).padStart(2, '0')}</span></div>}
       {layout === 'image-statement' && !section.image && <div class="section-coordinate-art" aria-hidden="true"><span></span><i></i><b></b></div>}
-      {itemCount > 0 && <div class:list={['subsection-grid', `items-${Math.min(itemCount, 4)}`]} role="list">
-        {subsections.map((item, itemIndex) => <article role="listitem">
+      {itemCount > 0 && <div class:list={['subsection-grid', `items-${Math.min(itemCount, 4)}`]}>
+        {subsections.map((item, itemIndex) => <article>
           <div class="subsection-signal" aria-hidden="true"><i></i><i></i><span></span></div>
           <span class="subsection-index">{String(itemIndex + 1).padStart(2, '0')}</span>
           <h3>{item.title}</h3>

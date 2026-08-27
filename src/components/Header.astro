@@ -9,8 +9,9 @@ const isCurrent = (href: string) => href === currentPath
   || (href === '/ratgeber/' && currentPath.startsWith('/ratgeber/'))
   || (href === '/en/guides/' && currentPath.startsWith('/en/guides/'));
 const alternateLanguage = lang === 'de'
-  ? { flag: '/flags/flag-uk.svg', label: t.language, ariaLabel: 'Zur englischen Version wechseln' }
-  : { flag: '/flags/flag-de.svg', label: t.language, ariaLabel: 'Switch to the German version' };
+  ? { flag: '/flags/flag-uk.svg', label: t.language, ariaLabel: 'English — zur englischen Version wechseln' }
+  : { flag: '/flags/flag-de.svg', label: t.language, ariaLabel: 'Deutsch — switch to the German version' };
+const contactPath = lang === 'de' ? '/kontakt/' : '/en/contact/';
 ---
 <div class="preview-bar" role="status"><span>{t.preview}</span><p>{t.previewText}</p></div>
 <header class="site-header shell">
@@ -24,7 +25,7 @@ const alternateLanguage = lang === 'de'
       <i aria-hidden="true">↗</i>
     </a>
   </nav>
-  <a class="header-cta" href={lang === 'de' ? '/kontakt/' : '/en/contact/'}>{t.request}<span aria-hidden="true">↗</span></a>
+  <a class="header-cta" href={contactPath} aria-current={isCurrent(contactPath) ? 'page' : undefined}>{t.request}<span aria-hidden="true">↗</span></a>
 </header>
 <script>
   const button = document.querySelector<HTMLButtonElement>('.menu-toggle');

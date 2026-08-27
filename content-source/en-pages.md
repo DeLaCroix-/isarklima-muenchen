@@ -290,7 +290,7 @@ Reduction starts with selecting a position away from acoustically sensitive room
 
 Prepare the full address, a floor plan if available, approximate room sizes, photographs of indoor and outdoor areas and a note explaining which rooms need cooling. Add your tenancy or ownership status and any written landlord, property management or owners’ association information. If a specific installation position has already been discussed, include that context without assuming it is technically approved.
 
-## Request an apartment installation
+## Discuss air conditioning for your apartment
 
 Describe the apartment, rooms, ownership status and proposed outdoor location, and state whether permission has been requested or received. The project form can collect an initial description once it is activated; a secure method for any supporting documents must be confirmed as part of the final form configuration. Submission is an assessment request, not an order.
 
@@ -382,7 +382,7 @@ An older building can be suitable for a retrofit, but construction, protected el
 
 Identify the rooms to be cooled, likely indoor and outdoor positions, pipe routes, wall or roof penetrations, condensate drainage, electrical provisions and access. These items should be coordinated with structure, insulation, airtightness, facade design and interior finishes. Early provision preserves options; it does not remove the need to select and assess the final system before installation.
 
-## Request a home installation
+## Discuss air conditioning for your home
 
 Provide the address, house type, rooms, approximate dimensions and possible indoor and outdoor positions. Keep any useful photographs or plans ready; if they are needed, an approved sharing method can be confirmed after the first contact. Note whether the building is existing, under renovation or in construction and identify any known access or electrical constraints.
 
@@ -462,7 +462,7 @@ Responsibility must be stated in the project scope. The split-system assessment 
 
 Provide the full address, business use, room plan or dimensions, occupancy, operating hours, major heat-producing equipment and desired cooling zones. Add photographs of potential indoor and outdoor positions, access constraints and any landlord or management conditions. State whether out-of-hours work is preferred and whether an electrical assessment already exists. Further technical checks may still be needed before the scope is reliable.
 
-## Request a commercial installation
+## Discuss air conditioning for your premises
 
 Describe the premises, usage zones, occupancy, operating pattern and project address, and identify the person able to approve building work. Include known access, noise and electrical constraints. The enquiry form will not accept live project requests until the dedicated endpoint, privacy details, business authorisation and responsibility for any partner work have been confirmed.
 

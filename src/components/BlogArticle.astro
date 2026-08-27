@@ -7,6 +7,7 @@ import Breadcrumbs from './Breadcrumbs.astro';
 import ContactForm from './ContactForm.astro';
 import RelatedLinks from './RelatedLinks.astro';
 import ResponsiveImage from './ResponsiveImage.astro';
+import BlogResponsiveImage from './BlogResponsiveImage.astro';
 import type { BlogEntry } from '../lib/blog';
 interface Props { entry: BlogEntry; lang: 'de' | 'en'; path: string; }
 const { entry, lang, path } = Astro.props;
@@ -31,8 +32,8 @@ const secondaryImage = secondaryImages[entry.data.translationGroup ?? ''] ?? 'in
   <Breadcrumbs items={breadcrumbs} />
   <main id="main-content">
     <article class="article-shell">
-      <header class="article-header shell"><div class="article-meta"><span>{entry.data.category}</span><time datetime={entry.data.publishDate.toISOString()}>{entry.data.publishDate.toLocaleDateString(lang === 'de' ? 'de-DE' : 'en-GB', { day: '2-digit', month: 'long', year: 'numeric' })}</time></div><h1>{entry.data.title}</h1><p>{entry.data.description}</p></header>
-      {entry.data.image && <figure class="article-image shell"><img src={entry.data.image} width="1440" height="880" alt={entry.data.imageAlt} fetchpriority="high" /><figcaption>{lang === 'de' ? 'Illustrative Darstellung; kein IsarKlima-Referenzprojekt.' : 'Illustrative visual; not an IsarKlima project reference.'}</figcaption></figure>}
+      <header class="article-header shell"><div class="article-meta"><span>{entry.data.category}</span>{entry.data.author && <span class="article-author">{lang === 'de' ? 'Von' : 'By'} {entry.data.author}</span>}<time datetime={entry.data.publishDate.toISOString()}>{entry.data.publishDate.toLocaleDateString(lang === 'de' ? 'de-DE' : 'en-GB', { day: '2-digit', month: 'long', year: 'numeric' })}</time></div><h1>{entry.data.title}</h1><p>{entry.data.description}</p></header>
+      {entry.data.image && <figure class="article-image shell"><BlogResponsiveImage src={entry.data.image} alt={entry.data.imageAlt} loading="eager" fetchpriority="high" sizes="(max-width: 620px) 100vw, (max-width: 1288px) calc(100vw - 48px), 1240px" /><figcaption>{lang === 'de' ? 'Illustrative Darstellung; kein IsarKlima-Referenzprojekt.' : 'Illustrative visual; not an IsarKlima project reference.'}</figcaption></figure>}
       <div class="article-grid shell"><aside><a class="article-back" href={guidesPath}>← {lang === 'de' ? 'Alle Ratgeber' : 'All guides'}</a><span>{lang === 'de' ? 'Allgemeine Orientierung' : 'General guidance'}</span><nav class="article-toc" aria-label={lang === 'de' ? 'Inhalt dieses Ratgebers' : 'In this guide'}><strong>{lang === 'de' ? 'In diesem Ratgeber' : 'In this guide'}</strong>{sectionLinks.map((heading, index) => <a href={`#${heading.slug}`}><small>{String(index + 1).padStart(2, '0')}</small>{heading.text}</a>)}</nav><figure class="article-side-image"><ResponsiveImage name={secondaryImage} alt={lang === 'de' ? 'Ergänzende illustrative Ansicht zur Projektplanung' : 'Supporting illustrative view for project planning'} sizes="(max-width: 1050px) 100vw, 235px" /><figcaption>{lang === 'de' ? 'Illustrative Ansicht' : 'Illustrative view'}</figcaption></figure></aside><div class="prose"><Content /></div></div>
     </article>
     <RelatedLinks {lang} article />

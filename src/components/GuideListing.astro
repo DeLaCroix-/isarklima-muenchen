@@ -1,5 +1,6 @@
 ---
 import { blogSlug, getPublishedPosts } from '../lib/blog';
+import BlogResponsiveImage from './BlogResponsiveImage.astro';
 interface Props { lang: 'de' | 'en'; }
 const { lang } = Astro.props;
 const posts = await getPublishedPosts(lang === 'de' ? 'de-DE' : 'en-DE');
@@ -9,7 +10,7 @@ const posts = await getPublishedPosts(lang === 'de' ? 'de-DE' : 'en-DE');
   <p class="guide-swipe-hint">{lang === 'de' ? 'Seitlich wischen, um weitere Ratgeber zu sehen' : 'Swipe sideways to see more guides'}</p>
   <div class="guide-grid">
     {posts.map((post, index) => <article class:list={['guide-card', { featured: index === 0 }]}>
-      <a class="guide-image" href={lang === 'de' ? `/ratgeber/${blogSlug(post)}/` : `/en/guides/${blogSlug(post)}/`}><img src={post.data.image} width="1440" height="880" alt={post.data.imageAlt} loading="lazy" /></a>
+      <a class="guide-image" href={lang === 'de' ? `/ratgeber/${blogSlug(post)}/` : `/en/guides/${blogSlug(post)}/`}><BlogResponsiveImage src={post.data.image!} alt={post.data.imageAlt} sizes={index === 0 ? '(max-width: 700px) min(86vw, 348px), (max-width: 1050px) calc(100vw - 48px), (max-width: 1288px) 56vw, 700px' : '(max-width: 700px) min(86vw, 348px), (max-width: 1050px) 44vw, (max-width: 1288px) 20vw, 260px'} /></a>
       <div class="guide-card-copy"><p class="guide-card-meta"><span>{String(index + 1).padStart(2, '0')}</span>{post.data.category}</p><h3 class="guide-card-title"><a href={lang === 'de' ? `/ratgeber/${blogSlug(post)}/` : `/en/guides/${blogSlug(post)}/`}>{post.data.title}</a></h3><time class="guide-date" datetime={post.data.publishDate.toISOString().slice(0, 10)}>{post.data.publishDate.toLocaleDateString(lang === 'de' ? 'de-DE' : 'en-GB', { day: '2-digit', month: 'short', year: 'numeric' })}</time></div>
     </article>)}
   </div>

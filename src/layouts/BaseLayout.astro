@@ -24,11 +24,13 @@ const siteUrl = Astro.site ?? new URL(site.defaultUrl);
 const canonical = new URL(path, siteUrl).toString();
 const alternate = alternatePath ? new URL(alternatePath, siteUrl).toString() : undefined;
 const imageUrl = new URL(image, siteUrl).toString();
+const organizationId = new URL('/#organization', siteUrl).toString();
+const organization = { '@type': 'Organization', '@id': organizationId, name: site.name, url: new URL('/', siteUrl).toString(), logo: new URL('/brand/isarklima-mark.svg', siteUrl).toString() };
 const indexSite = import.meta.env.PUBLIC_INDEX_SITE === 'true';
 const schemas = [
-  { '@context': 'https://schema.org', '@type': 'Organization', name: site.name, url: new URL('/', siteUrl).toString(), logo: new URL('/brand/isarklima-mark.svg', siteUrl).toString() },
+  { '@context': 'https://schema.org', ...organization },
   ...(breadcrumbs.length > 1 ? [{ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: breadcrumbs.map((item, index) => ({ '@type': 'ListItem', position: index + 1, name: item.name, item: new URL(item.path, siteUrl).toString() })) }] : []),
-  ...(article ? [{ '@context': 'https://schema.org', '@type': 'Article', headline: article.headline ?? title, description, inLanguage: lang === 'de' ? 'de-DE' : 'en-DE', datePublished: article.published.toISOString(), dateModified: (article.updated ?? article.published).toISOString(), image: imageUrl, author: { '@type': 'Organization', name: article.author ?? site.name }, publisher: { '@type': 'Organization', name: site.name }, mainEntityOfPage: canonical }] : []),
+  ...(article ? [{ '@context': 'https://schema.org', '@type': 'Article', headline: article.headline ?? title, description, inLanguage: lang === 'de' ? 'de-DE' : 'en-DE', datePublished: article.published.toISOString(), dateModified: (article.updated ?? article.published).toISOString(), image: imageUrl, ...(article.author ? { author: { '@type': 'Organization', '@id': organizationId, name: article.author, url: organization.url } } : {}), publisher: organization, mainEntityOfPage: canonical }] : []),
   ...(faq.length ? [{ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map((item) => ({ '@type': 'Question', name: item.question, acceptedAnswer: { '@type': 'Answer', text: item.answer } })) }] : []),
 ];
 ---
@@ -52,8 +54,9 @@ const schemas = [
     <link rel="icon" type="image/png" href="/favicon.png" sizes="64x64" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="alternate" type="application/rss+xml" title={lang === 'de' ? 'IsarKlima Ratgeber' : 'IsarKlima guides'} href={lang === 'de' ? '/rss.xml' : '/en/rss.xml'} />
     <meta property="og:type" content={article ? 'article' : 'website'} />
-    <meta property="og:locale" content={lang === 'de' ? 'de_DE' : 'en_GB'} />
+    <meta property="og:locale" content={lang === 'de' ? 'de_DE' : 'en_DE'} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />

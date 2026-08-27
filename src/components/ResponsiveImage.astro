@@ -1,7 +1,6 @@
 ---
 interface Props { name: string; alt: string; class?: string; widths?: number[]; sizes?: string; loading?: 'eager' | 'lazy'; fetchpriority?: 'high' | 'low' | 'auto'; }
-const { name, alt, class: className, widths = [640, 960, 1440, 1920], sizes = '(max-width: 800px) 100vw, 50vw', loading = 'lazy', fetchpriority = 'auto' } = Astro.props;
+const { name, alt, class: className, widths = [320, 640, 800, 960, 1440, 1920], sizes = '(max-width: 800px) 100vw, 50vw', loading = 'lazy', fetchpriority = 'auto' } = Astro.props;
 const srcset = widths.map((width) => `/images/site/${name}-${width}.webp ${width}w`).join(', ');
 ---
 <img class={className} src={`/images/site/${name}-960.webp`} srcset={srcset} sizes={sizes} width="960" height="640" alt={alt} loading={loading} decoding="async" fetchpriority={fetchpriority} />
-

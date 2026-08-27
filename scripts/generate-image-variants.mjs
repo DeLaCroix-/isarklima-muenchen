@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const sourceDir = join(root, 'assets', 'generated');
+const stockSourceDir = join(root, 'assets', 'source-stock', 'originals');
 const outputDir = join(root, 'public', 'images', 'site');
 const imageNames = [
   'hero-installation-detail',
@@ -17,7 +18,8 @@ const imageNames = [
   'apartment-interior-face-free',
   'condominium-building-detail',
 ];
-const widths = [640, 960, 1440, 1920];
+const widths = [320, 640, 800, 960, 1440, 1920];
+const stockImageNames = ['commissioning-gauges', 'munich-city', 'split-unit-interior'];
 
 await mkdir(outputDir, { recursive: true });
 
@@ -32,4 +34,15 @@ for (const imageName of imageNames) {
   }
 }
 
-console.log(`Generated ${imageNames.length * widths.length} face-free responsive image variants.`);
+for (const imageName of stockImageNames) {
+  const source = join(stockSourceDir, `${imageName}.jpg`);
+  for (const width of widths) {
+    await sharp(source)
+      .rotate()
+      .resize(width, Math.round(width * 2 / 3), { fit: 'cover', position: 'attention' })
+      .webp({ quality: 82, effort: 5 })
+      .toFile(join(outputDir, `${imageName}-${width}.webp`));
+  }
+}
+
+console.log(`Generated ${(imageNames.length + stockImageNames.length) * widths.length} face-free responsive image variants.`);

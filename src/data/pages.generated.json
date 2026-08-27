@@ -157,7 +157,7 @@
     "alternatePath": "/en/split-air-conditioning-installation/",
     "navLabel": "Split-Klimaanlage",
     "title": "Split-Klimaanlagen in München | Planung und Montage",
-    "description": "Planung und Montage von Single- und Multi-Split-Klimaanlagen in München.",
+    "description": "Planung und Montage von Single- und Multi-Split-Klimaanlagen für Wohnungen, Häuser und Gewerbeflächen in München.",
     "eyebrow": "Single- & Multi-Split",
     "h1": "Split-Klimaanlage in München installieren lassen",
     "intro": "Eine Split-Klimaanlage besteht aus mindestens einem Innen- und einem Außengerät. Die Anlage wird passend zu den Räumen, zur Nutzung und zur realen Montagesituation geplant – einschließlich Leitungsweg, Kondensatführung und erforderlicher technischer Schnittstellen.",
@@ -1306,7 +1306,7 @@
     "alternatePath": "/",
     "navLabel": "Home",
     "title": "Air conditioning for Munich properties | IsarKlima",
-    "description": "Thoughtful single-split and multi-split air conditioning for apartments, homes, offices and smaller commercial spaces in Munich.",
+    "description": "Single-split and multi-split air conditioning planned for apartments, homes, offices and smaller commercial spaces in Munich.",
     "eyebrow": "Single-split & multi-split systems",
     "h1": "Air conditioning for Munich properties",
     "intro": "A successful split air conditioning project starts with the building, not with a product catalogue. Room use, heat gain, possible unit positions, permissions, pipe routes, condensate drainage and the electrical interface all affect what can be installed. IsarKlima plans single-split and multi-split air conditioning for apartments, homes, offices and smaller commercial spaces in Munich, with each project shaped around the actual property.",
@@ -1710,7 +1710,7 @@
         "answer": "Prepare the full address, a floor plan if available, approximate room sizes, photographs of indoor and outdoor areas and a note explaining which rooms need cooling. Add your tenancy or ownership status and any written landlord, property management or owners’ association information. If a specific installation position has already been discussed, include that context without assuming it is technically approved."
       }
     ],
-    "formTitle": "Request an apartment installation",
+    "formTitle": "Discuss air conditioning for your apartment",
     "formIntro": "Describe the apartment, rooms, ownership status and proposed outdoor location, and state whether permission has been requested or received. The project form can collect an initial description once it is activated; a secure method for any supporting documents must be confirmed as part of the final form configuration. Submission is an assessment request, not an order."
   },
   {
@@ -1838,7 +1838,7 @@
         "answer": "Identify the rooms to be cooled, likely indoor and outdoor positions, pipe routes, wall or roof penetrations, condensate drainage, electrical provisions and access. These items should be coordinated with structure, insulation, airtightness, facade design and interior finishes. Early provision preserves options; it does not remove the need to select and assess the final system before installation."
       }
     ],
-    "formTitle": "Request a home installation",
+    "formTitle": "Discuss air conditioning for your home",
     "formIntro": "Provide the address, house type, rooms, approximate dimensions and possible indoor and outdoor positions. Keep any useful photographs or plans ready; if they are needed, an approved sharing method can be confirmed after the first contact. Note whether the building is existing, under renovation or in construction and identify any known access or electrical constraints."
   },
   {
@@ -1948,7 +1948,7 @@
         "answer": "Provide the full address, business use, room plan or dimensions, occupancy, operating hours, major heat-producing equipment and desired cooling zones. Add photographs of potential indoor and outdoor positions, access constraints and any landlord or management conditions. State whether out-of-hours work is preferred and whether an electrical assessment already exists. Further technical checks may still be needed before the scope is reliable."
       }
     ],
-    "formTitle": "Request a commercial installation",
+    "formTitle": "Discuss air conditioning for your premises",
     "formIntro": "Describe the premises, usage zones, occupancy, operating pattern and project address, and identify the person able to approve building work. Include known access, noise and electrical constraints. The enquiry form will not accept live project requests until the dedicated endpoint, privacy details, business authorisation and responsibility for any partner work have been confirmed."
   },
   {
@@ -1958,7 +1958,7 @@
     "alternatePath": "/klimaanlage-nachruesten/",
     "navLabel": "Retrofit",
     "title": "Retrofit air conditioning in Munich | IsarKlima",
-    "description": "Assessing and installing retrofit split air conditioning in existing apartments, homes and offices in Munich.",
+    "description": "Split air conditioning planned and installed in existing apartments, homes and offices in Munich.",
     "eyebrow": "Retrofit in existing buildings",
     "h1": "Retrofit air conditioning in Munich",
     "intro": "Retrofitting split air conditioning means finding a practical route through a building that was not necessarily prepared for it. The project must accommodate indoor and outdoor units, insulated lines, condensate drainage, power and access while respecting ownership and finished surfaces. Feasibility depends on the specific address and proposed rooms; it should not be inferred from the building type alone.",

@@ -131,9 +131,13 @@ for (const file of htmlFiles) {
   pages.set(path, { $, html, file });
   const expectedLang = path.startsWith('/en/') ? 'en-DE' : 'de-DE';
   const expectedLanguageSelector = expectedLang === 'de-DE'
-    ? { hreflang: 'en', ariaLabel: 'Zur englischen Version wechseln', flag: '/flags/flag-uk.svg' }
-    : { hreflang: 'de', ariaLabel: 'Switch to the German version', flag: '/flags/flag-de.svg' };
+    ? { hreflang: 'en', ariaLabel: 'English — zur englischen Version wechseln', visibleLabel: 'English', flag: '/flags/flag-uk.svg' }
+    : { hreflang: 'de', ariaLabel: 'Deutsch — switch to the German version', visibleLabel: 'Deutsch', flag: '/flags/flag-de.svg' };
   if ($('html').attr('lang') !== expectedLang) fail(path, `expected lang=${expectedLang}`);
+  if ($('meta[property="og:locale"]').attr('content') !== (expectedLang === 'de-DE' ? 'de_DE' : 'en_DE')) fail(path, 'Open Graph locale must match the page locale');
+  const rssDiscovery = $('link[rel="alternate"][type="application/rss+xml"]');
+  const expectedRssPath = expectedLang === 'de-DE' ? '/rss.xml' : '/en/rss.xml';
+  if (rssDiscovery.length !== 1 || rssDiscovery.attr('href') !== expectedRssPath) fail(path, `expected one localized RSS discovery link to ${expectedRssPath}`);
   if ($('h1').length !== 1) fail(path, `expected one H1, found ${$('h1').length}`);
   const documentTitle = normalize($('title').text());
   const metaDescription = normalize($('meta[name="description"]').attr('content') ?? '');
@@ -175,6 +179,7 @@ for (const file of htmlFiles) {
   } else {
     if (languageSelector.attr('hreflang') !== expectedLanguageSelector.hreflang) fail(path, `language selector must use hreflang=${expectedLanguageSelector.hreflang}`);
     if (languageSelector.attr('aria-label') !== expectedLanguageSelector.ariaLabel) fail(path, `language selector has incorrect aria-label`);
+    if (languageSelector.find('span').first().text().trim() !== expectedLanguageSelector.visibleLabel) fail(path, `language selector has incorrect visible label`);
     const flag = languageSelector.find('img');
     if (flag.length !== 1) {
       fail(path, `expected one language flag image, found ${flag.length}`);
@@ -185,6 +190,11 @@ for (const file of htmlFiles) {
       if (flag.attr('aria-hidden') !== 'true') fail(path, 'language flag must use aria-hidden=true');
     }
   }
+  const contactCta = $('.site-header .header-cta');
+  const expectedContactPath = expectedLang === 'de-DE' ? '/kontakt/' : '/en/contact/';
+  if (contactCta.attr('href') !== expectedContactPath) fail(path, `header contact CTA must link to ${expectedContactPath}`);
+  if (path === expectedContactPath && contactCta.attr('aria-current') !== 'page') fail(path, 'contact CTA must expose the current-page state');
+  if (path !== expectedContactPath && contactCta.attr('aria-current')) fail(path, 'contact CTA must not expose a false current-page state');
   $('img').each((_, image) => {
     const element = $(image);
     if (!element.attr('width') || !element.attr('height')) fail(path, `image lacks dimensions: ${element.attr('src')}`);
@@ -198,9 +208,14 @@ for (const file of htmlFiles) {
       if (reference) localImageReferences.add(reference);
     }
   });
+  $('.article-image img, .guide-image img').each((_, image) => {
+    const element = $(image);
+    if (!element.attr('srcset') || !element.attr('sizes')) fail(path, `editorial image must be responsive: ${element.attr('src') ?? '(missing src)'}`);
+  });
   $('script[type="application/ld+json"]').each((_, script) => {
     try { JSON.parse($(script).html() ?? ''); } catch { fail(path, 'invalid JSON-LD'); }
   });
+  if ($('article[role]').length) fail(path, 'article elements must use their native semantic role');
   $('form[data-enabled="false"]').each((_, form) => {
     if ($(form).attr('action')) fail(path, 'inactive form has an action');
     if (!$(form).find('button[type="submit"]').is('[disabled]')) fail(path, 'inactive form submit is not disabled');
@@ -500,6 +515,9 @@ for (const post of publishablePosts) {
     try { return JSON.parse(built.$(script).html() ?? ''); } catch { return null; }
   }).get().find((schema) => schema?.['@type'] === 'Article');
   if (!articleSchema || normalize(articleSchema.headline ?? '') !== normalize(post.title)) fail(post.path, 'Article schema headline must match the visible H1');
+  const visibleAuthor = normalize(built.$('.article-author').text());
+  const schemaAuthor = normalize(articleSchema?.author?.name ?? '');
+  if (!schemaAuthor || !visibleAuthor.includes(schemaAuthor)) fail(post.path, 'Article schema author must be visible in the article header');
 }
 
 for (const post of excludedPosts) {
@@ -519,6 +537,10 @@ const sitemapText = (await Promise.all(
 )).join('\n');
 const germanRss = await readFile(join(dist, 'rss.xml'), 'utf8');
 const englishRss = await readFile(join(dist, 'en', 'rss.xml'), 'utf8');
+const germanRssXml = load(germanRss, { xmlMode: true });
+const englishRssXml = load(englishRss, { xmlMode: true });
+if (germanRssXml('channel > link').first().text() !== `${expectedSiteOrigin}/`) fail('/rss.xml', 'German RSS channel must link to the German home');
+if (englishRssXml('channel > link').first().text() !== `${expectedSiteOrigin}/en/`) fail('/en/rss.xml', 'English RSS channel must link to the English home');
 for (const post of publishablePosts) {
   const absoluteUrl = new URL(post.path, `${expectedSiteOrigin}/`).href;
   if (!sitemapText.includes(absoluteUrl)) fail(post.path, 'publishable article is missing from the sitemap');
@@ -536,6 +558,7 @@ const legalPageCount = 4;
 const expectedHtmlCount = generated.length + legalPageCount + 1 + publishablePosts.length;
 if (htmlFiles.length !== expectedHtmlCount) fail('build', `expected ${expectedHtmlCount} HTML pages (${generated.length} generated + ${legalPageCount} legal + 1 error + ${publishablePosts.length} publishable articles), found ${htmlFiles.length}`);
 const llms = await readFile(join(dist, 'llms.txt'), 'utf8');
+if ([...llms.matchAll(/\[[^\]]+\]\(https?:\/\/[^)]+\)/g)].length < 4) fail('/llms.txt', 'llms.txt must expose at least four absolute Markdown links');
 if (indexSite) {
   if (!/^Allow:\s*\/$/m.test(robots)) fail('/robots.txt', 'indexable mode must allow crawling');
   if (/^Disallow:\s*\/$/m.test(robots)) fail('/robots.txt', 'indexable mode must not disallow the whole site');
