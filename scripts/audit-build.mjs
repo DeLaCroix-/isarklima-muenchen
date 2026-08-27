@@ -105,12 +105,23 @@ for (const marker of [...retiredFaceImageFamilies, 'preview-technician']) {
   const match = publicImageFiles.find((file) => file.toLocaleLowerCase('en').includes(marker));
   if (match) fail('/images/', `retired face-bearing image remains public: ${relative(join(root, 'public'), match).split(sep).join('/')}`);
 }
+for (const flag of ['flag-uk.svg', 'flag-de.svg']) {
+  try {
+    const source = await readFile(join(root, 'public', 'flags', flag), 'utf8');
+    if (!/<svg\b/i.test(source)) fail('/flags/', `${flag} is not an SVG document`);
+  } catch {
+    fail('/flags/', `missing language flag ${flag}`);
+  }
+}
 for (const file of htmlFiles) {
   const path = urlForFile(file);
   const html = await readFile(file, 'utf8');
   const $ = load(html);
   pages.set(path, { $, html, file });
   const expectedLang = path.startsWith('/en/') ? 'en-DE' : 'de-DE';
+  const expectedLanguageSelector = expectedLang === 'de-DE'
+    ? { hreflang: 'en', ariaLabel: 'Zur englischen Version wechseln', flag: '/flags/flag-uk.svg' }
+    : { hreflang: 'de', ariaLabel: 'Switch to the German version', flag: '/flags/flag-de.svg' };
   if ($('html').attr('lang') !== expectedLang) fail(path, `expected lang=${expectedLang}`);
   if ($('h1').length !== 1) fail(path, `expected one H1, found ${$('h1').length}`);
   if (!$('meta[name="description"]').attr('content')) fail(path, 'missing meta description');
@@ -118,6 +129,22 @@ for (const file of htmlFiles) {
   const canonical = $('link[rel="canonical"]').attr('href');
   if (!canonical || new URL(canonical).pathname !== (path === '/404/' ? '/404/' : path)) fail(path, `incorrect canonical ${canonical ?? '(missing)'}`);
   if (path !== '/404/' && $('link[rel="alternate"][hreflang]').length !== 3) fail(path, 'expected three hreflang entries');
+  const languageSelector = $('.site-header .nav-language');
+  if (languageSelector.length !== 1) {
+    fail(path, `expected one header language selector, found ${languageSelector.length}`);
+  } else {
+    if (languageSelector.attr('hreflang') !== expectedLanguageSelector.hreflang) fail(path, `language selector must use hreflang=${expectedLanguageSelector.hreflang}`);
+    if (languageSelector.attr('aria-label') !== expectedLanguageSelector.ariaLabel) fail(path, `language selector has incorrect aria-label`);
+    const flag = languageSelector.find('img');
+    if (flag.length !== 1) {
+      fail(path, `expected one language flag image, found ${flag.length}`);
+    } else {
+      if (flag.attr('src') !== expectedLanguageSelector.flag) fail(path, `language selector must use ${expectedLanguageSelector.flag}`);
+      if (flag.attr('width') !== '24' || flag.attr('height') !== '16') fail(path, 'language flag must be 24x16');
+      if (flag.attr('alt') !== '') fail(path, 'language flag must have empty alt text');
+      if (flag.attr('aria-hidden') !== 'true') fail(path, 'language flag must use aria-hidden=true');
+    }
+  }
   $('img').each((_, image) => {
     const element = $(image);
     if (!element.attr('width') || !element.attr('height')) fail(path, `image lacks dimensions: ${element.attr('src')}`);

@@ -37,7 +37,11 @@ p { text-wrap: pretty; }
 .site-header nav { display: flex; justify-content: center; align-items: center; gap: clamp(14px, 2vw, 30px); }
 .site-header nav a { padding-block: 12px 7px; border-bottom: 1px solid transparent; text-decoration: none; font-size: 12px; font-weight: 720; }
 .site-header nav a:hover, .site-header nav a[aria-current='page'] { border-color: currentColor; }
-.site-header .nav-language { color: var(--isar-deep); }
+.site-header nav .nav-language { min-height: 36px; padding: 6px 10px 6px 7px; display: inline-flex; align-items: center; gap: 8px; border: 1px solid rgba(7,26,34,.2); color: var(--ink); background: rgba(255,255,255,.42); white-space: nowrap; transition: color .2s ease, background-color .2s ease, border-color .2s ease; }
+.site-header nav .nav-language:hover { border-color: var(--ink); color: white; background: var(--ink); }
+.language-flag { flex: 0 0 auto; width: 24px; height: 16px; object-fit: cover; border: 1px solid rgba(7,26,34,.24); box-shadow: 0 2px 7px rgba(7,26,34,.13); }
+.nav-language i { margin-left: 2px; color: var(--isar-deep); font-style: normal; font-size: 10px; transition: transform .2s ease; }
+.nav-language:hover i { color: var(--signal); transform: translate(2px, -2px); }
 .header-cta { justify-self: end; display: inline-flex; align-items: center; gap: 14px; padding: 12px 0 7px; border-bottom: 1px solid currentColor; text-decoration: none; font-size: 12px; font-weight: 800; }
 .menu-toggle { display: none; min-height: 44px; padding: 0 8px; border: 0; background: none; }
 
@@ -326,6 +330,9 @@ h1 { max-width: 880px; font-size: clamp(49px, 4.65vw, 68px); }
   .site-header nav { display: none; position: absolute; z-index: 20; top: 76px; right: 0; left: 0; padding: 24px; flex-direction: column; align-items: stretch; color: white; background: var(--ink); box-shadow: var(--shadow); }
   .site-header nav[data-open] { display: flex; }
   .site-header nav a { padding: 12px; border-bottom: 1px solid var(--white-line); font-size: 13px; }
+  .site-header nav .nav-language { margin-top: 8px; padding: 11px 12px; justify-content: flex-start; border: 1px solid rgba(255,255,255,.3); color: white; background: rgba(255,255,255,.07); }
+  .site-header nav .nav-language:hover { border-color: var(--isar); color: var(--ink); background: var(--isar); }
+  .site-header nav .nav-language i { margin-left: auto; color: var(--signal); }
   .menu-toggle { display: inline-flex; align-items: center; gap: 10px; font-size: 11px; font-weight: 800; }
   .menu-toggle i, .menu-toggle i::before { display: block; width: 18px; height: 1px; background: var(--ink); }
   .menu-toggle i { position: relative; }

@@ -4,6 +4,9 @@ import type { Language } from '../data/types';
 interface Props { lang: Language; alternatePath: string; }
 const { lang, alternatePath } = Astro.props;
 const t = labels[lang];
+const alternateLanguage = lang === 'de'
+  ? { flag: '/flags/flag-uk.svg', label: t.language, ariaLabel: 'Zur englischen Version wechseln' }
+  : { flag: '/flags/flag-de.svg', label: t.language, ariaLabel: 'Switch to the German version' };
 ---
 <div class="preview-bar" role="status"><span>{t.preview}</span><p>{t.previewText}</p></div>
 <header class="site-header shell">
@@ -11,7 +14,11 @@ const t = labels[lang];
   <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav"><span>{t.menu}</span><i aria-hidden="true"></i></button>
   <nav id="primary-nav" aria-label={t.nav}>
     {navigation[lang].map(([href, label]) => <a href={href}>{label}</a>)}
-    <a class="nav-language" href={alternatePath} hreflang={lang === 'de' ? 'en' : 'de'}>{t.language}</a>
+    <a class="nav-language" href={alternatePath} hreflang={lang === 'de' ? 'en' : 'de'} aria-label={alternateLanguage.ariaLabel} title={alternateLanguage.ariaLabel}>
+      <img class="language-flag" src={alternateLanguage.flag} width="24" height="16" alt="" aria-hidden="true" />
+      <span>{alternateLanguage.label}</span>
+      <i aria-hidden="true">↗</i>
+    </a>
   </nav>
   <a class="header-cta" href={lang === 'de' ? '/kontakt/' : '/en/contact/'}>{t.request}<span aria-hidden="true">↗</span></a>
 </header>
@@ -24,4 +31,3 @@ const t = labels[lang];
     nav?.toggleAttribute('data-open', !open);
   });
 </script>
-
