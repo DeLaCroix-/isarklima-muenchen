@@ -15,7 +15,7 @@ These project-specific images were created with OpenAI's built-in image generati
 | `quiet-bedroom-interior` | Residential comfort and finished bedroom installation imagery |
 | `installation-material-detail` | Installation materials, system components and technical-process imagery |
 | `airflow-interior-detail` | Indoor airflow, quiet operation and interior-comfort imagery |
-| `apartment-comfort` | Face-free apartment hero and rental-apartment guidance imagery |
+| `apartment-interior-face-free` | Face-free apartment hero and rental-apartment guidance imagery |
 | `condominium-building-detail` | Condominium facade, approval and outdoor-unit guidance imagery |
 
 ## Licensed stock in active use

@@ -63,7 +63,7 @@ Generation mode: OpenAI built-in image generation. These are new generations, no
 > Materials/textures: matte wall, natural fabric, realistic plastic, soft plant foliage
 > Constraints: absolutely no people, faces, heads, hands, silhouettes, human reflections, readable text, logos, brands, watermark, visible vapor, fantasy airflow graphics, or impossible equipment
 
-## `apartment-comfort.png`
+## `apartment-interior-face-free.png`
 
 > Use case: photorealistic-natural
 > Asset type: responsive website hero and editorial image for an air-conditioning installer

@@ -13,7 +13,7 @@ publishDate: 2026-08-27
 updatedDate: 2026-08-27
 author: "IsarKlima Redaktion"
 category: "Planung und Genehmigung"
-image: "/images/blog/klimaanlage-mietwohnung-genehmigung.webp"
+image: "/images/blog/klimaanlage-mietwohnung-planung.webp"
 imageAlt: "Moderner Wohnraum mit wandmontierter Split-Klimaanlage"
 sourceUrl: "/ratgeber/klimaanlage-mietwohnung-genehmigung/"
 language: "de-DE"
@@ -98,7 +98,7 @@ publishDate: 2026-08-27
 updatedDate: 2026-08-27
 author: "IsarKlima Redaktion"
 category: "Planning and permissions"
-image: "/images/blog/air-conditioning-rental-apartment-permission.webp"
+image: "/images/blog/air-conditioning-rental-apartment-planning.webp"
 imageAlt: "Modern living space with a wall-mounted split air conditioning unit"
 sourceUrl: "/ratgeber/klimaanlage-mietwohnung-genehmigung/"
 language: "en-DE"

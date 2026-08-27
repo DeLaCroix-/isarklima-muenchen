@@ -35,6 +35,7 @@ const discouragedMarketingPhrases = [
   'ausgewählte orte in der region',
 ];
 const retiredFaceImageFamilies = [
+  'apartment-comfort',
   'hero-technician',
   'installation-team',
   'technician-outdoor-portrait',

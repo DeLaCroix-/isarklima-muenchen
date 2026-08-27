@@ -8,7 +8,7 @@ const source = await readFile(join(root, 'content-source', 'blog-bilingual.md'),
 const marker = /<!-- FILE: ([^ ]+) -->/g;
 const matches = [...source.matchAll(marker)];
 const imageSources = [
-  'apartment-comfort-1920.webp',
+  'apartment-interior-face-free-1920.webp',
   'condominium-building-detail-1920.webp',
   'split-unit-interior-1920.webp',
   'outdoor-unit-installation-detail-1920.webp',
