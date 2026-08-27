@@ -32,6 +32,8 @@
             "text": "In Büros und kleineren Gewerbeeinheiten hängen Auslegung und Platzierung zusätzlich von Belegung, Geräten, Öffnungszeiten und Arbeitsabläufen ab. Die Planung betrachtet deshalb einzelne Nutzungszonen, interne Wärmelasten sowie mögliche Montagezeiten und Zugangsbedingungen, ohne den laufenden Betrieb pauschal als unproblematisch vorauszusetzen."
           }
         ],
+        "eyebrow": "Leistungsbild",
+        "layout": "service-bento",
         "tone": "paper"
       },
       {
@@ -52,9 +54,12 @@
             "text": "Die Ausführung richtet sich nach dem zuvor vereinbarten Umfang. Dazu können die Montage der Innen- und Außengeräte, das Verlegen und Verbinden der Leitungen, die vorgesehenen Prüfungen, die Inbetriebnahme sowie eine Einweisung in Bedienung und grundlegende Nutzung gehören; erforderliche Fremdleistungen werden separat benannt."
           }
         ],
-        "image": "outdoor-unit-installation-detail",
-        "imageAlt": "Illustrative Darstellung zur Planung einer Split-Klimaanlage",
-        "tone": "paper"
+        "eyebrow": "Ablauf",
+        "layout": "process-rail",
+        "tone": "paper",
+        "image": "commercial-installation-detail",
+        "imageAlt": "Geordnete Montage einer Split-Klimaanlage in einem Gewerberaum",
+        "imagePosition": "start"
       },
       {
         "title": "Was vor der Montage zu klären ist",
@@ -74,14 +79,24 @@
             "text": "Vor der Montage wird geklärt, welche elektrische Schnittstelle die gewählte Anlage benötigt und wer gegebenenfalls Änderungen an der festen Elektroinstallation ausführt. Ebenso wichtig sind sichere Zugänge zu Innen- und Außenposition, ausreichender Arbeitsraum sowie abgestimmte Zutritts- und Montagezeiten."
           }
         ],
-        "tone": "ink"
+        "eyebrow": "Planungsdetails",
+        "layout": "technical-list",
+        "tone": "ink",
+        "image": "installation-material-detail",
+        "imageAlt": "Montagematerialien und Messwerkzeuge für eine Split-Klimaanlage",
+        "imagePosition": "end"
       },
       {
         "title": "Wo wir tätig sind",
         "intro": "Das Projektgebiet ist auf München und den Landkreis München ausgerichtet. Die konkrete Adresse, das Gebäude und die geplante Installation bilden die Grundlage der Prüfung. Andere Standorte können anhand der Projektdaten individuell betrachtet werden.",
         "paragraphs": [],
         "subsections": [],
-        "tone": "isar"
+        "eyebrow": "Im Überblick",
+        "layout": "image-statement",
+        "tone": "isar",
+        "image": "munich-city",
+        "imageAlt": "Blick über München mit Frauenkirche und Alpen",
+        "imagePosition": "start"
       },
       {
         "title": "Was den Montageaufwand beeinflusst",
@@ -101,7 +116,12 @@
             "text": "Etage, Aufzug, Gerüst- oder Hebebedarf, eingeschränkte Innenhöfe und Vorgaben der Hausverwaltung können den Ablauf verändern. Hinzu kommen mögliche Schnittstellen zu Elektro-, Kernbohr- oder weiteren Arbeiten, deren Zuständigkeit und Terminierung vorab eindeutig vereinbart werden sollten."
           }
         ],
-        "tone": "paper"
+        "eyebrow": "Planungsdetails",
+        "layout": "technical-list",
+        "tone": "paper",
+        "image": "airflow-interior-detail",
+        "imageAlt": "Split-Klimagerät in einem Wohnraum mit sanft bewegtem Vorhang",
+        "imagePosition": "end"
       }
     ],
     "faqTitle": "Häufige Fragen zur Klimaanlagen-Installation",
@@ -159,6 +179,8 @@
             "text": "Multi-Split verbindet mehrere separat regelbare Innengeräte mit einem gemeinsamen Außengerät. Ob diese Variante zum Gebäude passt, hängt unter anderem von der Zahl und Lage der Räume, den möglichen Leitungslängen, der Kapazität des Systems und dem verfügbaren Platz außen ab."
           }
         ],
+        "eyebrow": "Direkter Vergleich",
+        "layout": "comparison",
         "tone": "paper"
       },
       {
@@ -179,9 +201,12 @@
             "text": "Zwischen Innen- und Außengerät verlaufen Kältemittelleitungen, elektrische Verbindungen und eine Kondensatableitung. Ein früh abgestimmter Weg reduziert unnötige Umwege und macht sichtbar, wo eine Wanddurchführung, Verkleidung, Pumpe oder andere projektspezifische Lösung erforderlich sein könnte."
           }
         ],
-        "image": "munich-city",
-        "imageAlt": "Illustrative Darstellung zur Planung einer Split-Klimaanlage",
-        "tone": "paper"
+        "eyebrow": "Projektansicht",
+        "layout": "media-split",
+        "tone": "paper",
+        "image": "airflow-interior-detail",
+        "imageAlt": "Split-Klimagerät in einem Wohnraum mit sanft bewegtem Vorhang",
+        "imagePosition": "end"
       },
       {
         "title": "Welche Arbeiten gehören zur Installation?",
@@ -201,7 +226,12 @@
             "text": "Nach Abschluss der vereinbarten Arbeiten wird die Anlage nach Herstellervorgaben in Betrieb genommen und ihre Grundfunktion geprüft. Bei der Übergabe werden Bedienung, Betriebsarten, Filterzugang und die für den Nutzer relevanten Hinweise erläutert; übergebene Unterlagen werden dem Projekt zugeordnet."
           }
         ],
-        "tone": "ink"
+        "eyebrow": "Ablauf",
+        "layout": "process-rail",
+        "tone": "ink",
+        "image": "commercial-installation-detail",
+        "imageAlt": "Geordnete Montage einer Split-Klimaanlage in einem Gewerberaum",
+        "imagePosition": "start"
       },
       {
         "title": "Voraussetzungen vor dem Montagetermin",
@@ -221,7 +251,12 @@
             "text": "Vor Beginn sollten Gerät, Montagepositionen, Leitungsweg, sichtbare Verkleidungen, Kondensatableitung und enthaltene Nebenarbeiten schriftlich beschrieben sein. Ebenso wichtig ist eine klare Liste dessen, was nicht enthalten ist oder erst nach Öffnung beziehungsweise Prüfung der Bausubstanz entschieden werden kann."
           }
         ],
-        "tone": "isar"
+        "eyebrow": "Planungsdetails",
+        "layout": "technical-list",
+        "tone": "isar",
+        "image": "installation-material-detail",
+        "imageAlt": "Montagematerialien und Messwerkzeuge für eine Split-Klimaanlage",
+        "imagePosition": "end"
       }
     ],
     "faqTitle": "Häufige Fragen zu Split-Klimaanlagen",
@@ -279,6 +314,8 @@
             "text": "Bei einer Eigentumswohnung können Fassade, Außenwand, Balkonbestandteile oder andere Gemeinschaftsflächen betroffen sein. Ob ein WEG-Beschluss erforderlich ist und welche Unterlagen dafür verlangt werden, sollte mit Verwaltung beziehungsweise Gemeinschaft vor der technischen Beauftragung geklärt werden."
           }
         ],
+        "eyebrow": "Direkter Vergleich",
+        "layout": "comparison",
         "tone": "paper"
       },
       {
@@ -295,9 +332,12 @@
             "text": "Sollen mehrere Zimmer unabhängig geregelt werden, kann ein Multi-Split-System mit mehreren Innengeräten geprüft werden. Dabei müssen die einzelnen Kühllasten, Leitungswege und Kondensatabläufe ebenso berücksichtigt werden wie die Leistung und Position des gemeinsamen Außengeräts."
           }
         ],
-        "image": "outdoor-unit-installation-detail",
-        "imageAlt": "Illustrative Darstellung zur Planung einer Split-Klimaanlage",
-        "tone": "paper"
+        "eyebrow": "Projektansicht",
+        "layout": "media-split",
+        "tone": "paper",
+        "image": "quiet-bedroom-interior",
+        "imageAlt": "Ruhiges Schlafzimmer mit dezent integriertem Split-Klimagerät",
+        "imagePosition": "start"
       },
       {
         "title": "Das Außengerät rücksichtsvoll platzieren",
@@ -317,7 +357,12 @@
             "text": "Das Kondensat des Innengeräts benötigt einen kontrollierten Ablauf. Es darf nicht unkontrolliert über Balkon oder Fassade abtropfen; je nach Leitungsweg kann ein Ablauf mit Gefälle oder eine Kondensatpumpe erforderlich sein, die bei der Planung berücksichtigt wird."
           }
         ],
-        "tone": "ink"
+        "eyebrow": "Planungsdetails",
+        "layout": "technical-list",
+        "tone": "ink",
+        "image": "outdoor-unit-installation-detail",
+        "imageAlt": "Montage eines Klimaanlagen-Außengeräts mit sauber geführten Leitungen",
+        "imagePosition": "end"
       },
       {
         "title": "Ablauf der Wohnungsinstallation",
@@ -337,6 +382,8 @@
             "text": "Montiert wird nur im freigegebenen und vereinbarten Umfang. Nach Verbindung, vorgesehenen Prüfungen und Inbetriebnahme folgt die Übergabe mit Hinweisen zu Bedienung und zugänglichen Nutzeraufgaben; projektbezogene Unterlagen und mögliche Restpunkte werden festgehalten."
           }
         ],
+        "eyebrow": "Ablauf",
+        "layout": "process-rail",
         "tone": "isar"
       }
     ],
@@ -395,6 +442,8 @@
             "text": "Mit Multi-Split lassen sich mehrere Räume über eigene Innengeräte separat regeln. Das kann für unterschiedliche Etagen oder Nutzungszeiten sinnvoll sein, sofern Leistung, Leitungsnetz und gemeinsamer Außenstandort zum Gebäude passen und die einzelnen Zonen technisch sauber ausgelegt werden."
           }
         ],
+        "eyebrow": "Direkter Vergleich",
+        "layout": "comparison",
         "tone": "paper"
       },
       {
@@ -415,9 +464,12 @@
             "text": "Für das Außengerät sind stabile Aufstellung, freie Zu- und Abluft, Erreichbarkeit und ein kontrollierter Umgang mit Schall und Schwingungen wichtig. Abstände zu eigenen und benachbarten Fenstern, Terrassen oder Schlafbereichen gehören ebenso in die Betrachtung wie die optische Wirkung am Gebäude."
           }
         ],
-        "image": "munich-city",
-        "imageAlt": "Illustrative Darstellung zur Planung einer Split-Klimaanlage",
-        "tone": "paper"
+        "eyebrow": "Projektansicht",
+        "layout": "media-split",
+        "tone": "paper",
+        "image": "airflow-interior-detail",
+        "imageAlt": "Split-Klimagerät in einem Wohnraum mit sanft bewegtem Vorhang",
+        "imagePosition": "end"
       },
       {
         "title": "Installation im Bestandsgebäude oder Neubau vorbereiten",
@@ -433,7 +485,12 @@
             "text": "Anschlussbedarf und Absicherung richten sich nach dem ausgewählten System und müssen mit der vorhandenen Elektroinstallation abgeglichen werden. Parallel wird für jedes Innengerät geklärt, ob Kondensat mit Gefälle abgeführt werden kann oder eine andere abgestimmte Lösung nötig ist."
           }
         ],
-        "tone": "ink"
+        "eyebrow": "Planungsdetails",
+        "layout": "technical-list",
+        "tone": "ink",
+        "image": "installation-material-detail",
+        "imageAlt": "Montagematerialien und Messwerkzeuge für eine Split-Klimaanlage",
+        "imagePosition": "start"
       },
       {
         "title": "So wird die Anlage installiert",
@@ -453,6 +510,8 @@
             "text": "Nach der Montage erfolgen die für das System vorgesehenen Prüfungen und die Inbetriebnahme durch die dafür zuständigen Personen. Bei der Übergabe werden Grundfunktionen, Bedienung und zugängliche Pflegepunkte erläutert und die zum vereinbarten Umfang gehörenden Unterlagen bereitgestellt."
           }
         ],
+        "eyebrow": "Ablauf",
+        "layout": "process-rail",
         "tone": "isar"
       }
     ],
@@ -511,6 +570,8 @@
             "text": "Sollen mehrere Räume unabhängig temperiert werden, kann ein Multi-Split-System mit getrennten Innengeräten infrage kommen. Die Planung ordnet jeder Zone ihren Bedarf zu und prüft, ob ein gemeinsamer Außenstandort, die möglichen Leitungswege und die gleichzeitige Nutzung mit dem System vereinbar sind."
           }
         ],
+        "eyebrow": "Leistungsbild",
+        "layout": "service-bento",
         "tone": "paper"
       },
       {
@@ -531,9 +592,12 @@
             "text": "Der mögliche Montagezeitraum wird mit Zugang, Hausordnung und Betriebsablauf abgestimmt. Ob Arbeiten außerhalb der üblichen Betriebszeiten möglich sind, lässt sich erst nach Prüfung von Gebäudezugang, Lärmschutz, Personalverfügbarkeit und konkretem Leistungsumfang vereinbaren."
           }
         ],
-        "image": "outdoor-unit-installation-detail",
-        "imageAlt": "Illustrative Darstellung zur Planung einer Split-Klimaanlage",
-        "tone": "paper"
+        "eyebrow": "Projektansicht",
+        "layout": "media-split",
+        "tone": "paper",
+        "image": "technical-planning-workbench",
+        "imageAlt": "Technische Projektplanung mit Grundriss, Messgeräten und Montagewerkzeug",
+        "imagePosition": "start"
       },
       {
         "title": "Von der Projektanfrage bis zur Inbetriebnahme",
@@ -553,7 +617,12 @@
             "text": "Die Installation erfolgt nach dem bestätigten Umfang und umfasst nur die ausdrücklich vereinbarten Arbeiten. Nach den vorgesehenen Prüfungen und der Inbetriebnahme werden Bedienung und relevante Nutzerhinweise erläutert; ausgeführte Positionen, übergebene Unterlagen und noch offene Fremdleistungen werden nachvollziehbar festgehalten."
           }
         ],
-        "tone": "ink"
+        "eyebrow": "Ablauf",
+        "layout": "process-rail",
+        "tone": "ink",
+        "image": "installation-material-detail",
+        "imageAlt": "Montagematerialien und Messwerkzeuge für eine Split-Klimaanlage",
+        "imagePosition": "end"
       }
     ],
     "faqTitle": "Häufige Fragen für Gewerbekunden",
@@ -615,6 +684,8 @@
             "text": "Bei Miet- und Eigentumswohnungen sind Vermieter beziehungsweise WEG früh einzubeziehen. Darüber hinaus können Anforderungen aus Denkmal- oder Ensembleschutz, örtlichen Satzungen oder anderen Gebäuderegeln relevant sein; eine verfahrensfreie Maßnahme ist nicht automatisch ohne weitere Prüfung zulässig."
           }
         ],
+        "eyebrow": "Planungsdetails",
+        "layout": "technical-list",
         "tone": "paper"
       },
       {
@@ -635,9 +706,12 @@
             "text": "Bei Büros und kleineren Gewerbeeinheiten werden vorhandene Raumaufteilung, Personen, Technik und Betriebszeiten erfasst. Die Nachrüstung muss außerdem mit Zugangsregeln und Arbeitsabläufen vereinbar sein; besondere Industrie- oder Prozesskälte ist nicht Gegenstand dieses Angebots."
           }
         ],
-        "image": "munich-city",
-        "imageAlt": "Illustrative Darstellung zur Planung einer Split-Klimaanlage",
-        "tone": "paper"
+        "eyebrow": "Projektansicht",
+        "layout": "media-split",
+        "tone": "paper",
+        "image": "installation-material-detail",
+        "imageAlt": "Montagematerialien und Messwerkzeuge für eine Split-Klimaanlage",
+        "imagePosition": "end"
       },
       {
         "title": "So wird die Montage vorbereitet",
@@ -653,7 +727,12 @@
             "text": "Vor der Beauftragung werden enthaltene Geräte, Befestigungen, Leitungswege, Wanddurchführungen, Verkleidungen, Kondensatführung und Prüfungen benannt. Ebenso werden elektrische Änderungen, besondere Zugangsmaßnahmen, Oberflächenarbeiten oder sonstige Leistungen abgegrenzt, wenn sie nicht Teil der Split-Montage sind."
           }
         ],
-        "tone": "ink"
+        "eyebrow": "Ablauf",
+        "layout": "process-rail",
+        "tone": "ink",
+        "image": "technical-planning-workbench",
+        "imageAlt": "Technische Projektplanung mit Grundriss, Messgeräten und Montagewerkzeug",
+        "imagePosition": "start"
       },
       {
         "title": "Welche Faktoren beeinflussen den Aufwand?",
@@ -673,6 +752,8 @@
             "text": "Je nach Gebäude können Anpassungen an der festen Elektroinstallation, besondere Kernbohrungen, Gerüst- oder Hebetechnik oder weitere Gewerke nötig werden. Solche Arbeiten sind nur dann Bestandteil des Projekts, wenn Ausführung und Verantwortung geprüft, benannt und schriftlich vereinbart wurden."
           }
         ],
+        "eyebrow": "Leistungsbild",
+        "layout": "service-bento",
         "tone": "isar"
       }
     ],
@@ -735,6 +816,8 @@
             "text": "Ob die vorhandene Stromversorgung ausreicht oder angepasst werden muss, wird projektbezogen geklärt. Zusätzliche Elektro-, Bohr-, Hebe- oder Oberflächenarbeiten wirken sich nur dann verlässlich auf das Angebot aus, wenn Umfang, ausführende Stelle und Abgrenzung zur eigentlichen Klimamontage feststehen."
           }
         ],
+        "eyebrow": "Planungsdetails",
+        "layout": "technical-list",
         "tone": "paper"
       },
       {
@@ -755,9 +838,12 @@
             "text": "Nicht enthaltene Elektroarbeiten, besondere Bohrungen, Gerüst- oder Hebetechnik, Wiederherstellung von Oberflächen und genehmigungsbezogene Leistungen sollten ausdrücklich ausgeschlossen oder separat ausgewiesen werden. So bleibt sichtbar, welche weiteren Entscheidungen oder Angebote vor der Umsetzung benötigt werden."
           }
         ],
-        "image": "outdoor-unit-installation-detail",
-        "imageAlt": "Illustrative Darstellung zur Planung einer Split-Klimaanlage",
-        "tone": "paper"
+        "eyebrow": "Projektansicht",
+        "layout": "media-split",
+        "tone": "paper",
+        "image": "installation-material-detail",
+        "imageAlt": "Montagematerialien und Messwerkzeuge für eine Split-Klimaanlage",
+        "imagePosition": "start"
       },
       {
         "title": "So erhalten Sie ein belastbares Angebot",
@@ -777,7 +863,12 @@
             "text": "Geben Sie an, ob Sie Eigentümer oder Mieter sind und welche Vermieter-, WEG- oder sonstigen Freigaben bereits vorliegen. Ein gewünschter Zeitraum kann zur Projektkoordination genannt werden, stellt aber ohne technische Prüfung und ausdrückliche Terminbestätigung noch keine Zusage dar."
           }
         ],
-        "tone": "ink"
+        "eyebrow": "Ablauf",
+        "layout": "process-rail",
+        "tone": "ink",
+        "image": "technical-planning-workbench",
+        "imageAlt": "Technische Projektplanung mit Grundriss, Messgeräten und Montagewerkzeug",
+        "imagePosition": "end"
       }
     ],
     "faqTitle": "Häufige Fragen zu den Kosten",
@@ -831,6 +922,8 @@
             "text": "Straße, Hausnummer und Postleitzahl ordnen das Projekt in seiner tatsächlichen Umgebung ein. Gebäudezugang, mögliche Gerätepositionen und der Weg zum Außenbereich können dann zusammen mit den gewünschten Räumen betrachtet werden."
           }
         ],
+        "eyebrow": "Im Überblick",
+        "layout": "image-statement",
         "tone": "paper"
       },
       {
@@ -843,9 +936,12 @@
             "text": "Die Postleitzahl genügt für ein erstes Gespräch. Mit der vollständigen Adresse lassen sich Anfahrt und Zugang genauer einordnen; anschließend berücksichtigen wir Gebäudeart, Räume, Außenposition und Montageaufwand."
           }
         ],
-        "image": "munich-city",
-        "imageAlt": "Illustrative Darstellung zur Planung einer Split-Klimaanlage",
-        "tone": "paper"
+        "eyebrow": "Projektansicht",
+        "layout": "media-split",
+        "tone": "paper",
+        "image": "outdoor-unit-installation-detail",
+        "imageAlt": "Montage eines Klimaanlagen-Außengeräts mit sauber geführten Leitungen",
+        "imagePosition": "start"
       },
       {
         "title": "Projekte außerhalb des Kerngebiets",
@@ -857,6 +953,8 @@
             "text": "Die genaue Adresse, Anfahrt, der Zugang und der Montageumfang entscheiden darüber, ob ein Projekt außerhalb des Kerngebiets berücksichtigt werden kann. Maßgeblich ist das konkrete Vorhaben, nicht ein pauschales Regionaletikett."
           }
         ],
+        "eyebrow": "Im Überblick",
+        "layout": "image-statement",
         "tone": "ink"
       },
       {
@@ -873,6 +971,8 @@
             "text": "Eine Installation umfasst Vorbereitung, Abstimmung und gegebenenfalls mehrere beteiligte Stellen. Adresse und Projektdaten helfen dabei, diese Schritte zu einem praktischen Ablauf zu verbinden."
           }
         ],
+        "eyebrow": "Planungsdetails",
+        "layout": "technical-list",
         "tone": "isar"
       }
     ],
@@ -931,6 +1031,8 @@
             "text": "Wohnungen, Häuser, Büros und kleinere Gewerbeflächen bringen unterschiedliche Raumaufteilungen, Wärmelasten und Zugangsbedingungen mit. Eigentumssituation, Gebäudenutzung und mögliche Außenposition prägen die Planung für jedes Vorhaben."
           }
         ],
+        "eyebrow": "Leistungsbild",
+        "layout": "service-bento",
         "tone": "paper"
       },
       {
@@ -951,9 +1053,12 @@
             "text": "Zur Übergabe gehört eine nachvollziehbare Zuordnung der ausgeführten Arbeiten und der zum Projekt gehörenden Unterlagen. Bedienung und relevante Nutzerhinweise werden erläutert; offene Punkte oder separat auszuführende Leistungen werden nicht als abgeschlossen dargestellt."
           }
         ],
-        "image": "outdoor-unit-installation-detail",
-        "imageAlt": "Illustrative Darstellung zur Planung einer Split-Klimaanlage",
-        "tone": "paper"
+        "eyebrow": "Projektansicht",
+        "layout": "media-split",
+        "tone": "paper",
+        "image": "installation-material-detail",
+        "imageAlt": "Montagematerialien und Messwerkzeuge für eine Split-Klimaanlage",
+        "imagePosition": "end"
       },
       {
         "title": "Klare Zuständigkeiten von der Planung bis zur Übergabe",
@@ -973,7 +1078,12 @@
             "text": "Split-Klimaanlagen besitzen eine elektrische Schnittstelle. Muss ein fester Stromkreis, Schutz oder Anschluss ergänzt oder geändert werden, darf diese Arbeit nur durch eine entsprechend qualifizierte Elektrofachkraft ausgeführt werden. Die Zuständigkeit muss im Angebot klar benannt sein."
           }
         ],
-        "tone": "ink"
+        "eyebrow": "Ablauf",
+        "layout": "process-rail",
+        "tone": "ink",
+        "image": "commercial-installation-detail",
+        "imageAlt": "Geordnete Montage einer Split-Klimaanlage in einem Gewerberaum",
+        "imagePosition": "start"
       }
     ],
     "faqTitle": "Häufige Fragen über unsere Arbeitsweise",
@@ -1035,6 +1145,8 @@
             "text": "Teilen Sie mit, ob Sie Eigentümer oder Mieter sind und ob Vermieter, WEG oder andere zuständige Stellen bereits zugestimmt haben. Wenn Freigaben noch fehlen, kennzeichnen Sie dies offen und fügen Sie vorhandene Vorgaben zu Fassade, Balkon, Schall oder Leitungsführung bei."
           }
         ],
+        "eyebrow": "Planungsdetails",
+        "layout": "technical-list",
         "tone": "paper"
       },
       {
@@ -1051,9 +1163,12 @@
             "text": "Ein Ortstermin kommt infrage, wenn Bausubstanz, Zugang, Außenposition oder technische Schnittstellen aus den Unterlagen nicht zuverlässig erkennbar sind. Das Angebot wird anschließend auf Basis der bestätigten Ausführung erstellt; eine Anfrage oder Besichtigung allein ist noch keine Beauftragung."
           }
         ],
-        "image": "munich-city",
-        "imageAlt": "Illustrative Darstellung zur Planung einer Split-Klimaanlage",
-        "tone": "paper"
+        "eyebrow": "Ablauf",
+        "layout": "process-rail",
+        "tone": "paper",
+        "image": "technical-planning-workbench",
+        "imageAlt": "Technische Projektplanung mit Grundriss, Messgeräten und Montagewerkzeug",
+        "imagePosition": "end"
       }
     ],
     "faqTitle": "Häufige Fragen zur Anfrage",
@@ -1111,6 +1226,8 @@
             "text": "Der Außenstandort wird als Zusammenspiel von Luftführung, Befestigung, Zugang, Schall, Schwingungen, Nachbarbereichen und Kondensat betrachtet. Ein reiner Vergleich von Katalogwerten beantwortet nicht, wie sich ein Gerät an einer bestimmten Fassade, auf einem Balkon oder in einem Innenhof auswirkt."
           }
         ],
+        "eyebrow": "Planungsdetails",
+        "layout": "technical-list",
         "tone": "paper"
       },
       {
@@ -1127,9 +1244,12 @@
             "text": "Raumgröße, Verglasung, Ausrichtung, Sonneneintrag, Dämmung, Personen, Geräte und Nutzungszeiten beeinflussen den Bedarf. Die Ratgeberinhalte helfen, diese Daten zusammenzustellen; die konkrete Geräteauswahl bleibt Teil der technischen Projektprüfung."
           }
         ],
-        "image": "outdoor-unit-installation-detail",
-        "imageAlt": "Illustrative Darstellung zur Planung einer Split-Klimaanlage",
-        "tone": "paper"
+        "eyebrow": "Projektansicht",
+        "layout": "media-split",
+        "tone": "paper",
+        "image": "airflow-interior-detail",
+        "imageAlt": "Split-Klimagerät in einem Wohnraum mit sanft bewegtem Vorhang",
+        "imagePosition": "end"
       },
       {
         "title": "Installation und Kosten verstehen",
@@ -1145,7 +1265,12 @@
             "text": "Systemtyp, Geräteanzahl, Leistung, Leitungsweg, Wanddurchführung, Kondensatlösung, Zugang und zusätzliche technische Arbeiten beeinflussen den Aufwand. Der Ratgeber erläutert diese Faktoren, nennt aber ohne belegte Projektdaten keine vermeintlich verbindlichen Pauschalbeträge."
           }
         ],
-        "tone": "ink"
+        "eyebrow": "Im Überblick",
+        "layout": "image-statement",
+        "tone": "ink",
+        "image": "installation-material-detail",
+        "imageAlt": "Montagematerialien und Messwerkzeuge für eine Split-Klimaanlage",
+        "imagePosition": "start"
       }
     ],
     "faqTitle": "Häufige Fragen aus unserem Ratgeber",
@@ -1207,6 +1332,8 @@
             "text": "For offices and smaller commercial premises, occupancy, equipment, solar gain, opening hours and the way different areas are used all influence the solution. Planning these factors together helps create comfortable conditions without relying on a generic system or capacity assumption."
           }
         ],
+        "eyebrow": "At a glance",
+        "layout": "service-bento",
         "tone": "paper"
       },
       {
@@ -1227,9 +1354,12 @@
             "text": "Once the scope has been agreed, the work can cover mounting the units, installing the specified lines and connections, completing the required checks and commissioning the system. The handover should explain basic operation and identify the documents relevant to the installed equipment and work. The exact steps and any work by another qualified trade must be stated in the project scope rather than assumed."
           }
         ],
-        "image": "commissioning-gauges",
-        "imageAlt": "Illustrative visual for split air conditioning planning",
-        "tone": "paper"
+        "eyebrow": "Process",
+        "layout": "process-rail",
+        "tone": "paper",
+        "image": "commercial-installation-detail",
+        "imageAlt": "Organised split air conditioning installation in a commercial interior",
+        "imagePosition": "start"
       },
       {
         "title": "What must be clarified before installation",
@@ -1249,14 +1379,24 @@
             "text": "The electrical interface must be suitable for the selected system and its installation requirements. Any new circuit, protective device or fixed electrical work must be assigned to the appropriately qualified party and included or excluded clearly. Safe access is also required for drilling, mounting and connection work, including any balcony, roof, facade or elevated position involved."
           }
         ],
-        "tone": "ink"
+        "eyebrow": "Planning details",
+        "layout": "technical-list",
+        "tone": "ink",
+        "image": "installation-material-detail",
+        "imageAlt": "Installation materials and measuring tools for a split air conditioning system",
+        "imagePosition": "end"
       },
       {
         "title": "Where we work",
         "intro": "The project area is centred on Munich and the Munich district. The exact address helps us consider access, the building and practical coordination. Other locations can be reviewed from the project details rather than assumed from a broad regional label.",
         "paragraphs": [],
         "subsections": [],
-        "tone": "isar"
+        "eyebrow": "The wider view",
+        "layout": "image-statement",
+        "tone": "isar",
+        "image": "munich-city",
+        "imageAlt": "View over Munich with the Frauenkirche and Alps",
+        "imagePosition": "start"
       },
       {
         "title": "What affects installation complexity",
@@ -1276,7 +1416,12 @@
             "text": "Parking and delivery access, working height, protected common areas and restrictions on working times can influence how the installation is organised. Electrical work, scaffolding, core drilling, making good or other building work may need separate coordination. The quote should state who is responsible for each interface so that no essential step is left between trades."
           }
         ],
-        "tone": "paper"
+        "eyebrow": "Planning details",
+        "layout": "technical-list",
+        "tone": "paper",
+        "image": "airflow-interior-detail",
+        "imageAlt": "Split air conditioning unit in a living space with a gently moving curtain",
+        "imagePosition": "end"
       }
     ],
     "faqTitle": "Air conditioning installation FAQs",
@@ -1334,6 +1479,8 @@
             "text": "Multi-split connects several indoor units to a shared outdoor unit and allows rooms to be controlled separately. It can be useful where several rooms need cooling but outdoor-unit locations are limited. The combined capacity, permitted unit combinations, pipe lengths, simultaneous use and maintenance access all need to be checked as part of one system design."
           }
         ],
+        "eyebrow": "Direct comparison",
+        "layout": "comparison",
         "tone": "paper"
       },
       {
@@ -1354,9 +1501,12 @@
             "text": "The route normally carries insulated refrigerant lines, control or power connections as specified, and a condensate drain where required. It should be planned to protect drainage fall, avoid unnecessary length and limit disruption to finished surfaces. If gravity drainage is not possible, any alternative must be assessed explicitly rather than assumed after mounting has begun."
           }
         ],
-        "image": "split-unit-interior",
-        "imageAlt": "Illustrative visual for split air conditioning planning",
-        "tone": "paper"
+        "eyebrow": "Project view",
+        "layout": "media-split",
+        "tone": "paper",
+        "image": "airflow-interior-detail",
+        "imageAlt": "Split air conditioning unit in a living space with a gently moving curtain",
+        "imagePosition": "end"
       },
       {
         "title": "What does the installation include?",
@@ -1376,7 +1526,12 @@
             "text": "Commissioning verifies that the installed system starts and operates under the conditions available at handover and that relevant settings and drainage can be checked. The user handover should cover basic controls, modes and the documents supplied with the installation. It is not a substitute for the manufacturer’s instructions or for any future service requirements stated for the equipment."
           }
         ],
-        "tone": "ink"
+        "eyebrow": "Process",
+        "layout": "process-rail",
+        "tone": "ink",
+        "image": "commercial-installation-detail",
+        "imageAlt": "Organised split air conditioning installation in a commercial interior",
+        "imagePosition": "start"
       },
       {
         "title": "Requirements before the installation date",
@@ -1396,7 +1551,12 @@
             "text": "The agreed scope should identify the equipment, unit locations, principal route, included installation steps, tests, handover documents and any making-good. It should also list exclusions and client responsibilities, such as permissions or access. This written boundary is particularly important where refrigeration, electrical and building work meet."
           }
         ],
-        "tone": "isar"
+        "eyebrow": "Planning details",
+        "layout": "technical-list",
+        "tone": "isar",
+        "image": "installation-material-detail",
+        "imageAlt": "Installation materials and measuring tools for a split air conditioning system",
+        "imagePosition": "end"
       }
     ],
     "faqTitle": "Split air conditioning FAQs",
@@ -1454,6 +1614,8 @@
             "text": "In a condominium, work may affect common property or the building’s external appearance even when it serves one apartment. The proposed facade, balcony or wall work should be submitted through the appropriate owners’ association process, with property management involved where applicable. Whether a formal resolution is needed depends on the measure and property context, so the approval position should be clarified before a date is agreed."
           }
         ],
+        "eyebrow": "Direct comparison",
+        "layout": "comparison",
         "tone": "paper"
       },
       {
@@ -1470,9 +1632,12 @@
             "text": "Several indoor units allow bedrooms, living areas or workspaces to be controlled individually, which can suit rooms used at different times. A multi-split system may connect them to one outdoor unit, subject to system limits and route feasibility. Each room still needs its own capacity and airflow assessment; an equal unit in every room is not automatically an appropriate design."
           }
         ],
-        "image": "commissioning-gauges",
-        "imageAlt": "Illustrative visual for split air conditioning planning",
-        "tone": "paper"
+        "eyebrow": "Project view",
+        "layout": "media-split",
+        "tone": "paper",
+        "image": "quiet-bedroom-interior",
+        "imageAlt": "Calm bedroom with a discreetly integrated split air conditioning unit",
+        "imagePosition": "start"
       },
       {
         "title": "Positioning the outdoor unit responsibly",
@@ -1492,7 +1657,12 @@
             "text": "Condensate must be routed to a suitable point without dripping over the facade, onto another property or across a walking surface. The drainage route needs adequate fall, protection and access for the arrangement selected. Where a pump is considered, its location, sound and accessibility should be assessed as part of the installation rather than added as an afterthought."
           }
         ],
-        "tone": "ink"
+        "eyebrow": "Planning details",
+        "layout": "technical-list",
+        "tone": "ink",
+        "image": "outdoor-unit-installation-detail",
+        "imageAlt": "Outdoor air conditioning unit installation with neatly routed lines",
+        "imagePosition": "end"
       },
       {
         "title": "Apartment installation process",
@@ -1512,6 +1682,8 @@
             "text": "Installation follows the approved positions and written scope, including the assigned refrigeration, electrical and building tasks. Required checks and commissioning are completed before the basic controls and supplied documents are handed over. If site conditions differ materially from the agreed information, the change should be assessed and approved rather than improvised during the work."
           }
         ],
+        "eyebrow": "Process",
+        "layout": "process-rail",
         "tone": "isar"
       }
     ],
@@ -1570,6 +1742,8 @@
             "text": "Multi-split can connect indoor units in several rooms to one outdoor unit, allowing each zone to be controlled separately. It may be useful where outdoor space or visual impact limits the number of external units. The design needs to account for the capacity assigned to each room, simultaneous operation, pipe lengths and the locations available for routing through the house."
           }
         ],
+        "eyebrow": "Direct comparison",
+        "layout": "comparison",
         "tone": "paper"
       },
       {
@@ -1590,9 +1764,12 @@
             "text": "The outdoor unit needs free airflow, stable support, weather-suitable positioning and access for the installation. It should also be assessed in relation to neighbouring windows, terraces, property boundaries and sound-sensitive spaces. A visually hidden position is not necessarily acoustically or technically suitable, particularly if walls or corners reflect sound or restrict discharge air."
           }
         ],
-        "image": "split-unit-interior",
-        "imageAlt": "Illustrative visual for split air conditioning planning",
-        "tone": "paper"
+        "eyebrow": "Project view",
+        "layout": "media-split",
+        "tone": "paper",
+        "image": "airflow-interior-detail",
+        "imageAlt": "Split air conditioning unit in a living space with a gently moving curtain",
+        "imagePosition": "end"
       },
       {
         "title": "Preparing installation in an existing or new building",
@@ -1608,7 +1785,12 @@
             "text": "The electrical requirements of the proposed system must be matched to the planned or existing supply, with any fixed work assigned to the qualified electrical party. Condensate needs a safe destination and a route with suitable fall or an assessed alternative. Both interfaces should be planned before walls and ceilings are closed or unit positions are treated as final."
           }
         ],
-        "tone": "ink"
+        "eyebrow": "Planning details",
+        "layout": "technical-list",
+        "tone": "ink",
+        "image": "installation-material-detail",
+        "imageAlt": "Installation materials and measuring tools for a split air conditioning system",
+        "imagePosition": "start"
       },
       {
         "title": "How the system is installed",
@@ -1628,6 +1810,8 @@
             "text": "The connected system undergoes the checks and commissioning steps applicable to the installed equipment and scope. The handover covers basic controls, relevant operating information and the documents supplied for the project. It should also make clear which future care belongs to the user and which activities require appropriately qualified professional work."
           }
         ],
+        "eyebrow": "Process",
+        "layout": "process-rail",
         "tone": "isar"
       }
     ],
@@ -1686,6 +1870,8 @@
             "text": "Where several rooms or zones need separate control, a multi-split arrangement or another combination of split systems can be assessed. The design must consider simultaneous demand, different schedules, available outdoor positions and the routes through occupied premises. Each zone retains its own load and airflow requirements even when the outdoor equipment is shared."
           }
         ],
+        "eyebrow": "At a glance",
+        "layout": "service-bento",
         "tone": "paper"
       },
       {
@@ -1706,9 +1892,12 @@
             "text": "Work in occupied premises may need coordination with opening hours, deliveries, security, building management and access to common areas. An out-of-hours period can be considered only if the site, building rules, noise constraints and responsible parties allow it. No particular schedule should be promised before the scope and address have been assessed."
           }
         ],
-        "image": "commissioning-gauges",
-        "imageAlt": "Illustrative visual for split air conditioning planning",
-        "tone": "paper"
+        "eyebrow": "Project view",
+        "layout": "media-split",
+        "tone": "paper",
+        "image": "technical-planning-workbench",
+        "imageAlt": "Technical project planning with a floor plan, measuring instruments and installation tools",
+        "imagePosition": "start"
       },
       {
         "title": "From project enquiry to commissioning",
@@ -1728,7 +1917,12 @@
             "text": "The agreed equipment is mounted and connected, followed by the applicable checks and commissioning. Handover documentation should identify the installed system, basic operating information and the work completed within the agreed scope. Any business-specific records or site procedures required for access or acceptance need to be identified during planning rather than invented after completion."
           }
         ],
-        "tone": "ink"
+        "eyebrow": "Process",
+        "layout": "process-rail",
+        "tone": "ink",
+        "image": "installation-material-detail",
+        "imageAlt": "Installation materials and measuring tools for a split air conditioning system",
+        "imagePosition": "end"
       }
     ],
     "faqTitle": "Commercial customer FAQs",
@@ -1790,6 +1984,8 @@
             "text": "Tenancy, condominium ownership and common property can restrict where equipment and penetrations are permitted. Written consent should identify the proposed external unit and visible route. The installation method must also respect the building fabric, weather protection and any property-specific requirements; approval from an owner is not by itself a technical assessment."
           }
         ],
+        "eyebrow": "Planning details",
+        "layout": "technical-list",
         "tone": "paper"
       },
       {
@@ -1810,9 +2006,12 @@
             "text": "An office retrofit must account for occupants, equipment, opening hours and disruption to the premises. The route, unit positions and work period should be coordinated with the landlord or building management where relevant. Any specialist technical requirements should be identified at the start of planning."
           }
         ],
-        "image": "split-unit-interior",
-        "imageAlt": "Illustrative visual for split air conditioning planning",
-        "tone": "paper"
+        "eyebrow": "Project view",
+        "layout": "media-split",
+        "tone": "paper",
+        "image": "installation-material-detail",
+        "imageAlt": "Installation materials and measuring tools for a split air conditioning system",
+        "imagePosition": "end"
       },
       {
         "title": "How installation is prepared",
@@ -1828,7 +2027,12 @@
             "text": "The scope should record the rooms, unit arrangement, locations, route, drainage, electrical interface, permissions, access and making-good. It should list the work included and the tasks assigned to the customer or another trade. Clear exclusions are essential in a retrofit because concealed conditions can otherwise be mistaken for work already priced."
           }
         ],
-        "tone": "ink"
+        "eyebrow": "Process",
+        "layout": "process-rail",
+        "tone": "ink",
+        "image": "technical-planning-workbench",
+        "imageAlt": "Technical project planning with a floor plan, measuring instruments and installation tools",
+        "imagePosition": "start"
       },
       {
         "title": "What affects installation complexity?",
@@ -1848,6 +2052,8 @@
             "text": "Electrical modifications, drainage solutions, structural supports, core drilling, access equipment or building repairs may be necessary in addition to the core split installation. Which items apply can be known only after the proposed arrangement is reviewed. Each additional interface should have an identified responsible party and should not be implied as included by a broad headline."
           }
         ],
+        "eyebrow": "At a glance",
+        "layout": "service-bento",
         "tone": "isar"
       }
     ],
@@ -1910,6 +2116,8 @@
             "text": "The proposed system may require verification of the available supply and, depending on the property and equipment, separate fixed electrical work. Drainage adaptations, structural supports, core drilling, access equipment or finishing work can also sit alongside the core refrigeration installation. The responsible party and commercial treatment of each interface must be stated rather than assumed."
           }
         ],
+        "eyebrow": "Planning details",
+        "layout": "technical-list",
         "tone": "paper"
       },
       {
@@ -1930,9 +2138,12 @@
             "text": "Exclusions may include fixed electrical alterations, scaffolding or special access, structural assessment, permits, extensive concealed routing, decoration or repairs to unexpected building conditions. The actual list must be tailored to the project. An exclusion should not hide work that is known to be essential; it should identify who must arrange it and when it must be completed."
           }
         ],
-        "image": "commissioning-gauges",
-        "imageAlt": "Illustrative visual for split air conditioning planning",
-        "tone": "paper"
+        "eyebrow": "Project view",
+        "layout": "media-split",
+        "tone": "paper",
+        "image": "installation-material-detail",
+        "imageAlt": "Installation materials and measuring tools for a split air conditioning system",
+        "imagePosition": "start"
       },
       {
         "title": "How to obtain a reliable quote",
@@ -1952,7 +2163,12 @@
             "text": "State whether you are the owner or tenant and whether landlord or owners’ association approval has been obtained, requested or not yet considered. Add the period in which the project is being planned, but do not treat it as confirmed availability. Building access rules and any required coordination with other work should also be disclosed before a quote is finalised."
           }
         ],
-        "tone": "ink"
+        "eyebrow": "Process",
+        "layout": "process-rail",
+        "tone": "ink",
+        "image": "technical-planning-workbench",
+        "imageAlt": "Technical project planning with a floor plan, measuring instruments and installation tools",
+        "imagePosition": "end"
       }
     ],
     "faqTitle": "Installation cost FAQs",
@@ -2006,6 +2222,8 @@
             "text": "The street address and postcode place the project in its real setting. Building access, possible unit positions and the route to the outdoor area can then be considered alongside the rooms you want to cool."
           }
         ],
+        "eyebrow": "The wider view",
+        "layout": "image-statement",
         "tone": "paper"
       },
       {
@@ -2018,9 +2236,12 @@
             "text": "A postcode is useful for the first conversation, while the complete address helps clarify access and travel. We then consider the property type, number of rooms, possible outdoor position and the work involved before confirming the next step."
           }
         ],
-        "image": "split-unit-interior",
-        "imageAlt": "Illustrative visual for split air conditioning planning",
-        "tone": "paper"
+        "eyebrow": "Project view",
+        "layout": "media-split",
+        "tone": "paper",
+        "image": "outdoor-unit-installation-detail",
+        "imageAlt": "Outdoor air conditioning unit installation with neatly routed lines",
+        "imagePosition": "start"
       },
       {
         "title": "Projects outside the main area",
@@ -2032,6 +2253,8 @@
             "text": "The exact address, travel requirements, site access and installation scope determine whether a project outside the main area can be considered. The decision is based on the actual project, not a generic regional label."
           }
         ],
+        "eyebrow": "The wider view",
+        "layout": "image-statement",
         "tone": "ink"
       },
       {
@@ -2048,6 +2271,8 @@
             "text": "An installation may involve permissions, an on-site assessment, electrical responsibilities or building work. The address and project details help keep those stages connected to one practical plan."
           }
         ],
+        "eyebrow": "Planning details",
+        "layout": "technical-list",
         "tone": "isar"
       }
     ],
@@ -2106,6 +2331,8 @@
             "text": "Apartments, houses, offices and smaller commercial premises all bring different room layouts, heat loads and access conditions. Ownership, building use and the available outdoor position shape the installation in each case."
           }
         ],
+        "eyebrow": "At a glance",
+        "layout": "service-bento",
         "tone": "paper"
       },
       {
@@ -2126,9 +2353,12 @@
             "text": "The intended handover records the installed arrangement and the work completed within the agreed scope, alongside the relevant equipment information. It should explain basic operation and identify any documents or responsibilities that remain with the customer. The exact documentation must match the verified operating model and applicable project requirements; it should not be promised in vague or inflated terms."
           }
         ],
-        "image": "commissioning-gauges",
-        "imageAlt": "Illustrative visual for split air conditioning planning",
-        "tone": "paper"
+        "eyebrow": "Project view",
+        "layout": "media-split",
+        "tone": "paper",
+        "image": "installation-material-detail",
+        "imageAlt": "Installation materials and measuring tools for a split air conditioning system",
+        "imagePosition": "end"
       },
       {
         "title": "Clear responsibilities from planning to handover",
@@ -2148,7 +2378,12 @@
             "text": "Split systems have an electrical interface. If a fixed circuit, protection or connection needs to be added or altered, the work must be assigned to an appropriately qualified electrical party and coordinated clearly with the air conditioning installation."
           }
         ],
-        "tone": "ink"
+        "eyebrow": "Process",
+        "layout": "process-rail",
+        "tone": "ink",
+        "image": "commercial-installation-detail",
+        "imageAlt": "Organised split air conditioning installation in a commercial interior",
+        "imagePosition": "start"
       }
     ],
     "faqTitle": "FAQs about how we work",
@@ -2210,6 +2445,8 @@
             "text": "State whether you own or rent the property and whether a landlord, owners’ association or property manager is involved. Explain whether approval has been obtained, requested or not yet discussed. If written conditions already exist, identify their subject and share documents only through the approved method once data handling is active."
           }
         ],
+        "eyebrow": "Planning details",
+        "layout": "technical-list",
         "tone": "paper"
       },
       {
@@ -2226,9 +2463,12 @@
             "text": "A site visit may be proposed when measurements, mounting surfaces, wall construction, drainage, the outdoor location or access cannot be confirmed remotely. If one is needed, its purpose and any conditions should be stated in advance. A quote follows only when the scope can be described with reasonable clarity; neither a visit nor a quote is itself an order."
           }
         ],
-        "image": "split-unit-interior",
-        "imageAlt": "Illustrative visual for split air conditioning planning",
-        "tone": "paper"
+        "eyebrow": "Process",
+        "layout": "process-rail",
+        "tone": "paper",
+        "image": "technical-planning-workbench",
+        "imageAlt": "Technical project planning with a floor plan, measuring instruments and installation tools",
+        "imagePosition": "end"
       }
     ],
     "faqTitle": "Enquiry FAQs",
@@ -2286,6 +2526,8 @@
             "text": "The outdoor unit needs airflow, support, access and a position that considers sound, vibration, neighbours and external appearance. Guide content can explain the variables and terminology, including why product sound data is not the same as the effect at a particular location. The actual position still requires property-specific permission and technical assessment."
           }
         ],
+        "eyebrow": "Planning details",
+        "layout": "technical-list",
         "tone": "paper"
       },
       {
@@ -2302,9 +2544,12 @@
             "text": "Capacity guidance covers room size, orientation, glazing, insulation, occupancy, equipment and operating times. It explains why a simple watts-per-square-metre shortcut can miss important heat gains. A final selection still depends on a technical assessment and the performance data of the specific system considered."
           }
         ],
-        "image": "commissioning-gauges",
-        "imageAlt": "Illustrative visual for split air conditioning planning",
-        "tone": "paper"
+        "eyebrow": "Project view",
+        "layout": "media-split",
+        "tone": "paper",
+        "image": "airflow-interior-detail",
+        "imageAlt": "Split air conditioning unit in a living space with a gently moving curtain",
+        "imagePosition": "end"
       },
       {
         "title": "Understanding installation and costs",
@@ -2320,7 +2565,12 @@
             "text": "Cost guidance explains the influence of system type, room count, route length, penetrations, drainage, power, access and making-good. It also shows why exclusions and assumptions belong in a transparent quote. No numerical range should be published until it is supported by a real and current commercial model for the Munich market."
           }
         ],
-        "tone": "ink"
+        "eyebrow": "The wider view",
+        "layout": "image-statement",
+        "tone": "ink",
+        "image": "installation-material-detail",
+        "imageAlt": "Installation materials and measuring tools for a split air conditioning system",
+        "imagePosition": "start"
       }
     ],
     "faqTitle": "Guide FAQs",

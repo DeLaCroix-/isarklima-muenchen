@@ -12,6 +12,9 @@ These project-specific images were created with OpenAI's built-in image generati
 | `commercial-installation-detail` | Commercial installation and process imagery |
 | `technical-planning-workbench` | Planning, sizing and about-page imagery |
 | `outdoor-unit-installation-detail` | Retrofit, outdoor-unit and location imagery |
+| `quiet-bedroom-interior` | Residential comfort and finished bedroom installation imagery |
+| `installation-material-detail` | Installation materials, system components and technical-process imagery |
+| `airflow-interior-detail` | Indoor airflow, quiet operation and interior-comfort imagery |
 
 ## Licensed stock in active use
 

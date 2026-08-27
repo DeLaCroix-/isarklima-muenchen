@@ -1,0 +1,48 @@
+---
+import ResponsiveImage from './ResponsiveImage.astro';
+import type { Language, PageSection } from '../data/types';
+
+interface Props {
+  section: PageSection;
+  index: number;
+  total: number;
+  lang: Language;
+}
+
+const { section, index, total, lang } = Astro.props;
+const layout = section.layout ?? 'technical-list';
+const imagePosition = section.imagePosition ?? (index % 2 === 0 ? 'start' : 'end');
+const subsections = section.subsections ?? [];
+const itemCount = subsections.length;
+const sectionId = `section-${index}`;
+const progress = Math.round(((index + 1) / total) * 100);
+---
+<section class:list={['content-section', `tone-${section.tone ?? 'paper'}`, `layout-${layout}`, `image-${imagePosition}`, { 'has-image': section.image }]} aria-labelledby={sectionId}>
+  <div class="shell content-section-grid">
+    <div class="section-side">
+      <div class="section-counter"><span>{String(index + 1).padStart(2, '0')}</span><small>/{String(total).padStart(2, '0')}</small></div>
+      <span class="section-progress" aria-hidden="true"><i style={`--section-progress: ${progress}%`}></i></span>
+      <p>{section.eyebrow ?? (lang === 'de' ? 'Projektwissen' : 'Project insight')}</p>
+    </div>
+    <div class="section-main">
+      <h2 id={sectionId}>{section.title}</h2>
+      {section.intro && <p class="section-intro">{section.intro}</p>}
+      {section.image && <figure class="section-image">
+        <ResponsiveImage name={section.image} alt={section.imageAlt ?? ''} sizes="(max-width: 900px) 100vw, 58vw" />
+        <figcaption><span>{section.eyebrow}</span><strong>{String(index + 1).padStart(2, '0')}</strong></figcaption>
+      </figure>}
+      {section.paragraphs?.map((paragraph) => <p>{paragraph}</p>)}
+      {layout === 'comparison' && itemCount > 1 && <div class="comparison-axis" aria-hidden="true"><span>01</span><i></i><span>{String(itemCount).padStart(2, '0')}</span></div>}
+      {layout === 'image-statement' && !section.image && <div class="section-coordinate-art" aria-hidden="true"><span></span><i></i><b></b></div>}
+      {itemCount > 0 && <div class:list={['subsection-grid', `items-${Math.min(itemCount, 4)}`]} role="list">
+        {subsections.map((item, itemIndex) => <article role="listitem">
+          <div class="subsection-signal" aria-hidden="true"><i></i><i></i><span></span></div>
+          <span class="subsection-index">{String(itemIndex + 1).padStart(2, '0')}</span>
+          <h3>{item.title}</h3>
+          <p>{item.text}</p>
+        </article>)}
+      </div>}
+      {section.bullets && <ul class="check-list">{section.bullets.map((item) => <li>{item}</li>)}</ul>}
+    </div>
+  </div>
+</section>

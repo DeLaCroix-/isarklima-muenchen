@@ -11,6 +11,9 @@ const imageNames = [
   'commercial-installation-detail',
   'technical-planning-workbench',
   'outdoor-unit-installation-detail',
+  'quiet-bedroom-interior',
+  'installation-material-detail',
+  'airflow-interior-detail',
 ];
 const widths = [640, 960, 1440, 1920];
 

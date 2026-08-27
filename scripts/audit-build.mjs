@@ -149,6 +149,47 @@ for (const [path, { $ }] of pages) {
 }
 
 const generated = JSON.parse(await readFile(join(root, 'src', 'data', 'pages.generated.json'), 'utf8'));
+const allowedSectionLayouts = new Set([
+  'service-bento',
+  'comparison',
+  'media-split',
+  'process-rail',
+  'technical-list',
+  'image-statement',
+]);
+const generatedByPath = new Map(generated.map((page) => [page.path, page]));
+const sectionPresentation = (page) => page.sections.map((section) => ({
+  layout: section.layout ?? null,
+  tone: section.tone ?? null,
+  image: section.image ?? null,
+  imagePosition: section.imagePosition ?? null,
+}));
+
+for (const page of generated) {
+  for (const [index, section] of page.sections.entries()) {
+    if (!allowedSectionLayouts.has(section.layout)) {
+      fail(page.path, `section ${index + 1} has unsupported layout ${section.layout ?? '(missing)'}`);
+    }
+  }
+}
+
+for (const page of generated.filter((item) => item.lang === 'de')) {
+  const alternate = generatedByPath.get(page.alternatePath);
+  if (!alternate) {
+    fail(page.path, `missing English counterpart ${page.alternatePath ?? '(missing alternatePath)'}`);
+    continue;
+  }
+  if (alternate.lang !== 'en' || alternate.alternatePath !== page.path) {
+    fail(page.path, `invalid reciprocal English counterpart ${alternate.path}`);
+    continue;
+  }
+  const dePresentation = sectionPresentation(page);
+  const enPresentation = sectionPresentation(alternate);
+  if (JSON.stringify(dePresentation) !== JSON.stringify(enPresentation)) {
+    fail(page.path, `section presentation differs from ${alternate.path}\n  de ${JSON.stringify(dePresentation)}\n  en ${JSON.stringify(enPresentation)}`);
+  }
+}
+
 for (const page of generated) {
   const built = pages.get(page.path);
   if (!built) { fail(page.path, 'page was not built'); continue; }
@@ -156,6 +197,15 @@ for (const page of generated) {
   for (const section of page.sections) {
     expected.push({ tag: 'h2', text: section.title });
     for (const subsection of section.subsections ?? []) expected.push({ tag: 'h3', text: subsection.title });
+  }
+  if (page.key === 'guides') {
+    const expectedGuideTitle = page.lang === 'de' ? 'Aktuelle Ratgeber' : 'Latest guides';
+    const guideHeading = built.$('.guide-listing > .guide-list-heading > h2');
+    const guideCards = built.$('.guide-listing .guide-card > .guide-card-copy > h3');
+    if (guideHeading.length !== 1 || normalize(guideHeading.text()) !== expectedGuideTitle) fail(page.path, 'guide listing must have one localized H2');
+    if (guideCards.length !== 6) fail(page.path, `guide listing expected six H3 titles, found ${guideCards.length}`);
+    expected.push({ tag: 'h2', text: expectedGuideTitle });
+    guideCards.each((_, heading) => expected.push({ tag: 'h3', text: normalize(built.$(heading).text()) }));
   }
   expected.push({ tag: 'h2', text: page.faqTitle });
   for (const item of page.faq) expected.push({ tag: 'h3', text: item.question });
@@ -201,4 +251,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log(`Build audit passed: ${htmlFiles.length} HTML pages and ${textArtifacts.length - htmlFiles.length} XML/TXT artifacts, 22 commercial heading contracts, 12 article contracts, internal links, metadata, hreflang, images and inactive forms.`);
+console.log(`Build audit passed: ${htmlFiles.length} HTML pages and ${textArtifacts.length - htmlFiles.length} XML/TXT artifacts, 22 commercial heading contracts, bilingual section-layout parity, 12 article contracts, internal links, metadata, hreflang, images and inactive forms.`);

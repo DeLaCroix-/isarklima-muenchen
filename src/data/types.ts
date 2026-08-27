@@ -10,6 +10,14 @@ export interface Subsection {
   text: string;
 }
 
+export type SectionLayout =
+  | 'service-bento'
+  | 'comparison'
+  | 'media-split'
+  | 'process-rail'
+  | 'technical-list'
+  | 'image-statement';
+
 export interface PageSection {
   eyebrow?: string;
   title: string;
@@ -19,6 +27,8 @@ export interface PageSection {
   subsections?: Subsection[];
   image?: string;
   imageAlt?: string;
+  imagePosition?: 'start' | 'end';
+  layout?: SectionLayout;
   tone?: 'paper' | 'ink' | 'isar';
 }
 

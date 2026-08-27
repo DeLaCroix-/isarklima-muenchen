@@ -17,3 +17,48 @@ Generation mode: OpenAI built-in image generation. These are new generations, no
 ## `outdoor-unit-installation-detail.png`
 
 > Create a premium, photorealistic editorial photograph for a Munich air-conditioning installation website, wide landscape approximately 3:2. Show a modern outdoor condenser unit being installed neatly on a discreet balcony or exterior service area of a contemporary European building. Focus on the equipment, vibration-damping wall brackets, insulated lines, drainage routing, torque wrench, and only a technician's gloved hands and forearms working at the connections. The entire head and face must be completely outside the frame. No other people, no visible faces, no heads, no portraits, and no human reflections in windows or metal surfaces. Clean, compliant, quiet-looking installation, believable technical details, tidy worksite, soft overcast Munich daylight, restrained cool teal/blue and warm grey palette, documentary architectural photography. No text, no logos, no brands, no watermark, no distorted anatomy or impossible pipes.
+
+## `quiet-bedroom-interior.png`
+
+> Use case: photorealistic-natural
+> Asset type: editorial section image for the IsarKlima air-conditioning website
+> Input images: Image 1 and Image 2 are visual-style references only; do not copy their composition
+> Primary request: a calm, contemporary Munich apartment bedroom with a discreet white wall-mounted split air-conditioning unit integrated above a clean architectural wall
+> Scene/backdrop: refined European bedroom, linen bedding, oak details, muted art with no readable text, sheer curtain and a small plant
+> Subject: the finished air-conditioning installation as part of the room, with no people present
+> Style/medium: premium natural architectural photography, realistic rather than glossy stock
+> Composition/framing: wide landscape approximately 3:2, layered foreground and midground, useful crops for both a wide banner and a tall editorial panel
+> Lighting/mood: soft early-morning daylight, quiet and comfortable
+> Color palette: warm off-white, oak, charcoal, subtle teal accents consistent with the reference images
+> Materials/textures: natural linen, wood grain, matte plaster, believable air-conditioning plastic
+> Constraints: absolutely no people, faces, heads, hands, human reflections, readable text, logos, brands, watermark, distorted architecture, or impossible equipment
+
+## `installation-material-detail.png`
+
+> Use case: photorealistic-natural
+> Asset type: editorial technical-detail image for the IsarKlima air-conditioning website
+> Input images: Image 1 and Image 2 are visual-style references only; do not copy their composition
+> Primary request: a precise overhead and three-quarter close view of professional split air-conditioning installation materials arranged as a modern visual composition
+> Scene/backdrop: dark navy technical workbench with subtle grid markings but no readable text
+> Subject: clean copper tubing, white insulated line set, condensate drain, vibration-damping mounts, torque wrench, laser measure, manifold gauges, fasteners, and tidy cable channel samples
+> Style/medium: premium realistic editorial product photography with genuine material detail, not a catalog cutout
+> Composition/framing: wide landscape approximately 3:2, asymmetrical composition with strong graphic rhythm and negative space, works as both full-width image and narrow crop
+> Lighting/mood: controlled natural side light with crisp but soft shadows
+> Color palette: deep navy, copper, white, charcoal, restrained teal accents
+> Materials/textures: realistic copper, rubber, insulation foam, brushed metal, textured work surface
+> Constraints: no people or body parts, no faces, no reflections of people, no readable text, logos, brands, watermark, malformed tools, or impossible connections
+
+## `airflow-interior-detail.png`
+
+> Use case: photorealistic-natural
+> Asset type: atmospheric editorial section image for the IsarKlima air-conditioning website
+> Input images: Image 1 and Image 2 are visual-style references only; do not copy their composition
+> Primary request: a close architectural view of a sleek white split air-conditioning indoor unit operating in a contemporary Munich living space, with airflow suggested naturally by a gently moving sheer curtain and nearby plant leaves
+> Scene/backdrop: refined dark teal and warm-neutral interior wall, window edge, subtle daylight, uncluttered furnishings
+> Subject: the indoor unit, clean installation finish, and the quiet sensation of controlled airflow
+> Style/medium: premium natural architectural photography, restrained and believable
+> Composition/framing: wide landscape approximately 3:2, strong diagonal layers, detail-rich focal area with generous breathing room, adaptable to wide and vertical crops
+> Lighting/mood: soft summer daylight, cool and calm rather than icy or artificial
+> Color palette: white, dark teal, warm grey, muted green
+> Materials/textures: matte wall, natural fabric, realistic plastic, soft plant foliage
+> Constraints: absolutely no people, faces, heads, hands, silhouettes, human reflections, readable text, logos, brands, watermark, visible vapor, fantasy airflow graphics, or impossible equipment

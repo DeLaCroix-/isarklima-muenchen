@@ -47,6 +47,110 @@ const meta = {
   '/en/guides/': ['guides', 'Guides', 'Air conditioning installation guides for Munich | IsarKlima', 'Practical guidance on permissions, system choice, noise, sizing, installation and costs for Munich projects.', 'Air conditioning guidance', 'split-unit-interior', 'Split air conditioning unit in a modern interior'],
 };
 
+const visualProfiles = {
+  home: [
+    { layout: 'service-bento', tone: 'paper' },
+    { layout: 'process-rail', tone: 'paper', image: 'commercial-installation-detail', imagePosition: 'start' },
+    { layout: 'technical-list', tone: 'ink', image: 'installation-material-detail', imagePosition: 'end' },
+    { layout: 'image-statement', tone: 'isar', image: 'munich-city', imagePosition: 'start' },
+    { layout: 'technical-list', tone: 'paper', image: 'airflow-interior-detail', imagePosition: 'end' },
+  ],
+  split: [
+    { layout: 'comparison', tone: 'paper' },
+    { layout: 'media-split', tone: 'paper', image: 'airflow-interior-detail', imagePosition: 'end' },
+    { layout: 'process-rail', tone: 'ink', image: 'commercial-installation-detail', imagePosition: 'start' },
+    { layout: 'technical-list', tone: 'isar', image: 'installation-material-detail', imagePosition: 'end' },
+  ],
+  apartment: [
+    { layout: 'comparison', tone: 'paper' },
+    { layout: 'media-split', tone: 'paper', image: 'quiet-bedroom-interior', imagePosition: 'start' },
+    { layout: 'technical-list', tone: 'ink', image: 'outdoor-unit-installation-detail', imagePosition: 'end' },
+    { layout: 'process-rail', tone: 'isar' },
+  ],
+  house: [
+    { layout: 'comparison', tone: 'paper' },
+    { layout: 'media-split', tone: 'paper', image: 'airflow-interior-detail', imagePosition: 'end' },
+    { layout: 'technical-list', tone: 'ink', image: 'installation-material-detail', imagePosition: 'start' },
+    { layout: 'process-rail', tone: 'isar' },
+  ],
+  commercial: [
+    { layout: 'service-bento', tone: 'paper' },
+    { layout: 'media-split', tone: 'paper', image: 'technical-planning-workbench', imagePosition: 'start' },
+    { layout: 'process-rail', tone: 'ink', image: 'installation-material-detail', imagePosition: 'end' },
+  ],
+  retrofit: [
+    { layout: 'technical-list', tone: 'paper' },
+    { layout: 'media-split', tone: 'paper', image: 'installation-material-detail', imagePosition: 'end' },
+    { layout: 'process-rail', tone: 'ink', image: 'technical-planning-workbench', imagePosition: 'start' },
+    { layout: 'service-bento', tone: 'isar' },
+  ],
+  costs: [
+    { layout: 'technical-list', tone: 'paper' },
+    { layout: 'media-split', tone: 'paper', image: 'installation-material-detail', imagePosition: 'start' },
+    { layout: 'process-rail', tone: 'ink', image: 'technical-planning-workbench', imagePosition: 'end' },
+  ],
+  area: [
+    { layout: 'image-statement', tone: 'paper' },
+    { layout: 'media-split', tone: 'paper', image: 'outdoor-unit-installation-detail', imagePosition: 'start' },
+    { layout: 'image-statement', tone: 'ink' },
+    { layout: 'technical-list', tone: 'isar' },
+  ],
+  about: [
+    { layout: 'service-bento', tone: 'paper' },
+    { layout: 'media-split', tone: 'paper', image: 'installation-material-detail', imagePosition: 'end' },
+    { layout: 'process-rail', tone: 'ink', image: 'commercial-installation-detail', imagePosition: 'start' },
+  ],
+  contact: [
+    { layout: 'technical-list', tone: 'paper' },
+    { layout: 'process-rail', tone: 'paper', image: 'technical-planning-workbench', imagePosition: 'end' },
+  ],
+  guides: [
+    { layout: 'technical-list', tone: 'paper' },
+    { layout: 'media-split', tone: 'paper', image: 'airflow-interior-detail', imagePosition: 'end' },
+    { layout: 'image-statement', tone: 'ink', image: 'installation-material-detail', imagePosition: 'start' },
+  ],
+};
+
+const layoutLabels = {
+  de: {
+    'service-bento': 'Leistungsbild',
+    comparison: 'Direkter Vergleich',
+    'media-split': 'Projektansicht',
+    'process-rail': 'Ablauf',
+    'technical-list': 'Planungsdetails',
+    'image-statement': 'Im Überblick',
+  },
+  en: {
+    'service-bento': 'At a glance',
+    comparison: 'Direct comparison',
+    'media-split': 'Project view',
+    'process-rail': 'Process',
+    'technical-list': 'Planning details',
+    'image-statement': 'The wider view',
+  },
+};
+
+const imageAlts = {
+  de: {
+    'commercial-installation-detail': 'Geordnete Montage einer Split-Klimaanlage in einem Gewerberaum',
+    'technical-planning-workbench': 'Technische Projektplanung mit Grundriss, Messgeräten und Montagewerkzeug',
+    'outdoor-unit-installation-detail': 'Montage eines Klimaanlagen-Außengeräts mit sauber geführten Leitungen',
+    'installation-material-detail': 'Montagematerialien und Messwerkzeuge für eine Split-Klimaanlage',
+    'quiet-bedroom-interior': 'Ruhiges Schlafzimmer mit dezent integriertem Split-Klimagerät',
+    'airflow-interior-detail': 'Split-Klimagerät in einem Wohnraum mit sanft bewegtem Vorhang',
+    'munich-city': 'Blick über München mit Frauenkirche und Alpen',
+  },
+  en: {
+    'commercial-installation-detail': 'Organised split air conditioning installation in a commercial interior',
+    'technical-planning-workbench': 'Technical project planning with a floor plan, measuring instruments and installation tools',
+    'outdoor-unit-installation-detail': 'Outdoor air conditioning unit installation with neatly routed lines',
+    'installation-material-detail': 'Installation materials and measuring tools for a split air conditioning system',
+    'quiet-bedroom-interior': 'Calm bedroom with a discreetly integrated split air conditioning unit',
+    'airflow-interior-detail': 'Split air conditioning unit in a living space with a gently moving curtain',
+    'munich-city': 'View over Munich with the Frauenkirche and Alps',
+  },
+};
+
 function parsePages(markdown, lang) {
   const lines = markdown.replace(/\r/g, '').split('\n');
   const pages = [];
@@ -91,7 +195,8 @@ function toPageContent(raw) {
   const body = raw.sections.slice(0, -2);
   const faq = raw.sections.at(-2);
   const form = raw.sections.at(-1);
-  const imageCycle = ['split-unit-interior', 'outdoor-unit-installation-detail', 'commissioning-gauges', 'munich-city'];
+  const profile = visualProfiles[key];
+  if (!profile || profile.length !== body.length) throw new Error(`Visual profile mismatch for ${raw.route}`);
   return {
     key,
     lang: raw.lang,
@@ -106,14 +211,19 @@ function toPageContent(raw) {
     heroImage,
     heroImageAlt,
     heroNote: raw.lang === 'de' ? 'Planung & Montage' : 'Planning & installation',
-    sections: body.map((item, index) => ({
-      title: item.title,
-      intro: item.paragraphs[0],
-      paragraphs: item.paragraphs.slice(1),
-      subsections: item.subsections.map((sub) => ({ title: sub.title, text: sub.paragraphs.join(' ') })),
-      ...(index === 1 ? { image: imageCycle[(routePairs.flat().indexOf(raw.route) + index) % imageCycle.length], imageAlt: raw.lang === 'de' ? 'Illustrative Darstellung zur Planung einer Split-Klimaanlage' : 'Illustrative visual for split air conditioning planning' } : {}),
-      tone: index % 4 === 2 ? 'ink' : index % 5 === 3 ? 'isar' : 'paper',
-    })),
+    sections: body.map((item, index) => {
+      const visual = profile[index];
+      return {
+        title: item.title,
+        intro: item.paragraphs[0],
+        paragraphs: item.paragraphs.slice(1),
+        subsections: item.subsections.map((sub) => ({ title: sub.title, text: sub.paragraphs.join(' ') })),
+        eyebrow: layoutLabels[raw.lang][visual.layout],
+        layout: visual.layout,
+        tone: visual.tone,
+        ...(visual.image ? { image: visual.image, imageAlt: imageAlts[raw.lang][visual.image], imagePosition: visual.imagePosition } : {}),
+      };
+    }),
     faqTitle: faq.title,
     faq: faq.subsections.map((item) => ({ question: item.title, answer: item.paragraphs.join(' ') })),
     formTitle: form.title,

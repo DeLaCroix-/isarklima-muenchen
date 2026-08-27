@@ -3,7 +3,7 @@ import ResponsiveImage from './ResponsiveImage.astro';
 interface Props { eyebrow: string; h1: string; intro: string; image: string; imageAlt: string; note?: string; home?: boolean; lang: 'de' | 'en'; }
 const { eyebrow, h1, intro, image, imageAlt, note, home = false, lang } = Astro.props;
 ---
-<section class:list={['page-hero shell', { 'page-hero--home': home }]}>
+<section class:list={['page-hero shell', { 'page-hero--home': home, 'page-hero--inner': !home }]}>
   <div class="page-hero-copy">
     <p class="eyebrow"><span></span>{eyebrow}</p>
     <h1>{h1}</h1>

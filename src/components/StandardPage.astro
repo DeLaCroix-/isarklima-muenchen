@@ -4,7 +4,7 @@ import Header from './Header.astro';
 import Footer from './Footer.astro';
 import Breadcrumbs from './Breadcrumbs.astro';
 import PageHero from './PageHero.astro';
-import ResponsiveImage from './ResponsiveImage.astro';
+import ContentSection from './ContentSection.astro';
 import FaqSection from './FaqSection.astro';
 import ContactForm from './ContactForm.astro';
 import { labels, localizedHome } from '../data/site';
@@ -19,8 +19,8 @@ const breadcrumbs = home ? [] : [{ name: t.home, path: localizedHome(page.lang) 
   {!home && <Breadcrumbs items={breadcrumbs} />}
   <main id="main-content">
     <PageHero eyebrow={page.eyebrow} h1={page.h1} intro={page.intro} image={page.heroImage} imageAlt={page.heroImageAlt} note={page.heroNote} home={home} lang={page.lang} />
-    <div class="content-marker shell" id="inhalt"><span>01</span><i></i><p>{page.lang === 'de' ? 'Planung · Montage · Übergabe' : 'Planning · Installation · Handover'}</p></div>
-    {page.sections.map((section, index) => <section class:list={['content-section', `tone-${section.tone ?? 'paper'}`, { 'has-image': section.image }]} aria-labelledby={`section-${index}`}><div class="shell content-section-grid"><div class="section-side"><span>{String(index + 1).padStart(2, '0')}</span><p>{section.eyebrow ?? (page.lang === 'de' ? 'Projektwissen' : 'Project insight')}</p></div><div class="section-main"><h2 id={`section-${index}`}>{section.title}</h2>{section.intro && <p class="section-intro">{section.intro}</p>}{section.image && <div class="section-image"><ResponsiveImage name={section.image} alt={section.imageAlt ?? ''} sizes="(max-width: 900px) 100vw, 64vw" /></div>}{section.paragraphs?.map((paragraph) => <p>{paragraph}</p>)}{section.subsections && <div class="subsection-grid">{section.subsections.map((item, itemIndex) => <article><span>{String(itemIndex + 1).padStart(2, '0')}</span><h3>{item.title}</h3><p>{item.text}</p></article>)}</div>}{section.bullets && <ul class="check-list">{section.bullets.map((item) => <li>{item}</li>)}</ul>}</div></div></section>)}
+    <div class="content-marker shell" id="inhalt"><span>{String(page.sections.length).padStart(2, '0')}</span><i></i><p>{page.lang === 'de' ? 'Leistungen · Ablauf · Planung' : 'Services · Process · Planning'}</p></div>
+    {page.sections.map((section, index) => <ContentSection {section} {index} total={page.sections.length} lang={page.lang} />)}
     <slot name="before-faq" />
     {!page.legal && page.faq && page.faqTitle && <FaqSection title={page.faqTitle} items={page.faq} lang={page.lang} />}
     {!page.legal && <ContactForm lang={page.lang} title={page.formTitle ?? (page.lang === 'de' ? 'Projekt anfragen' : 'Request a project quote')} intro={page.formIntro} sourcePath={page.path} />}
