@@ -4,7 +4,7 @@ seoTitle: "Air conditioning installation process | IsarKlima"
 description: "The split air conditioning installation process from project details and pre-check to planning, installation, leak testing and handover."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27
-author: "IsarKlima Redaktion"
+author: "IsarKlima Editorial"
 category: "Installation"
 image: "/images/blog/air-conditioning-installation-process.webp"
 imageAlt: "Organised split air conditioning installation in a commercial interior"
@@ -43,7 +43,7 @@ The pipe route connects both units within the manufacturer’s limits. Refrigera
 
 ### Permissions, power and access
 
-Written permissions must match the proposed version. If the position or pipe route changes materially, it must be checked whether consent needs to be updated. A project being procedure-free does not remove all other rules, as the [City of Munich](https://stadt.muenchen.de/infos/verfahrensfreie-bauvorhaben.html) explains.
+Written permissions must match the proposed version. If the position or pipe route changes materially, it must be checked whether consent needs to be updated. Whether work is procedure-free and which additional requirements apply depends on state law, as Germany's [Conference of Building Ministers](https://www.bauministerkonferenz.de/verzeichnis.aspx?id=12614&o=11851O12614) explains.
 
 If the fixed electrical installation must be extended or altered, separate requirements apply. Section 13 NAV generally reserves such work to the network operator or a contractor entered in an electrical installer register. The precise electrical scope must therefore be clarified in advance. See [section 13 NAV](https://www.gesetze-im-internet.de/nav/__13.html).
 

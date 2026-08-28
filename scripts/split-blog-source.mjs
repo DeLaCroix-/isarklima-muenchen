@@ -11,7 +11,7 @@ const imageSources = [
   'apartment-interior-face-free-1920.webp',
   'condominium-building-detail-1920.webp',
   'split-unit-interior-1920.webp',
-  'outdoor-unit-installation-detail-1920.webp',
+  'outdoor-unit-installation-neutral-1920.webp',
   'technical-planning-workbench-1920.webp',
   'commercial-installation-detail-1920.webp',
 ];

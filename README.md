@@ -1,6 +1,6 @@
-# IsarKlima München
+# IsarKlima
 
-Bilingual Astro website and editorial hub for a planned split air conditioning installation service in Munich. German is canonical at the root; English lives under `/en/`.
+Bilingual Astro website and editorial hub for a planned split air conditioning installation service across Germany. German is canonical at the root; English lives under `/en/`.
 
 The repository is deliberately deployed as a non-indexable project preview. It does not claim unverified qualifications, years of experience, pricing, warranties, business address, local staffing or active availability. Enquiries stay disabled until the business, regulatory and privacy launch gates are complete.
 
@@ -26,7 +26,7 @@ That command runs Astro type/content checks, a production build and a rendered-o
 
 | Variable | Default | Purpose |
 | --- | --- | --- |
-| `PUBLIC_SITE_URL` | `https://isarklima-muenchen.netlify.app` | Absolute canonical and sitemap origin. |
+| `PUBLIC_SITE_URL` | `https://isarklima-deutschland.netlify.app` | Absolute canonical and sitemap origin. |
 | `PUBLIC_INDEX_SITE` | `false` | Global indexing switch. Keep `false` until the launch checklist is signed off. |
 | `PUBLIC_FORMSPREE_ENDPOINT` | empty | Enables all project forms only when it matches `https://formspree.io/f/{id}`. |
 
@@ -41,7 +41,7 @@ No CRM, Supabase or GitHub App secret belongs in this site or in a public Netlif
 - RSS feeds at `/rss.xml` and `/en/rss.xml`.
 - Sitemap, preview-aware `robots.txt`, `llms.txt`, JSON-LD and custom 404.
 
-The exact pre-content SEO architecture is preserved in the source drafts and in the generated page data. See the project deliverable `arquitectura-seo-isarklima.md` for the complete route and heading contract.
+The exact SEO heading architecture is preserved in the source drafts and in the generated page data. See `docs/seo-heading-architecture.md` for the complete route, intent and heading contract.
 
 ## Content workflow
 

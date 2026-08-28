@@ -6,7 +6,7 @@ export const legalPages: PageContent[] = [
     title: 'Impressum | IsarKlima', description: 'Vorläufige Anbieterinformationen der IsarKlima-Projektvorschau.',
     eyebrow: 'Rechtliche Angaben · Entwurf', h1: 'Impressum',
     intro: 'Diese Seite ist als strukturelle Vorschau angelegt. Die gesetzlich erforderlichen Angaben werden erst nach Prüfung der verantwortlichen Rechtsperson und des tatsächlichen Geschäftsbetriebs veröffentlicht.',
-    heroImage: 'munich-city', heroImageAlt: 'Blick über München', heroNote: 'Noch nicht freigegeben', legal: true,
+    heroImage: 'technical-planning-workbench', heroImageAlt: 'Technische Unterlagen und Messwerkzeuge zur Projektplanung', heroNote: 'Noch nicht freigegeben', legal: true,
     sections: [
       { title: 'Angaben zum Diensteanbieter', intro: 'Name beziehungsweise Firma, Rechtsform, ladungsfähige Anschrift, vertretungsberechtigte Person und verlässliche Kontaktwege sind vor dem Marktstart einzutragen.', tone: 'paper' },
       { title: 'Register, Aufsicht und berufliche Angaben', intro: 'Register- und Umsatzsteuerangaben sowie erforderliche berufsrechtliche Informationen werden nur ergänzt, soweit sie auf die tatsächlich verantwortliche Einheit zutreffen und geprüft sind.', tone: 'ink' },
@@ -18,7 +18,7 @@ export const legalPages: PageContent[] = [
     title: 'Imprint | IsarKlima', description: 'Provisional provider information for the IsarKlima project preview.',
     eyebrow: 'Legal information · Draft', h1: 'Imprint',
     intro: 'This page is a structural preview. The legally required provider details will be published only after the responsible legal entity and actual business operation have been verified.',
-    heroImage: 'munich-city', heroImageAlt: 'View over Munich', heroNote: 'Not yet approved', legal: true,
+    heroImage: 'technical-planning-workbench', heroImageAlt: 'Technical documents and measuring tools for project planning', heroNote: 'Not yet approved', legal: true,
     sections: [
       { title: 'Service provider details', intro: 'The legal name, form, service address, authorised representative and reliable contact channels must be entered before market launch.', tone: 'paper' },
       { title: 'Registers, supervision and professional information', intro: 'Register, VAT and professional details will be added only where they apply to the verified responsible entity.', tone: 'ink' },
@@ -54,4 +54,3 @@ export const legalPages: PageContent[] = [
     ],
   },
 ];
-

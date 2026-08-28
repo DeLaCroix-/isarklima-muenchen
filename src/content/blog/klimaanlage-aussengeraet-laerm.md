@@ -6,7 +6,7 @@ publishDate: 2026-08-27
 updatedDate: 2026-08-27
 author: "IsarKlima Redaktion"
 category: "Technische Planung"
-image: "/images/blog/klimaanlage-aussengeraet-laerm.webp"
+image: "/images/blog/klimaanlage-aussengeraet-laerm-neutral.webp"
 imageAlt: "Klimaanlagen-Außengerät an einer Fassade mit schwingungsdämpfender Halterung"
 sourceUrl: "/ratgeber/klimaanlage-aussengeraet-laerm/"
 language: "de-DE"
@@ -31,7 +31,7 @@ Für die Beurteilung gewerblicher Anlagen und vieler technischer Geräusche dien
 
 Für eine belastbare Betrachtung muss bekannt sein, welche Gebietsart gilt und wo sich das nächste schutzbedürftige Fenster oder der sonst maßgebliche Immissionsort befindet. Eine reine Entfernungsschätzung genügt nicht in jeder Situation. Auch Vorbelastung durch andere technische Anlagen kann relevant sein.
 
-Die Stadt München verwendet für stationäre Geräte, darunter Klimageräte, einen Nachweis, der Lageplan, Gerätedaten, Gebietsart und den nächstgelegenen Immissionsort zusammenführt. Das offizielle [Formular zur Einhaltung der TA Lärm](https://stadt.muenchen.de/dam/jcr%3A93b30c88-0c72-4700-a059-06618e10f7fc/ta_laerm_april_2024_web.pdf) zeigt, welche Angaben in einer standortbezogenen Betrachtung eine Rolle spielen.
+Das Umweltbundesamt erläutert, dass die TA Lärm Immissionsrichtwerte und Beurteilungsmaßstäbe verwendet und der maßgebliche Immissionsort ein schutzbedürftiger Raum sein kann. Seine Übersicht zu [Industrie- und Gewerbelärm](https://www.umweltbundesamt.de/themen/laerm/nachbarschaftslaerm-laerm-von-anlagen/industrie-gewerbelaerm) zeigt außerdem, warum Schallleistung, Ausbreitungsweg und Betriebszeiten zusammen betrachtet werden müssen.
 
 ### Reflexionen und nächtliche Nutzung
 
@@ -65,7 +65,7 @@ Vor der Festlegung sollten Gerätedaten, Lageplan, Abstände, Gebietsart, Nachba
 
 ### Muss jedes Außengerät nachts unter 35 dB(A) liegen?
 
-Nein. 35 dB(A) ist kein universeller Geräte-Grenzwert für ganz München. Gebietsart, Immissionsort, Beurteilungszeit und Mess- beziehungsweise Prognoseverfahren sind entscheidend.
+Nein. Ein einzelner dB(A)-Wert ist kein universeller Geräte-Grenzwert für ganz Deutschland. Gebietsart, Immissionsort, Beurteilungszeit und das anwendbare Bewertungsverfahren sind entscheidend.
 
 ### Ist der Silent-Modus ein ausreichender Schallschutznachweis?
 

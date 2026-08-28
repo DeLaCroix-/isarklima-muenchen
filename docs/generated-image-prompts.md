@@ -53,7 +53,7 @@ Generation mode: OpenAI built-in image generation. These are new generations, no
 > Use case: photorealistic-natural
 > Asset type: atmospheric editorial section image for the IsarKlima air-conditioning website
 > Input images: Image 1 and Image 2 are visual-style references only; do not copy their composition
-> Primary request: a close architectural view of a sleek white split air-conditioning indoor unit operating in a contemporary Munich living space, with airflow suggested naturally by a gently moving sheer curtain and nearby plant leaves
+> Primary request: a close architectural view of a sleek white split air-conditioning indoor unit operating in a contemporary German living space, with airflow suggested naturally by a gently moving sheer curtain and nearby plant leaves
 > Scene/backdrop: refined dark teal and warm-neutral interior wall, window edge, subtle daylight, uncluttered furnishings
 > Subject: the indoor unit, clean installation finish, and the quiet sensation of controlled airflow
 > Style/medium: premium natural architectural photography, restrained and believable
@@ -62,6 +62,10 @@ Generation mode: OpenAI built-in image generation. These are new generations, no
 > Color palette: white, dark teal, warm grey, muted green
 > Materials/textures: matte wall, natural fabric, realistic plastic, soft plant foliage
 > Constraints: absolutely no people, faces, heads, hands, silhouettes, human reflections, readable text, logos, brands, watermark, visible vapor, fantasy airflow graphics, or impossible equipment
+
+Nationwide revision generated on 28 August 2026 with the original asset as the edit reference:
+
+> Edit this existing photorealistic interior air-conditioning photograph. Preserve the entire room, wall-mounted split air conditioner, curtain, window, plant, lighting, colors, camera angle, and composition exactly. Change only the recognizable Munich Frauenkirche twin towers and identifiable city landmark visible through the window. Replace them with a soft-focus, geographically neutral German residential background of ordinary low rooftops and leafy trees, with no recognizable landmark and no location-specific architecture. No people, no human faces, no text, no logos. The result must look like an authentic professional architectural photograph, with the exterior naturally out of focus and consistent daylight.
 
 ## `apartment-interior-face-free.png`
 
@@ -90,3 +94,15 @@ Generation mode: OpenAI built-in image generation. These are new generations, no
 > Materials/textures: stone, brick, powder-coated metal, glass, restrained planting
 > Constraints: absolutely no people, no heads, no faces, no bodies, no hands, no silhouettes, no human reflections, no portraits; no text, no signage, no logos, no watermark; only one visible outdoor unit; technically plausible installation
 > Avoid: rooftop industrial units, detached house, luxury real-estate fantasy, construction workers, duplicated machinery, distorted railings
+
+## `outdoor-unit-installation-neutral.png`
+
+Edit of `outdoor-unit-installation-detail.png`, generated on 28 August 2026 for the nationwide positioning.
+
+> Use case: precise-object-edit
+> Asset type: bilingual website and blog editorial photograph for a nationwide German air-conditioning installation service
+> Input image: `outdoor-unit-installation-detail.png` as the edit target
+> Primary request: replace only the recognizable Munich skyline and Frauenkirche towers in the background with a softly defocused, geographically neutral contemporary German residential streetscape and roofline with no identifiable landmark
+> Subject and invariants: keep the outdoor condenser unit, its wall mounting, pipework, tools, technician's gloved hands and forearms, perspective, crop, materials, color balance and natural overcast light unchanged; preserve the documentary photorealism and technically plausible installation
+> Composition/framing: wide 3:2 landscape; equipment remains dominant; background stays secondary and softly out of focus
+> Constraints: no recognizable city, landmark, church towers, signage or readable text; no face, head, full person, portrait, human reflection, logo, brand or watermark; do not add extra people or machinery

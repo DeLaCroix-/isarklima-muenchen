@@ -14,8 +14,9 @@ interface Props { page: PageContent; home?: boolean; }
 const { page, home = false } = Astro.props;
 const t = labels[page.lang];
 const breadcrumbs = home ? [] : [{ name: t.home, path: localizedHome(page.lang) }, { name: page.navLabel, path: page.path }];
+const service = ['home', 'split', 'apartment', 'house', 'commercial', 'retrofit', 'costs', 'area'].includes(page.key);
 ---
-<BaseLayout title={page.title} description={page.description} lang={page.lang} path={page.path} alternatePath={page.alternatePath} image={`/images/site/${page.heroImage}-1440.webp`} breadcrumbs={breadcrumbs} faq={page.legal ? [] : page.faq}>
+<BaseLayout title={page.title} description={page.description} lang={page.lang} path={page.path} alternatePath={page.alternatePath} image={`/images/site/${page.heroImage}-1440.webp`} breadcrumbs={breadcrumbs} faq={page.legal ? [] : page.faq} {service} serviceName={page.h1}>
   <Header lang={page.lang} alternatePath={page.alternatePath} />
   {!home && <Breadcrumbs items={breadcrumbs} />}
   <main id="main-content">

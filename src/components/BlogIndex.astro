@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from './Header.astro';
+import Footer from './Footer.astro';
+import Breadcrumbs from './Breadcrumbs.astro';
+import ResponsiveImage from './ResponsiveImage.astro';
+import GuideListing from './GuideListing.astro';
+import ContentSection from './ContentSection.astro';
+import FaqSection from './FaqSection.astro';
+import ContactForm from './ContactForm.astro';
+import { blogSlug, getPublishedPosts } from '../lib/blog';
+import { localizedHome } from '../data/site';
+import type { PageContent } from '../data/types';
+
+interface Props { page: PageContent; }
+const { page } = Astro.props;
+const posts = await getPublishedPosts(page.lang === 'de' ? 'de-DE' : 'en-DE');
+const breadcrumbs = [
+  { name: page.lang === 'de' ? 'Startseite' : 'Home', path: localizedHome(page.lang) },
+  { name: 'Blog', path: page.path },
+];
+const collection = {
+  name: page.h1,
+  items: posts.map((post) => ({
+    name: post.data.title,
+    path: page.lang === 'de' ? `/ratgeber/${blogSlug(post)}/` : `/en/guides/${blogSlug(post)}/`,
+  })),
+};
+---
+<BaseLayout title={page.title} description={page.description} lang={page.lang} path={page.path} alternatePath={page.alternatePath} image={`/images/site/${page.heroImage}-1440.webp`} breadcrumbs={breadcrumbs} faq={page.faq} {collection}>
+  <Header lang={page.lang} alternatePath={page.alternatePath} />
+  <Breadcrumbs items={breadcrumbs} />
+  <main id="main-content" class="blog-index-page">
+    <section class="blog-index-hero shell">
+      <div class="blog-index-hero-copy">
+        <p class="eyebrow"><span></span>{page.eyebrow}</p>
+        <h1>{page.h1}</h1>
+        <p>{page.intro}</p>
+        <a class="button button-primary" href="#artikel">{page.lang === 'de' ? 'Artikel entdecken' : 'Explore the articles'}<span aria-hidden="true">↓</span></a>
+        <ul class="blog-index-facts" aria-label={page.lang === 'de' ? 'Blog-Übersicht' : 'Blog overview'}>
+          <li><strong>{String(posts.length).padStart(2, '0')}</strong>{page.lang === 'de' ? 'Artikel' : 'Articles'}</li>
+          <li><strong>DE · EN</strong>{page.lang === 'de' ? 'Zweisprachig' : 'Bilingual'}</li>
+          <li><strong>PRAXIS</strong>{page.lang === 'de' ? 'Klar erklärt' : 'Clearly explained'}</li>
+        </ul>
+      </div>
+      <figure class="blog-index-hero-visual">
+        <ResponsiveImage name={page.heroImage} alt={page.heroImageAlt} loading="eager" fetchpriority="high" sizes="(max-width: 760px) calc(100vw - 28px), (max-width: 1288px) 44vw, 550px" />
+        <figcaption><span>{page.lang === 'de' ? 'Planung verstehen' : 'Understand the planning'}</span><strong>JOURNAL / 01</strong></figcaption>
+      </figure>
+    </section>
+    <GuideListing lang={page.lang} />
+    {page.sections[0] && <ContentSection section={page.sections[0]} index={0} total={1} lang={page.lang} />}
+    {page.faq && page.faqTitle && <FaqSection title={page.faqTitle} items={page.faq} lang={page.lang} />}
+    <ContactForm lang={page.lang} title={page.formTitle ?? (page.lang === 'de' ? 'Eigenes Projekt besprechen' : 'Discuss your own project')} intro={page.formIntro} sourcePath={page.path} />
+  </main>
+  <Footer lang={page.lang} />
+</BaseLayout>

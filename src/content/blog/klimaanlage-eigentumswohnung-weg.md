@@ -37,13 +37,13 @@ Dokumentiert werden sollten der genaue Aufstellort, Abstände, Befestigungsart, 
 
 Der Beschluss sollte vor Bohrungen, Befestigungen oder Leitungsverlegung vorliegen. Idealerweise nimmt er auf die eingereichten Unterlagen Bezug und benennt Auflagen, etwa zur Schwingungsentkopplung, Farbgebung eines Leitungskanals, Wartungszugänglichkeit oder Wiederherstellung bei einem späteren Ausbau.
 
-Eine allgemeine Zustimmung ersetzt keine behördliche Prüfung. Nach Art. 57 BayBO können technische Gebäudeanlagen zwar häufig verfahrensfrei sein; die Stadt München weist jedoch darauf hin, dass trotzdem alle übrigen öffentlich-rechtlichen Vorschriften gelten. Siehe [Bauen ohne Baugenehmigung](https://stadt.muenchen.de/infos/verfahrensfreie-bauvorhaben.html).
+Eine Zustimmung innerhalb der Gemeinschaft ersetzt keine behördliche Prüfung. § 20 WEG regelt Beschlüsse und Gestattungen für bauliche Veränderungen am Gemeinschaftseigentum; welche bau- oder denkmalrechtlichen Anforderungen zusätzlich gelten, hängt vom Standort und Vorhaben ab. Siehe [§ 20 Wohnungseigentumsgesetz](https://www.gesetze-im-internet.de/woeigg/__20.html).
 
 ## Welche Unterlagen die WEG für eine Entscheidung braucht
 
 Die Verwaltung und die übrigen Eigentümer sollten nachvollziehen können, was sichtbar wird, welche Auswirkungen möglich sind und wie sie begrenzt werden. Ein vollständiger Antrag enthält daher Grundriss, Fassaden- oder Balkonfotos, eine markierte Geräteposition, den Leitungsweg und technische Daten des vorgesehenen Systems.
 
-Bei einem Denkmal, einem geschützten Ensemble oder einer Lage in der Nähe eines Denkmals kann eine Erlaubnis erforderlich sein. Die Stadt München erläutert den Anwendungsbereich und die Unterlagen auf der Seite zur [denkmalschutzrechtlichen Erlaubnis](https://stadt.muenchen.de/service/info/untere-denkmalschutzbehorde/1073937/).
+Bei einem Denkmal oder einer Maßnahme am geschützten Erscheinungsbild kann eine Erlaubnis erforderlich sein. Das [Bundesportal zur denkmalrechtlichen Genehmigung](https://verwaltung.bund.de/leistungsverzeichnis/DE/leistung/99033011006000) verweist für das konkrete Verfahren auf die jeweils zuständige regionale Behörde.
 
 ### Gerät, Standort und Leitungsführung
 

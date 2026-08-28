@@ -1,7 +1,7 @@
 ---
 title: "Klimaanlage in der Mietwohnung: Was ist vor der Installation zu klären?"
 seoTitle: "Klimaanlage in der Mietwohnung: Zustimmung | IsarKlima"
-description: "Welche Freigaben, technischen Angaben und Unterlagen Mieter vor der Installation einer Split-Klimaanlage in München klären sollten."
+description: "Welche Freigaben, technischen Angaben und Unterlagen Mieter in Deutschland vor der Installation einer Split-Klimaanlage klären sollten."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27
 author: "IsarKlima Redaktion"
@@ -23,7 +23,7 @@ Eine fest installierte Split-Klimaanlage verändert eine Mietwohnung nicht nur i
 
 ## Warum die Zustimmung des Vermieters zuerst kommt
 
-Die Verbraucherzentrale Bayern weist darauf hin, dass Mieter für den Einbau eines fest installierten Split-Geräts die Erlaubnis des Vermieters benötigen, weil Außenwand und Außengerät betroffen sind. Diese Information bietet eine verlässliche Orientierung, ersetzt aber keine Prüfung des konkreten Mietvertrags und Gebäudes. Die aktuelle Übersicht finden Sie bei der [Verbraucherzentrale Bayern](https://www.verbraucherzentrale.bayern/wissen/energie/energetische-sanierung/klimaanlage-installieren-was-ist-zu-beachten-10525).
+Die bundesweite Verbraucherzentrale weist darauf hin, dass Mieter für den Einbau eines fest installierten Split-Geräts die Erlaubnis des Vermieters benötigen, weil Außenwand und Außengerät betroffen sind. Diese Information bietet eine verlässliche Orientierung, ersetzt aber keine Prüfung des konkreten Mietvertrags und Gebäudes. Die aktuelle Übersicht finden Sie bei der [Verbraucherzentrale](https://www.verbraucherzentrale.de/wissen/energie/energetische-sanierung/klimaanlage-installieren-was-ist-zu-beachten-10525).
 
 Auch eine grundsätzlich positive Rückmeldung des Vermieters ist noch keine technische Planung. Gehört die Wohnung zu einer Wohnungseigentümergemeinschaft, können zusätzlich Gemeinschaftseigentum und ein Beschluss nach dem Wohnungseigentumsgesetz betroffen sein. Bei einem Baudenkmal, einem geschützten Ensemble oder einer Erhaltungssatzung können weitere öffentliche Anforderungen hinzukommen.
 
@@ -31,7 +31,7 @@ Auch eine grundsätzlich positive Rückmeldung des Vermieters ist noch keine tec
 
 Die Wanddurchführung nimmt Leitungen, Steuerkabel und häufig den Kondensatablauf auf. Das Außengerät kann das Erscheinungsbild der Fassade verändern und Geräusche oder Schwingungen übertragen. In der Anfrage sollte daher nicht nur „Klimaanlage erlaubt?“ stehen. Sinnvoll sind eine Skizze, Fotos und eine Beschreibung, wo Innen- und Außengerät vorgesehen sind und wie die Leitungen verlaufen sollen.
 
-Eine verfahrensfreie technische Gebäudeanlage ist nicht automatisch an jedem Ort zulässig. Die Stadt München erklärt ausdrücklich, dass auch bei verfahrensfreien Vorhaben alle anderen öffentlich-rechtlichen Vorschriften einzuhalten sind. Hinweise dazu gibt die [Lokalbaukommission München](https://stadt.muenchen.de/infos/verfahrensfreie-bauvorhaben.html).
+Ob eine technische Gebäudeanlage verfahrensfrei ist, richtet sich nach der jeweiligen Landesbauordnung; zusätzlich können weitere öffentlich-rechtliche Anforderungen gelten. Die [Bauministerkonferenz](https://www.bauministerkonferenz.de/verzeichnis.aspx?id=12614&o=11851O12614) erläutert, dass das Landesrecht maßgeblich ist, und verweist auf die zuständigen Ministerien der Länder.
 
 ### Schriftliche Freigabe dokumentieren
 
@@ -47,7 +47,7 @@ Eine sachliche Anfrage erleichtert die Beurteilung. Neben Adresse und Wohnungsnu
 
 Zeigen Sie, welche Räume gekühlt werden sollen und wo die Luft ungehindert verteilt werden kann. Für das Außengerät sind Zugänglichkeit, Luftführung, Abstände und eine tragfähige Aufstell- oder Befestigungsfläche wichtig. Der Leitungsweg sollte so kurz und nachvollziehbar wie möglich dargestellt werden, ohne technische Machbarkeit vorwegzunehmen.
 
-Bei denkmalgeschützten Gebäuden oder Maßnahmen am Äußeren eines Ensembles kann eine Erlaubnis erforderlich sein. Die [Untere Denkmalschutzbehörde München](https://stadt.muenchen.de/service/info/untere-denkmalschutzbehorde/1073937/) erläutert, welche Unterlagen für eine Prüfung benötigt werden.
+Bei denkmalgeschützten Gebäuden oder Maßnahmen am geschützten Erscheinungsbild kann eine Erlaubnis erforderlich sein. Das [Bundesportal](https://verwaltung.bund.de/leistungsverzeichnis/DE/leistung/99033011006000) macht deutlich, dass die Informationen und die zuständige Denkmalbehörde vom gewählten Standort abhängen.
 
 ### Schall, Kondensat und möglicher Rückbau
 

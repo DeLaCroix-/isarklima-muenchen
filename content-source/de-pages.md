@@ -6,11 +6,11 @@ Redaktioneller Entwurf für die deutschsprachigen kommerziellen Seiten. Die Text
 
 <!-- Seite: / -->
 
-# Klimaanlagen für München, passend zum Gebäude geplant
+# Klimaanlagen für Wohn- und Gewerbeimmobilien in Deutschland
 
-Eine Split-Klimaanlage lässt sich nur dann sinnvoll planen, wenn Räume, Gebäude und Montageweg zusammen betrachtet werden. IsarKlima plant Single- und Multi-Split-Klimaanlagen für Wohnungen, Häuser, Büros und kleinere Gewerbeflächen in München – abgestimmt auf den tatsächlichen Bedarf und die Einbausituation.
+Eine Split-Klimaanlage lässt sich nur dann sinnvoll planen, wenn Räume, Gebäude und Montageweg zusammen betrachtet werden. IsarKlima plant und koordiniert Single- und Multi-Split-Klimaanlagen für Wohnungen, Häuser, Büros und Gewerbeflächen in ganz Deutschland – abgestimmt auf den tatsächlichen Bedarf und die Einbausituation vor Ort.
 
-## Klimaanlagen für Wohnung, Haus und Gewerbe
+## Die passende Klimaanlage für Gebäude und Nutzung
 
 Ob ein einzelner Raum oder mehrere getrennte Bereiche gekühlt werden sollen, bestimmt die Grundstruktur der Anlage. Berücksichtigt werden dabei nicht nur Raumgrößen, sondern auch Nutzung, Wärmeeintrag, mögliche Gerätepositionen und die baulichen Voraussetzungen für Leitungen, Kondensat und Strom.
 
@@ -22,19 +22,19 @@ Ein Single-Split-System verbindet ein Innengerät mit einem Außengerät und eig
 
 Bei einem Multi-Split-System versorgt ein Außengerät mehrere Innengeräte, die getrennt geregelt werden können. Diese Lösung kommt infrage, wenn mehrere Räume unabhängig temperiert werden sollen und ein geeigneter Außenstandort sowie praktikable Leitungswege zu allen Innengeräten vorhanden sind.
 
-### Lösungen für Büros und kleinere Gewerbeflächen
+### Lösungen für Büros und Gewerbeflächen
 
 In Büros und kleineren Gewerbeeinheiten hängen Auslegung und Platzierung zusätzlich von Belegung, Geräten, Öffnungszeiten und Arbeitsabläufen ab. Die Planung betrachtet deshalb einzelne Nutzungszonen, interne Wärmelasten sowie mögliche Montagezeiten und Zugangsbedingungen, ohne den laufenden Betrieb pauschal als unproblematisch vorauszusetzen.
 
-## So läuft Ihre Klimaanlagen-Installation ab
+## Von der Projektprüfung bis zur Inbetriebnahme
 
 Am Anfang steht eine technische Einordnung des Projekts, nicht die vorschnelle Auswahl eines Geräts. Aus den Projektangaben entsteht ein abgestimmter Montagevorschlag; erst danach lassen sich Leistungsumfang, notwendige Schnittstellen und die nächsten Schritte belastbar festhalten.
 
-### Projektangaben und Fotos
+### Projektdaten und erste Einschätzung
 
 Hilfreich sind die Einsatzadresse, Gebäude- und Raumart, ungefähre Raummaße, Nutzung sowie Fotos der Innenräume und möglicher Außenstandorte. Auch Informationen zu Eigentum, Vermieter- oder WEG-Freigaben und bereits vorhandenen Leitungswegen erleichtern die erste Prüfung.
 
-### Montageplanung vor Ort
+### Technische Planung am Gebäude
 
 Wenn sich Gerätepositionen, Leitungsführung oder Zugang nicht anhand der Unterlagen klären lassen, wird die Einbausituation vor Ort geprüft. Dabei geht es unter anderem um Befestigungsflächen, Wanddurchführungen, Kondensatableitung, Schall, Stromanschluss und die Erreichbarkeit der Montagepunkte.
 
@@ -42,11 +42,11 @@ Wenn sich Gerätepositionen, Leitungsführung oder Zugang nicht anhand der Unter
 
 Die Ausführung richtet sich nach dem zuvor vereinbarten Umfang. Dazu können die Montage der Innen- und Außengeräte, das Verlegen und Verbinden der Leitungen, die vorgesehenen Prüfungen, die Inbetriebnahme sowie eine Einweisung in Bedienung und grundlegende Nutzung gehören; erforderliche Fremdleistungen werden separat benannt.
 
-## Was vor der Montage zu klären ist
+## Was vor der Montage geklärt wird
 
 Eine technisch mögliche Geräteposition ist nicht automatisch rechtlich oder organisatorisch freigegeben. Vor einem Montagetermin müssen deshalb Eigentumsverhältnisse, erforderliche Zustimmungen, mögliche Vorgaben am Gebäude und die Zuständigkeit für angrenzende Arbeiten geklärt sein.
 
-### Zustimmung und Genehmigungen
+### Zustimmungen und Genehmigungen
 
 Bei einer Mietwohnung ist vor baulichen Eingriffen in der Regel eine schriftliche Zustimmung des Vermieters erforderlich. In einer Wohnungseigentümergemeinschaft können Fassade, Außengerät, Balkon oder Wanddurchführung Gemeinschaftseigentum betreffen; zusätzlich können je nach Gebäude und Standort öffentlich-rechtliche Vorgaben zu prüfen sein.
 
@@ -58,11 +58,11 @@ Der Standort des Außengeräts beeinflusst Luftführung, Geräuschübertragung, 
 
 Vor der Montage wird geklärt, welche elektrische Schnittstelle die gewählte Anlage benötigt und wer gegebenenfalls Änderungen an der festen Elektroinstallation ausführt. Ebenso wichtig sind sichere Zugänge zu Innen- und Außenposition, ausreichender Arbeitsraum sowie abgestimmte Zutritts- und Montagezeiten.
 
-## Wo wir tätig sind
+## Deutschlandweit koordiniert, passend vor Ort umgesetzt
 
-Das Projektgebiet ist auf München und den Landkreis München ausgerichtet. Die konkrete Adresse, das Gebäude und die geplante Installation bilden die Grundlage der Prüfung. Andere Standorte können anhand der Projektdaten individuell betrachtet werden.
+Nach Aktivierung des Anfragekanals können Projekte aus ganz Deutschland zur Prüfung eingereicht werden. Die konkrete Adresse, das Gebäude und der gewünschte Leistungsumfang bilden dann die Grundlage für die technische und logistische Einordnung; eine bundesweite Ausrichtung ersetzt deshalb keine projektspezifische Bestätigung.
 
-## Was den Montageaufwand beeinflusst
+## Was den Aufwand einer Klimaanlagen-Installation beeinflusst
 
 Der Aufwand einer Split-Installation ergibt sich aus dem Zusammenspiel von Systemgröße, Gebäude und Zugänglichkeit. Zwei Projekte mit ähnlichen Raumflächen können sich deutlich unterscheiden, wenn Leitungswege, Außenstandorte, Wandaufbauten oder zusätzliche technische Schnittstellen verschieden sind.
 
@@ -98,11 +98,11 @@ Das hängt von Eigentumsform, Gebäude und geplanter Montage ab. Mieter sollten 
 
 Arbeiten am Kältemittelkreislauf stationärer Split-Anlagen dürfen nicht beliebig ausgeführt werden, sondern setzen die jeweils erforderliche persönliche und gegebenenfalls betriebliche Qualifikation voraus. Änderungen an der festen Elektroinstallation können zusätzlich einem dafür zugelassenen Elektrofachbetrieb vorbehalten sein; die Zuständigkeiten müssen im Angebot eindeutig ausgewiesen werden.
 
-### Kann ich auch außerhalb Münchens anfragen?
+### Können Projekte in ganz Deutschland angefragt werden?
 
-Das Projektgebiet ist auf München und den Landkreis München ausgerichtet. Liegt die Adresse an einem anderen Ort, kann sie zusammen mit den Projektdaten eingereicht und individuell geprüft werden.
+Nach Aktivierung des Anfragekanals: ja. Für die erste Prüfung werden dann die vollständige Adresse, Gebäudeart, Räume und der gewünschte Leistungsumfang benötigt. Ob und wie das Projekt umgesetzt werden kann, wird anschließend anhand der technischen Anforderungen, Zugänglichkeit und Logistik bestätigt.
 
-## Projekt anfragen
+## Klimaanlagen-Projekt anfragen
 
 Für eine erste Projektprüfung senden Sie die Einsatzadresse sowie Angaben zu Räumen, Nutzung, möglichen Gerätepositionen, Freigaben und Zugang. Halten Sie aussagekräftige Fotos bereit; falls sie benötigt werden, erhalten Sie nach der ersten Kontaktaufnahme einen bestätigten Übermittlungsweg.
 
@@ -110,11 +110,11 @@ Für eine erste Projektprüfung senden Sie die Einsatzadresse sowie Angaben zu R
 
 <!-- Seite: /split-klimaanlage-installation/ -->
 
-# Split-Klimaanlage in München installieren lassen
+# Split-Klimaanlage fachgerecht installieren lassen
 
 Eine Split-Klimaanlage besteht aus mindestens einem Innen- und einem Außengerät. Die Anlage wird passend zu den Räumen, zur Nutzung und zur realen Montagesituation geplant – einschließlich Leitungsweg, Kondensatführung und erforderlicher technischer Schnittstellen.
 
-## Single-Split oder Multi-Split?
+## Single-Split oder Multi-Split: Welche Lösung passt?
 
 Die Systemwahl beginnt mit der Frage, wie viele Räume getrennt gekühlt werden sollen. Ein Single-Split- und ein Multi-Split-System unterscheiden sich nicht nur in der Geräteanzahl, sondern auch bei Leitungsführung, benötigter Aufstellfläche im Außenbereich, Regelung und Montageaufwand.
 
@@ -142,7 +142,7 @@ Das Innengerät sollte die Luft im vorgesehenen Bereich verteilen können, ohne 
 
 Zwischen Innen- und Außengerät verlaufen Kältemittelleitungen, elektrische Verbindungen und eine Kondensatableitung. Ein früh abgestimmter Weg reduziert unnötige Umwege und macht sichtbar, wo eine Wanddurchführung, Verkleidung, Pumpe oder andere projektspezifische Lösung erforderlich sein könnte.
 
-## Welche Arbeiten gehören zur Installation?
+## Leistungen bei der Klimaanlagen-Installation
 
 Der genaue Umfang wird projektbezogen vereinbart und im Angebot beschrieben. Neben den eigentlichen Geräten können Montagekonsolen, Leitungen, Wanddurchführung, Kondensatführung, Prüfungen und Inbetriebnahme dazugehören; Arbeiten außerhalb dieses Umfangs müssen als eigene Position oder Fremdleistung kenntlich sein.
 
@@ -158,7 +158,7 @@ Die Leitungen werden entsprechend dem ausgewählten System und dem bestätigten 
 
 Nach Abschluss der vereinbarten Arbeiten wird die Anlage nach Herstellervorgaben in Betrieb genommen und ihre Grundfunktion geprüft. Bei der Übergabe werden Bedienung, Betriebsarten, Filterzugang und die für den Nutzer relevanten Hinweise erläutert; übergebene Unterlagen werden dem Projekt zugeordnet.
 
-## Voraussetzungen vor dem Montagetermin
+## Projektablauf und Voraussetzungen in ganz Deutschland
 
 Ein bestätigter Termin setzt voraus, dass Montagepositionen, Zugänge und Zuständigkeiten feststehen. Offene Genehmigungen, ungeklärte Elektroarbeiten oder nicht zugängliche Außenbereiche können den geplanten Ablauf verändern und sollten daher vor der Terminvereinbarung gelöst werden.
 
@@ -198,7 +198,7 @@ Kondensat sollte möglichst mit geeignetem Gefälle zu einem zulässigen Ablauf 
 
 Die eigenständige Montage oder Verbindung des Kältemittelkreislaufs ist bei einer stationären Split-Anlage keine geeignete Heimwerkerarbeit. Dafür gelten Qualifikationsanforderungen; auch Arbeiten an der festen Elektroinstallation können nur durch entsprechend berechtigte Stellen erfolgen. Eigenleistungen sollten daher vorab klar abgegrenzt und nicht am kältetechnischen Anschluss vorgenommen werden.
 
-## Installation anfragen
+## Installation besprechen
 
 Beschreiben Sie Einsatzort, Räume, gewünschte Nutzung und denkbare Innen- und Außenpositionen. Halten Sie passende Fotos bereit; falls sie benötigt werden, erhalten Sie nach der ersten Kontaktaufnahme einen bestätigten Übermittlungsweg. Auf dieser Grundlage lässt sich einordnen, welche Angaben für die weitere Planung noch fehlen.
 
@@ -206,11 +206,11 @@ Beschreiben Sie Einsatzort, Räume, gewünschte Nutzung und denkbare Innen- und 
 
 <!-- Seite: /klimaanlage-wohnung/ -->
 
-# Klimaanlage für die Wohnung in München
+# Klimaanlage für die Wohnung planen und installieren
 
-Für eine Split-Klimaanlage in einer Münchner Wohnung müssen technische Planung und Freigaben ineinandergreifen. Neben der passenden Lösung für einen oder mehrere Räume sind vor allem Außengerät, Wanddurchführung, Schall, Kondensat und die Zustimmung von Vermieter oder Wohnungseigentümergemeinschaft zu klären.
+Für eine Split-Klimaanlage in einer Wohnung müssen technische Planung und Freigaben ineinandergreifen. Neben der passenden Lösung für einen oder mehrere Räume sind vor allem Außengerät, Wanddurchführung, Schall, Kondensat und die Zustimmung von Vermieter oder Wohnungseigentümergemeinschaft zu klären.
 
-## Mietwohnung oder Eigentumswohnung: zuerst die Freigabe klären
+## Mietwohnung oder Eigentumswohnung: Freigaben zuerst klären
 
 Eine fest installierte Split-Anlage greift meist in Bauteile ein und kann die äußere Ansicht des Gebäudes betreffen. Deshalb sollte die konkrete Ausführung schriftlich freigegeben sein, bevor Geräte bestellt oder Montagentermine verbindlich geplant werden.
 
@@ -250,7 +250,7 @@ Nicht nur das Betriebsgeräusch des Geräts, sondern auch Abstände, Reflexionen
 
 Das Kondensat des Innengeräts benötigt einen kontrollierten Ablauf. Es darf nicht unkontrolliert über Balkon oder Fassade abtropfen; je nach Leitungsweg kann ein Ablauf mit Gefälle oder eine Kondensatpumpe erforderlich sein, die bei der Planung berücksichtigt wird.
 
-## Ablauf der Wohnungsinstallation
+## So wird die Installation in Ihrer Wohnung vorbereitet
 
 Nach der Vorprüfung werden Freigaben und technische Details zusammengeführt. Erst wenn Gerätepositionen, Leitungsweg, Zugang zu Gemeinschaftsflächen und die Abgrenzung möglicher Zusatzarbeiten feststehen, lässt sich der Montageumfang sinnvoll bestätigen.
 
@@ -290,7 +290,7 @@ Hilfreich sind ein sorgfältig gewählter Abstand zu empfindlichen Bereichen, ei
 
 Bereiten Sie Einsatzadresse, Grundriss oder Skizze, Raummaße und Fotos von Innenraum, Außenwand, Balkon und denkbarem Leitungsweg vor. Ergänzen Sie Angaben zum Miet- oder Eigentumsstatus, zu vorhandenen Vermieter- oder WEG-Freigaben und zu Hausregeln, Denkmalschutz oder anderen bekannten Vorgaben.
 
-## Wohnungsprojekt anfragen
+## Wohnungsprojekt besprechen
 
 Schildern Sie, welche Räume gekühlt werden sollen und welche Außenposition bereits geprüft oder freigegeben ist. Halten Sie Fotos und Maße bereit; falls sie benötigt werden, erhalten Sie nach der ersten Kontaktaufnahme einen bestätigten Übermittlungsweg. Ergänzen Sie außerdem den aktuellen Zustimmungsstatus.
 
@@ -298,9 +298,9 @@ Schildern Sie, welche Räume gekühlt werden sollen und welche Außenposition be
 
 <!-- Seite: /klimaanlage-haus/ -->
 
-# Klimaanlage im Haus in München installieren lassen
+# Klimaanlage für das Haus passend planen und installieren
 
-In einem Haus kann eine Split-Klimaanlage einen einzelnen stark belasteten Raum oder mehrere getrennte Wohnbereiche versorgen. Für Neubau und Bestand in München und im Landkreis München werden Bedarf, Gerätepositionen, Leitungswege, Außenstandort und technische Anschlüsse als zusammenhängendes Projekt betrachtet.
+In einem Haus kann eine Split-Klimaanlage einen einzelnen stark belasteten Raum oder mehrere getrennte Wohnbereiche versorgen. Für Neubau und Bestand werden Bedarf, Gerätepositionen, Leitungswege, Außenstandort und technische Anschlüsse als zusammenhängendes Projekt betrachtet.
 
 ## Einen Raum oder mehrere Wohnbereiche kühlen
 
@@ -342,7 +342,7 @@ Ein früh definierter Leitungsweg schafft Klarheit über Wanddurchführungen, si
 
 Anschlussbedarf und Absicherung richten sich nach dem ausgewählten System und müssen mit der vorhandenen Elektroinstallation abgeglichen werden. Parallel wird für jedes Innengerät geklärt, ob Kondensat mit Gefälle abgeführt werden kann oder eine andere abgestimmte Lösung nötig ist.
 
-## So wird die Anlage installiert
+## Von der technischen Prüfung bis zur Übergabe
 
 Die Montage folgt dem bestätigten Konzept und den freigegebenen Positionen. Der konkrete Ablauf hängt von System, Gebäude und vereinbarten Schnittstellen ab; zusätzliche Arbeiten werden nicht stillschweigend vorausgesetzt, sondern vor Ausführung benannt und zugeordnet.
 
@@ -382,7 +382,7 @@ Eine Nachrüstung kann auch in einem älteren Gebäude möglich sein, muss aber 
 
 Früh festgelegt werden sollten Kühlzonen, mögliche Innen- und Außenpositionen, Leitungs- und Kondensatwege, Wanddurchführungen sowie Strombedarf und Zuständigkeiten der beteiligten Gewerke. Dadurch können notwendige Trassen und Anschlusspunkte koordiniert werden, bevor Oberflächen fertiggestellt sind.
 
-## Hausprojekt anfragen
+## Hausprojekt besprechen
 
 Teilen Sie mit, welche Räume und Etagen gekühlt werden sollen, wie sie genutzt werden und wo ein Außengerät grundsätzlich denkbar ist. Halten Sie Grundriss, Raummaße und Fotos bereit; falls sie benötigt werden, erhalten Sie nach der ersten Kontaktaufnahme einen bestätigten Übermittlungsweg.
 
@@ -390,11 +390,11 @@ Teilen Sie mit, welche Räume und Etagen gekühlt werden sollen, wie sie genutzt
 
 <!-- Seite: /klimaanlage-buero-gewerbe/ -->
 
-# Klimaanlagen für Büro und Gewerbe in München
+# Klimaanlagen für Büros und Gewerbeflächen
 
-Für Büros und kleinere Gewerbeflächen in München planen wir Split-Klimaanlagen anhand der tatsächlichen Nutzung. Neben Raumgröße und Sonneneintrag fließen Belegung, technische Geräte, Betriebszeiten, Geräuschanforderungen und die organisatorischen Bedingungen der Montage in die Projektprüfung ein.
+Für Büros und Gewerbeflächen planen wir Split-Klimaanlagen anhand der tatsächlichen Nutzung. Neben Raumgröße und Sonneneintrag fließen Belegung, technische Geräte, Betriebszeiten, Geräuschanforderungen und die organisatorischen Bedingungen einer deutschlandweit koordinierten Montage in die Projektprüfung ein.
 
-## Kühlung für Büros und kleinere Gewerbeflächen
+## Kühlung passend zu Fläche und Nutzung
 
 Nicht jede Gewerbeeinheit benötigt dasselbe Anlagenkonzept. Ein einzelnes Büro kann mit einer klar abgegrenzten Lösung auskommen, während mehrere Räume oder Zonen eine getrennte Regelung und eine entsprechend koordinierte Leitungsführung erfordern.
 
@@ -406,7 +406,7 @@ Für ein Besprechungszimmer, Büro oder einen kleinen Verkaufs- beziehungsweise 
 
 Sollen mehrere Räume unabhängig temperiert werden, kann ein Multi-Split-System mit getrennten Innengeräten infrage kommen. Die Planung ordnet jeder Zone ihren Bedarf zu und prüft, ob ein gemeinsamer Außenstandort, die möglichen Leitungswege und die gleichzeitige Nutzung mit dem System vereinbar sind.
 
-## Die Anlage an Nutzung und Betriebszeiten anpassen
+## Leistung, Geräusch und Betriebszeiten abstimmen
 
 Gewerbliche Räume verändern ihre Kühllast im Tagesverlauf. Deshalb werden nicht nur Grundriss und Fläche erfasst, sondern auch Personen, Geräte, Beleuchtung, Öffnungszeiten und Phasen mit höherer Auslastung; daraus ergibt sich eine realistischere Grundlage für Systemwahl und Regelung.
 
@@ -422,7 +422,7 @@ Innen- und Außengeräte sollten so angeordnet werden, dass Besprechungen, konze
 
 Der mögliche Montagezeitraum wird mit Zugang, Hausordnung und Betriebsablauf abgestimmt. Ob Arbeiten außerhalb der üblichen Betriebszeiten möglich sind, lässt sich erst nach Prüfung von Gebäudezugang, Lärmschutz, Personalverfügbarkeit und konkretem Leistungsumfang vereinbaren.
 
-## Von der Projektanfrage bis zur Inbetriebnahme
+## Deutschlandweite Projektkoordination bis zur Inbetriebnahme
 
 Die Projektabfolge schafft zuerst Klarheit über Räume und Betriebsanforderungen und danach über die technische Ausführung. Erst wenn Gerätepositionen, Montageweg, Freigaben und Schnittstellen abgestimmt sind, werden Ausführung und Übergabe als konkreter Umfang festgehalten.
 
@@ -462,7 +462,7 @@ Zunächst wird festgestellt, welche elektrische Schnittstelle das geplante Syste
 
 Hilfreich sind die vollständige Adresse, Gebäude- und Nutzungsart, Grundriss, Raummaße, Belegung, Betriebszeiten, Wärmequellen und Fotos der Innen- und Außenbereiche. Ergänzen Sie gewünschte Kühlzonen, mögliche Montagezeitfenster, Zugangsvorgaben, Freigabestatus und vorhandene technische Anschlüsse.
 
-## Gewerbeprojekt anfragen
+## Gewerbeprojekt besprechen
 
 Senden Sie die wichtigsten Raum- und Betriebsdaten sowie eine Beschreibung möglicher Gerätepositionen. Halten Sie Fotos und einen Grundriss oder eine Skizze bereit; falls diese Unterlagen benötigt werden, erhalten Sie nach der ersten Kontaktaufnahme einen bestätigten Übermittlungsweg.
 
@@ -470,9 +470,9 @@ Senden Sie die wichtigsten Raum- und Betriebsdaten sowie eine Beschreibung mögl
 
 <!-- Seite: /klimaanlage-nachruesten/ -->
 
-# Klimaanlage in München nachrüsten
+# Klimaanlage im Bestandsgebäude nachrüsten
 
-Eine Split-Klimaanlage lässt sich in vielen Bestandsgebäuden nachträglich einplanen, doch die Machbarkeit hängt von der konkreten Wohnung, dem Haus oder dem kleinen Gewerberaum ab. Für Projekte in München und im Landkreis München prüfen wir Platz, Leitungsweg, Gebäudeschutz, Freigaben und technische Anschlüsse, bevor eine Ausführung vorgeschlagen wird.
+Eine Split-Klimaanlage lässt sich in vielen Bestandsgebäuden nachträglich einplanen, doch die Machbarkeit hängt von der konkreten Wohnung, dem Haus oder dem Gewerberaum ab. Bei Projekten in ganz Deutschland prüfen wir Platz, Leitungsweg, Gebäudeschutz, Freigaben und technische Anschlüsse, bevor eine Ausführung vorgeschlagen wird.
 
 ## Ist eine Nachrüstung im Gebäude möglich?
 
@@ -502,7 +502,7 @@ In einer bestehenden Wohnung werden die gewünschte Kühlzone, ein genehmigungsf
 
 Im Haus kann die Nachrüstung gezielt für ein stark erwärmtes Dachgeschoss oder für mehrere Wohnzonen geplant werden. Dachlage, Sonneneintrag, Etagen, Leitungsführung bis zum Außengerät und eine sinnvolle Luftverteilung bestimmen, ob Single- oder Multi-Split näher geprüft wird.
 
-### Büro und kleiner Gewerberaum
+### Büro und Gewerberaum
 
 Bei Büros und kleineren Gewerbeeinheiten werden vorhandene Raumaufteilung, Personen, Technik und Betriebszeiten erfasst. Die Nachrüstung muss außerdem mit Zugangsregeln und Arbeitsabläufen vereinbar sein; besondere Industrie- oder Prozesskälte ist nicht Gegenstand dieses Angebots.
 
@@ -558,7 +558,7 @@ Zunächst werden möglichst direkte Wege entlang geeigneter Wand- und Deckenbere
 
 Hilfreich sind Gesamtansichten jedes Raums, die gewünschte Innenposition, Innen- und Außenseite der betreffenden Wand, der mögliche Leitungsverlauf, Außenflächen und Zugangswege. Bei Balkon oder Fassade sollten auch Nachbarfenster, Abstände und die Umgebung des geplanten Außengeräts erkennbar sein.
 
-## Nachrüstung anfragen
+## Nachrüstung besprechen
 
 Beschreiben Sie Gebäude, Räume, gewünschte Kühlbereiche, den möglichen Montageweg, Eigentumsstatus und vorhandene Freigaben. Halten Sie passende Fotos bereit; falls sie benötigt werden, erhalten Sie nach der ersten Kontaktaufnahme einen bestätigten Übermittlungsweg.
 
@@ -566,9 +566,9 @@ Beschreiben Sie Gebäude, Räume, gewünschte Kühlbereiche, den möglichen Mont
 
 <!-- Seite: /klimaanlage-kosten/ -->
 
-# Was kostet eine Klimaanlage mit Installation in München?
+# Was kostet eine Klimaanlage mit Installation?
 
-Die Kosten einer Split-Klimaanlage lassen sich erst seriös einordnen, wenn System, Räume und Einbausituation bekannt sind. Statt eines Pauschalpreises zeigt diese Seite, welche Angaben für ein projektspezifisches Angebot in München erforderlich sind und welche Positionen darin klar beschrieben sein sollten.
+Die Kosten einer Split-Klimaanlage lassen sich erst seriös einordnen, wenn System, Räume und Einbausituation bekannt sind. Statt eines Pauschalpreises zeigt diese Seite, welche Angaben für ein projektspezifisches Angebot erforderlich sind und wie Standort, Anfahrt und Montagebedingungen transparent berücksichtigt werden sollten.
 
 ## Warum der Preis vom Projekt abhängt
 
@@ -650,69 +650,89 @@ Reichen Sie Adresse, Raumdaten, gewünschte Kühlzonen und vorhandene Freigaben 
 
 <!-- Seite: /einsatzgebiet/ -->
 
-# Wo IsarKlima Klimaanlagen installiert
+# Klimaanlagen-Installation in ganz Deutschland
 
-IsarKlima plant Klimaanlagen-Projekte in München und im Landkreis München. Die genaue Adresse hilft dabei, Zugang und Montage sinnvoll zu koordinieren. Andere Standorte werden anhand von Adresse und Projektumfang individuell betrachtet.
+Nach Aktivierung des Anfragekanals prüft IsarKlima Projektangaben aus allen Regionen Deutschlands. Die vollständige Adresse, das Gebäude und der gewünschte Leistungsumfang helfen dann dabei, technische Anforderungen, Anfahrt und Montage als ein zusammenhängendes Projekt einzuordnen.
 
-## Projekte in München
+## Projektanfragen aus allen Regionen Deutschlands
 
-In München betrachten wir Adresse, Gebäudezugang, erforderliche Freigaben und die geplante Installation gemeinsam. So entsteht eine belastbare Einschätzung statt einer pauschalen Aussage nur anhand des Stadtteils.
+Eine bundesweite Ausrichtung bedeutet nicht, dass jedes Gebäude gleich behandelt werden kann. Entscheidend sind die tatsächliche Einbausituation, die geltenden Anforderungen am Standort und ein Ablauf, der zu Entfernung und Projektumfang passt.
 
-### Einsatzadresse prüfen
+### Projektadresse und Gebäudedaten
 
-Straße, Hausnummer und Postleitzahl ordnen das Projekt in seiner tatsächlichen Umgebung ein. Gebäudezugang, mögliche Gerätepositionen und der Weg zum Außenbereich können dann zusammen mit den gewünschten Räumen betrachtet werden.
+Straße, Hausnummer, Postleitzahl und Ort verorten das Projekt zuverlässig. Zusammen mit Gebäudeart, Räumen, möglichen Innen- und Außenpositionen sowie vorhandenen Freigaben entsteht eine belastbare Grundlage für die erste Einschätzung.
 
-## Projekte im Landkreis München
+### Planung nach den Bedingungen vor Ort
 
-Für Projekte im Landkreis München betrachten wir Postleitzahl, Adresse und die wichtigsten Projektdaten gemeinsam, da Gebäude und Zugänge innerhalb des Gebiets unterschiedlich sind.
+Gebäudestruktur, Zugang, Außenflächen, Nachbarschaft und technische Schnittstellen unterscheiden sich von Projekt zu Projekt. Deshalb wird die Installation nicht aus einer Postleitzahl abgeleitet, sondern passend zur konkreten Situation geplant.
 
-### Planung im Landkreis
+## So koordinieren wir deutschlandweite Installationsprojekte
 
-Die Postleitzahl genügt für ein erstes Gespräch. Mit der vollständigen Adresse lassen sich Anfahrt und Zugang genauer einordnen; anschließend berücksichtigen wir Gebäudeart, Räume, Außenposition und Montageaufwand.
+Entfernung und Logistik werden früh in den Projektablauf einbezogen. Eine strukturierte Vorprüfung verhindert unnötige Wege und zeigt, welche Angaben vor einer technischen Planung am Gebäude noch fehlen.
 
-## Projekte außerhalb des Kerngebiets
+### Digitale Vorprüfung
 
-Für Standorte außerhalb von Stadt und Landkreis München gibt es keine pauschale Verfügbarkeitszusage. Eine andere Adresse kann mit einer kurzen Projektbeschreibung eingereicht und individuell betrachtet werden.
+Projektangaben, Maße und aussagekräftige Fotos können viele Grundfragen zu Räumen, Gerätepositionen, Leitungswegen und Zugang klären. Benötigte Dateien werden erst nach der Kontaktaufnahme über einen bestätigten Übermittlungsweg angefordert.
 
-### Individuelle Standortprüfung
+### Technische Planung vor Ort
 
-Die genaue Adresse, Anfahrt, der Zugang und der Montageumfang entscheiden darüber, ob ein Projekt außerhalb des Kerngebiets berücksichtigt werden kann. Maßgeblich ist das konkrete Vorhaben, nicht ein pauschales Regionaletikett.
+Wenn sich Bausubstanz, Außenposition oder Leitungsführung nicht zuverlässig aus den Unterlagen beurteilen lassen, wird die Situation am Gebäude geprüft. Erst danach können Montageweg und Leistungsumfang verbindlich beschrieben werden.
+
+### Termin, Anfahrt und Montage
+
+Terminplanung, Material, Zufahrt und erforderliche Zugangsmaßnahmen werden gemeinsam abgestimmt. Bei umfangreicheren Projekten können Vorbereitung und Ausführung getrennte Termine benötigen; dies wird vor einer Zusage transparent benannt.
+
+## Was sich je nach Standort unterscheiden kann
+
+Deutschlandweite Projekte folgen denselben fachlichen Grundsätzen, doch baurechtliche, organisatorische und nachbarschaftliche Anforderungen können regional oder gebäudebezogen variieren. Diese Unterschiede müssen vor der Montage geklärt sein.
+
+### Genehmigungen und Gebäuderegeln
+
+Vermieter, Wohnungseigentümergemeinschaft, Denkmalschutz oder andere zuständige Stellen können je nach Gebäude und Vorhaben einzubeziehen sein. Welche Unterlagen oder Entscheidungen erforderlich sind, richtet sich nach dem konkreten Standort und der geplanten Ausführung.
+
+### Schall- und Nachbarschaftsschutz
+
+Für Außengeräte sind nicht nur Produktwerte, sondern auch Gebietsart, Abstand, Reflexionen, Betriebszeiten und der maßgebliche Immissionsort relevant. Eine standortbezogene Betrachtung schützt das Projekt vor pauschalen und möglicherweise falschen Annahmen.
+
+### Zugang und technische Schnittstellen
+
+Etage, Innenhof, Fassadenposition, Gerüst- oder Hebebedarf und elektrische Voraussetzungen können den Ablauf verändern. Früh geklärte Zuständigkeiten erleichtern die Koordination mit Eigentümern, Verwaltung und gegebenenfalls weiteren Fachbetrieben.
 
 ## Was wir vor einer Projektzusage prüfen
 
-Zu einer guten Montageplanung gehören Anfahrt, Zugang und gegebenenfalls die Abstimmung mit Eigentümern oder weiteren Gewerken. Diese Punkte betrachten wir zusammen, um jede Anfrage fundiert einordnen zu können.
+Vor einer verbindlichen Zusage werden Verfügbarkeit, Logistik, technische Machbarkeit und der vorgesehene Leistungsumfang gemeinsam betrachtet. Die Anfrage eröffnet die Prüfung, bestätigt aber noch keinen Termin oder Auftrag.
 
-### Anfahrt und Zugang
+### Verfügbarkeit und Logistik
 
-Mit vollständiger Adresse lassen sich Strecke, Zufahrt und möglicher Materialtransport besser einordnen. Das ist besonders hilfreich, wenn mehrere Geräte, besondere Zugänge oder zusätzliche Montageschritte vorgesehen sind.
+Mit der vollständigen Adresse lassen sich Strecke, Zufahrt, Materialtransport und ein realistischer Terminrahmen einordnen. Diese Faktoren werden zusammen mit dem Projektumfang bewertet und nicht in einem pauschalen Deutschland-Versprechen ausgeblendet.
 
-### Montage koordinieren
+### Gebäude und Leistungsumfang
 
-Eine Installation umfasst Vorbereitung, Abstimmung und gegebenenfalls mehrere beteiligte Stellen. Adresse und Projektdaten helfen dabei, diese Schritte zu einem praktischen Ablauf zu verbinden.
+Räume, System, Gerätepositionen, Leitungsweg, Freigaben und technische Schnittstellen bestimmen, welche Arbeiten angeboten werden können. Offene Punkte und mögliche Fremdleistungen werden vor einer Beauftragung klar benannt.
 
-## Häufige Fragen zum Einsatzgebiet
+## Häufige Fragen zur deutschlandweiten Abdeckung
 
-Diese Antworten erklären, wie wir Projektstandorte einordnen.
+Diese Antworten erklären, wie Projektanfragen aus ganz Deutschland geprüft und koordiniert werden.
 
-### Arbeiten Sie in allen Münchner Stadtteilen?
+### Können Projekte aus allen Bundesländern angefragt werden?
 
-Anfragen können aus allen Münchner Stadtbezirken eingereicht werden. Mit der genauen Adresse prüfen wir Zufahrt, Gebäudezugang und Montagesituation, bevor wir den nächsten Schritt bestätigen.
+Nach Aktivierung des Anfragekanals können Projekte aus allen Bundesländern zur Prüfung eingereicht werden. Die vollständige Adresse und die Projektdaten werden anschließend genutzt, um technische Anforderungen, Logistik und den passenden nächsten Schritt einzuordnen.
 
-### Kann ein Projekt im Landkreis München geprüft werden?
+### Wie beginnt die Prüfung eines weiter entfernten Projekts?
 
-Ja. Senden Sie die vollständige Adresse und eine kurze Beschreibung der gewünschten Split-Klimaanlage. Damit lässt sich das Projekt einordnen, ohne allein aus dem Standort eine pauschale Zusage abzuleiten.
+Sie beginnt mit Adresse, Gebäudeart, Räumen, gewünschter Nutzung und möglichen Gerätepositionen. Maße und Fotos können danach über einen bestätigten Weg angefordert werden, damit eine unnötige Anfahrt vermieden und ein Vor-Ort-Termin gezielt vorbereitet wird.
 
-### Kann ich einen anderen Standort anfragen?
+### Gelten überall dieselben Genehmigungen?
 
-Ja. Ergänzen Sie die genaue Adresse und die wichtigsten Projektdaten. Standorte außerhalb des Kerngebiets werden individuell betrachtet; die Anfrage selbst bestätigt noch keine Verfügbarkeit.
+Nein, nicht zwangsläufig. Bundesrechtliche Grundlagen können durch Landesrecht, kommunale Vorgaben, Denkmalschutz sowie Regeln des Eigentümers oder der Gemeinschaft ergänzt werden. Die jeweils zuständige Stelle muss die konkrete Ausführung beurteilen.
 
-### Bieten Sie Installationen in ganz Bayern an?
+### Wie werden Anfahrt und Montagezeit berücksichtigt?
 
-Das Projektgebiet ist auf München und den Landkreis München ausgerichtet. Andere Adressen werden anhand von Standort und Umfang individuell betrachtet; die Website vermittelt keine pauschale Abdeckung für ganz Bayern.
+Entfernung, Zufahrt, Material, Zugang und Anzahl der erforderlichen Termine fließen in die Projektplanung und das Angebot ein. Diese Punkte werden vor einer Beauftragung transparent beschrieben.
 
-### Wie wird ein Projektstandort geprüft?
+### Wann kann ein Projekt verbindlich bestätigt werden?
 
-Wir beginnen mit Postleitzahl, vollständiger Adresse und einer kurzen Beschreibung von Gebäude, Räumen und gewünschtem System. Danach betrachten wir Zugang, mögliche Außenposition und Montageaufwand, bevor wir das weitere Vorgehen bestätigen.
+Erst wenn technische Machbarkeit, Freigaben, Zuständigkeiten, Logistik und Leistungsumfang ausreichend geklärt sind. Eine erste Anfrage oder Vorprüfung ist noch keine Termin- oder Auftragsbestätigung.
 
 ## Projektstandort mitteilen
 
@@ -724,7 +744,7 @@ Senden Sie Postleitzahl und vollständige Adresse zusammen mit einer kurzen Proj
 
 # Über IsarKlima
 
-IsarKlima steht für klar und sorgfältig geplante Klimaanlagen-Installationen in Wohnungen, Häusern, Büros und kleineren Gewerbeflächen in München. Ausgangspunkt sind die Nutzung der Räume und die tatsächlichen Bedingungen des Gebäudes; daraus entsteht ein Konzept für Gerätepositionen, Leitungswege, Freigaben und Zugang.
+IsarKlima steht für klar und sorgfältig geplante Klimaanlagen-Installationen in Wohnungen, Häusern, Büros und Gewerbeflächen in ganz Deutschland. Ausgangspunkt sind die Nutzung der Räume und die tatsächlichen Bedingungen des Gebäudes; daraus entsteht ein Konzept für Gerätepositionen, Leitungswege, Freigaben, Logistik und Zugang.
 
 ## Klimaanlagen passend zum Gebäude geplant
 
@@ -734,11 +754,11 @@ Wir planen Split-Klimaanlagen mit einem oder mehreren Innengeräten und passende
 
 Single-Split versorgt einen Raum über ein Innen- und ein Außengerät; Multi-Split verbindet mehrere separat regelbare Innengeräte mit einem gemeinsamen Außengerät. Beide Varianten werden projektbezogen eingeordnet, statt eine Systemart unabhängig von Raumaufteilung und Montagesituation zu bevorzugen.
 
-### Wohnräume, Häuser und kleinere Gewerbeflächen
+### Wohnungen, Häuser und Gewerbeflächen
 
 Wohnungen, Häuser, Büros und kleinere Gewerbeflächen bringen unterschiedliche Raumaufteilungen, Wärmelasten und Zugangsbedingungen mit. Eigentumssituation, Gebäudenutzung und mögliche Außenposition prägen die Planung für jedes Vorhaben.
 
-## Wie wir Projekte vorbereiten
+## Projektkoordination in ganz Deutschland
 
 Die Vorbereitung beginnt mit den konkreten Projektdaten. Daraus entsteht ein klar beschriebener Umfang, in dem Gerätepositionen, Leitungsführung, Freigaben und Verantwortlichkeiten sichtbar sind, bevor die eigentliche Montage terminiert wird.
 
@@ -802,7 +822,7 @@ Beschreiben Sie Ihr Vorhaben mit Adresse, Gebäudeart, Räumen, gewünschter Spl
 
 <!-- Seite: /kontakt/ -->
 
-# Angebot für eine Klimaanlage in München anfragen
+# Klimaanlagen-Projekt anfragen
 
 Eine aussagekräftige Anfrage verbindet den gewünschten Kühlbedarf mit der realen Einbausituation. Vollständige Standort-, Raum- und Freigabeangaben helfen dabei, technische Möglichkeiten und noch offene Punkte gezielt zu prüfen.
 
@@ -866,47 +886,27 @@ Das Projektformular fragt nur Angaben ab, die für Standort, Gebäude, Räume, S
 
 <!-- Seite: /ratgeber/ -->
 
-# Ratgeber zur Klimaanlagen-Installation in München
+# Klimaanlagen-Blog: Ratgeber für Planung und Installation
 
-Der Ratgeber bündelt praktische Grundlagen zur Installation von Split-Klimaanlagen in Wohnungen, Häusern, Büros und kleineren Gewerbeflächen. Er hilft dabei, Freigaben, Systemwahl, Außenstandort, Montage und Kostenfragen vorzubereiten, ersetzt aber keine Prüfung des konkreten Gebäudes oder eine individuelle technische Planung.
+Der IsarKlima Blog bündelt verständliche Ratgeber zur Planung und Installation von Split-Klimaanlagen. Die veröffentlichten Artikel erscheinen direkt unter dem Einstieg und helfen dabei, Systemwahl, Freigaben, Außenstandort, Montage und Kostenfragen für Projekte in Deutschland vorzubereiten.
 
-## Vor der Installation
+## Themen im Blog
 
-Bevor ein Gerät ausgewählt oder ein Termin geplant wird, sollten Eigentumsverhältnisse, mögliche Eingriffe am Gebäude und die Außenposition geklärt sein. So wird früh sichtbar, welche Zustimmung, Unterlagen oder technische Variante für das Projekt benötigt werden.
+Die Artikel sind nach den Entscheidungen gegliedert, die bei einem Klimaanlagen-Projekt tatsächlich anstehen. So führt der Blog von der ersten Systemfrage über Gebäude und Freigaben bis zu Installation und transparentem Angebot.
 
-### Zustimmung und Genehmigungen
+### Planung und Systemwahl
 
-Die Beiträge erklären, warum Mieter eine konkrete Vermieterfreigabe und Wohnungseigentümer möglicherweise einen WEG-Beschluss benötigen. Sie weisen außerdem darauf hin, dass je nach Gebäude und Standort weitere öffentlich-rechtliche Vorgaben zu prüfen sein können, ohne eine individuelle Rechtsberatung zu ersetzen.
+Beiträge zu Single- und Multi-Split, Kühllast und Gerätepositionen erklären die technischen Grundlagen, ohne aus unvollständigen Angaben eine pauschale Produktempfehlung abzuleiten.
 
-### Außengerät, Schall und Standort
+### Gebäude, Zustimmung und Schallschutz
 
-Der Außenstandort wird als Zusammenspiel von Luftführung, Befestigung, Zugang, Schall, Schwingungen, Nachbarbereichen und Kondensat betrachtet. Ein reiner Vergleich von Katalogwerten beantwortet nicht, wie sich ein Gerät an einer bestimmten Fassade, auf einem Balkon oder in einem Innenhof auswirkt.
+Ratgeber zu Miet- und Eigentumswohnungen, Außengeräten und Nachbarschaft zeigen, welche Unterlagen und standortbezogenen Fragen vor der Montage geklärt werden sollten. Sie ersetzen keine individuelle rechtliche Prüfung.
 
-## Das passende System auswählen
+### Installation, Betrieb und Kosten
 
-Systemwahl und Dimensionierung beginnen beim tatsächlichen Bedarf der einzelnen Räume. Der Ratgeber zeigt, welche Unterschiede zwischen Single- und Multi-Split bestehen und weshalb pauschale Flächenregeln eine projektspezifische Kühllasteinordnung nicht ersetzen.
+Diese Artikel ordnen Montageablauf, technische Schnittstellen, Inbetriebnahme und preisbestimmende Faktoren ein. Im Mittelpunkt stehen nachvollziehbare Leistungen statt erfundener Pauschalpreise oder Terminzusagen.
 
-### Single-Split oder Multi-Split
-
-Ein Single-Split-System verbindet ein Innengerät mit einem eigenen Außengerät; bei Multi-Split arbeiten mehrere separat regelbare Innengeräte mit einem gemeinsamen Außengerät. Die Beiträge vergleichen beide Konzepte anhand von Kühlzonen, benötigter Außenfläche, Leitungslängen und Nutzung, nicht anhand einer allgemeingültigen Empfehlung.
-
-### Leistung bedarfsgerecht bestimmen
-
-Raumgröße, Verglasung, Ausrichtung, Sonneneintrag, Dämmung, Personen, Geräte und Nutzungszeiten beeinflussen den Bedarf. Die Ratgeberinhalte helfen, diese Daten zusammenzustellen; die konkrete Geräteauswahl bleibt Teil der technischen Projektprüfung.
-
-## Installation und Kosten verstehen
-
-Wer den Montageablauf und die preisbestimmenden Faktoren kennt, kann Unterlagen gezielter vorbereiten und Angebote besser einordnen. Im Mittelpunkt stehen nachvollziehbare Leistungspositionen und reale Gebäudegegebenheiten, nicht pauschale Preis- oder Terminzusagen.
-
-### Montageablauf
-
-Die Beiträge führen von Projektangaben und Fotos über mögliche Besichtigung, Geräte- und Leitungsplanung bis zu Montage, vorgesehenen Prüfungen und Übergabe. Dabei wird kenntlich gemacht, welche Freigaben und Schnittstellen vor dem Montagetermin geklärt sein sollten.
-
-### Preisbestimmende Faktoren
-
-Systemtyp, Geräteanzahl, Leistung, Leitungsweg, Wanddurchführung, Kondensatlösung, Zugang und zusätzliche technische Arbeiten beeinflussen den Aufwand. Der Ratgeber erläutert diese Faktoren, nennt aber ohne belegte Projektdaten keine vermeintlich verbindlichen Pauschalbeträge.
-
-## Häufige Fragen aus unserem Ratgeber
+## Häufige Fragen zum Klimaanlagen-Blog
 
 Ratgebertexte können Entscheidungen vorbereiten, aber weder das Gebäude vermessen noch Freigaben erteilen. Die folgenden Antworten grenzen ihren Nutzen bewusst von technischer Planung und verbindlicher rechtlicher Beurteilung ab.
 
@@ -926,10 +926,10 @@ Die Beiträge bilden den bei ihrer redaktionellen Prüfung berücksichtigten Inf
 
 Ein Vorschlag kann zusammen mit der konkreten Fragestellung und dem Gebäudekontext übermittelt werden, sobald die Anfragefunktion freigeschaltet ist. Daraus entsteht keine Zusage zur Veröffentlichung oder individuellen Beratung; der Hinweis kann jedoch zeigen, wo eine allgemeine Erklärung für künftige Projekte hilfreich wäre.
 
-### Wie gelange ich von einer Anleitung zur Projektprüfung?
+### Wie gelange ich von einem Artikel zur Projektprüfung?
 
-Wechseln Sie von der passenden Anleitung zum Projektformular und ergänzen Sie Einsatzadresse, Raumdaten, Fotos, Systemwunsch und Freigabestatus. Die Inhalte des Artikels können als Checkliste dienen; die technische Prüfung beginnt erst mit den Angaben zum tatsächlichen Gebäude und begründet noch keinen Auftrag.
+Wechseln Sie vom passenden Artikel zum Projektformular und ergänzen Sie Einsatzadresse, Raumdaten, Systemwunsch und Freigabestatus. Halten Sie Fotos bereit; falls sie benötigt werden, erhalten Sie einen bestätigten Übermittlungsweg. Die technische Prüfung beginnt erst mit den Angaben zum tatsächlichen Gebäude und begründet noch keinen Auftrag.
 
-## Eigenes Projekt prüfen lassen
+## Eigenes Projekt besprechen
 
 Nutzen Sie die Ratgeberthemen, um Freigaben, Maße und offene Fragen strukturiert zusammenzustellen. Halten Sie passende Fotos bereit; falls sie benötigt werden, erhalten Sie nach der ersten Kontaktaufnahme einen bestätigten Übermittlungsweg.

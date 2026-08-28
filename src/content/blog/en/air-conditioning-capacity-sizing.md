@@ -4,7 +4,7 @@ seoTitle: "Choosing air conditioning capacity | IsarKlima"
 description: "How room size, glazing, sunlight, occupants, equipment and operating hours affect the cooling capacity an air conditioner needs."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27
-author: "IsarKlima Redaktion"
+author: "IsarKlima Editorial"
 category: "Technical planning"
 image: "/images/blog/air-conditioning-capacity-sizing.webp"
 imageAlt: "Floor plan, measuring instruments and lines used to plan an air conditioning system"
@@ -25,7 +25,7 @@ Correct cooling capacity is not simply the largest number available on a product
 
 Cooling load is the rate of heat that must be removed from a space under defined conditions. It combines external and internal heat gains. For an initial review, a floor plan, ceiling height, window areas, orientation, shading, use and photographs are often sufficient. A reliable design may require additional building information.
 
-The Bavarian consumer advice centre emphasises that sound planning and appropriate equipment selection help avoid unnecessarily high operating costs. Its current guidance is available under [Installing air conditioning: what should be considered?](https://www.verbraucherzentrale.bayern/wissen/energie/energetische-sanierung/klimaanlage-installieren-was-ist-zu-beachten-10525).
+Germany's national consumer advice service emphasises that sound planning and appropriate equipment selection help avoid unnecessarily high operating costs. Its current guidance is available under [Installing air conditioning: what should be considered?](https://www.verbraucherzentrale.de/wissen/energie/energetische-sanierung/klimaanlage-installieren-was-ist-zu-beachten-10525).
 
 ### Room size, glazing and solar gain
 
@@ -45,7 +45,7 @@ Generic watts-per-square-metre figures can support a rough screening, but they h
 
 The nominal capacity of an indoor unit should not be viewed in isolation either. In multi-split systems, available output depends on the outdoor unit, the permitted indoor-unit combination and simultaneous operation. Manufacturer documentation defines valid combinations and capacity ranges.
 
-A larger system is not automatically the safer choice. The aim is an appropriate system with useful part-load capability. Alongside peak load, air distribution, noise, available space, pipe routes, electrical provision and behaviour during typical Munich summer conditions all matter.
+A larger system is not automatically the safer choice. The aim is an appropriate system with useful part-load capability. Alongside peak load, air distribution, noise, available space, pipe routes, electrical provision and behaviour during the expected summer conditions at the property all matter.
 
 ## Data that helps with sizing
 

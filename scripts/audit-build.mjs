@@ -5,11 +5,15 @@ import { fileURLToPath } from 'node:url';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const dist = join(root, 'dist');
-const expectedSiteUrl = process.env.PUBLIC_SITE_URL ?? 'https://isarklima-muenchen.netlify.app';
+const expectedSiteUrl = process.env.PUBLIC_SITE_URL ?? 'https://isarklima-deutschland.netlify.app';
 const expectedSiteOrigin = new URL(expectedSiteUrl).origin;
 const failures = [];
 const normalize = (value) => value.replace(/\s+/g, ' ').trim();
 const discouragedMarketingPhrases = [
+  'münchen',
+  'munich',
+  'bayern',
+  'bavaria',
   'munich focus',
   'fokus münchen',
   'munich and surrounding areas',
@@ -40,6 +44,17 @@ const retiredFaceImageFamilies = [
   'installation-team',
   'technician-outdoor-portrait',
   'outdoor-unit-site',
+];
+const retiredPublicGeographicImages = [
+  'images/site/munich-city-',
+  'images/site/outdoor-unit-installation-detail-',
+  'images/og/isarklima-muenchen.jpg',
+  'images/blog/klimaanlage-aussengeraet-laerm.webp',
+  'images/blog/air-conditioning-outdoor-unit-noise.webp',
+];
+const retiredPublicGeographicPatterns = [
+  /^images\/blog\/klimaanlage-aussengeraet-laerm-\d+\.webp$/,
+  /^images\/blog\/air-conditioning-outdoor-unit-noise-\d+\.webp$/,
 ];
 
 async function findHtml(directory) {
@@ -82,6 +97,53 @@ function urlForFile(file) {
 function fail(path, message) { failures.push(`${path}: ${message}`); }
 function headingList($) { return $('h1,h2,h3').map((_, el) => ({ tag: el.tagName, text: normalize($(el).text()) })).get(); }
 
+function parseArchitectureContracts(markdown) {
+  const contracts = new Map();
+  const routeHeading = /^###\s+`([^`]+)`\s+↔\s+`([^`]+)`\s*$/gm;
+  for (const match of markdown.matchAll(routeHeading)) {
+    const tail = markdown.slice(match.index + match[0].length);
+    const nextHeading = tail.search(/\r?\n#{2,3}\s+/);
+    const block = nextHeading === -1 ? tail : tail.slice(0, nextHeading);
+    const de = [];
+    const en = [];
+    let pendingTag;
+    for (const line of block.split(/\r?\n/)) {
+      const h3 = line.match(/^\s+- H3:\s+`([^`]+)`\s+→\s+`([^`]+)`\s*$/);
+      if (h3) {
+        de.push({ tag: 'h3', text: h3[1] });
+        en.push({ tag: 'h3', text: h3[2] });
+        pendingTag = undefined;
+        continue;
+      }
+      const primary = line.match(/^- H([12]):\s+`([^`]+)`(?:\s+→\s+`([^`]+)`)?\s*$/);
+      if (primary) {
+        const tag = `h${primary[1]}`;
+        de.push({ tag, text: primary[2] });
+        if (primary[3]) {
+          en.push({ tag, text: primary[3] });
+          pendingTag = undefined;
+        } else {
+          pendingTag = tag;
+        }
+        continue;
+      }
+      const english = line.match(/^\s+- EN:\s+`([^`]+)`\s*$/);
+      if (english && pendingTag) {
+        en.push({ tag: pendingTag, text: english[1] });
+        pendingTag = undefined;
+      }
+    }
+    contracts.set(match[1], de);
+    contracts.set(match[2], en);
+  }
+  return contracts;
+}
+
+function parseArticleTitleContracts(markdown) {
+  const section = markdown.match(/^### Artículos publicados\s*$([\s\S]*?)(?=^## Páginas legales\s*$)/m)?.[1] ?? '';
+  return [...section.matchAll(/^\d+\.\s+`([^`]+)`\s*\r?\n\s+- EN:\s+`([^`]+)`\s*$/gm)].map((match) => ({ de: match[1], en: match[2] }));
+}
+
 const htmlFiles = await findHtml(dist);
 const textArtifacts = await findTextArtifacts(dist);
 const robots = await readFile(join(dist, 'robots.txt'), 'utf8');
@@ -115,6 +177,14 @@ const publicImageFiles = await findFiles(join(root, 'public', 'images'));
 for (const marker of [...retiredFaceImageFamilies, 'preview-technician']) {
   const match = publicImageFiles.find((file) => file.toLocaleLowerCase('en').includes(marker));
   if (match) fail('/images/', `retired face-bearing image remains public: ${relative(join(root, 'public'), match).split(sep).join('/')}`);
+}
+for (const marker of retiredPublicGeographicImages) {
+  const match = publicImageFiles.find((file) => relative(join(root, 'public'), file).split(sep).join('/').toLocaleLowerCase('en').includes(marker));
+  if (match) fail('/images/', `retired location-specific image remains public: ${relative(join(root, 'public'), match).split(sep).join('/')}`);
+}
+for (const pattern of retiredPublicGeographicPatterns) {
+  const match = publicImageFiles.find((file) => pattern.test(relative(join(root, 'public'), file).split(sep).join('/').toLocaleLowerCase('en')));
+  if (match) fail('/images/', `retired location-specific image remains public: ${relative(join(root, 'public'), match).split(sep).join('/')}`);
 }
 for (const flag of ['flag-uk.svg', 'flag-de.svg']) {
   try {
@@ -358,6 +428,54 @@ const publishableByLanguage = new Map([
 ]);
 
 const generated = JSON.parse(await readFile(join(root, 'src', 'data', 'pages.generated.json'), 'utf8'));
+const architectureMarkdown = await readFile(join(root, 'docs', 'seo-heading-architecture.md'), 'utf8');
+const architectureContracts = parseArchitectureContracts(architectureMarkdown);
+const architecturePaths = new Set([
+  ...generated.map((page) => page.path),
+  '/impressum/', '/en/imprint/', '/datenschutz/', '/en/privacy/',
+]);
+for (const path of architecturePaths) {
+  const expected = architectureContracts.get(path);
+  const built = pages.get(path);
+  if (!expected) {
+    fail(path, 'missing from docs/seo-heading-architecture.md');
+    continue;
+  }
+  if (!built) continue;
+  const actual = built.$('h1,h2,h3').filter((_, heading) => built.$(heading).closest('.guide-card').length === 0)
+    .map((_, heading) => ({ tag: heading.tagName, text: normalize(built.$(heading).text()) })).get();
+  if (JSON.stringify(actual) !== JSON.stringify(expected)) {
+    fail(path, `rendered headings differ from docs/seo-heading-architecture.md\n  expected ${JSON.stringify(expected)}\n  actual   ${JSON.stringify(actual)}`);
+  }
+}
+for (const path of architectureContracts.keys()) {
+  if (!architecturePaths.has(path)) fail(path, 'heading architecture documents a route outside the built commercial and legal contract');
+}
+if (architectureContracts.size !== architecturePaths.size) {
+  fail('/docs/seo-heading-architecture.md', `expected ${architecturePaths.size} route contracts, found ${architectureContracts.size}`);
+}
+const articleTitleContracts = parseArticleTitleContracts(architectureMarkdown);
+const documentedArticleTitles = new Set(articleTitleContracts.flatMap((pair) => [pair.de, pair.en]));
+const publishableArticleTitles = new Set(publishablePosts.map((post) => post.title));
+if (articleTitleContracts.length * 2 !== publishablePosts.length) {
+  fail('/docs/seo-heading-architecture.md', `expected ${publishablePosts.length / 2} bilingual article-title contracts, found ${articleTitleContracts.length}`);
+}
+for (const title of publishableArticleTitles) {
+  if (!documentedArticleTitles.has(title)) fail('/docs/seo-heading-architecture.md', `missing published article H1: ${title}`);
+}
+for (const title of documentedArticleTitles) {
+  if (!publishableArticleTitles.has(title)) fail('/docs/seo-heading-architecture.md', `documents an unpublished article H1: ${title}`);
+}
+const publishablePostByPath = new Map(publishablePosts.map((post) => [post.path, post]));
+const germanPostByTitle = new Map(publishablePosts.filter((post) => post.language === 'de-DE').map((post) => [post.title, post]));
+for (const pair of articleTitleContracts) {
+  const germanPost = germanPostByTitle.get(pair.de);
+  const englishPath = germanPost?.translations?.['en-DE'];
+  const englishPost = englishPath ? publishablePostByPath.get(englishPath) : undefined;
+  if (!germanPost || !englishPost || englishPost.language !== 'en-DE' || englishPost.title !== pair.en) {
+    fail('/docs/seo-heading-architecture.md', `incorrect bilingual article-title pairing: ${pair.de} ↔ ${pair.en}`);
+  }
+}
 const expectedAlternates = new Map(generated.map((page) => [page.path, page.alternatePath]));
 for (const [dePath, enPath] of [['/impressum/', '/en/imprint/'], ['/datenschutz/', '/en/privacy/']]) {
   expectedAlternates.set(dePath, enPath);
@@ -450,12 +568,8 @@ for (const page of generated) {
   const built = pages.get(page.path);
   if (!built) { fail(page.path, 'page was not built'); continue; }
   const expected = [{ tag: 'h1', text: page.h1 }];
-  for (const section of page.sections) {
-    expected.push({ tag: 'h2', text: section.title });
-    for (const subsection of section.subsections ?? []) expected.push({ tag: 'h3', text: subsection.title });
-  }
   if (page.key === 'guides') {
-    const expectedGuideTitle = page.lang === 'de' ? 'Aktuelle Ratgeber' : 'Latest guides';
+    const expectedGuideTitle = page.lang === 'de' ? 'Aktuelle Artikel' : 'Latest articles';
     const guideLanguage = page.lang === 'de' ? 'de-DE' : 'en-DE';
     const expectedGuides = publishableByLanguage.get(guideLanguage) ?? [];
     const expectedGuidesByPath = new Map(expectedGuides.map((post) => [post.path, post]));
@@ -480,6 +594,23 @@ for (const page of generated) {
     for (const expectedPost of expectedGuides) {
       if (!seenGuidePaths.has(expectedPost.path)) fail(page.path, `missing publishable guide card ${expectedPost.path}`);
     }
+    const collectionSchemas = built.$('script[type="application/ld+json"]').map((_, script) => {
+      try { return JSON.parse(built.$(script).html() ?? ''); } catch { return null; }
+    }).get();
+    const collectionPageSchema = collectionSchemas.find((schema) => schema?.['@type'] === 'CollectionPage');
+    const itemListSchema = collectionSchemas.find((schema) => schema?.['@type'] === 'ItemList');
+    if (!collectionPageSchema) fail(page.path, 'blog index must expose CollectionPage schema');
+    const visibleGuideUrls = guideCards.map((_, card) => built.$(card).find('.guide-card-title a').attr('href')).get();
+    const schemaGuideUrls = (itemListSchema?.itemListElement ?? []).map((item) => {
+      try { return new URL(item?.url).pathname; } catch { return ''; }
+    });
+    if (!itemListSchema || JSON.stringify(schemaGuideUrls) !== JSON.stringify(visibleGuideUrls)) {
+      fail(page.path, 'ItemList schema must mirror the visible article order');
+    }
+  }
+  for (const section of page.sections) {
+    expected.push({ tag: 'h2', text: section.title });
+    for (const subsection of section.subsections ?? []) expected.push({ tag: 'h3', text: subsection.title });
   }
   expected.push({ tag: 'h2', text: page.faqTitle });
   for (const item of page.faq) expected.push({ tag: 'h3', text: item.question });
@@ -487,7 +618,10 @@ for (const page of generated) {
   const actual = headingList(built.$);
   if (JSON.stringify(actual) !== JSON.stringify(expected)) fail(page.path, `heading contract mismatch\n  expected ${JSON.stringify(expected)}\n  actual   ${JSON.stringify(actual)}`);
   if (built.$('form.project-form').length !== 1) fail(page.path, 'commercial page must end with one project form');
-  if (built.$('.related-links nav a').length !== 3) fail(page.path, 'commercial page must expose three contextual related links');
+  const expectedRelatedLinks = page.key === 'guides' ? 0 : 3;
+  if (built.$('.related-links nav a').length !== expectedRelatedLinks) {
+    fail(page.path, `page must expose ${expectedRelatedLinks} contextual related links`);
+  }
   const faqSchema = built.$('script[type="application/ld+json"]').map((_, script) => {
     try { return JSON.parse(built.$(script).html() ?? ''); } catch { return null; }
   }).get().find((schema) => schema?.['@type'] === 'FAQPage');
@@ -500,6 +634,20 @@ for (const page of generated) {
     answer: normalize(item?.acceptedAnswer?.text ?? ''),
   }));
   if (!faqSchema || JSON.stringify(schemaFaq) !== JSON.stringify(visibleFaq)) fail(page.path, 'FAQPage schema must exactly mirror visible questions and answers');
+  const structuredData = built.$('script[type="application/ld+json"]').map((_, script) => {
+    try { return JSON.parse(built.$(script).html() ?? ''); } catch { return null; }
+  }).get();
+  for (const requiredType of ['Organization', 'WebSite', page.key === 'guides' ? 'CollectionPage' : 'WebPage']) {
+    if (!structuredData.some((schema) => schema?.['@type'] === requiredType)) fail(page.path, `missing ${requiredType} schema`);
+  }
+  const serviceSchema = structuredData.find((schema) => schema?.['@type'] === 'Service');
+  const shouldExposeService = ['home', 'split', 'apartment', 'house', 'commercial', 'retrofit', 'costs', 'area'].includes(page.key);
+  if (shouldExposeService && !serviceSchema) fail(page.path, 'service page is missing Service schema');
+  if (!shouldExposeService && serviceSchema) fail(page.path, 'non-service page must not expose Service schema');
+  if (serviceSchema && normalize(serviceSchema.name ?? '') !== normalize(page.h1)) fail(page.path, 'Service schema name must match the visible H1');
+  if (serviceSchema && (serviceSchema.areaServed?.['@type'] !== 'Country' || serviceSchema.areaServed?.name !== 'Germany')) {
+    fail(page.path, 'Service schema areaServed must be the country Germany');
+  }
 }
 
 for (const post of publishablePosts) {
@@ -513,11 +661,13 @@ for (const post of publishablePosts) {
   if (built.$('.related-links nav a').length !== 3) fail(post.path, 'article must expose three contextual related links');
   const articleSchema = built.$('script[type="application/ld+json"]').map((_, script) => {
     try { return JSON.parse(built.$(script).html() ?? ''); } catch { return null; }
-  }).get().find((schema) => schema?.['@type'] === 'Article');
-  if (!articleSchema || normalize(articleSchema.headline ?? '') !== normalize(post.title)) fail(post.path, 'Article schema headline must match the visible H1');
+  }).get().find((schema) => schema?.['@type'] === 'BlogPosting');
+  if (!articleSchema || normalize(articleSchema.headline ?? '') !== normalize(post.title)) fail(post.path, 'BlogPosting schema headline must match the visible H1');
   const visibleAuthor = normalize(built.$('.article-author').text());
   const schemaAuthor = normalize(articleSchema?.author?.name ?? '');
-  if (!schemaAuthor || !visibleAuthor.includes(schemaAuthor)) fail(post.path, 'Article schema author must be visible in the article header');
+  if (!schemaAuthor || !visibleAuthor.includes(schemaAuthor)) fail(post.path, 'BlogPosting schema author must be visible in the article header');
+  if (articleSchema?.author?.['@id'] === `${expectedSiteOrigin}/#organization`) fail(post.path, 'editorial author must not reuse the publisher Organization @id');
+  if (articleSchema?.publisher?.['@id'] !== `${expectedSiteOrigin}/#organization`) fail(post.path, 'BlogPosting publisher must reference the site Organization');
 }
 
 for (const post of excludedPosts) {
@@ -539,6 +689,8 @@ const germanRss = await readFile(join(dist, 'rss.xml'), 'utf8');
 const englishRss = await readFile(join(dist, 'en', 'rss.xml'), 'utf8');
 const germanRssXml = load(germanRss, { xmlMode: true });
 const englishRssXml = load(englishRss, { xmlMode: true });
+if (germanRssXml('channel > title').first().text() !== 'IsarKlima Blog') fail('/rss.xml', 'German RSS title must use the public Blog label');
+if (englishRssXml('channel > title').first().text() !== 'IsarKlima Blog') fail('/en/rss.xml', 'English RSS title must use the public Blog label');
 if (germanRssXml('channel > link').first().text() !== `${expectedSiteOrigin}/`) fail('/rss.xml', 'German RSS channel must link to the German home');
 if (englishRssXml('channel > link').first().text() !== `${expectedSiteOrigin}/en/`) fail('/en/rss.xml', 'English RSS channel must link to the English home');
 for (const post of publishablePosts) {

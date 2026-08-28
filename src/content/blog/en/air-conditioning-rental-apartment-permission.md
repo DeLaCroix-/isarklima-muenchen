@@ -1,10 +1,10 @@
 ---
 title: "Air conditioning in a rental apartment: what must be clarified before installation?"
 seoTitle: "Rental apartment air conditioning: consent | IsarKlima"
-description: "A practical guide to landlord consent, technical details and documents needed before installing split air conditioning in a Munich rental."
+description: "A practical guide to landlord consent, technical details and documents needed before installing split air conditioning in a German rental property."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27
-author: "IsarKlima Redaktion"
+author: "IsarKlima Editorial"
 category: "Planning and permissions"
 image: "/images/blog/air-conditioning-rental-apartment-planning.webp"
 imageAlt: "Modern living space with a wall-mounted split air conditioning unit"
@@ -23,7 +23,7 @@ A permanently installed split air conditioning system affects more than the insi
 
 ## Why the landlord’s consent comes first
 
-The Bavarian consumer advice centre states that tenants need their landlord’s permission for a fixed split system because installation involves drilling through the outside wall and fitting an outdoor unit. This is reliable general guidance, but it does not replace an assessment of the particular lease and building. The current explanation is available from [Verbraucherzentrale Bayern](https://www.verbraucherzentrale.bayern/wissen/energie/energetische-sanierung/klimaanlage-installieren-was-ist-zu-beachten-10525).
+Germany's national consumer advice service states that tenants need their landlord's permission for a fixed split system because installation involves drilling through the outside wall and fitting an outdoor unit. This is reliable general guidance, but it does not replace an assessment of the particular lease and building. The current explanation is available from [Verbraucherzentrale](https://www.verbraucherzentrale.de/wissen/energie/energetische-sanierung/klimaanlage-installieren-was-ist-zu-beachten-10525).
 
 A positive answer is not a technical design. In a condominium, common property and an owners’ resolution may also be relevant. Listed buildings or protected areas can introduce further requirements.
 
@@ -31,7 +31,7 @@ A positive answer is not a technical design. In a condominium, common property a
 
 The wall penetration carries refrigerant lines, control cables and often the condensate drain. The outdoor unit may alter the appearance of the facade and can transmit noise or vibration. A request should therefore contain more than the question, “May I have air conditioning?” A sketch, photographs and a description of the proposed indoor and outdoor positions and pipe route make the proposal assessable.
 
-A technical building installation that does not require a normal building procedure is not automatically permissible everywhere. The City of Munich expressly explains that all other public-law requirements still apply to procedure-free projects. Its [Local Building Commission guidance](https://stadt.muenchen.de/infos/verfahrensfreie-bauvorhaben.html) provides the official context.
+Whether a technical building installation is procedure-free depends on the relevant state building code, and other public-law requirements may still apply. Germany's [Conference of Building Ministers](https://www.bauministerkonferenz.de/verzeichnis.aspx?id=12614&o=11851O12614) explains that state law is decisive and links to the responsible state ministries.
 
 ### Documenting written approval
 
@@ -47,7 +47,7 @@ A project-specific request is easier to assess. Include the address, apartment n
 
 Show which rooms are to be cooled and where air can circulate without being directed continuously at beds, desks or seating. For the outdoor unit, access, free airflow, clearances and a load-bearing installation surface matter. The proposed pipe route should be short and understandable, while leaving final technical feasibility to the site assessment.
 
-If a building is listed or the external appearance of a protected ensemble could be affected, a separate permit may be necessary. Munich’s [Lower Monument Protection Authority](https://stadt.muenchen.de/service/info/untere-denkmalschutzbehorde/1073937/) explains the documents used for its assessment.
+If a building is listed or its protected appearance could be affected, a separate heritage permit may be necessary. Germany's [federal public-service portal](https://verwaltung.bund.de/leistungsverzeichnis/DE/leistung/99033011006000) makes clear that the applicable information and responsible heritage authority depend on the selected location.
 
 ### Noise, condensate and possible reinstatement
 

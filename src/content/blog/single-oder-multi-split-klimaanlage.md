@@ -43,7 +43,7 @@ Die Planung wird komplexer: Jeder Raum braucht eine passende Inneneinheit und ei
 
 Eine gute Entscheidung beginnt mit einer Raumliste. Für jeden Raum werden Nutzung, gewünschte Betriebszeiten, Sonneneintrag, Verglasung, Personen und interne Wärmequellen erfasst. Entscheidend ist auch, ob mehrere Räume regelmäßig gleichzeitig gekühlt werden oder nur abwechselnd.
 
-Die Verbraucherzentrale Bayern beschreibt Split-Geräte als planungs- und installationsintensiver als mobile Monoblockgeräte, aber typischerweise leistungsfähiger und leiser im Innenraum. Ihre aktuelle Orientierung ist unter [Klimaanlage installieren](https://www.verbraucherzentrale.bayern/wissen/energie/energetische-sanierung/klimaanlage-installieren-was-ist-zu-beachten-10525) abrufbar.
+Die bundesweite Verbraucherzentrale beschreibt Split-Geräte als planungs- und installationsintensiver als mobile Monoblockgeräte, aber typischerweise effizienter und leiser im Innenraum. Ihre aktuelle Orientierung ist unter [Klimaanlage installieren](https://www.verbraucherzentrale.de/wissen/energie/energetische-sanierung/klimaanlage-installieren-was-ist-zu-beachten-10525) abrufbar.
 
 ### Anzahl und Nutzung der Räume
 

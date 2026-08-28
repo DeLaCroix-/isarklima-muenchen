@@ -4,7 +4,7 @@ seoTitle: "Single-split or multi-split air conditioning | IsarKlima"
 description: "A practical comparison of single- and multi-split air conditioning covering rooms, outdoor units, pipe routes, controls and installation."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27
-author: "IsarKlima Redaktion"
+author: "IsarKlima Editorial"
 category: "Choosing a system"
 image: "/images/blog/single-vs-multi-split-air-conditioning.webp"
 imageAlt: "Wall-mounted split air conditioning unit in a modern interior"
@@ -43,7 +43,7 @@ Planning is more complex. Each room needs a suitable indoor unit and its own rou
 
 A sound comparison begins with a room schedule. Record the use of every room, expected operating periods, solar gain, glazing, occupants and internal heat sources. It also matters whether several rooms will normally be cooled together or mostly at different times.
 
-The Bavarian consumer advice centre describes split systems as requiring more planning and installation than portable monoblock units, while generally providing stronger performance and less indoor noise. Its current guidance is available under [Installing air conditioning](https://www.verbraucherzentrale.bayern/wissen/energie/energetische-sanierung/klimaanlage-installieren-was-ist-zu-beachten-10525).
+Germany's national consumer advice service describes split systems as requiring more planning and installation than portable monoblock units, while generally operating more efficiently and with less indoor noise. Its current guidance is available under [Installing air conditioning](https://www.verbraucherzentrale.de/wissen/energie/energetische-sanierung/klimaanlage-installieren-was-ist-zu-beachten-10525).
 
 ### Number and use of rooms
 

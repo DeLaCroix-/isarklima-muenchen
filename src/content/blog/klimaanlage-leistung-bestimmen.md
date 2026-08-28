@@ -25,7 +25,7 @@ Die richtige Kühlleistung sorgt nicht einfach für eine möglichst große Zahl 
 
 Die Kühllast ist die Wärmeleistung, die unter definierten Bedingungen aus einem Raum abgeführt werden muss. Sie setzt sich aus äußeren und inneren Wärmeeinträgen zusammen. Zur ersten Einordnung reichen häufig Grundriss, Raumhöhe, Fensterflächen, Orientierung, Verschattung, Nutzung und Fotos. Für eine belastbare Auslegung können weitere Gebäudedaten erforderlich sein.
 
-Die Verbraucherzentrale Bayern betont, dass gute Planung und passende Geräteauswahl Voraussetzungen dafür sind, unnötig hohe Betriebskosten zu vermeiden. Ihre aktuelle Verbraucherinformation ist unter [Klimaanlage installieren: Was ist zu beachten?](https://www.verbraucherzentrale.bayern/wissen/energie/energetische-sanierung/klimaanlage-installieren-was-ist-zu-beachten-10525) verfügbar.
+Die bundesweite Verbraucherzentrale betont, dass gute Planung und passende Geräteauswahl Voraussetzungen dafür sind, unnötig hohe Betriebskosten zu vermeiden. Ihre aktuelle Verbraucherinformation ist unter [Klimaanlage installieren: Was ist zu beachten?](https://www.verbraucherzentrale.de/wissen/energie/energetische-sanierung/klimaanlage-installieren-was-ist-zu-beachten-10525) verfügbar.
 
 ### Raumgröße, Verglasung und Sonneneintrag
 
@@ -45,7 +45,7 @@ Pauschale Werte pro Quadratmeter können eine grobe Vorprüfung unterstützen, v
 
 Auch die Nennleistung des Innengeräts darf nicht isoliert betrachtet werden. Bei Multi-Split-Systemen hängen verfügbare Leistungen von der Außeneinheit, der Kombination der Innengeräte und dem gleichzeitigen Betrieb ab. Herstellerunterlagen definieren zulässige Kombinationen und Leistungsbereiche.
 
-Eine größere Anlage ist nicht automatisch „sicherer“. Ziel ist eine passende Auswahl mit sinnvoller Teillastfähigkeit. Neben der Spitzenlast zählen Luftverteilung, Schall, Platz, Leitungswege, Stromversorgung und das Verhalten bei typischen Münchner Sommertagen.
+Eine größere Anlage ist nicht automatisch „sicherer“. Ziel ist eine passende Auswahl mit sinnvoller Teillastfähigkeit. Neben der Spitzenlast zählen Luftverteilung, Schall, Platz, Leitungswege, Stromversorgung und das Verhalten bei den zu erwartenden sommerlichen Bedingungen am Standort.
 
 ## Diese Daten helfen bei der Dimensionierung
 

@@ -43,7 +43,7 @@ Der Leitungsweg verbindet beide Einheiten innerhalb der Herstellergrenzen. Kält
 
 ### Freigaben, Strom und Zugang
 
-Die schriftlichen Freigaben müssen zur geplanten Ausführung passen. Ändern sich Standort oder Leitungsweg wesentlich, ist zu prüfen, ob die Zustimmung angepasst werden muss. „Verfahrensfrei“ bedeutet zudem nicht, dass alle anderen Vorschriften entfallen, wie die [Stadt München](https://stadt.muenchen.de/infos/verfahrensfreie-bauvorhaben.html) erläutert.
+Die schriftlichen Freigaben müssen zur geplanten Ausführung passen. Ändern sich Standort oder Leitungsweg wesentlich, ist zu prüfen, ob die Zustimmung angepasst werden muss. Ob ein Vorhaben verfahrensfrei ist und welche weiteren Anforderungen gelten, richtet sich nach dem jeweiligen Landesrecht; darauf weist die [Bauministerkonferenz](https://www.bauministerkonferenz.de/verzeichnis.aspx?id=12614&o=11851O12614) hin.
 
 Muss die feste elektrische Anlage erweitert oder geändert werden, gelten gesonderte Anforderungen. § 13 NAV reserviert solche Arbeiten grundsätzlich dem Netzbetreiber oder einem in ein Installateurverzeichnis eingetragenen Installationsunternehmen. Der konkrete elektrische Umfang muss daher vorab geklärt sein. [§ 13 NAV](https://www.gesetze-im-internet.de/nav/__13.html)
 

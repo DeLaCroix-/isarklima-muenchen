@@ -23,28 +23,28 @@ const routePairs = [
 const alternates = new Map(routePairs.flatMap(([de, en]) => [[de, en], [en, de]]));
 
 const meta = {
-  '/': ['home', 'Startseite', 'Klimaanlagen für München | IsarKlima', 'Passende Single- und Multi-Split-Klimaanlagen für Wohnungen, Häuser, Büros und kleinere Gewerbeflächen in München.', 'Planung und Montage', 'hero-installation-detail', 'Montagearbeiten an einem Split-Klimagerät in einem modernen Wohnraum'],
-  '/en/': ['home', 'Home', 'Air conditioning for Munich properties | IsarKlima', 'Single-split and multi-split air conditioning planned for apartments, homes, offices and smaller commercial spaces in Munich.', 'Single-split & multi-split systems', 'hero-installation-detail', 'Split air conditioning installation work in a modern living space'],
-  '/split-klimaanlage-installation/': ['split', 'Split-Klimaanlage', 'Split-Klimaanlagen in München | Planung und Montage', 'Planung und Montage von Single- und Multi-Split-Klimaanlagen für Wohnungen, Häuser und Gewerbeflächen in München.', 'Single- & Multi-Split', 'commissioning-gauges', 'Prüfgeräte bei der Inbetriebnahme einer Split-Klimaanlage'],
-  '/en/split-air-conditioning-installation/': ['split', 'Split air conditioning', 'Split air conditioning installation in Munich | IsarKlima', 'Planning and installation of single-split and multi-split air conditioning systems in Munich.', 'Single- & multi-split', 'commissioning-gauges', 'Test gauges used while commissioning a split air conditioning system'],
-  '/klimaanlage-wohnung/': ['apartment', 'Wohnung', 'Klimaanlage für die Wohnung in München | IsarKlima', 'Split-Klimaanlage in Miet- oder Eigentumswohnungen: Freigabe, Planung und Montage in München.', 'Wohnung · Planung · Freigabe', 'apartment-interior-face-free', 'Heller Wohnraum als Symbolbild für angenehmes Raumklima'],
-  '/en/air-conditioning-apartment/': ['apartment', 'Apartment', 'Air conditioning for apartments in Munich | IsarKlima', 'Split air conditioning for rental or owner-occupied apartments: permissions, planning and installation in Munich.', 'Apartment · planning · consent', 'apartment-interior-face-free', 'Bright apartment living space illustrating indoor comfort'],
-  '/klimaanlage-haus/': ['house', 'Haus', 'Klimaanlage fürs Haus in München | IsarKlima', 'Single- oder Multi-Split-Klimaanlagen für Häuser in München: bedarfsgerechte Planung und Montage.', 'Haus · Single- & Multi-Split', 'split-unit-interior', 'Wandgerät einer Split-Klimaanlage in einem Wohnraum'],
-  '/en/air-conditioning-house/': ['house', 'House', 'Home air conditioning installation in Munich | IsarKlima', 'Single-split or multi-split air conditioning for homes in Munich, planned around rooms, routes and outdoor location.', 'Home · single- & multi-split', 'split-unit-interior', 'Wall-mounted split air conditioning unit in a home interior'],
-  '/klimaanlage-buero-gewerbe/': ['commercial', 'Büro und Gewerbe', 'Klimaanlage für Büro und Gewerbe in München | IsarKlima', 'Split-Klimaanlagen für Büros und kleinere Gewerbeflächen in München: Projektplanung, Montage und Übergabe.', 'Büro & kleinere Gewerbeflächen', 'commercial-installation-detail', 'Geordnete Montage einer Split-Klimaanlage in einem Gewerberaum'],
-  '/en/air-conditioning-office-commercial/': ['commercial', 'Office and commercial', 'Air conditioning for offices in Munich | IsarKlima', 'Split air conditioning for offices and small commercial spaces in Munich, from project planning to handover.', 'Offices & small commercial spaces', 'commercial-installation-detail', 'Organised split air conditioning installation in a commercial interior'],
-  '/klimaanlage-nachruesten/': ['retrofit', 'Nachrüstung', 'Klimaanlage nachrüsten in München | IsarKlima', 'Split-Klimaanlage im Bestand nachrüsten: Einbausituation, Freigaben und Montagewege in München prüfen.', 'Nachrüstung im Bestand', 'outdoor-unit-installation-detail', 'Montage eines Klimaanlagen-Außengeräts mit sauber geführten Leitungen'],
-  '/en/retrofit-air-conditioning/': ['retrofit', 'Retrofit', 'Retrofit air conditioning in Munich | IsarKlima', 'Split air conditioning planned and installed in existing apartments, homes and offices in Munich.', 'Retrofit in existing buildings', 'outdoor-unit-installation-detail', 'Outdoor air conditioning unit installation with neatly routed lines'],
-  '/klimaanlage-kosten/': ['costs', 'Kosten', 'Klimaanlage mit Montage: Kosten in München | IsarKlima', 'Welche Faktoren den Preis einer Split-Klimaanlage mit Installation in München beeinflussen und was ins Angebot gehört.', 'Kosten transparent einordnen', 'commissioning-gauges', 'Prüfung einer Klimaanlage mit technischen Messgeräten'],
-  '/en/air-conditioning-installation-costs/': ['costs', 'Installation costs', 'Air conditioning installation costs in Munich | IsarKlima', 'Factors that shape the cost of installed split air conditioning in Munich and what a transparent quote should cover.', 'Understanding project costs', 'commissioning-gauges', 'Technical gauges used to check an air conditioning system'],
-  '/einsatzgebiet/': ['area', 'Einsatzgebiet', 'Klimaanlagen in München | Unser Einsatzgebiet', 'Planung und Montage von Split-Klimaanlagen in Stadt und Landkreis München; andere Standorte werden anhand des Projekts geprüft.', 'Unser Einsatzgebiet', 'munich-city', 'Blick über München mit Frauenkirche und Alpen'],
-  '/en/service-area/': ['area', 'Service area', 'Air conditioning projects in Munich | IsarKlima', 'Planning and installation of split air conditioning in Munich and the Munich district; other locations are reviewed from the project details.', 'Where we work', 'munich-city', 'View over Munich with the Frauenkirche and Alps'],
-  '/ueber-uns/': ['about', 'Über uns', 'Über IsarKlima | Klimaanlagen in München', 'So plant IsarKlima Split-Klimaanlagen für Wohnungen, Häuser und kleinere Gewerbeflächen in München.', 'Planung · Montage · Übergabe', 'technical-planning-workbench', 'Technische Projektplanung mit Grundriss, Messgeräten und Montagewerkzeug'],
-  '/en/about/': ['about', 'About', 'About IsarKlima | Air conditioning installation in Munich', 'How IsarKlima plans split air conditioning for apartments, homes and small commercial spaces in Munich.', 'Planning · installation · handover', 'technical-planning-workbench', 'Technical project planning with a floor plan, measuring instruments and installation tools'],
-  '/kontakt/': ['contact', 'Kontakt', 'Angebot für eine Klimaanlage in München | IsarKlima', 'Projektangaben für eine Split-Klimaanlage in München vorbereiten und nach Freigabe sicher übermitteln.', 'Ihre Projektanfrage', 'hero-installation-detail', 'Montagearbeiten an einem Split-Klimagerät in einem modernen Wohnraum'],
-  '/en/contact/': ['contact', 'Contact', 'Request an air conditioning quote in Munich | IsarKlima', 'Prepare the details for a split air conditioning project in Munich and submit them once enquiries are enabled.', 'Tell us about your project', 'hero-installation-detail', 'Split air conditioning installation work in a modern living space'],
-  '/ratgeber/': ['guides', 'Ratgeber', 'Klimaanlagen-Ratgeber für München | IsarKlima', 'Praxisnahe Grundlagen zu Freigaben, Systemwahl, Schall, Dimensionierung, Montage und Kosten in München.', 'Wissen rund um Klimaanlagen', 'split-unit-interior', 'Split-Klimaanlage in einem modernen Innenraum'],
-  '/en/guides/': ['guides', 'Guides', 'Air conditioning installation guides for Munich | IsarKlima', 'Practical guidance on permissions, system choice, noise, sizing, installation and costs for Munich projects.', 'Air conditioning guidance', 'split-unit-interior', 'Split air conditioning unit in a modern interior'],
+  '/': ['home', 'Startseite', 'Klimaanlagen in Deutschland | IsarKlima', 'Planung und Installation von Single- und Multi-Split-Klimaanlagen für Wohnungen, Häuser, Büros und Gewerbeflächen in ganz Deutschland.', 'Deutschlandweit · Planung & Montage', 'hero-installation-detail', 'Montagearbeiten an einem Split-Klimagerät in einem modernen Wohnraum'],
+  '/en/': ['home', 'Home', 'Air conditioning across Germany | IsarKlima', 'Single-split and multi-split air conditioning planned and installed for apartments, homes, offices and commercial spaces across Germany.', 'Across Germany · planning & installation', 'hero-installation-detail', 'Split air conditioning installation work in a modern living space'],
+  '/split-klimaanlage-installation/': ['split', 'Split-Klimaanlage', 'Split-Klimaanlage installieren lassen | IsarKlima', 'Fachgerechte Planung und Installation von Single- und Multi-Split-Klimaanlagen für Wohnungen, Häuser und Gewerbeflächen in ganz Deutschland.', 'Single- & Multi-Split', 'commissioning-gauges', 'Prüfgeräte bei der Inbetriebnahme einer Split-Klimaanlage'],
+  '/en/split-air-conditioning-installation/': ['split', 'Split air conditioning', 'Split air conditioning installation | IsarKlima', 'Professional planning and installation of single-split and multi-split air conditioning systems for properties across Germany.', 'Single- & multi-split', 'commissioning-gauges', 'Test gauges used while commissioning a split air conditioning system'],
+  '/klimaanlage-wohnung/': ['apartment', 'Wohnung', 'Klimaanlage für die Wohnung | IsarKlima', 'Split-Klimaanlagen für Miet- und Eigentumswohnungen: Freigaben, Planung und Installation für Projekte in ganz Deutschland.', 'Wohnung · Planung · Freigabe', 'apartment-interior-face-free', 'Heller Wohnraum als Symbolbild für angenehmes Raumklima'],
+  '/en/air-conditioning-apartment/': ['apartment', 'Apartment', 'Air conditioning for apartments | IsarKlima', 'Split air conditioning for rental and owner-occupied apartments, including permissions, planning and installation across Germany.', 'Apartment · planning · consent', 'apartment-interior-face-free', 'Bright apartment living space illustrating indoor comfort'],
+  '/klimaanlage-haus/': ['house', 'Haus', 'Klimaanlage fürs Haus | Planung & Installation', 'Single- und Multi-Split-Klimaanlagen für Häuser, passend zu Räumen, Leitungswegen und Außenstandort geplant und installiert.', 'Haus · Single- & Multi-Split', 'split-unit-interior', 'Wandgerät einer Split-Klimaanlage in einem Wohnraum'],
+  '/en/air-conditioning-house/': ['house', 'House', 'Air conditioning for homes | IsarKlima', 'Single-split and multi-split air conditioning for homes, planned around rooms, routes and the outdoor-unit location.', 'Home · single- & multi-split', 'split-unit-interior', 'Wall-mounted split air conditioning unit in a home interior'],
+  '/klimaanlage-buero-gewerbe/': ['commercial', 'Büro und Gewerbe', 'Klimaanlagen für Büro und Gewerbe | IsarKlima', 'Split-Klimaanlagen für Büros und Gewerbeflächen: Projektplanung, Montage und dokumentierte Übergabe in ganz Deutschland.', 'Büro & Gewerbeflächen', 'commercial-installation-detail', 'Geordnete Montage einer Split-Klimaanlage in einem Gewerberaum'],
+  '/en/air-conditioning-office-commercial/': ['commercial', 'Office and commercial', 'Air conditioning for offices and commercial spaces', 'Split air conditioning for offices and commercial spaces across Germany, from project planning to documented handover.', 'Offices & commercial spaces', 'commercial-installation-detail', 'Organised split air conditioning installation in a commercial interior'],
+  '/klimaanlage-nachruesten/': ['retrofit', 'Nachrüstung', 'Klimaanlage im Bestandsgebäude nachrüsten', 'Split-Klimaanlage im Bestand nachrüsten: Einbausituation, Freigaben, Leitungswege und technische Schnittstellen projektbezogen prüfen.', 'Nachrüstung im Bestand', 'outdoor-unit-installation-neutral', 'Montage eines Klimaanlagen-Außengeräts mit sauber geführten Leitungen'],
+  '/en/retrofit-air-conditioning/': ['retrofit', 'Retrofit', 'Retrofit air conditioning in existing properties', 'Split air conditioning retrofits for existing apartments, homes and offices, planned around the property and installation route.', 'Retrofit in existing buildings', 'outdoor-unit-installation-neutral', 'Outdoor air conditioning unit installation with neatly routed lines'],
+  '/klimaanlage-kosten/': ['costs', 'Kosten', 'Klimaanlage mit Montage: Kosten | IsarKlima', 'Welche Faktoren den Preis einer Split-Klimaanlage mit Installation beeinflussen und was ein transparentes Angebot enthalten sollte.', 'Kosten transparent einordnen', 'commissioning-gauges', 'Prüfung einer Klimaanlage mit technischen Messgeräten'],
+  '/en/air-conditioning-installation-costs/': ['costs', 'Installation costs', 'Air conditioning installation costs | IsarKlima', 'The factors that shape installed air conditioning costs and the information a transparent project quote should include.', 'Understanding project costs', 'commissioning-gauges', 'Technical gauges used to check an air conditioning system'],
+  '/einsatzgebiet/': ['area', 'Deutschlandweit', 'Klimaanlagen-Installation deutschlandweit | IsarKlima', 'Projektanfragen aus ganz Deutschland: technische Vorprüfung, standortbezogene Planung, Logistik und Montage transparent koordiniert.', 'Projekte in ganz Deutschland', 'technical-planning-workbench', 'Technische Planung einer Klimaanlagen-Installation mit Grundriss und Messgeräten'],
+  '/en/service-area/': ['area', 'Across Germany', 'Air conditioning installation across Germany', 'Air conditioning projects across Germany, with technical assessment, site-specific planning, logistics and installation coordinated clearly.', 'Projects across Germany', 'technical-planning-workbench', 'Technical planning for an air conditioning installation with floor plan and measuring tools'],
+  '/ueber-uns/': ['about', 'Über uns', 'Über IsarKlima | Klimaanlagen deutschlandweit', 'IsarKlima plant und koordiniert Split-Klimaanlagen für Wohnungen, Häuser, Büros und Gewerbeflächen in ganz Deutschland.', 'Planung · Montage · Übergabe', 'technical-planning-workbench', 'Technische Projektplanung mit Grundriss, Messgeräten und Montagewerkzeug'],
+  '/en/about/': ['about', 'About', 'About IsarKlima | Air conditioning across Germany', 'How IsarKlima plans and coordinates split air conditioning for apartments, homes, offices and commercial spaces across Germany.', 'Planning · installation · handover', 'technical-planning-workbench', 'Technical project planning with a floor plan, measuring instruments and installation tools'],
+  '/kontakt/': ['contact', 'Kontakt', 'Klimaanlagen-Projekt anfragen | IsarKlima', 'Adresse, Gebäude, Räume, gewünschtes System und Freigabestatus für die erste Prüfung eines Klimaanlagen-Projekts vorbereiten.', 'Ihre Projektanfrage', 'hero-installation-detail', 'Montagearbeiten an einem Split-Klimagerät in einem modernen Wohnraum'],
+  '/en/contact/': ['contact', 'Contact', 'Discuss an air conditioning project | IsarKlima', 'Prepare the address, property, rooms, preferred system and permission status for an initial air conditioning project assessment.', 'Tell us about your project', 'hero-installation-detail', 'Split air conditioning installation work in a modern living space'],
+  '/ratgeber/': ['guides', 'Blog', 'Klimaanlagen-Blog | Planung & Installation', 'Ratgeber zu Systemwahl, Freigaben, Schall, Dimensionierung, Installation und Kosten für Klimaanlagen-Projekte in Deutschland.', 'IsarKlima Blog', 'split-unit-interior', 'Split-Klimaanlage in einem modernen Innenraum'],
+  '/en/guides/': ['guides', 'Blog', 'Air conditioning blog | IsarKlima', 'Practical articles on permissions, system choice, noise, sizing, installation and costs for air conditioning projects in Germany.', 'IsarKlima Blog', 'split-unit-interior', 'Split air conditioning unit in a modern interior'],
 };
 
 const visualProfiles = {
@@ -52,7 +52,7 @@ const visualProfiles = {
     { layout: 'service-bento', tone: 'paper' },
     { layout: 'process-rail', tone: 'paper', image: 'commercial-installation-detail', imagePosition: 'start' },
     { layout: 'technical-list', tone: 'ink', image: 'installation-material-detail', imagePosition: 'end' },
-    { layout: 'image-statement', tone: 'isar', image: 'munich-city', imagePosition: 'start' },
+    { layout: 'image-statement', tone: 'isar', image: 'technical-planning-workbench', imagePosition: 'start' },
     { layout: 'technical-list', tone: 'paper', image: 'airflow-interior-detail', imagePosition: 'end' },
   ],
   split: [
@@ -64,7 +64,7 @@ const visualProfiles = {
   apartment: [
     { layout: 'comparison', tone: 'paper' },
     { layout: 'media-split', tone: 'paper', image: 'quiet-bedroom-interior', imagePosition: 'start' },
-    { layout: 'technical-list', tone: 'ink', image: 'outdoor-unit-installation-detail', imagePosition: 'end' },
+    { layout: 'technical-list', tone: 'ink', image: 'outdoor-unit-installation-neutral', imagePosition: 'end' },
     { layout: 'process-rail', tone: 'isar' },
   ],
   house: [
@@ -91,7 +91,7 @@ const visualProfiles = {
   ],
   area: [
     { layout: 'image-statement', tone: 'paper' },
-    { layout: 'media-split', tone: 'paper', image: 'outdoor-unit-installation-detail', imagePosition: 'start' },
+    { layout: 'media-split', tone: 'paper', image: 'outdoor-unit-installation-neutral', imagePosition: 'start' },
     { layout: 'image-statement', tone: 'ink' },
     { layout: 'technical-list', tone: 'isar' },
   ],
@@ -105,9 +105,7 @@ const visualProfiles = {
     { layout: 'process-rail', tone: 'paper', image: 'technical-planning-workbench', imagePosition: 'end' },
   ],
   guides: [
-    { layout: 'technical-list', tone: 'paper' },
-    { layout: 'media-split', tone: 'paper', image: 'airflow-interior-detail', imagePosition: 'end' },
-    { layout: 'image-statement', tone: 'ink', image: 'installation-material-detail', imagePosition: 'start' },
+    { layout: 'service-bento', tone: 'paper' },
   ],
 };
 
@@ -134,20 +132,18 @@ const imageAlts = {
   de: {
     'commercial-installation-detail': 'Geordnete Montage einer Split-Klimaanlage in einem Gewerberaum',
     'technical-planning-workbench': 'Technische Projektplanung mit Grundriss, Messgeräten und Montagewerkzeug',
-    'outdoor-unit-installation-detail': 'Montage eines Klimaanlagen-Außengeräts mit sauber geführten Leitungen',
+    'outdoor-unit-installation-neutral': 'Montage eines Klimaanlagen-Außengeräts mit sauber geführten Leitungen',
     'installation-material-detail': 'Montagematerialien und Messwerkzeuge für eine Split-Klimaanlage',
     'quiet-bedroom-interior': 'Ruhiges Schlafzimmer mit dezent integriertem Split-Klimagerät',
     'airflow-interior-detail': 'Split-Klimagerät in einem Wohnraum mit sanft bewegtem Vorhang',
-    'munich-city': 'Blick über München mit Frauenkirche und Alpen',
   },
   en: {
     'commercial-installation-detail': 'Organised split air conditioning installation in a commercial interior',
     'technical-planning-workbench': 'Technical project planning with a floor plan, measuring instruments and installation tools',
-    'outdoor-unit-installation-detail': 'Outdoor air conditioning unit installation with neatly routed lines',
+    'outdoor-unit-installation-neutral': 'Outdoor air conditioning unit installation with neatly routed lines',
     'installation-material-detail': 'Installation materials and measuring tools for a split air conditioning system',
     'quiet-bedroom-interior': 'Calm bedroom with a discreetly integrated split air conditioning unit',
     'airflow-interior-detail': 'Split air conditioning unit in a living space with a gently moving curtain',
-    'munich-city': 'View over Munich with the Frauenkirche and Alps',
   },
 };
 

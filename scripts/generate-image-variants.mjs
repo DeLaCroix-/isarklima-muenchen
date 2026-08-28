@@ -11,7 +11,7 @@ const imageNames = [
   'hero-installation-detail',
   'commercial-installation-detail',
   'technical-planning-workbench',
-  'outdoor-unit-installation-detail',
+  'outdoor-unit-installation-neutral',
   'quiet-bedroom-interior',
   'installation-material-detail',
   'airflow-interior-detail',
@@ -19,7 +19,7 @@ const imageNames = [
   'condominium-building-detail',
 ];
 const widths = [320, 640, 800, 960, 1440, 1920];
-const stockImageNames = ['commissioning-gauges', 'munich-city', 'split-unit-interior'];
+const stockImageNames = ['commissioning-gauges', 'split-unit-interior'];
 
 await mkdir(outputDir, { recursive: true });
 

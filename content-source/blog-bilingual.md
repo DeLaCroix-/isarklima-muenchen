@@ -8,7 +8,7 @@ El campo title aporta el H1 de la plantilla; por eso no hay H1 en los cuerpos.
 ---
 title: "Klimaanlage in der Mietwohnung: Was ist vor der Installation zu klären?"
 seoTitle: "Klimaanlage in der Mietwohnung: Zustimmung | IsarKlima"
-description: "Welche Freigaben, technischen Angaben und Unterlagen Mieter vor der Installation einer Split-Klimaanlage in München klären sollten."
+description: "Welche Freigaben, technischen Angaben und Unterlagen Mieter in Deutschland vor der Installation einer Split-Klimaanlage klären sollten."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27
 author: "IsarKlima Redaktion"
@@ -29,7 +29,7 @@ Eine fest installierte Split-Klimaanlage verändert eine Mietwohnung nicht nur i
 
 ## Warum die Zustimmung des Vermieters zuerst kommt
 
-Die Verbraucherzentrale Bayern weist darauf hin, dass Mieter für den Einbau eines fest installierten Split-Geräts die Erlaubnis des Vermieters benötigen, weil Außenwand und Außengerät betroffen sind. Diese Information bietet eine verlässliche Orientierung, ersetzt aber keine Prüfung des konkreten Mietvertrags und Gebäudes. Die aktuelle Übersicht finden Sie bei der [Verbraucherzentrale Bayern](https://www.verbraucherzentrale.bayern/wissen/energie/energetische-sanierung/klimaanlage-installieren-was-ist-zu-beachten-10525).
+Die bundesweite Verbraucherzentrale weist darauf hin, dass Mieter für den Einbau eines fest installierten Split-Geräts die Erlaubnis des Vermieters benötigen, weil Außenwand und Außengerät betroffen sind. Diese Information bietet eine verlässliche Orientierung, ersetzt aber keine Prüfung des konkreten Mietvertrags und Gebäudes. Die aktuelle Übersicht finden Sie bei der [Verbraucherzentrale](https://www.verbraucherzentrale.de/wissen/energie/energetische-sanierung/klimaanlage-installieren-was-ist-zu-beachten-10525).
 
 Auch eine grundsätzlich positive Rückmeldung des Vermieters ist noch keine technische Planung. Gehört die Wohnung zu einer Wohnungseigentümergemeinschaft, können zusätzlich Gemeinschaftseigentum und ein Beschluss nach dem Wohnungseigentumsgesetz betroffen sein. Bei einem Baudenkmal, einem geschützten Ensemble oder einer Erhaltungssatzung können weitere öffentliche Anforderungen hinzukommen.
 
@@ -37,7 +37,7 @@ Auch eine grundsätzlich positive Rückmeldung des Vermieters ist noch keine tec
 
 Die Wanddurchführung nimmt Leitungen, Steuerkabel und häufig den Kondensatablauf auf. Das Außengerät kann das Erscheinungsbild der Fassade verändern und Geräusche oder Schwingungen übertragen. In der Anfrage sollte daher nicht nur „Klimaanlage erlaubt?“ stehen. Sinnvoll sind eine Skizze, Fotos und eine Beschreibung, wo Innen- und Außengerät vorgesehen sind und wie die Leitungen verlaufen sollen.
 
-Eine verfahrensfreie technische Gebäudeanlage ist nicht automatisch an jedem Ort zulässig. Die Stadt München erklärt ausdrücklich, dass auch bei verfahrensfreien Vorhaben alle anderen öffentlich-rechtlichen Vorschriften einzuhalten sind. Hinweise dazu gibt die [Lokalbaukommission München](https://stadt.muenchen.de/infos/verfahrensfreie-bauvorhaben.html).
+Ob eine technische Gebäudeanlage verfahrensfrei ist, richtet sich nach der jeweiligen Landesbauordnung; zusätzlich können weitere öffentlich-rechtliche Anforderungen gelten. Die [Bauministerkonferenz](https://www.bauministerkonferenz.de/verzeichnis.aspx?id=12614&o=11851O12614) erläutert, dass das Landesrecht maßgeblich ist, und verweist auf die zuständigen Ministerien der Länder.
 
 ### Schriftliche Freigabe dokumentieren
 
@@ -53,7 +53,7 @@ Eine sachliche Anfrage erleichtert die Beurteilung. Neben Adresse und Wohnungsnu
 
 Zeigen Sie, welche Räume gekühlt werden sollen und wo die Luft ungehindert verteilt werden kann. Für das Außengerät sind Zugänglichkeit, Luftführung, Abstände und eine tragfähige Aufstell- oder Befestigungsfläche wichtig. Der Leitungsweg sollte so kurz und nachvollziehbar wie möglich dargestellt werden, ohne technische Machbarkeit vorwegzunehmen.
 
-Bei denkmalgeschützten Gebäuden oder Maßnahmen am Äußeren eines Ensembles kann eine Erlaubnis erforderlich sein. Die [Untere Denkmalschutzbehörde München](https://stadt.muenchen.de/service/info/untere-denkmalschutzbehorde/1073937/) erläutert, welche Unterlagen für eine Prüfung benötigt werden.
+Bei denkmalgeschützten Gebäuden oder Maßnahmen am geschützten Erscheinungsbild kann eine Erlaubnis erforderlich sein. Das [Bundesportal](https://verwaltung.bund.de/leistungsverzeichnis/DE/leistung/99033011006000) macht deutlich, dass die Informationen und die zuständige Denkmalbehörde vom gewählten Standort abhängen.
 
 ### Schall, Kondensat und möglicher Rückbau
 
@@ -93,10 +93,10 @@ Teilen Sie IsarKlima zunächst Einsatzadresse, Gebäudeart, betroffene Räume un
 ---
 title: "Air conditioning in a rental apartment: what must be clarified before installation?"
 seoTitle: "Rental apartment air conditioning: consent | IsarKlima"
-description: "A practical guide to landlord consent, technical details and documents needed before installing split air conditioning in a Munich rental."
+description: "A practical guide to landlord consent, technical details and documents needed before installing split air conditioning in a German rental property."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27
-author: "IsarKlima Redaktion"
+author: "IsarKlima Editorial"
 category: "Planning and permissions"
 image: "/images/blog/air-conditioning-rental-apartment-planning.webp"
 imageAlt: "Modern living space with a wall-mounted split air conditioning unit"
@@ -114,7 +114,7 @@ A permanently installed split air conditioning system affects more than the insi
 
 ## Why the landlord’s consent comes first
 
-The Bavarian consumer advice centre states that tenants need their landlord’s permission for a fixed split system because installation involves drilling through the outside wall and fitting an outdoor unit. This is reliable general guidance, but it does not replace an assessment of the particular lease and building. The current explanation is available from [Verbraucherzentrale Bayern](https://www.verbraucherzentrale.bayern/wissen/energie/energetische-sanierung/klimaanlage-installieren-was-ist-zu-beachten-10525).
+Germany's national consumer advice service states that tenants need their landlord's permission for a fixed split system because installation involves drilling through the outside wall and fitting an outdoor unit. This is reliable general guidance, but it does not replace an assessment of the particular lease and building. The current explanation is available from [Verbraucherzentrale](https://www.verbraucherzentrale.de/wissen/energie/energetische-sanierung/klimaanlage-installieren-was-ist-zu-beachten-10525).
 
 A positive answer is not a technical design. In a condominium, common property and an owners’ resolution may also be relevant. Listed buildings or protected areas can introduce further requirements.
 
@@ -122,7 +122,7 @@ A positive answer is not a technical design. In a condominium, common property a
 
 The wall penetration carries refrigerant lines, control cables and often the condensate drain. The outdoor unit may alter the appearance of the facade and can transmit noise or vibration. A request should therefore contain more than the question, “May I have air conditioning?” A sketch, photographs and a description of the proposed indoor and outdoor positions and pipe route make the proposal assessable.
 
-A technical building installation that does not require a normal building procedure is not automatically permissible everywhere. The City of Munich expressly explains that all other public-law requirements still apply to procedure-free projects. Its [Local Building Commission guidance](https://stadt.muenchen.de/infos/verfahrensfreie-bauvorhaben.html) provides the official context.
+Whether a technical building installation is procedure-free depends on the relevant state building code, and other public-law requirements may still apply. Germany's [Conference of Building Ministers](https://www.bauministerkonferenz.de/verzeichnis.aspx?id=12614&o=11851O12614) explains that state law is decisive and links to the responsible state ministries.
 
 ### Documenting written approval
 
@@ -138,7 +138,7 @@ A project-specific request is easier to assess. Include the address, apartment n
 
 Show which rooms are to be cooled and where air can circulate without being directed continuously at beds, desks or seating. For the outdoor unit, access, free airflow, clearances and a load-bearing installation surface matter. The proposed pipe route should be short and understandable, while leaving final technical feasibility to the site assessment.
 
-If a building is listed or the external appearance of a protected ensemble could be affected, a separate permit may be necessary. Munich’s [Lower Monument Protection Authority](https://stadt.muenchen.de/service/info/untere-denkmalschutzbehorde/1073937/) explains the documents used for its assessment.
+If a building is listed or its protected appearance could be affected, a separate heritage permit may be necessary. Germany's [federal public-service portal](https://verwaltung.bund.de/leistungsverzeichnis/DE/leistung/99033011006000) makes clear that the applicable information and responsible heritage authority depend on the selected location.
 
 ### Noise, condensate and possible reinstatement
 
@@ -213,13 +213,13 @@ Dokumentiert werden sollten der genaue Aufstellort, Abstände, Befestigungsart, 
 
 Der Beschluss sollte vor Bohrungen, Befestigungen oder Leitungsverlegung vorliegen. Idealerweise nimmt er auf die eingereichten Unterlagen Bezug und benennt Auflagen, etwa zur Schwingungsentkopplung, Farbgebung eines Leitungskanals, Wartungszugänglichkeit oder Wiederherstellung bei einem späteren Ausbau.
 
-Eine allgemeine Zustimmung ersetzt keine behördliche Prüfung. Nach Art. 57 BayBO können technische Gebäudeanlagen zwar häufig verfahrensfrei sein; die Stadt München weist jedoch darauf hin, dass trotzdem alle übrigen öffentlich-rechtlichen Vorschriften gelten. Siehe [Bauen ohne Baugenehmigung](https://stadt.muenchen.de/infos/verfahrensfreie-bauvorhaben.html).
+Eine Zustimmung innerhalb der Gemeinschaft ersetzt keine behördliche Prüfung. § 20 WEG regelt Beschlüsse und Gestattungen für bauliche Veränderungen am Gemeinschaftseigentum; welche bau- oder denkmalrechtlichen Anforderungen zusätzlich gelten, hängt vom Standort und Vorhaben ab. Siehe [§ 20 Wohnungseigentumsgesetz](https://www.gesetze-im-internet.de/woeigg/__20.html).
 
 ## Welche Unterlagen die WEG für eine Entscheidung braucht
 
 Die Verwaltung und die übrigen Eigentümer sollten nachvollziehen können, was sichtbar wird, welche Auswirkungen möglich sind und wie sie begrenzt werden. Ein vollständiger Antrag enthält daher Grundriss, Fassaden- oder Balkonfotos, eine markierte Geräteposition, den Leitungsweg und technische Daten des vorgesehenen Systems.
 
-Bei einem Denkmal, einem geschützten Ensemble oder einer Lage in der Nähe eines Denkmals kann eine Erlaubnis erforderlich sein. Die Stadt München erläutert den Anwendungsbereich und die Unterlagen auf der Seite zur [denkmalschutzrechtlichen Erlaubnis](https://stadt.muenchen.de/service/info/untere-denkmalschutzbehorde/1073937/).
+Bei einem Denkmal oder einer Maßnahme am geschützten Erscheinungsbild kann eine Erlaubnis erforderlich sein. Das [Bundesportal zur denkmalrechtlichen Genehmigung](https://verwaltung.bund.de/leistungsverzeichnis/DE/leistung/99033011006000) verweist für das konkrete Verfahren auf die jeweils zuständige regionale Behörde.
 
 ### Gerät, Standort und Leitungsführung
 
@@ -265,10 +265,10 @@ Halten Sie Grundriss, Fotos, gewünschte Räume, eine mögliche Außengerätepos
 ---
 title: "Air conditioning in a condominium: owners’ association and outdoor unit"
 seoTitle: "Condominium air conditioning and consent | IsarKlima"
-description: "What condominium owners in Munich should clarify with their owners’ association before installing split air conditioning."
+description: "What condominium owners in Germany should clarify with their owners' association before installing split air conditioning."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27
-author: "IsarKlima Redaktion"
+author: "IsarKlima Editorial"
 category: "Planning and permissions"
 image: "/images/blog/air-conditioning-condominium-owners-association.webp"
 imageAlt: "Outdoor air conditioning unit installation with neatly routed lines"
@@ -300,13 +300,13 @@ The application should identify the exact location, clearances, mounting method,
 
 The resolution should be obtained before drilling, mounting or running pipes. Ideally, it refers to the submitted plans and records any conditions, such as vibration isolation, the colour of external pipe covers, maintenance access or reinstatement after later removal.
 
-Approval by the owners does not replace a public-law assessment. Article 57 of the Bavarian Building Code treats many technical building installations as procedure-free, but the City of Munich stresses that all other public-law requirements continue to apply. See its official guide to [building without a normal permit procedure](https://stadt.muenchen.de/infos/verfahrensfreie-bauvorhaben.html).
+Approval within the owners' association does not replace a public-law assessment. Section 20 of the German Condominium Act governs resolutions and permissions for structural alterations to common property; additional building or heritage requirements depend on the location and proposed work. See [Section 20 of the Condominium Act](https://www.gesetze-im-internet.de/woeigg/__20.html).
 
 ## What documents the owners’ association needs to decide
 
 The property manager and other owners should be able to understand what will be visible, what effects may arise and how they will be controlled. A useful submission contains a floor plan, facade or balcony photographs, a marked outdoor-unit position, the proposed pipe route and technical information for the intended system.
 
-A listed building, protected ensemble or location near a monument may require separate permission. The City of Munich explains the scope and required documents on its page for [monument protection permission](https://stadt.muenchen.de/service/info/untere-denkmalschutzbehorde/1073937/).
+A listed building or work affecting a protected appearance may require separate permission. Germany's [federal public-service portal for heritage permits](https://verwaltung.bund.de/leistungsverzeichnis/DE/leistung/99033011006000) directs users to the relevant regional authority for the applicable procedure.
 
 ### System, location and pipe route
 
@@ -393,7 +393,7 @@ Die Planung wird komplexer: Jeder Raum braucht eine passende Inneneinheit und ei
 
 Eine gute Entscheidung beginnt mit einer Raumliste. Für jeden Raum werden Nutzung, gewünschte Betriebszeiten, Sonneneintrag, Verglasung, Personen und interne Wärmequellen erfasst. Entscheidend ist auch, ob mehrere Räume regelmäßig gleichzeitig gekühlt werden oder nur abwechselnd.
 
-Die Verbraucherzentrale Bayern beschreibt Split-Geräte als planungs- und installationsintensiver als mobile Monoblockgeräte, aber typischerweise leistungsfähiger und leiser im Innenraum. Ihre aktuelle Orientierung ist unter [Klimaanlage installieren](https://www.verbraucherzentrale.bayern/wissen/energie/energetische-sanierung/klimaanlage-installieren-was-ist-zu-beachten-10525) abrufbar.
+Die bundesweite Verbraucherzentrale beschreibt Split-Geräte als planungs- und installationsintensiver als mobile Monoblockgeräte, aber typischerweise effizienter und leiser im Innenraum. Ihre aktuelle Orientierung ist unter [Klimaanlage installieren](https://www.verbraucherzentrale.de/wissen/energie/energetische-sanierung/klimaanlage-installieren-was-ist-zu-beachten-10525) abrufbar.
 
 ### Anzahl und Nutzung der Räume
 
@@ -444,7 +444,7 @@ seoTitle: "Single-split or multi-split air conditioning | IsarKlima"
 description: "A practical comparison of single- and multi-split air conditioning covering rooms, outdoor units, pipe routes, controls and installation."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27
-author: "IsarKlima Redaktion"
+author: "IsarKlima Editorial"
 category: "Choosing a system"
 image: "/images/blog/single-vs-multi-split-air-conditioning.webp"
 imageAlt: "Wall-mounted split air conditioning unit in a modern interior"
@@ -482,7 +482,7 @@ Planning is more complex. Each room needs a suitable indoor unit and its own rou
 
 A sound comparison begins with a room schedule. Record the use of every room, expected operating periods, solar gain, glazing, occupants and internal heat sources. It also matters whether several rooms will normally be cooled together or mostly at different times.
 
-The Bavarian consumer advice centre describes split systems as requiring more planning and installation than portable monoblock units, while generally providing stronger performance and less indoor noise. Its current guidance is available under [Installing air conditioning](https://www.verbraucherzentrale.bayern/wissen/energie/energetische-sanierung/klimaanlage-installieren-was-ist-zu-beachten-10525).
+Germany's national consumer advice service describes split systems as requiring more planning and installation than portable monoblock units, while generally operating more efficiently and with less indoor noise. Its current guidance is available under [Installing air conditioning](https://www.verbraucherzentrale.de/wissen/energie/energetische-sanierung/klimaanlage-installieren-was-ist-zu-beachten-10525).
 
 ### Number and use of rooms
 
@@ -535,7 +535,7 @@ publishDate: 2026-08-27
 updatedDate: 2026-08-27
 author: "IsarKlima Redaktion"
 category: "Technische Planung"
-image: "/images/blog/klimaanlage-aussengeraet-laerm.webp"
+image: "/images/blog/klimaanlage-aussengeraet-laerm-neutral.webp"
 imageAlt: "Klimaanlagen-Außengerät an einer Fassade mit schwingungsdämpfender Halterung"
 sourceUrl: "/ratgeber/klimaanlage-aussengeraet-laerm/"
 language: "de-DE"
@@ -559,7 +559,7 @@ Für die Beurteilung gewerblicher Anlagen und vieler technischer Geräusche dien
 
 Für eine belastbare Betrachtung muss bekannt sein, welche Gebietsart gilt und wo sich das nächste schutzbedürftige Fenster oder der sonst maßgebliche Immissionsort befindet. Eine reine Entfernungsschätzung genügt nicht in jeder Situation. Auch Vorbelastung durch andere technische Anlagen kann relevant sein.
 
-Die Stadt München verwendet für stationäre Geräte, darunter Klimageräte, einen Nachweis, der Lageplan, Gerätedaten, Gebietsart und den nächstgelegenen Immissionsort zusammenführt. Das offizielle [Formular zur Einhaltung der TA Lärm](https://stadt.muenchen.de/dam/jcr%3A93b30c88-0c72-4700-a059-06618e10f7fc/ta_laerm_april_2024_web.pdf) zeigt, welche Angaben in einer standortbezogenen Betrachtung eine Rolle spielen.
+Das Umweltbundesamt erläutert, dass die TA Lärm Immissionsrichtwerte und Beurteilungsmaßstäbe verwendet und der maßgebliche Immissionsort ein schutzbedürftiger Raum sein kann. Seine Übersicht zu [Industrie- und Gewerbelärm](https://www.umweltbundesamt.de/themen/laerm/nachbarschaftslaerm-laerm-von-anlagen/industrie-gewerbelaerm) zeigt außerdem, warum Schallleistung, Ausbreitungsweg und Betriebszeiten zusammen betrachtet werden müssen.
 
 ### Reflexionen und nächtliche Nutzung
 
@@ -593,7 +593,7 @@ Vor der Festlegung sollten Gerätedaten, Lageplan, Abstände, Gebietsart, Nachba
 
 ### Muss jedes Außengerät nachts unter 35 dB(A) liegen?
 
-Nein. 35 dB(A) ist kein universeller Geräte-Grenzwert für ganz München. Gebietsart, Immissionsort, Beurteilungszeit und Mess- beziehungsweise Prognoseverfahren sind entscheidend.
+Nein. Ein einzelner dB(A)-Wert ist kein universeller Geräte-Grenzwert für ganz Deutschland. Gebietsart, Immissionsort, Beurteilungszeit und das anwendbare Bewertungsverfahren sind entscheidend.
 
 ### Ist der Silent-Modus ein ausreichender Schallschutznachweis?
 
@@ -620,9 +620,9 @@ seoTitle: "Air conditioning outdoor unit noise | IsarKlima"
 description: "How location, reflections, area type, night operation and vibration isolation affect noise from an air conditioning outdoor unit."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27
-author: "IsarKlima Redaktion"
+author: "IsarKlima Editorial"
 category: "Technical planning"
-image: "/images/blog/air-conditioning-outdoor-unit-noise.webp"
+image: "/images/blog/air-conditioning-outdoor-unit-noise-neutral.webp"
 imageAlt: "Outdoor air conditioning unit on a facade with vibration-damping brackets"
 sourceUrl: "/ratgeber/klimaanlage-aussengeraet-laerm/"
 language: "en-DE"
@@ -646,7 +646,7 @@ Germany’s TA Lärm governs the assessment of commercial and many technical noi
 
 A robust assessment needs the applicable planning-area classification and the location of the nearest noise-sensitive window or other relevant receiver. A rough distance estimate is not sufficient in every case. Existing noise from other technical equipment may also be relevant.
 
-For stationary equipment including air conditioners, the City of Munich uses documentation that combines a site plan, equipment data, area type and nearest receiver. Its official [TA Lärm compliance form](https://stadt.muenchen.de/dam/jcr%3A93b30c88-0c72-4700-a059-06618e10f7fc/ta_laerm_april_2024_web.pdf) illustrates the information involved in a site-specific review.
+Germany's Environment Agency explains that TA Lärm uses immission guide values and assessment criteria, and that the relevant receiver may be a protected room. Its overview of [industrial and commercial noise](https://www.umweltbundesamt.de/themen/laerm/nachbarschaftslaerm-laerm-von-anlagen/industrie-gewerbelaerm) also shows why sound power, propagation path and operating times need to be considered together.
 
 ### Reflections and night-time operation
 
@@ -680,7 +680,7 @@ Before a location is fixed, document equipment sound data, site plan, distances,
 
 ### Must every outdoor unit be below 35 dB(A) at night?
 
-No. 35 dB(A) is not a universal equipment limit for all of Munich. Area type, receiver location, assessment period and the applicable calculation or measurement method matter.
+No. A single dB(A) value is not a universal equipment limit across Germany. Area type, receiver location, assessment period and the applicable evaluation method matter.
 
 ### Is silent mode sufficient evidence of compliance?
 
@@ -727,7 +727,7 @@ Die richtige Kühlleistung sorgt nicht einfach für eine möglichst große Zahl 
 
 Die Kühllast ist die Wärmeleistung, die unter definierten Bedingungen aus einem Raum abgeführt werden muss. Sie setzt sich aus äußeren und inneren Wärmeeinträgen zusammen. Zur ersten Einordnung reichen häufig Grundriss, Raumhöhe, Fensterflächen, Orientierung, Verschattung, Nutzung und Fotos. Für eine belastbare Auslegung können weitere Gebäudedaten erforderlich sein.
 
-Die Verbraucherzentrale Bayern betont, dass gute Planung und passende Geräteauswahl Voraussetzungen dafür sind, unnötig hohe Betriebskosten zu vermeiden. Ihre aktuelle Verbraucherinformation ist unter [Klimaanlage installieren: Was ist zu beachten?](https://www.verbraucherzentrale.bayern/wissen/energie/energetische-sanierung/klimaanlage-installieren-was-ist-zu-beachten-10525) verfügbar.
+Die bundesweite Verbraucherzentrale betont, dass gute Planung und passende Geräteauswahl Voraussetzungen dafür sind, unnötig hohe Betriebskosten zu vermeiden. Ihre aktuelle Verbraucherinformation ist unter [Klimaanlage installieren: Was ist zu beachten?](https://www.verbraucherzentrale.de/wissen/energie/energetische-sanierung/klimaanlage-installieren-was-ist-zu-beachten-10525) verfügbar.
 
 ### Raumgröße, Verglasung und Sonneneintrag
 
@@ -747,7 +747,7 @@ Pauschale Werte pro Quadratmeter können eine grobe Vorprüfung unterstützen, v
 
 Auch die Nennleistung des Innengeräts darf nicht isoliert betrachtet werden. Bei Multi-Split-Systemen hängen verfügbare Leistungen von der Außeneinheit, der Kombination der Innengeräte und dem gleichzeitigen Betrieb ab. Herstellerunterlagen definieren zulässige Kombinationen und Leistungsbereiche.
 
-Eine größere Anlage ist nicht automatisch „sicherer“. Ziel ist eine passende Auswahl mit sinnvoller Teillastfähigkeit. Neben der Spitzenlast zählen Luftverteilung, Schall, Platz, Leitungswege, Stromversorgung und das Verhalten bei typischen Münchner Sommertagen.
+Eine größere Anlage ist nicht automatisch „sicherer“. Ziel ist eine passende Auswahl mit sinnvoller Teillastfähigkeit. Neben der Spitzenlast zählen Luftverteilung, Schall, Platz, Leitungswege, Stromversorgung und das Verhalten bei den zu erwartenden sommerlichen Bedingungen am Standort.
 
 ## Diese Daten helfen bei der Dimensionierung
 
@@ -788,7 +788,7 @@ seoTitle: "Choosing air conditioning capacity | IsarKlima"
 description: "How room size, glazing, sunlight, occupants, equipment and operating hours affect the cooling capacity an air conditioner needs."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27
-author: "IsarKlima Redaktion"
+author: "IsarKlima Editorial"
 category: "Technical planning"
 image: "/images/blog/air-conditioning-capacity-sizing.webp"
 imageAlt: "Floor plan, measuring instruments and lines used to plan an air conditioning system"
@@ -808,7 +808,7 @@ Correct cooling capacity is not simply the largest number available on a product
 
 Cooling load is the rate of heat that must be removed from a space under defined conditions. It combines external and internal heat gains. For an initial review, a floor plan, ceiling height, window areas, orientation, shading, use and photographs are often sufficient. A reliable design may require additional building information.
 
-The Bavarian consumer advice centre emphasises that sound planning and appropriate equipment selection help avoid unnecessarily high operating costs. Its current guidance is available under [Installing air conditioning: what should be considered?](https://www.verbraucherzentrale.bayern/wissen/energie/energetische-sanierung/klimaanlage-installieren-was-ist-zu-beachten-10525).
+Germany's national consumer advice service emphasises that sound planning and appropriate equipment selection help avoid unnecessarily high operating costs. Its current guidance is available under [Installing air conditioning: what should be considered?](https://www.verbraucherzentrale.de/wissen/energie/energetische-sanierung/klimaanlage-installieren-was-ist-zu-beachten-10525).
 
 ### Room size, glazing and solar gain
 
@@ -828,7 +828,7 @@ Generic watts-per-square-metre figures can support a rough screening, but they h
 
 The nominal capacity of an indoor unit should not be viewed in isolation either. In multi-split systems, available output depends on the outdoor unit, the permitted indoor-unit combination and simultaneous operation. Manufacturer documentation defines valid combinations and capacity ranges.
 
-A larger system is not automatically the safer choice. The aim is an appropriate system with useful part-load capability. Alongside peak load, air distribution, noise, available space, pipe routes, electrical provision and behaviour during typical Munich summer conditions all matter.
+A larger system is not automatically the safer choice. The aim is an appropriate system with useful part-load capability. Alongside peak load, air distribution, noise, available space, pipe routes, electrical provision and behaviour during the expected summer conditions at the property all matter.
 
 ## Data that helps with sizing
 
@@ -907,7 +907,7 @@ Der Leitungsweg verbindet beide Einheiten innerhalb der Herstellergrenzen. Kält
 
 ### Freigaben, Strom und Zugang
 
-Die schriftlichen Freigaben müssen zur geplanten Ausführung passen. Ändern sich Standort oder Leitungsweg wesentlich, ist zu prüfen, ob die Zustimmung angepasst werden muss. „Verfahrensfrei“ bedeutet zudem nicht, dass alle anderen Vorschriften entfallen, wie die [Stadt München](https://stadt.muenchen.de/infos/verfahrensfreie-bauvorhaben.html) erläutert.
+Die schriftlichen Freigaben müssen zur geplanten Ausführung passen. Ändern sich Standort oder Leitungsweg wesentlich, ist zu prüfen, ob die Zustimmung angepasst werden muss. Ob ein Vorhaben verfahrensfrei ist und welche weiteren Anforderungen gelten, richtet sich nach dem jeweiligen Landesrecht; darauf weist die [Bauministerkonferenz](https://www.bauministerkonferenz.de/verzeichnis.aspx?id=12614&o=11851O12614) hin.
 
 Muss die feste elektrische Anlage erweitert oder geändert werden, gelten gesonderte Anforderungen. § 13 NAV reserviert solche Arbeiten grundsätzlich dem Netzbetreiber oder einem in ein Installateurverzeichnis eingetragenen Installationsunternehmen. Der konkrete elektrische Umfang muss daher vorab geklärt sein. [§ 13 NAV](https://www.gesetze-im-internet.de/nav/__13.html)
 
@@ -958,7 +958,7 @@ seoTitle: "Air conditioning installation process | IsarKlima"
 description: "The split air conditioning installation process from project details and pre-check to planning, installation, leak testing and handover."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27
-author: "IsarKlima Redaktion"
+author: "IsarKlima Editorial"
 category: "Installation"
 image: "/images/blog/air-conditioning-installation-process.webp"
 imageAlt: "Organised split air conditioning installation in a commercial interior"
@@ -996,7 +996,7 @@ The pipe route connects both units within the manufacturer’s limits. Refrigera
 
 ### Permissions, power and access
 
-Written permissions must match the proposed version. If the position or pipe route changes materially, it must be checked whether consent needs to be updated. A project being procedure-free does not remove all other rules, as the [City of Munich](https://stadt.muenchen.de/infos/verfahrensfreie-bauvorhaben.html) explains.
+Written permissions must match the proposed version. If the position or pipe route changes materially, it must be checked whether consent needs to be updated. Whether work is procedure-free and which additional requirements apply depends on state law, as Germany's [Conference of Building Ministers](https://www.bauministerkonferenz.de/verzeichnis.aspx?id=12614&o=11851O12614) explains.
 
 If the fixed electrical installation must be extended or altered, separate requirements apply. Section 13 NAV generally reserves such work to the network operator or a contractor entered in an electrical installer register. The precise electrical scope must therefore be clarified in advance. See [section 13 NAV](https://www.gesetze-im-internet.de/nav/__13.html).
 

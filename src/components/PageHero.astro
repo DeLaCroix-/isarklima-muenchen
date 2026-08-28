@@ -9,7 +9,7 @@ const { eyebrow, h1, intro, image, imageAlt, note, home = false, lang, showProje
     <h1>{h1}</h1>
     <p class="hero-intro">{intro}</p>
     <div class="hero-actions">{showProjectAction && <a class="button button-primary" href="#projekt">{lang === 'en' ? 'Prepare your project' : 'Projekt vorbereiten'}<span aria-hidden="true">→</span></a>}<a class="text-link" href="#inhalt">{lang === 'en' ? 'Explore the details' : 'Details ansehen'}</a></div>
-    <div class="hero-index"><span>48.14° N</span><span>11.58° E</span><span>{lang === 'en' ? 'Munich' : 'München'}</span></div>
+    <div class="hero-index"><span>DE</span><span>{lang === 'en' ? 'Homes · offices · commercial' : 'Wohnung · Haus · Gewerbe'}</span><span>{lang === 'en' ? 'Across Germany' : 'Deutschlandweit'}</span></div>
   </div>
   <div class="page-hero-visual">
     <div class="hero-image-wrap"><ResponsiveImage name={image} alt={imageAlt} loading="eager" fetchpriority="high" sizes="(max-width: 620px) calc(100vw - 72px), (max-width: 1050px) calc(100vw - 118px), (max-width: 1288px) calc(46vw - 66px), 526px" /></div>

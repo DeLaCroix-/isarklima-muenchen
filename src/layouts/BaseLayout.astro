@@ -6,6 +6,7 @@ import { site } from '../data/site';
 import type { Language } from '../data/types';
 
 interface Breadcrumb { name: string; path: string; }
+interface Collection { name: string; items: { name: string; path: string }[]; }
 interface Props {
   title: string;
   description: string;
@@ -16,21 +17,32 @@ interface Props {
   breadcrumbs?: Breadcrumb[];
   article?: { headline?: string; published: Date; updated?: Date; author?: string };
   faq?: { question: string; answer: string }[];
+  collection?: Collection;
+  service?: boolean;
+  serviceName?: string;
   noindex?: boolean;
 }
 
-const { title, description, lang = 'de', path = Astro.url.pathname, alternatePath, image = site.socialImage, breadcrumbs = [], article, faq = [], noindex = false } = Astro.props;
+const { title, description, lang = 'de', path = Astro.url.pathname, alternatePath, image = site.socialImage, breadcrumbs = [], article, faq = [], collection, service = false, serviceName = title, noindex = false } = Astro.props;
 const siteUrl = Astro.site ?? new URL(site.defaultUrl);
 const canonical = new URL(path, siteUrl).toString();
 const alternate = alternatePath ? new URL(alternatePath, siteUrl).toString() : undefined;
 const imageUrl = new URL(image, siteUrl).toString();
 const organizationId = new URL('/#organization', siteUrl).toString();
+const websiteId = new URL('/#website', siteUrl).toString();
+const webpageId = `${canonical}#webpage`;
 const organization = { '@type': 'Organization', '@id': organizationId, name: site.name, url: new URL('/', siteUrl).toString(), logo: new URL('/brand/isarklima-mark.svg', siteUrl).toString() };
+const website = { '@type': 'WebSite', '@id': websiteId, url: new URL('/', siteUrl).toString(), name: site.name, publisher: { '@id': organizationId }, inLanguage: ['de-DE', 'en-DE'] };
+const webpage = { '@type': collection ? 'CollectionPage' : 'WebPage', '@id': webpageId, url: canonical, name: title, description, inLanguage: lang === 'de' ? 'de-DE' : 'en-DE', isPartOf: { '@id': websiteId }, primaryImageOfPage: { '@type': 'ImageObject', url: imageUrl } };
 const indexSite = import.meta.env.PUBLIC_INDEX_SITE === 'true';
 const schemas = [
   { '@context': 'https://schema.org', ...organization },
+  { '@context': 'https://schema.org', ...website },
+  { '@context': 'https://schema.org', ...webpage },
+  ...(service ? [{ '@context': 'https://schema.org', '@type': 'Service', '@id': `${canonical}#service`, name: serviceName, description, url: canonical, serviceType: lang === 'de' ? 'Planung und Installation von Split-Klimaanlagen' : 'Split air conditioning planning and installation', provider: { '@id': organizationId }, areaServed: { '@type': 'Country', name: 'Germany' } }] : []),
+  ...(collection ? [{ '@context': 'https://schema.org', '@type': 'ItemList', '@id': `${canonical}#articles`, name: collection.name, itemListElement: collection.items.map((item, index) => ({ '@type': 'ListItem', position: index + 1, name: item.name, url: new URL(item.path, siteUrl).toString() })) }] : []),
   ...(breadcrumbs.length > 1 ? [{ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: breadcrumbs.map((item, index) => ({ '@type': 'ListItem', position: index + 1, name: item.name, item: new URL(item.path, siteUrl).toString() })) }] : []),
-  ...(article ? [{ '@context': 'https://schema.org', '@type': 'Article', headline: article.headline ?? title, description, inLanguage: lang === 'de' ? 'de-DE' : 'en-DE', datePublished: article.published.toISOString(), dateModified: (article.updated ?? article.published).toISOString(), image: imageUrl, ...(article.author ? { author: { '@type': 'Organization', '@id': organizationId, name: article.author, url: organization.url } } : {}), publisher: organization, mainEntityOfPage: canonical }] : []),
+  ...(article ? [{ '@context': 'https://schema.org', '@type': 'BlogPosting', headline: article.headline ?? title, description, inLanguage: lang === 'de' ? 'de-DE' : 'en-DE', datePublished: article.published.toISOString(), dateModified: (article.updated ?? article.published).toISOString(), image: imageUrl, ...(article.author ? { author: { '@type': 'Organization', name: article.author, url: organization.url } } : {}), publisher: { '@id': organizationId }, mainEntityOfPage: { '@id': webpageId } }] : []),
   ...(faq.length ? [{ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map((item) => ({ '@type': 'Question', name: item.question, acceptedAnswer: { '@type': 'Answer', text: item.answer } })) }] : []),
 ];
 ---
@@ -54,7 +66,7 @@ const schemas = [
     <link rel="icon" type="image/png" href="/favicon.png" sizes="64x64" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="sitemap" href="/sitemap-index.xml" />
-    <link rel="alternate" type="application/rss+xml" title={lang === 'de' ? 'IsarKlima Ratgeber' : 'IsarKlima guides'} href={lang === 'de' ? '/rss.xml' : '/en/rss.xml'} />
+    <link rel="alternate" type="application/rss+xml" title="IsarKlima Blog" href={lang === 'de' ? '/rss.xml' : '/en/rss.xml'} />
     <meta property="og:type" content={article ? 'article' : 'website'} />
     <meta property="og:locale" content={lang === 'de' ? 'de_DE' : 'en_DE'} />
     <meta property="og:title" content={title} />

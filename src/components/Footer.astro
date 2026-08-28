@@ -8,7 +8,7 @@ const year = new Date().getFullYear();
 ---
 <footer class="site-footer">
   <div class="shell footer-grid">
-    <div class="footer-lead"><a href={localizedHome(lang)} class="footer-logo"><img src="/brand/isarklima-logo.svg" width="258" height="55" alt="IsarKlima" /></a><p>{lang === 'de' ? 'Planung und Montage von Split-Klimaanlagen für Wohnungen, Häuser und kleinere Gewerbeflächen.' : 'Split air conditioning installation for apartments, homes and small commercial spaces.'}</p><span>{site.serviceArea[lang]}</span></div>
+    <div class="footer-lead"><a href={localizedHome(lang)} class="footer-logo"><img src="/brand/isarklima-logo.svg" width="258" height="55" alt="IsarKlima" /></a><p>{lang === 'de' ? 'Planung und Installation von Split-Klimaanlagen für Wohnungen, Häuser, Büros und Gewerbeflächen.' : 'Split air conditioning planning and installation for apartments, homes, offices and commercial spaces.'}</p><span>{site.serviceArea[lang]}</span></div>
     <nav aria-label={lang === 'de' ? 'Fußnavigation' : 'Footer navigation'}>{footerNavigation[lang].map(([href, label]) => <a href={href}>{label}</a>)}</nav>
     <div class="footer-status"><span class="status-dot" aria-hidden="true"></span><div><strong>{t.preview}</strong><p>{t.previewText}</p></div></div>
   </div>

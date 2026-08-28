@@ -11,7 +11,7 @@ These project-specific images were created with OpenAI's built-in image generati
 | `hero-installation-detail` | Home and contact hero imagery |
 | `commercial-installation-detail` | Commercial installation and process imagery |
 | `technical-planning-workbench` | Planning, sizing and about-page imagery |
-| `outdoor-unit-installation-detail` | Retrofit, outdoor-unit and location imagery |
+| `outdoor-unit-installation-neutral` | Retrofit, outdoor-unit and location imagery with a geographically neutral background |
 | `quiet-bedroom-interior` | Residential comfort and finished bedroom installation imagery |
 | `installation-material-detail` | Installation materials, system components and technical-process imagery |
 | `airflow-interior-detail` | Indoor airflow, quiet operation and interior-comfort imagery |
@@ -26,8 +26,7 @@ The high-resolution local source files are kept outside the public directory und
 | --- | --- | --- |
 | `commissioning-gauges` | DC Studio | https://www.magnific.com/free-photo/_234112908.htm |
 | `split-unit-interior` | lifeforstock | https://www.magnific.com/free-photo/_4011406.htm |
-| `munich-city` | wirestock | https://www.magnific.com/free-photo/_9759604.htm |
 
 ## Retired source families
 
-`hero-technician`, `technician-outdoor-portrait`, `outdoor-unit-site`, `installation-team`, and the former licensed `apartment-comfort` source are retained only as source history outside the public directory. They are not referenced by the generated page data, article imagery, social imagery, or production build because they contain visible faces or identifiable human figures.
+`hero-technician`, `technician-outdoor-portrait`, `outdoor-unit-site`, `installation-team`, the former licensed `apartment-comfort` source, the former location-specific `munich-city` source, and `outdoor-unit-installation-detail` are retained only as source history. They are not referenced by the generated page data, article imagery, social imagery, or production build. The first five families were retired because they contain visible faces or identifiable human figures; the two city-specific images were retired when the service positioning became nationwide.

@@ -4,9 +4,9 @@ seoTitle: "Air conditioning outdoor unit noise | IsarKlima"
 description: "How location, reflections, area type, night operation and vibration isolation affect noise from an air conditioning outdoor unit."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27
-author: "IsarKlima Redaktion"
+author: "IsarKlima Editorial"
 category: "Technical planning"
-image: "/images/blog/air-conditioning-outdoor-unit-noise.webp"
+image: "/images/blog/air-conditioning-outdoor-unit-noise-neutral.webp"
 imageAlt: "Outdoor air conditioning unit on a facade with vibration-damping brackets"
 sourceUrl: "/ratgeber/klimaanlage-aussengeraet-laerm/"
 language: "en-DE"
@@ -31,7 +31,7 @@ Germany’s TA Lärm governs the assessment of commercial and many technical noi
 
 A robust assessment needs the applicable planning-area classification and the location of the nearest noise-sensitive window or other relevant receiver. A rough distance estimate is not sufficient in every case. Existing noise from other technical equipment may also be relevant.
 
-For stationary equipment including air conditioners, the City of Munich uses documentation that combines a site plan, equipment data, area type and nearest receiver. Its official [TA Lärm compliance form](https://stadt.muenchen.de/dam/jcr%3A93b30c88-0c72-4700-a059-06618e10f7fc/ta_laerm_april_2024_web.pdf) illustrates the information involved in a site-specific review.
+Germany's Environment Agency explains that TA Lärm uses immission guide values and assessment criteria, and that the relevant receiver may be a protected room. Its overview of [industrial and commercial noise](https://www.umweltbundesamt.de/themen/laerm/nachbarschaftslaerm-laerm-von-anlagen/industrie-gewerbelaerm) also shows why sound power, propagation path and operating times need to be considered together.
 
 ### Reflections and night-time operation
 
@@ -65,7 +65,7 @@ Before a location is fixed, document equipment sound data, site plan, distances,
 
 ### Must every outdoor unit be below 35 dB(A) at night?
 
-No. 35 dB(A) is not a universal equipment limit for all of Munich. Area type, receiver location, assessment period and the applicable calculation or measurement method matter.
+No. A single dB(A) value is not a universal equipment limit across Germany. Area type, receiver location, assessment period and the applicable evaluation method matter.
 
 ### Is silent mode sufficient evidence of compliance?
 

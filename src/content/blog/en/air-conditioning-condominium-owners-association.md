@@ -1,10 +1,10 @@
 ---
 title: "Air conditioning in a condominium: owners’ association and outdoor unit"
 seoTitle: "Condominium air conditioning and consent | IsarKlima"
-description: "What condominium owners in Munich should clarify with their owners’ association before installing split air conditioning."
+description: "What condominium owners in Germany should clarify with their owners' association before installing split air conditioning."
 publishDate: 2026-08-27
 updatedDate: 2026-08-27
-author: "IsarKlima Redaktion"
+author: "IsarKlima Editorial"
 category: "Planning and permissions"
 image: "/images/blog/air-conditioning-condominium-owners-association.webp"
 imageAlt: "Outdoor air conditioning unit installation with neatly routed lines"
@@ -37,13 +37,13 @@ The application should identify the exact location, clearances, mounting method,
 
 The resolution should be obtained before drilling, mounting or running pipes. Ideally, it refers to the submitted plans and records any conditions, such as vibration isolation, the colour of external pipe covers, maintenance access or reinstatement after later removal.
 
-Approval by the owners does not replace a public-law assessment. Article 57 of the Bavarian Building Code treats many technical building installations as procedure-free, but the City of Munich stresses that all other public-law requirements continue to apply. See its official guide to [building without a normal permit procedure](https://stadt.muenchen.de/infos/verfahrensfreie-bauvorhaben.html).
+Approval within the owners' association does not replace a public-law assessment. Section 20 of the German Condominium Act governs resolutions and permissions for structural alterations to common property; additional building or heritage requirements depend on the location and proposed work. See [Section 20 of the Condominium Act](https://www.gesetze-im-internet.de/woeigg/__20.html).
 
 ## What documents the owners’ association needs to decide
 
 The property manager and other owners should be able to understand what will be visible, what effects may arise and how they will be controlled. A useful submission contains a floor plan, facade or balcony photographs, a marked outdoor-unit position, the proposed pipe route and technical information for the intended system.
 
-A listed building, protected ensemble or location near a monument may require separate permission. The City of Munich explains the scope and required documents on its page for [monument protection permission](https://stadt.muenchen.de/service/info/untere-denkmalschutzbehorde/1073937/).
+A listed building or work affecting a protected appearance may require separate permission. Germany's [federal public-service portal for heritage permits](https://verwaltung.bund.de/leistungsverzeichnis/DE/leistung/99033011006000) directs users to the relevant regional authority for the applicable procedure.
 
 ### System, location and pipe route
 
