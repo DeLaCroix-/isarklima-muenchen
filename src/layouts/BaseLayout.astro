@@ -3,6 +3,7 @@ import '@fontsource-variable/archivo';
 import '@fontsource-variable/manrope';
 import '../styles/global.css';
 import { site } from '../data/site';
+import VentiaAnalytics from '../components/VentiaAnalytics.astro';
 import type { Language } from '../data/types';
 
 interface Breadcrumb { name: string; path: string; }
@@ -83,5 +84,6 @@ const schemas = [
   <body>
     <a class="skip-link" href="#main-content">{lang === 'de' ? 'Zum Inhalt springen' : 'Skip to content'}</a>
     <slot />
+    <VentiaAnalytics {lang} />
   </body>
 </html>

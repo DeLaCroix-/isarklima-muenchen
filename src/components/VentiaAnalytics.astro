@@ -1,0 +1,66 @@
+---
+import type { Language } from '../data/types';
+
+interface Props { lang?: Language; }
+const { lang = 'de' } = Astro.props;
+const siteId = import.meta.env.PUBLIC_VENTIA_ANALYTICS_SITE_ID;
+const writeKey = import.meta.env.PUBLIC_VENTIA_ANALYTICS_WRITE_KEY;
+const enabled = Boolean(siteId && writeKey);
+const copy = lang === 'de' ? {
+  label: 'Datenschutzeinstellungen',
+  text: 'Dürfen wir eine pseudonyme Webanalyse verwenden? Formulareingaben werden nicht erfasst.',
+  reject: 'Nur erforderlich',
+  accept: 'Analyse erlauben',
+} : {
+  label: 'Privacy settings',
+  text: 'May we use pseudonymous website analytics? Form entries are never collected.',
+  reject: 'Necessary only',
+  accept: 'Allow analytics',
+};
+---
+
+{enabled && <script
+  is:inline
+  defer
+  src="https://crm.natconsulting.es/ventia-analytics/tracker.js"
+  data-site={siteId}
+  data-key={writeKey}
+  data-endpoint="https://crm.natconsulting.es/ventia-analytics/api/ingest"
+  data-consent="required"
+></script>}
+
+{enabled && <aside class="ventia-consent" data-ventia-consent hidden aria-label={copy.label}>
+  <p>{copy.text}</p>
+  <div>
+    <button type="button" data-ventia-choice="denied">{copy.reject}</button>
+    <button type="button" data-ventia-choice="granted">{copy.accept}</button>
+  </div>
+</aside>}
+
+<script>
+  (() => {
+    const key = 'isarklima_analytics_consent_v1';
+    const banner = document.querySelector<HTMLElement>('[data-ventia-consent]');
+    if (!banner) return;
+    const emit = (analytics: boolean) => document.dispatchEvent(new CustomEvent('nat:consent', { detail: { analytics } }));
+    let stored: string | null = null;
+    try { stored = localStorage.getItem(key); } catch {}
+    if (stored === 'granted' || stored === 'denied') emit(stored === 'granted');
+    else banner.hidden = false;
+    banner.querySelectorAll<HTMLButtonElement>('[data-ventia-choice]').forEach((button) => button.addEventListener('click', () => {
+      const value = button.dataset.ventiaChoice === 'granted';
+      try { localStorage.setItem(key, value ? 'granted' : 'denied'); } catch {}
+      emit(value);
+      banner.hidden = true;
+    }));
+  })();
+</script>
+
+<style>
+  .ventia-consent { position: fixed; z-index: 100; right: 1rem; bottom: 1rem; width: min(34rem, calc(100% - 2rem)); padding: 1rem; border: 1px solid rgba(255,255,255,.2); border-radius: .75rem; background: #071a22; color: #fff; box-shadow: 0 1rem 3rem rgba(0,0,0,.28); }
+  .ventia-consent[hidden] { display: none; }
+  .ventia-consent p { margin: 0 0 .85rem; font-size: .9rem; line-height: 1.5; }
+  .ventia-consent div { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: .6rem; }
+  .ventia-consent button { min-height: 2.6rem; padding: .55rem .9rem; border: 1px solid #8bc6d6; border-radius: .45rem; background: transparent; color: #fff; cursor: pointer; font: inherit; font-weight: 700; }
+  .ventia-consent button:last-child { background: #8bc6d6; color: #071a22; }
+</style>
