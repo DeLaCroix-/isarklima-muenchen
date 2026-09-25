@@ -1,3 +1,4 @@
+import imageSnippets from './scripts/image-snippets.mjs';
 // @ts-check
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
@@ -6,7 +7,8 @@ const site = process.env.PUBLIC_SITE_URL ?? 'https://isarklima-deutschland.netli
 
 export default defineConfig({
   site,
-  integrations: [sitemap()],
+  integrations: [
+    imageSnippets(),sitemap()],
   build: {
     format: 'directory',
   },

@@ -19,7 +19,8 @@
     "images:generated": "node scripts/generate-image-variants.mjs",
     "blog-images:generated": "node scripts/generate-blog-image-variants.mjs",
     "brand:assets": "node scripts/generate-brand-assets.mjs",
-    "astro": "astro"
+    "astro": "astro",
+    "test:snippets": "node --test scripts/image-snippets.test.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.10",
@@ -34,6 +35,7 @@
     "esbuild": true
   },
   "devDependencies": {
-    "cheerio": "^1.2.0"
+    "cheerio": "^1.2.0",
+    "parse5": "7.3.0"
   }
 }
