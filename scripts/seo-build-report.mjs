@@ -7,9 +7,15 @@ export function buildDiagnostic(output, secrets = []) {
     if (typeof secret === 'string' && secret.length >= 8) clean = clean.split(secret).join('[REDACTED]');
   }
   clean = clean.replace(/(bearer\s+|(?:token|password|secret|api[_-]?key)\s*[=:]\s*)[^\s,;]+/gi, '$1[REDACTED]');
-  const lines = clean.trim().split('\n');
-  let start = lines.findIndex(line => /missing complete|\[ERROR\]|\berror:|error (?:TS\d|ts\()|npm (?:ERR!|error)/i.test(line));
-  if (start < 0) start = lines.findIndex(line => /failed|untranslated|text shared with Spanish/i.test(line) && !/^# (?:Subtest|tests)/.test(line));
+  // Passing TAP tests often contain words like "failed" or "error" in their
+  // names. They are not build diagnostics (and can hide the actual exception).
+  const lines = clean.trim().split('\n').filter(line => !/^\s*(?:ok\s+\d+\b|#\s*(?:Subtest:|tests\b|suites\b|pass\b|fail\s+0\b|cancelled\b|skipped\b|todo\b|duration_ms\b)|1\.\.\d+\s*$)/.test(line));
+  // Astro also prints plain thrown messages with no "Error:" prefix, followed
+  // by a Location/Stack trace block. Capture that message, not a passed test.
+  const location = lines.findIndex(line => /^\s*(?:Location|Stack trace):/.test(line));
+  let start = location > 0 ? location - 1 : -1;
+  if (start < 0) start = lines.findIndex(line => /missing complete|\[ERROR\]|\berror:|error (?:TS\d|ts\()|^\s*not ok\b|npm (?:ERR!|error)/i.test(line));
+  if (start < 0) start = lines.findIndex(line => /failed|untranslated|text shared with Spanish/i.test(line));
   return (start >= 0 ? lines.slice(Math.max(0, start - 1), start + 16) : lines.slice(-16)).join('\n').slice(0, 4000);
 }
 /** @param {string} body @param {string} secret */

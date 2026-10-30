@@ -9,6 +9,15 @@ test('reports the real error rather than a test name containing failure', () => 
 test('redacts credentials in diagnostic', () => {
   assert.equal(buildDiagnostic('Error: token=12345678 secretvalue', ['secretvalue']), 'Error: token=[REDACTED] [REDACTED]');
 });
+test('plain Astro exception is not confused with successful cookie-consent tests', () => {
+  const log = '# Subtest: failed withdrawal persistence never restores an earlier acceptance\nok 11 - failed withdrawal persistence never restores an earlier acceptance\n# tests 12\n# pass 12\n# fail 0\n12:10:03 [build] generating routes\nNews group abc needs exactly one Spanish original and at most one English translation.\n  Location:\n    /opt/build/repo/node_modules/astro/route-cache.js:32:17\n  Stack trace:\n    at validatePairs (...)';
+  const diagnostic = buildDiagnostic(log);
+  assert.match(diagnostic, /News group abc needs exactly one Spanish original/);
+  assert.doesNotMatch(diagnostic, /withdrawal persistence|Subtest:|# pass|# fail 0/);
+});
+test('actual failing TAP tests still show their assertion', () => {
+  assert.match(buildDiagnostic('ok 1 - error handling works\nnot ok 2 - missing redirect\n  error: expected 301, received 404'), /expected 301, received 404/);
+});
 test('HMAC binds every payload byte', () => assert.notEqual(reportSignature('body', 'key'), reportSignature('changed', 'key')));
 test('Netlify only reports its configured production site and branch', () => {
   const env = { SITE_ID: 'site-a', BRANCH: 'master', CONTEXT: 'production', COMMIT_REF: 'a'.repeat(40), DEPLOY_ID: 'b'.repeat(24) };
