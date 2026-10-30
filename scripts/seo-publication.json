@@ -1,0 +1,7 @@
+{
+  "site": "82450c87-793c-42fe-bf96-333793995e79",
+  "repo": "isarklima-muenchen",
+  "branch": "main",
+  "provider": "netlify",
+  "script": "build"
+}
